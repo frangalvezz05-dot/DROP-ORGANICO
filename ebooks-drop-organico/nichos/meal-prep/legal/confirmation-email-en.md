@@ -13,7 +13,7 @@ Hi,
 Thank you for your purchase at {{NOMBRE_TIENDA}}. Here is your summary.
 
 **Order:** [ORDER NUMBER] · **Date and time:** [ORDER DATE AND TIME]
-**Product:** The Sunday Sheet (digital content: main ebook in PDF, about 165 pages, and printable pack in PDF, about 30 pages)
+**Product:** The Sunday Sheet (digital content: main ebook in PDF, 336 pages, and printable pack in PDF, 34 pages)
 **Total price:** [ORDER TOTAL] (VAT included for customers in Spain and the EU; sales tax added where applicable in the United States)
 **Payment method:** [PAYMENT METHOD]
 

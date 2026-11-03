@@ -1,5 +1,5 @@
 {
-  "nota": "Los ids de 'anclas' y 'ancla_tarjeta' son provisionales: ajustarlos a los ids reales del HTML de pantalla e imprimible cuando se maqueten (hoy no hay PDF ni HTML). Las imágenes no se pueden generar hasta entonces.",
+  "nota": "Anclas reales (03-nov-2026, maquetar.py): 'hoja-semana-1' (hoja del domingo, semana 1), 'receta-p1' (ficha de receta P1), 'tabla-conservacion' (cap. 20) en the-sunday-sheet-pantalla.html; 'tarjeta-nevera' (tarjeta de nevera 1, regla del día 5) en the-sunday-sheet-imprimible.html. También existen 'plato-m1' y 'mix-match'. Las 3 páginas interiores van además como PNG reales del PDF: ebook/en/the-sunday-sheet-interior-1..3.png.",
   "avatar": "Persona con trabajo a jornada completa que ya probó el meal prep y se cansó de repetir la misma comida o de perder el domingo con instrucciones confusas; teme tirar comida y dinero otra vez y quiere un plan de domingo claro, con comida rica y proteína contada, que le dure la semana (avatar.md §2, EN).",
   "angulo": "A1 'Un domingo, una hoja' (principal); apoyos A2 variedad por salsas, A4 aguanta hasta el jueves, A5 coste por ración, A3 proteína contada (avatar.md §5). Diferencial visible: hoja de domingo, tabla de conservación, coste y macros por plato (estructura.md §0 y §2.4).",
   "ancla_tarjeta": "tarjeta-nevera",
@@ -13,14 +13,42 @@
     "perspectivas_pie": "One sheet, one Sunday",
     "extras_titulo": "Printable extras",
     "extras_sub": "For the fridge door",
-    "extras_pie": "US Letter and A4 · prints in black and white"
+    "extras_pie": "US Letter · prints in black and white"
   },
   "incluye": [
-    {"t": "Main ebook", "d": "PDF, about 165 pages", "icono": "libro"},
-    {"t": "4-week plan", "d": "A Sunday sheet and shopping list for each week", "icono": "calendario"},
-    {"t": "60 recipes, 48 plates", "d": "Calories, protein, cost and allergens", "icono": "check", "chips": ["Proteins", "Bases", "Veggies", "Sauces", "Breakfasts", "Freezer"]},
-    {"t": "Printable pack", "d": "About 30 pages, Letter and A4", "icono": "imprimir"},
-    {"t": "Storage table + fridge cards", "d": "How long it keeps and how to reheat", "icono": "tarjeta"}
+    {
+      "t": "Main ebook",
+      "d": "PDF, 336 pages, sized for phone and tablet",
+      "icono": "libro"
+    },
+    {
+      "t": "4-week plan",
+      "d": "A Sunday sheet and shopping list for each week",
+      "icono": "calendario"
+    },
+    {
+      "t": "60 recipes, 48 plates",
+      "d": "Calories, protein, cost and allergens",
+      "icono": "check",
+      "chips": [
+        "Proteins",
+        "Bases",
+        "Veggies",
+        "Sauces",
+        "Breakfasts",
+        "Freezer"
+      ]
+    },
+    {
+      "t": "Printable pack",
+      "d": "34 pages, US Letter",
+      "icono": "imprimir"
+    },
+    {
+      "t": "Storage table + fridge cards",
+      "d": "How long it keeps and how to reheat",
+      "icono": "tarjeta"
+    }
   ],
   "extras": [
     "Sunday sheets",
@@ -30,5 +58,9 @@
     "Mix & Match chart",
     "Container labels"
   ],
-  "anclas": ["hoja-semana-1", "plato-m1", "tabla-conservacion"]
+  "anclas": [
+    "hoja-semana-1",
+    "receta-p1",
+    "tabla-conservacion"
+  ]
 }

@@ -46,11 +46,11 @@ Not sure yet? [Try the free sample first](#free-sample)
 
 ✓ Instant PDF download by email
 ✓ Opens on phone, tablet or computer
-✓ Printable (US Letter and A4)
+✓ Printable (US Letter)
 ✓ Made for 1 or 2 people
 
 **Before you buy**
-Digital product, nothing is shipped. Files: a PDF ebook (about 165 pages, US Letter) and a printable PDF pack (about 30 pages, US Letter and A4). Language: English. They open with any PDF reader on a phone, tablet or computer, and have no copy protection. You receive a download link by email right after payment.
+Digital product, nothing is shipped. Files: a PDF ebook (336 pages, A5 size for phone and tablet screens) and a printable PDF pack (34 pages, US Letter). Language: English. They open with any PDF reader on a phone, tablet or computer, and have no copy protection. You receive a download link by email right after payment.
 Digital content can't be returned once the download starts, with the exceptions explained in our [Terms of sale and refunds](/policies/terms-of-service). If a file doesn't open or isn't as described, we fix it or refund you. Seller details are in the Terms of sale. [Withdraw from the contract here](/pages/withdraw-from-the-contract).
 
 ---
@@ -129,7 +129,7 @@ The ebook is the method. The pack is what you stick on the fridge.
 - **Plate-building sheet** that adds up calories and protein
 - **Cost sheet** to work out your own cost per plate
 
-Prints well in black and white. US Letter and A4.
+Prints well in black and white. US Letter.
 
 ---
 
@@ -193,8 +193,8 @@ No se muestra nada hasta que existan reseñas de compradores reales. No hay estr
 ## Product details
 
 - **What it is:** a digital cooking and meal-planning guide in English. Nothing is shipped.
-- **Ebook:** PDF, about 165 pages, US Letter. Clickable table of contents and large type that reads well on a phone or tablet.
-- **Printable pack:** PDF, about 30 pages, US Letter and A4, made to print in black and white.
+- **Ebook:** PDF, 336 pages, A5 size for phone and tablet screens. Clickable table of contents and large type that reads well on a phone or tablet.
+- **Printable pack:** PDF, 34 pages, US Letter, made to print in black and white.
 - **Inside:** the method, a 4-week plan with a Sunday sheet and shopping list for each week, 60 recipes, 48 complete plates, and reference tables.
 - **Units:** US measures and grams, °F and °C.
 - **Each recipe shows:** calories, protein, cost per serving, allergens, fridge and freezer days, and how to reheat.
@@ -215,7 +215,7 @@ Right after payment, by email, with a link to download the PDFs. Nothing is ship
 No. Any PDF reader works: the one on your phone, tablet or computer, or your web browser.
 
 **Can I print it?**
-Yes. The printable pack comes in US Letter and A4 and is designed to print in black and white. The ebook is made to be read on screen.
+Yes. The printable pack comes in US Letter and is designed to print in black and white. The ebook is made to be read on screen.
 
 **Is it for one person or two?**
 Both. The shopping lists and amounts are written for 1 and for 2 people.
@@ -280,7 +280,7 @@ Barra inferior fija con "Buy now · $24.99" que aparece al bajar del primer bot�
 Estrellas, nº de reseñas, "bestseller", "5 star"; precio tachado o "ahorras X"; "valor 97 $"; contadores, "solo hoy", "quedan N"; kilos perdidos, "lose weight", "detox", "adelgaza"; nombres o comparaciones con otras marcas; "2.000 recetas" (se dice 60 recetas y 48 platos); "high-protein" como afirmación del producto en el titular; fotos de comida de terceros.
 
 ## 4. Datos que dependen de otros archivos (para mantener la coherencia, punto 15)
-24,99 USD; 60 recetas; 48 platos; ~165 págs. ebook (Letter); ~30 págs. imprimible (Letter + A4); EE. UU. + UE; Reino Unido fuera. Si el PDF final cambia el nº de páginas, actualizar aquí (secciones 1 y 8), en `terms-of-sale-en.md` y en `estructura.md`. Cifras del plato M1 y medias salen de `ebook/datos/platos.json` y `costes.json` (media del plato 3,771 $ → "about $3.75", redondeo a 5 centavos como en el ebook).
+24,99 USD; 60 recetas; 48 platos; 336 págs. ebook (A5); 34 págs. imprimible (Letter); EE. UU. + UE; Reino Unido fuera. Si el PDF final cambia el nº de páginas, actualizar aquí (secciones 1 y 8), en `terms-of-sale-en.md` y en `estructura.md`. Cifras del plato M1 y medias salen de `ebook/datos/platos.json` y `costes.json` (media del plato 3,771 $ → "about $3.75", redondeo a 5 centavos como en el ebook).
 
 ## 5. Pendiente antes de publicar (no lo puede hacer Claude)
 - Rutas de los enlaces (`/policies/...`, `/pages/...`) por las reales de la tienda al montarla.

@@ -11,7 +11,7 @@ Hola:
 Gracias por tu compra en {{NOMBRE_TIENDA}}. Aquí tienes el resumen.
 
 **Pedido:** [Nº DE PEDIDO] · **Fecha y hora:** [FECHA Y HORA DEL PEDIDO]
-**Producto:** The Sunday Sheet (contenido digital: ebook principal en PDF de unas 165 páginas y pack imprimible en PDF de unas 30 páginas)
+**Producto:** The Sunday Sheet (contenido digital: ebook principal en PDF de 336 páginas y pack imprimible en PDF de 34 páginas)
 **Precio total:** [PRECIO TOTAL DEL PEDIDO] (IVA incluido para clientes de España y la UE; *sales tax* añadido cuando corresponda en EE. UU.)
 **Forma de pago:** [MÉTODO DE PAGO]
 

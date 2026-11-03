@@ -263,8 +263,8 @@ Haz un pedido real de 0 $ con tu segundo email (paso 11.3). Hay que comprobar qu
 
 ### 6.2 Qué PDF subir al producto The Sunday Sheet
 Dos archivos (⚠ aún no existen; vendrán del módulo de maquetar):
-1. `ebook/en/the-sunday-sheet.pdf` (el ebook, unas 165 págs., Letter)
-2. `ebook/en/the-sunday-sheet-printables.pdf` (el pack imprimible, unas 30 págs., Letter y A4)
+1. `ebook/en/the-sunday-sheet.pdf` (el ebook, 336 págs., A5)
+2. `ebook/en/the-sunday-sheet-printables.pdf` (el pack imprimible, 34 págs., Letter)
 
 Antes de subirlos, ábrelos tú en el móvil: que se vean bien y el índice tenga enlaces. El límite es 5 GB en total y hasta 50 archivos por producto [VERIFICADO], de sobra.
 

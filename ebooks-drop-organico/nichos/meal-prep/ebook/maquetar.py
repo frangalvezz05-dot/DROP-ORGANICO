@@ -131,7 +131,7 @@ def portada_html(var, etiqueta=None, titulo=TITULO, sub1=SUB_1, sub2=SUB_2):
                + hoja_svg(10, 128, 36, 54, -5, papel='#FFFFFF') + tupper(52, 152, 42, 29, 'a', fondo='#FAF6EF', tapa='#FAF6EF')
                + tupper(99, 152, 42, 29, 'b', fondo='#FAF6EF', tapa='#FAF6EF') + tupper(52, 185, 42, 29, 'c', fondo='#FAF6EF', tapa='#FAF6EF')
                + tupper(99, 185, 42, 29, 'a', fondo='#FAF6EF', tapa='#FAF6EF') + '</svg>')
-        css = (f'.portada{{background:{bg};color:{fg}}} .portada .texto{{top:16mm;bottom:auto}}'
+        css = (f'@page :first{{background:#1F3A2E}} .portada{{background:{bg};color:{fg}}} .portada .texto{{top:16mm;bottom:auto}}'
                f'.portada h1{{color:{fg};font-size:58pt;line-height:.92;letter-spacing:-.035em;margin-bottom:6mm}} .portada h1 span{{color:#D9572B;display:block}}'
                f'.portada .subtitulo{{color:#1F3A2E;font-weight:600;font-size:13.5pt;max-width:24em}} .portada .detalle{{color:#4a5a52;opacity:1;font-size:10.5pt;margin-top:3mm}}'
                f'.portada .marca{{color:#D9572B;opacity:1;font-weight:800}} .portada .etiqueta{{background:#D9572B;color:#fff;margin-top:5mm}}')
@@ -149,7 +149,7 @@ def portada_html(var, etiqueta=None, titulo=TITULO, sub1=SUB_1, sub2=SUB_2):
                f'.portada .marca{{color:#F08A5D;opacity:1;font-weight:600}} .portada .detalle{{color:#F3C6B1;opacity:1}} .portada .texto{{bottom:16mm}}'
                f'.portada h1 span{{color:#F08A5D}} .portada .etiqueta{{background:#D9572B;color:#fff}}')
         texto = f'<div class="marca">Meal prep system</div><h1>{titulo}</h1><div class="subtitulo">{sub1}</div><div class="detalle">{sub2}</div>{et}'
-    css = f'@page :first{{background:{bg}}} ' + css
+    css = (f'@page :first{{background:{bg}}} ' if var != 'B' else '') + css
     return css, f'<section class="portada portada-{var}">{svg}<div class="texto">{texto}</div></section>'
 
 # ----------------------------------------------------------------- CSS propio del nicho
@@ -167,7 +167,7 @@ table.t th { background:var(--color-principal); color:#fff; font-weight:600; tex
 table.t td { padding:1.5mm 2mm; border-bottom:1px solid #E4DDD0; vertical-align:top; }
 table.t tbody tr:nth-child(even) td { background:var(--color-fondo-suave); }
 table.t tr { break-inside:avoid; }
-table.t.corta { break-inside:avoid; }
+table.t.corta { break-inside:avoid; } .capitulo > h1 + .receta { break-before:auto; } table.t.compra { break-inside:auto; }
 table.t.ancha { font-size:7.4pt; } table.t.ancha th, table.t.ancha td { padding:1.2mm 1.3mm; }
 table.t td a { color:var(--color-acento); font-weight:600; text-decoration:none; }
 table.kv td:first-child { font-weight:600; color:var(--color-principal); width:40%; }
@@ -193,7 +193,7 @@ p.rotulo + table, p.rotulo + ul { margin-top:1mm; }
 blockquote.destacada.cita { margin:0 0 7mm; }
 blockquote.destacada .autor { font-family:var(--fuente-titulos); font-weight:400; font-size:.62em; color:#6b6b6b; margin-top:2mm; letter-spacing:.03em; }
 /* fuentes al pie de capítulo */
-p.fuentes { font-size:8.5pt; line-height:1.35; color:#5a5a5a; border-top:1px solid var(--linea); padding-top:3mm; margin-top:7mm; }
+p.fuentes { break-before:avoid; font-size:8.5pt; line-height:1.35; color:#5a5a5a; border-top:1px solid var(--linea); padding-top:3mm; margin-top:7mm; }
 /* portadilla de parte */
 .portadilla { break-before:page; break-after:page; height:172mm; box-sizing:border-box; background:var(--color-principal); color:#fff; border-radius:3mm;
   padding:14mm 10mm; position:relative; overflow:hidden; display:flex; flex-direction:column; justify-content:flex-end; }
@@ -211,7 +211,7 @@ nav.indice .parte { color:var(--color-acento); text-transform:uppercase; letter-
 nav.indice .ids { font-weight:400; font-size:8.3pt; line-height:1.6; color:#555; margin-top:1mm; }
 nav.indice .ids a { color:var(--color-acento); margin-right:1.6mm; }
 /* ficha de receta */
-.receta { break-before:page; font-size:10.6pt; line-height:1.42; }
+.receta { break-before:page; font-size:9.8pt; line-height:1.38; }
 .receta-cab { display:flex; gap:3mm; align-items:flex-start; margin-bottom:2.5mm; }
 .receta-id { flex:none; font-family:var(--fuente-titulos); font-weight:800; font-size:11pt; color:#fff; background:var(--color-acento); border-radius:2mm; padding:1.4mm 2.2mm; margin-top:.6mm; }
 .receta h2 { margin:0; padding:0; background:none; font-size:16pt; line-height:1.15; }
@@ -219,7 +219,7 @@ nav.indice .ids a { color:var(--color-acento); margin-right:1.6mm; }
 .datos-r { display:flex; flex-wrap:wrap; gap:1.5mm; margin:0 0 3mm; font-family:var(--fuente-titulos); font-size:8pt; }
 .datos-r span { background:var(--suave2); border-radius:1.2mm; padding:.8mm 2mm; color:#2a3a32; }
 .datos-r b { font-weight:600; color:var(--color-principal); }
-.panel { border:1.4px solid var(--color-principal); border-radius:2.5mm; overflow:hidden; margin:0 0 4mm; break-inside:avoid; font-family:var(--fuente-titulos); }
+.panel { border:1.4px solid var(--color-principal); border-radius:2.5mm; overflow:hidden; margin:0 0 3mm; break-inside:avoid; font-family:var(--fuente-titulos); }
 .macros { display:grid; grid-template-columns:1.15fr 1.15fr 1fr 1fr; background:var(--color-principal); color:#fff; }
 .macros div { padding:2mm 2mm 1.8mm; text-align:center; border-right:1px solid rgba(255,255,255,.18); }
 .macros div:last-child { border-right:0; }
@@ -235,20 +235,27 @@ nav.indice .ids a { color:var(--color-acento); margin-right:1.6mm; }
 .hechos i { font-style:normal; color:#666; display:block; font-size:7pt; text-transform:uppercase; letter-spacing:.07em; }
 .hechos .alerg { color:var(--color-acento); font-weight:600; }
 .panel .nota-coste { font-size:6.6pt; color:#6b6b6b; padding:1.2mm 2.4mm 1.6mm; border-top:1px solid #DDD5C6; line-height:1.3; }
-.va-con { font-family:var(--fuente-titulos); font-size:8.3pt; color:#3a463f; margin:0 0 4mm; }
+.va-con { font-family:var(--fuente-titulos); font-size:8pt; color:#3a463f; margin:0 0 3mm; }
 .va-con b { color:var(--color-principal); }
-.ingr { background:var(--color-fondo-suave); border-radius:2.5mm; padding:3mm 4mm 2mm; margin:0 0 4mm; font-family:var(--fuente-titulos); font-size:8.8pt; line-height:1.35; break-inside:avoid; }
+.ingr { background:var(--color-fondo-suave); border-radius:2.5mm; padding:3mm 4mm 2mm; margin:0 0 4mm; font-family:var(--fuente-titulos); font-size:8pt; line-height:1.3; break-inside:avoid; }
+.receta.dos-pag .pasos-r { break-before:page; }
+.receta.dos-pag .ingr { break-inside:auto; } .receta .pasos-r { font-size:9.2pt; line-height:1.32; }
+.notas-r { grid-template-columns:1fr 1fr; }
+.receta.densa .pasos-r { font-size:8.6pt; line-height:1.3; } .receta.densa .pasos-r ol > li { margin-bottom:1.2mm; } .receta.densa .nota-r { font-size:8.1pt; padding:1.5mm 2.6mm; }
+.receta.densa .ingr { font-size:7.4pt; padding:2.5mm 3.5mm 1.5mm; } .receta.densa .ingr li { margin-bottom:.5mm; } .receta.densa .ingr p { margin:1mm 0 0; font-weight:400; font-size:7.2pt; }
+.receta.densa .panel .hechos div { padding:1.3mm 2.2mm; } .nota-r.fix { grid-column:1 / -1; order:3; }
+.receta .ingr { font-size:7.8pt; } .receta .panel .hechos { font-size:7.9pt; }
 .ingr h3, .pasos-r h3 { font-size:9pt; letter-spacing:.1em; text-transform:uppercase; color:var(--color-acento); margin:0 0 2mm; font-weight:800; }
-.ingr ul { list-style:none; margin:0; padding:0; columns:1; }
-.ingr li { margin:0 0 1.1mm; padding-left:3.5mm; position:relative; break-inside:avoid; }
+.ingr ul { list-style:none; margin:0; padding:0; columns:2; column-gap:5mm; }
+.ingr li { margin:0 0 .9mm; padding-left:3.5mm; position:relative; break-inside:avoid; }
 .ingr li::before { content:""; position:absolute; left:0; top:.5em; width:1.5mm; height:1.5mm; border-radius:50%; background:var(--color-acento); }
 .ingr p { margin:1.5mm 0 1mm; font-weight:600; }
 .pasos-r ol { list-style:none; counter-reset:pr; margin:0 0 3mm; padding:0; }
-.pasos-r ol > li { counter-increment:pr; position:relative; padding-left:8.5mm; margin:0 0 2.2mm; break-inside:avoid; }
+.pasos-r ol > li { counter-increment:pr; position:relative; padding-left:8mm; margin:0 0 1.6mm; min-height:6mm; break-inside:avoid; }
 .pasos-r ol > li::before { content:counter(pr); position:absolute; left:0; top:.1mm; width:5.6mm; height:5.6mm; border-radius:50%; background:var(--color-acento); color:#fff;
   font-family:var(--fuente-titulos); font-weight:800; font-size:8.5pt; line-height:5.6mm; text-align:center; }
-.notas-r { display:grid; gap:2.5mm; margin-top:2mm; }
-.nota-r { border-left:1.2mm solid var(--color-principal); background:var(--suave2); border-radius:0 2mm 2mm 0; padding:2.2mm 3.2mm; font-size:9.4pt; line-height:1.38; break-inside:avoid; }
+.notas-r { display:grid; gap:2mm; margin-top:1.5mm; }
+.nota-r { border-left:1.2mm solid var(--color-principal); background:var(--suave2); border-radius:0 2mm 2mm 0; padding:1.8mm 3mm; font-size:8.8pt; line-height:1.33; break-inside:avoid; }
 .nota-r.fix { border-color:var(--color-acento); background:var(--tinte); }
 .nota-r h4 { font-family:var(--fuente-titulos); font-size:7.8pt; letter-spacing:.1em; text-transform:uppercase; margin:0 0 1mm; color:var(--color-principal); }
 .nota-r.fix h4 { color:var(--color-acento); }
@@ -273,6 +280,8 @@ table.tracker.t7v td { height:9mm; }
   border-radius:2mm; padding:2mm 3mm; margin:2mm 0 5mm; break-inside:avoid; }
 .para-imprimir .ico { width:5mm; height:5mm; color:var(--color-acento); }
 h2 { break-after:avoid; }
+.espacio { break-inside:avoid; break-before:avoid; }
+.caja-i.ejercicio > .espacio:last-child { margin-bottom:0; }
 h2 + p.antes, h2 + table, p.rotulo + table { break-before:avoid; }
 .caja-i.consejo ul { margin-bottom:0; }
 .caja-i.ejercicio h3 { margin-top:0; }
@@ -315,6 +324,27 @@ p.antes { font-size:8.4pt; padding:2mm 3mm; margin-bottom:2.5mm; }
 .cuatro table.t { margin:1mm 0 3mm; font-size:8.6pt; }
 .cuatro table.t td:not(:first-child), .cuatro table.t th:not(:first-child) { text-align:center; width:10mm; }
 .cuatro table.t td { font-weight:800; color:var(--color-acento); } .cuatro table.t td:first-child { font-weight:400; color:#1e1e1e; }
+table.hoja { font-size:7.1pt; line-height:1.22; } table.hoja td, table.hoja th { padding:.75mm 1.4mm; }
+table.hoja td:nth-child(3) { width:52%; }
+table.hoja.vacia { break-inside:auto !important; break-before:auto !important; } table.hoja.vacia td { height:5.4mm !important; padding-top:.4mm !important; padding-bottom:.4mm !important; } table.hoja.vacia td:nth-child(3) { width:40%; }
+table.t.escribir { break-inside:auto; } table.t.escribir td { height:5.8mm; padding-top:.6mm; padding-bottom:.6mm; }
+.hoja > table.t:not(.hoja) { font-size:7.6pt; } .hoja > table.t td { padding-top:.9mm; padding-bottom:.9mm; }
+p.antes { font-size:7.6pt; padding:1.6mm 2.5mm; }
+table.compra { font-size:7.6pt; line-height:1.22; } table.compra td, table.compra th { padding:.7mm 1.3mm; }
+table.compra td:nth-child(2) { width:40%; }
+.hoja ul.lista-hoy { font-family:var(--fuente-titulos); font-size:8pt; line-height:1.3; } .hoja ul.lista-hoy li { margin-bottom:1.2mm; }
+.hoja ul.lista-hoy .caja { width:3.6mm; height:3.6mm; margin-top:0; }
+.hoja p.rotulo { font-size:8.4pt; margin:2.5mm 0 1mm; }
+.hoja p { font-size:9.4pt; }
+#tabla-conservacion table.t { font-size:7.2pt; line-height:1.22; } #tabla-conservacion table.t td { padding:.7mm 1.4mm; }
+#tabla-conservacion table.t td:nth-child(5) { width:55%; }
+[id^="hoja-blanca"] p { font-size:8pt; margin-bottom:1.5mm; } [id^="hoja-blanca"] h1 { margin-bottom:2mm; }
+[id^="hoja-blanca"] table.t.escribir:not(.hoja) td { height:4.6mm; }
+#mix-match table.t td, #mix-match table.t th { padding:.7mm 1.6mm; } #mix-match .poster-regla { font-size:14pt; padding:3mm 4mm; margin-bottom:2mm; }
+#mix-match .cuatro table.t { font-size:8pt; }
+[id^="compra-semana"] .caja-i { font-size:8pt; line-height:1.3; padding:2.5mm 3.5mm; margin:2mm 0; } [id^="compra-semana"] .caja-i li { margin-bottom:.6mm; }
+[id^="compra-semana"] .consigna { font-size:8.4pt; margin-bottom:2mm; }
+@media screen { body { padding:24px; } .tarjeta-pag .tarjeta { max-width:125mm; margin:0 auto 140px; } }
 .reglas { font-size:8.6pt; columns:2; column-gap:6mm; margin:0 0 3mm; padding-left:4mm; } .reglas li { margin-bottom:1mm; break-inside:avoid; }
 """
 
@@ -329,6 +359,7 @@ def limpiar_md(t):
     t = re.sub(r'<!--.*?-->', '', t, flags=re.S)
     t = re.sub(r'^>\s*\[SIN DATO[^\]]*\]\s*$', '', t, flags=re.M)
     t = re.sub(r'^\[SIN DATO[^\]]*\]\s*$', '', t, flags=re.M)
+    t = re.sub(r'\s*\[(?:SIN DATO|ESTIMACIÓN|DATO)\]', '', t)  # etiquetas internas en línea: no se imprimen
     t = re.sub(r'\[ESPACIO:\s*(\d+)[^\]]*\]', lambda m: f'\n<div class="espacio" style="--lineas:{m.group(1)}"></div>\n', t)
     t = t.replace('[TRACKER: semana · columnas Lun-Vie · fila "comido" / "tirado" · fila "motivo si se tiró"]', TRACKER_V)
     # líneas en blanco antes de tablas y listas que van pegadas a un párrafo
@@ -472,6 +503,7 @@ def cajas_accion(h):
     return ''.join(out)
 
 # ----------------------------------------------------------------- fichas de receta
+LIMITE_1PAG = 0  # todas las fichas en 2 páginas: datos+ingredientes | pasos+notas (formato de recetario)
 BLOQUES = {'P': 'Protein', 'B': 'Base', 'V': 'Vegetable', 'S': 'Sauce', 'D': 'Breakfast', 'FM': 'Freezer meal', 'SN': 'Snack'}
 
 def campos(linea):
@@ -559,7 +591,10 @@ def receta(texto):
         notas.append(f'<div class="nota-r"><h4>Swap</h4>{markdown.markdown(sec["Swap"])}</div>')
     pref = re.match(r'[A-Z]+', rid).group(0)
     nm = f'<p class="macro-nota">{inline(nota_macro)}</p>' if nota_macro else ''
-    return (f'<article class="receta" id="receta-{rid.lower()}"><p class="bloque">{BLOQUES.get(pref, "")}</p>'
+    larga = ' dos-pag' if len(texto.split()) > LIMITE_1PAG else ''
+    if len(texto.split()) > 420:
+        larga += ' densa'
+    return (f'<article class="receta{larga}" id="receta-{rid.lower()}"><p class="bloque">{BLOQUES.get(pref, "")}</p>'
             f'<div class="receta-cab"><span class="receta-id">{rid}</span><h2>{nombre}</h2></div>'
             f'<div class="datos-r">{datos}</div>{panel}{nm}{goes}'
             f'<div class="ingr"><h3>{ingr_tit}</h3>{h_ingr}</div><div class="pasos-r"><h3>Steps</h3>{h_pasos}</div>'
@@ -748,7 +783,7 @@ def imprimible():
         oven = (re.search(r'^\| Oven \| (.*?) \|', glance, re.M) or [None, ''])[1]
         sesion = (re.search(r'^\| Session \| (.*?) \|', glance, re.M) or [None, 'About 2 hours'])[1]
         friday = (re.search(r'^\| Freezer \| (.*?) \|', glance, re.M) or [None, ''])[1]
-        sh = seccion_md(t, r'The Sunday Sheet · Week \d|Step \d · .*Sunday Sheet')
+        sh = seccion_md(t, r'The Sunday Sheet · Week \d')
         if not sh.strip():
             sh = seccion_md(t, r'The Sunday Sheet')
         sh = re.sub(r'^\*\*Write your real time.*$', '', sh, flags=re.M)
@@ -850,7 +885,8 @@ def imprimible():
         hoja_blanca(f'hoja-blanca-{k}')
     for k in range(2, 6):
         compra_blanca(f'compra-blanca-{k}')
-    cuerpo = ''.join(hojas)
+    cuerpo = ''.join(hojas).replace('<hr class="sep">', '')
+    cuerpo = re.sub(r'<a href="#(?:plato|receta)-[^"]+">([^<]+)</a>', r'\1', cuerpo)  # el imprimible no lleva fichas: sin enlaces
     fuentes = '<p class="fuentes"><em>Sources: USDA FSIS (storage, safe temperatures, thawing). USDA FoodData Central SR Legacy (nutrition). FDA, 9 major food allergens. Not medical or nutrition advice.</em></p>'
     cuerpo = cuerpo.replace('</section>', fuentes + '</section>', 1)
     d = doc(f'{TITULO} · Printable Pack', 'imprimible', cuerpo, CSS_IMPRIMIBLE)

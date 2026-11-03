@@ -156,8 +156,8 @@ If The Mini Sunday worked for you, here is the full version.
 One sheet per Sunday tells you what to cook, in what order, and how much.
 
 What you get:
-- **An ebook** (PDF, about 165 pages, US Letter): the method, a 4-week plan, 60 recipes and 48 complete plates
-- **A printable pack** (PDF, about 30 pages, US Letter and A4): Sunday sheets, shopping lists by aisle for 1 and for 2, a storage table for all 60 recipes, fridge cards, a Mix & Match chart, a pantry checklist and container labels
+- **An ebook** (PDF, 336 pages, A5 size for phone and tablet screens): the method, a 4-week plan, 60 recipes and 48 complete plates
+- **A printable pack** (PDF, 34 pages, US Letter): Sunday sheets, shopping lists by aisle for 1 and for 2, a storage table for all 60 recipes, fridge cards, a Mix & Match chart, a pantry checklist and container labels
 - **On every plate**: calories, protein, cost and allergens. Protein goes from 17 g to 70 g depending on the plate, and 45 of the 48 have 30 g or more. The meat-free plates sit lower, and we show their real number.
 
 **[PRICE]** (one-time payment, no subscription). EU customers: VAT included. US customers: sales tax is added at checkout where applicable. The 4-week plan covers 40 planned meals, so the price of the book works out to about **[PRICE_PER_MEAL] per planned meal**.
@@ -187,7 +187,7 @@ Questions we hear before people decide:
 Right after payment, by email, with a link to download the PDFs. Any PDF reader works: your phone, tablet, computer or web browser.
 
 **Can I print it?**
-Yes. The printable pack comes in US Letter and A4 and is designed to print in black and white. The ebook is made to be read on screen.
+Yes. The printable pack comes in US Letter and is designed to print in black and white. The ebook is made to be read on screen.
 
 **Is it for one person or two?**
 Both. The shopping lists and amounts are written for 1 and for 2 people.

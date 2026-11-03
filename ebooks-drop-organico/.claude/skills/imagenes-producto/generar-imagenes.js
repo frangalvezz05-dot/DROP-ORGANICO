@@ -40,7 +40,9 @@ const fs = require('fs'), path = require('path');
       if (hit) { if (!st) { st = true; y0 = y; } y1 = y; bl = 0; } else if (st) { bl++; if (bl > 30 * sc) break; } }
     const m = 12 * sc; x0 = Math.max(0, x0 - m); y0 = Math.max(0, y0 - m); x1 = Math.min(c.width - 1, x1 + m); y1 = Math.min(c.height - 1, y1 + m);
     return { x: x0, y: y0, width: x1 - x0 + 1, height: y1 - y0 + 1 }; }, sc);
-  await pg.setViewportSize({ width: 2000, height: 3000 });
+  // viewport = tamaño real de la imagen: si es mayor, Chromium centra la imagen sobre fondo negro y el recorte sale desplazado
+  const nat = await pg.evaluate(() => ({ w: document.images[0].naturalWidth, h: document.images[0].naturalHeight }));
+  await pg.setViewportSize({ width: nat.w, height: nat.h });
   const tarjFile = path.join(out, '_tarjeta-recorte.png');
   await pg.screenshot({ path: tarjFile, clip: rect }); await pg.close();
   const pd = await dim(portada), td = await dim(tarjFile);

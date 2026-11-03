@@ -9,8 +9,8 @@ _The Spanish version of these terms prevails if there is any discrepancy._
 
 ## 2. What you buy
 **The Sunday Sheet**, a digital product (nothing is shipped) that includes:
-- **Main ebook** in PDF, about 165 pages, US Letter size, with a clickable table of contents and large type that reads well on phones and tablets: the method, a 4-week plan with a "Sunday sheet" and shopping list for each week, 60 recipes with calories, protein, cost per serving, allergens and storage times, and 48 complete plated meals.
-- **Printable pack** in PDF, about 30 pages, in US Letter and A4, designed to print well in black and white: Sunday sheets, shopping lists (for 1 and 2 people), storage table, Mix & Match table, pantry checklist, container labels, fridge cards, plate-building sheet and cost sheet.
+- **Main ebook** in PDF, 336 pages, A5 size made for phone and tablet screens, with a clickable table of contents and large type that reads well on phones and tablets: the method, a 4-week plan with a "Sunday sheet" and shopping list for each week, 60 recipes with calories, protein, cost per serving, allergens and storage times, and 48 complete plated meals.
+- **Printable pack** in PDF, 34 pages, in US Letter, designed to print well in black and white: Sunday sheets, shopping lists (for 1 and 2 people), storage table, Mix & Match table, pantry checklist, container labels, fridge cards, plate-building sheet and cost sheet.
 
 **Functionality and interoperability:** files are PDF. They open with any PDF reader on a phone, tablet or computer (the reader that comes with your device or a web browser is enough). They have no copy protection (DRM). Delivery is handled by {{APP_ENTREGA}}.
 
