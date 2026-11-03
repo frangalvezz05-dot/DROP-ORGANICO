@@ -118,8 +118,8 @@ def portada_html(var, etiqueta=None, titulo=TITULO, sub1=SUB_1, sub2=SUB_2):
         bg, fg = '#FAF6EF', '#1F3A2E'
         svg = ('<svg class="motivo" viewBox="0 0 148 210" preserveAspectRatio="xMidYMid slice" aria-hidden="true">'
                '<circle cx="118" cy="40" r="46" fill="#D9572B" opacity=".12"/><circle cx="22" cy="118" r="30" fill="#1F3A2E" opacity=".06"/>'
-               + hoja_svg(14, 16, 54, 78, -6) + tupper(76, 20, 56, 38, 'a') + tupper(80, 63, 56, 38, 'b')
-               + tupper(18, 100, 56, 38, 'c') + tupper(80, 106, 56, 38, 'a') + '</svg>')
+               + hoja_svg(13, 14, 52, 80, -6) + tupper(74, 12, 60, 30, 'a') + tupper(74, 47, 60, 30, 'b')
+               + tupper(74, 82, 60, 30, 'c') + '</svg>')
         css = (f'.portada{{background:{bg};color:{fg}}} .portada h1{{color:{fg};font-size:40pt;letter-spacing:-.025em}}'
                f'.portada .subtitulo{{color:#2c4a3d;font-weight:600}} .portada .detalle{{color:#D9572B;opacity:1;font-weight:600}}'
                f'.portada .texto{{bottom:16mm}} .portada .marca{{color:#D9572B;opacity:1;font-weight:600}}')
@@ -142,9 +142,9 @@ def portada_html(var, etiqueta=None, titulo=TITULO, sub1=SUB_1, sub2=SUB_2):
         bg, fg = '#1F3A2E', '#FFFFFF'
         svg = ('<svg class="motivo" viewBox="0 0 148 210" preserveAspectRatio="xMidYMid slice" aria-hidden="true">'
                '<circle cx="74" cy="66" r="62" fill="#FAF6EF" opacity=".05"/><circle cx="74" cy="66" r="44" fill="#FAF6EF" opacity=".05"/>'
-               + tupper(10, 22, 50, 34, 'a', tapa='#FAF6EF', fondo='#FAF6EF') + tupper(88, 22, 50, 34, 'b', tapa='#FAF6EF', fondo='#FAF6EF')
-               + tupper(10, 84, 50, 34, 'c', tapa='#FAF6EF', fondo='#FAF6EF') + tupper(88, 84, 50, 34, 'a', tapa='#FAF6EF', fondo='#FAF6EF')
-               + hoja_svg(48, 18, 52, 98, 4, acento='#D9572B') + '</svg>')
+               + tupper(72, 14, 64, 30, 'a', tapa='#FAF6EF', fondo='#FAF6EF') + tupper(72, 49, 64, 30, 'b', tapa='#FAF6EF', fondo='#FAF6EF')
+               + tupper(72, 84, 64, 30, 'c', tapa='#FAF6EF', fondo='#FAF6EF')
+               + hoja_svg(12, 16, 52, 94, -4, acento='#D9572B') + '</svg>')
         css = (f'@page :first{{background:{bg}}} .portada{{background:{bg};color:{fg}}} .portada h1{{font-size:42pt;letter-spacing:-.025em}}'
                f'.portada .marca{{color:#F08A5D;opacity:1;font-weight:600}} .portada .detalle{{color:#F3C6B1;opacity:1}} .portada .texto{{bottom:16mm}}'
                f'.portada h1 span{{color:#F08A5D}} .portada .etiqueta{{background:#D9572B;color:#fff}}')
