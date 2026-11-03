@@ -1,0 +1,4718 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><title>The Sunday Sheet · Printable Pack</title>
+<link rel="stylesheet" href="../../../../.claude/skills/maquetar-pdf/plantilla.css">
+<link rel="stylesheet" href="../../../../.claude/skills/maquetar-pdf/plantilla-imprimible.css">
+<style>
+:root { --color-principal:#1F3A2E; --color-acento:#D9572B; --color-fondo-suave:#FAF6EF;
+  --fuente-titulos:'Inter', sans-serif; --fuente-texto:'Source Serif 4', Georgia, serif; --suave2:#EEF2EC; }
+body { background:#fff; }
+a { color: var(--color-principal); }
+.portada { width:148mm; height:200mm; margin:0; }
+@media screen { .portada { height:210mm; } }
+.portada .texto { z-index:1; }
+/* tablas limpias */
+table.t { width:100%; border-collapse:collapse; font-family:var(--fuente-titulos); font-size:8.6pt; line-height:1.32; margin:3mm 0 5mm; }
+table.t th { background:var(--color-principal); color:#fff; font-weight:600; text-align:left; padding:1.6mm 2mm; vertical-align:bottom; }
+table.t td { padding:1.5mm 2mm; border-bottom:1px solid #E4DDD0; vertical-align:top; }
+table.t tbody tr:nth-child(even) td { background:var(--color-fondo-suave); }
+table.t tr { break-inside:avoid; }
+table.t.corta { break-inside:avoid; }
+table.t.ancha { font-size:7.4pt; } table.t.ancha th, table.t.ancha td { padding:1.2mm 1.3mm; }
+table.t td a { color:var(--color-acento); font-weight:600; text-decoration:none; }
+table.kv td:first-child { font-weight:600; color:var(--color-principal); width:40%; }
+table.kv tbody tr:nth-child(even) td { background:none; } table.kv td { border-bottom:1px solid #cfc7b8; height:7.5mm; }
+table.escribir td { height:8.5mm; }
+td.ck, th.ck { width:6mm; padding-right:0 !important; }
+.caja-in { display:inline-block; width:3.4mm; height:3.4mm; border:1.3px solid var(--color-principal); border-radius:.8mm; vertical-align:-.5mm; background:#fff; }
+td .caja-in { margin-top:.3mm; }
+/* hoja del domingo */
+table.hoja { font-size:7.9pt; }
+table.hoja td:first-child { font-weight:800; color:var(--color-acento); white-space:nowrap; }
+table.hoja td:nth-child(2) { white-space:nowrap; }
+table.hoja td:nth-child(4) { color:#3d4a43; font-style:italic; }
+.est { display:inline-block; font-weight:800; font-size:.86em; letter-spacing:.04em; padding:.3mm 1.4mm; border-radius:1mm; color:#fff; background:var(--color-principal); }
+.est-oven { background:var(--color-acento); } .est-stove { background:#8A5A1F; } .est-cold { background:#2F6E8C; }
+.est-prep { background:#5B6B62; } .est-assembly { background:var(--color-principal); }
+.mientras { color:var(--color-acento); font-weight:800; }
+p.antes { background:var(--suave2); border-radius:2mm; padding:3mm 4mm; font-size:.88em; line-height:1.4; }
+/* rótulos (párrafo solo en negrita) */
+p.rotulo { font-family:var(--fuente-titulos); font-weight:800; color:var(--color-principal); font-size:10pt; margin:5mm 0 1.5mm; break-after:avoid; text-transform:uppercase; letter-spacing:.06em; }
+p.rotulo + table, p.rotulo + ul { margin-top:1mm; }
+/* cita de apertura */
+blockquote.destacada.cita { margin:0 0 7mm; }
+blockquote.destacada .autor { font-family:var(--fuente-titulos); font-weight:400; font-size:.62em; color:#6b6b6b; margin-top:2mm; letter-spacing:.03em; }
+/* fuentes al pie de capítulo */
+p.fuentes { font-size:8.5pt; line-height:1.35; color:#5a5a5a; border-top:1px solid var(--linea); padding-top:3mm; margin-top:7mm; }
+/* portadilla de parte */
+.portadilla { break-before:page; break-after:page; height:172mm; box-sizing:border-box; background:var(--color-principal); color:#fff; border-radius:3mm;
+  padding:14mm 10mm; position:relative; overflow:hidden; display:flex; flex-direction:column; justify-content:flex-end; }
+.portadilla .num { font-family:var(--fuente-titulos); font-weight:800; font-size:80pt; line-height:1; color:var(--color-acento); position:absolute; top:10mm; left:10mm; }
+.portadilla .etiqueta { font-family:var(--fuente-titulos); font-size:9.5pt; font-weight:600; letter-spacing:.14em; text-transform:uppercase; opacity:.8; }
+.portadilla h1 { color:#fff; font-size:30pt; margin:2mm 0 5mm; }
+.portadilla ul { list-style:none; margin:0; padding:0; font-family:var(--fuente-titulos); font-size:10.5pt; }
+.portadilla li { border-top:1px solid rgba(255,255,255,.25); padding:2mm 0; margin:0; }
+.portadilla a { color:#fff; text-decoration:none; }
+.portadilla .motivo { position:absolute; right:-14mm; top:-10mm; width:80mm; height:80mm; opacity:.35; }
+/* índice */
+nav.indice h1 { margin-bottom:3mm; }
+nav.indice > ul > li { padding:2.4mm 0; font-size:10.5pt; }
+nav.indice .parte { color:var(--color-acento); text-transform:uppercase; letter-spacing:.1em; font-size:8.5pt; font-weight:800; border-bottom:none; padding-bottom:0; padding-top:4mm; }
+nav.indice .ids { font-weight:400; font-size:8.3pt; line-height:1.6; color:#555; margin-top:1mm; }
+nav.indice .ids a { color:var(--color-acento); margin-right:1.6mm; }
+/* ficha de receta */
+.receta { break-before:page; font-size:10.6pt; line-height:1.42; }
+.receta-cab { display:flex; gap:3mm; align-items:flex-start; margin-bottom:2.5mm; }
+.receta-id { flex:none; font-family:var(--fuente-titulos); font-weight:800; font-size:11pt; color:#fff; background:var(--color-acento); border-radius:2mm; padding:1.4mm 2.2mm; margin-top:.6mm; }
+.receta h2 { margin:0; padding:0; background:none; font-size:16pt; line-height:1.15; }
+.receta .bloque { font-family:var(--fuente-titulos); font-size:8pt; font-weight:600; letter-spacing:.1em; text-transform:uppercase; color:var(--color-acento); margin:0 0 1mm; }
+.datos-r { display:flex; flex-wrap:wrap; gap:1.5mm; margin:0 0 3mm; font-family:var(--fuente-titulos); font-size:8pt; }
+.datos-r span { background:var(--suave2); border-radius:1.2mm; padding:.8mm 2mm; color:#2a3a32; }
+.datos-r b { font-weight:600; color:var(--color-principal); }
+.panel { border:1.4px solid var(--color-principal); border-radius:2.5mm; overflow:hidden; margin:0 0 4mm; break-inside:avoid; font-family:var(--fuente-titulos); }
+.macros { display:grid; grid-template-columns:1.15fr 1.15fr 1fr 1fr; background:var(--color-principal); color:#fff; }
+.macros div { padding:2mm 2mm 1.8mm; text-align:center; border-right:1px solid rgba(255,255,255,.18); }
+.macros div:last-child { border-right:0; }
+.macros b { display:block; font-size:15pt; font-weight:800; line-height:1.05; }
+.macros .pro b { color:#FFB08C; }
+.macros small { font-size:6.8pt; letter-spacing:.08em; text-transform:uppercase; opacity:.85; }
+.panel .por { background:var(--color-principal); color:#fff; font-size:6.8pt; text-align:center; padding:0 2mm 1.5mm; opacity:.95; letter-spacing:.04em; }
+.hechos { display:grid; grid-template-columns:1fr 1fr; font-size:8.3pt; line-height:1.3; }
+.hechos div { padding:1.8mm 2.4mm; border-top:1px solid #DDD5C6; display:flex; gap:1.6mm; align-items:flex-start; }
+.hechos div:nth-child(odd) { border-right:1px solid #DDD5C6; }
+.hechos .ico { width:4.2mm; height:4.2mm; color:var(--color-acento); margin-top:.1mm; }
+.hechos .ancho { grid-column:1 / -1; border-right:0 !important; }
+.hechos i { font-style:normal; color:#666; display:block; font-size:7pt; text-transform:uppercase; letter-spacing:.07em; }
+.hechos .alerg { color:var(--color-acento); font-weight:600; }
+.panel .nota-coste { font-size:6.6pt; color:#6b6b6b; padding:1.2mm 2.4mm 1.6mm; border-top:1px solid #DDD5C6; line-height:1.3; }
+.va-con { font-family:var(--fuente-titulos); font-size:8.3pt; color:#3a463f; margin:0 0 4mm; }
+.va-con b { color:var(--color-principal); }
+.ingr { background:var(--color-fondo-suave); border-radius:2.5mm; padding:3mm 4mm 2mm; margin:0 0 4mm; font-family:var(--fuente-titulos); font-size:8.8pt; line-height:1.35; break-inside:avoid; }
+.ingr h3, .pasos-r h3 { font-size:9pt; letter-spacing:.1em; text-transform:uppercase; color:var(--color-acento); margin:0 0 2mm; font-weight:800; }
+.ingr ul { list-style:none; margin:0; padding:0; columns:1; }
+.ingr li { margin:0 0 1.1mm; padding-left:3.5mm; position:relative; break-inside:avoid; }
+.ingr li::before { content:""; position:absolute; left:0; top:.5em; width:1.5mm; height:1.5mm; border-radius:50%; background:var(--color-acento); }
+.ingr p { margin:1.5mm 0 1mm; font-weight:600; }
+.pasos-r ol { list-style:none; counter-reset:pr; margin:0 0 3mm; padding:0; }
+.pasos-r ol > li { counter-increment:pr; position:relative; padding-left:8.5mm; margin:0 0 2.2mm; break-inside:avoid; }
+.pasos-r ol > li::before { content:counter(pr); position:absolute; left:0; top:.1mm; width:5.6mm; height:5.6mm; border-radius:50%; background:var(--color-acento); color:#fff;
+  font-family:var(--fuente-titulos); font-weight:800; font-size:8.5pt; line-height:5.6mm; text-align:center; }
+.notas-r { display:grid; gap:2.5mm; margin-top:2mm; }
+.nota-r { border-left:1.2mm solid var(--color-principal); background:var(--suave2); border-radius:0 2mm 2mm 0; padding:2.2mm 3.2mm; font-size:9.4pt; line-height:1.38; break-inside:avoid; }
+.nota-r.fix { border-color:var(--color-acento); background:var(--tinte); }
+.nota-r h4 { font-family:var(--fuente-titulos); font-size:7.8pt; letter-spacing:.1em; text-transform:uppercase; margin:0 0 1mm; color:var(--color-principal); }
+.nota-r.fix h4 { color:var(--color-acento); }
+.nota-r ul { margin:0; padding-left:3mm; } .nota-r li { margin-bottom:.8mm; } .nota-r p { margin:0; }
+.macro-nota { font-size:8.3pt; color:#555; font-style:italic; margin:-2mm 0 3mm; }
+/* platos firmados */
+.plato { border:1px solid #DDD5C6; border-radius:2.5mm; padding:3mm 3.5mm 2mm; margin:0 0 3.5mm; break-inside:avoid; font-size:9.4pt; line-height:1.36; }
+.plato-cab { display:flex; gap:2.5mm; align-items:baseline; }
+.plato-cab .pid { flex:none; font-family:var(--fuente-titulos); font-weight:800; font-size:9pt; color:#fff; background:var(--color-principal); border-radius:1.4mm; padding:.5mm 1.8mm; }
+.plato h3 { margin:0; font-size:11.5pt; }
+.plato .partes { font-family:var(--fuente-titulos); font-size:7.8pt; color:#555; margin:1.5mm 0 2mm; line-height:1.35; }
+.plato .partes a { color:#555; text-decoration:none; border-bottom:1px dotted #aaa; }
+.plato .cifras { display:flex; flex-wrap:wrap; gap:1.4mm; font-family:var(--fuente-titulos); font-size:7.8pt; margin-bottom:2mm; }
+.plato .cifras span { border-radius:1.2mm; padding:.6mm 1.8mm; background:var(--suave2); }
+.plato .cifras .kc { background:var(--color-principal); color:#fff; font-weight:800; }
+.plato .cifras .pr { background:var(--color-acento); color:#fff; font-weight:800; }
+.plato ol { margin:0; padding-left:4.5mm; font-size:9pt; } .plato li { margin-bottom:.8mm; }
+/* tracker vertical en pantalla */
+table.tracker.t7v td { height:9mm; }
+/* nota para imprimir */
+.para-imprimir { display:flex; gap:2.5mm; align-items:center; font-family:var(--fuente-titulos); font-size:8.3pt; color:var(--color-principal); border:1px dashed var(--color-principal);
+  border-radius:2mm; padding:2mm 3mm; margin:2mm 0 5mm; break-inside:avoid; }
+.para-imprimir .ico { width:5mm; height:5mm; color:var(--color-acento); }
+h2 { break-after:avoid; }
+h2 + p.antes, h2 + table, p.rotulo + table { break-before:avoid; }
+.caja-i.consejo ul { margin-bottom:0; }
+.caja-i.ejercicio h3 { margin-top:0; }
+.caja-i.ejercicio table.t { background:#fff; }
+.pie-muestra { text-align:center; font-family:var(--fuente-titulos); font-weight:600; }
+.link-pendiente { background:#FFE9DF; color:var(--color-acento); padding:0 1mm; border-radius:1mm; }
+
+@page { size: Letter; margin: 15mm 15mm 17mm 15mm;
+  @bottom-center { content: "The Sunday Sheet \00B7  Printable Pack \00B7  page " counter(page); font-family: 'Inter', sans-serif; font-size: 8pt; color: #6b6b6b; } }
+.hoja h1 { font-size:19pt; margin-top:0; }
+.hoja h1 .ico { width:7mm; height:7mm; }
+.hoja h2 { font-size:12pt; margin:4mm 0 2mm; padding-top:3mm; }
+table.t { font-size:8.6pt; }
+table.hoja { font-size:7.7pt; } table.hoja td, table.hoja th { padding:1.05mm 1.6mm; }
+table.hoja.vacia td { height:8.6mm; }
+table.compra td { padding:1.1mm 2mm; }
+table.compra { font-size:8.2pt; margin:1mm 0 2.5mm; }
+.dos-col { columns:2; column-gap:7mm; } .dos-col > * { break-inside:avoid; }
+.dos-col p.rotulo:first-child { margin-top:0; }
+.cabecera-semana { display:flex; flex-wrap:wrap; gap:2mm 5mm; font-family:var(--fuente-titulos); font-size:8.6pt; border:1.4px solid var(--color-principal); border-radius:2mm; padding:2mm 3mm; margin:0 0 3mm; }
+.cabecera-semana b { color:var(--color-principal); }
+p.antes { font-size:8.4pt; padding:2mm 3mm; margin-bottom:2.5mm; }
+.franja { font-family:var(--fuente-titulos); font-size:8.4pt; background:var(--color-principal); color:#fff; border-radius:2mm; padding:2mm 3mm; margin-top:2mm; }
+.etiquetas { display:grid; grid-template-columns:1fr 1fr; gap:4mm; }
+.etq { border:1.4px dashed #6b6b6b; border-radius:2mm; height:41mm; padding:3mm 4mm; box-sizing:border-box; font-family:var(--fuente-titulos); font-size:9.4pt; line-height:1.75; color:#1e1e1e; }
+.etq b { color:var(--color-principal); font-weight:800; letter-spacing:.06em; font-size:10pt; }
+.etq .l { display:inline-block; border-bottom:1px solid #777; min-width:22mm; }
+.tarjeta-pag { min-height:auto; display:block; break-before:page; }
+.tarjeta-pag .tarjeta { width:auto; margin:0 0 6mm; padding:6mm 7mm 4mm; }
+.tarjeta .tarjeta-titulo { font-size:15pt; margin-bottom:3mm; }
+.tarjeta table.t { font-size:8.6pt; background:#fff; margin:2mm 0 3mm; }
+.tarjeta ul { margin:0 0 2mm 2mm; font-family:var(--fuente-titulos); font-size:9.6pt; color:#1e1e1e; }
+.tarjeta ul li { list-style:disc; padding:0; margin:0 0 1.2mm; font-size:9.6pt; } .tarjeta ul li::before { content:none; }
+.tarjeta p { font-family:var(--fuente-titulos); font-size:9.4pt; margin:0 0 2mm; }
+.poster-regla { font-family:var(--fuente-titulos); font-weight:800; font-size:17pt; color:#fff; background:var(--color-principal); border-radius:2.5mm; padding:4mm 5mm; margin:0 0 4mm; }
+.poster-regla span { color:#FFB08C; }
+.cuatro { display:grid; grid-template-columns:1fr 1fr; gap:0 6mm; }
+.cuatro table.t { margin:1mm 0 3mm; font-size:8.6pt; }
+.cuatro table.t td:not(:first-child), .cuatro table.t th:not(:first-child) { text-align:center; width:10mm; }
+.cuatro table.t td { font-weight:800; color:var(--color-acento); } .cuatro table.t td:first-child { font-weight:400; color:#1e1e1e; }
+.reglas { font-size:8.6pt; columns:2; column-gap:6mm; margin:0 0 3mm; padding-left:4mm; } .reglas li { margin-bottom:1mm; break-inside:avoid; }
+</style></head><body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs><symbol id="ico-ejercicio" viewBox="0 0 24 24"><path d="M4 20l1-4L16 5l3 3L8 19z"/><path d="M14 7l3 3"/></symbol><symbol id="ico-sos" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3.8"/><path d="M5.6 5.6l3.7 3.7M14.7 14.7l3.7 3.7M18.4 5.6l-3.7 3.7M9.3 14.7l-3.7 3.7"/></symbol><symbol id="ico-aviso" viewBox="0 0 24 24"><path d="M12 3.5l9.5 16.5h-19z"/><path d="M12 10v4.5M12 17.4v.2"/></symbol><symbol id="ico-consejo" viewBox="0 0 24 24"><path d="M9.5 18h5M10.5 21h3"/><path d="M12 3a6 6 0 0 0-3.4 10.9c.6.5 1 1.2 1 2.1h4.8c0-.9.4-1.6 1-2.1A6 6 0 0 0 12 3z"/></symbol><symbol id="ico-nevera" viewBox="0 0 24 24"><rect x="6" y="2.5" width="12" height="19" rx="2"/><path d="M6 9.5h12M9 5.5v2M9 12.5v3"/></symbol><symbol id="ico-frio" viewBox="0 0 24 24"><path d="M12 2.5v19M3.8 7.2l16.4 9.6M3.8 16.8l16.4-9.6M9.5 4l2.5 2.5L14.5 4M9.5 20l2.5-2.5 2.5 2.5"/></symbol><symbol id="ico-reloj" viewBox="0 0 24 24"><circle cx="12" cy="13" r="8.5"/><path d="M12 8.5V13l3 2M9.5 2.5h5"/></symbol><symbol id="ico-imprimir" viewBox="0 0 24 24"><path d="M7 9V3h10v6"/><rect x="3" y="9" width="18" height="8" rx="1.5"/><path d="M7 14h10v7H7z"/></symbol><symbol id="ico-carro" viewBox="0 0 24 24"><path d="M2.5 3.5h3l2.4 11.2h10.6l2-7.7H6.7"/><circle cx="9.5" cy="19.5" r="1.4"/><circle cx="17" cy="19.5" r="1.4"/></symbol></defs></svg>
+<section class="hoja" id="como-usar"><h1><svg class="ico"><use href="#ico-imprimir"/></svg>The Sunday Sheet · Printable Pack</h1><p class="consigna">US Letter. Black-and-white friendly: ✓, ❄ and bold carry the meaning, not color.</p><p>Print what you need, not all of it.</p>
+<ul>
+<li><strong>Every week:</strong> 1 Sunday Sheet + 1 shopping list + 1 sheet of box labels.</li>
+<li><strong>Once:</strong> the storage chart (cupboard door), the fridge cards (fridge door), the Mix &amp; Match poster.</li>
+<li><strong>When you plan your own week:</strong> a blank Sunday Sheet and Build Your Plate.</li>
+</ul>
+<p>Calories and protein come from USDA FoodData Central. Storage times follow USDA FSIS. This pack isn't medical or nutrition advice. Allergens are listed for the recipes as written; read the labels of what you buy.</p>
+<hr class="sep"><h2>What is in this pack</h2><table class="t corta">
+<thead>
+<tr>
+<th>Page</th>
+<th>Content</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Cover + how to use this pack</td>
+<td>below</td>
+</tr>
+<tr>
+<td>2-5</td>
+<td>Filled Sunday Sheets, Weeks 1-4 (one page each)</td>
+<td>Chapters 8-11, "The Sunday Sheet" + "The assembly table"</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Blank Sunday Sheet</td>
+<td>below</td>
+</tr>
+<tr>
+<td>7-10</td>
+<td>Filled shopping lists, Weeks 1-4 (×1 and ×2)</td>
+<td>Chapters 8-11, "Shopping list"</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Blank shopping list by aisle</td>
+<td>below</td>
+</tr>
+<tr>
+<td>12-13</td>
+<td>Storage chart, all 60 recipes</td>
+<td>Chapter 20</td>
+</tr>
+<tr>
+<td>14</td>
+<td>Mix &amp; Match poster</td>
+<td>Chapter 16, the four ✓ tables + the rule</td>
+</tr>
+<tr>
+<td>15</td>
+<td>Build Your Plate</td>
+<td>below</td>
+</tr>
+<tr>
+<td>16</td>
+<td>Cost per box</td>
+<td>below</td>
+</tr>
+<tr>
+<td>17</td>
+<td>Pantry checklist</td>
+<td>Chapter 7</td>
+</tr>
+<tr>
+<td>18-19</td>
+<td>Box labels</td>
+<td>below</td>
+</tr>
+<tr>
+<td>20-22</td>
+<td>Fridge cards (half-page format, 2 per sheet)</td>
+<td>below</td>
+</tr>
+<tr>
+<td>23-30</td>
+<td>Spare blank Sunday Sheets (×4) and shopping lists (×4)</td>
+<td>copies of pages 6 and 11</td>
+</tr>
+</tbody>
+</table>
+<hr class="sep"><p class="fuentes"><em>Sources: USDA FSIS (storage, safe temperatures, thawing). USDA FoodData Central SR Legacy (nutrition). FDA, 9 major food allergens. Not medical or nutrition advice.</em></p></section><section class="hoja" id="hoja-semana-1"><h1><svg class="ico"><use href="#ico-reloj"/></svg>Sunday Sheet · Week 1</h1><div class="cabecera-semana"><span><b>Week 1</b></span><span><span class="caja-in"></span> ×1 &nbsp;<span class="caja-in"></span> ×2</span><span><b>Oven:</b> 450 °F → 425 °F → 350 °F (one oven, two racks)</span><span><b>Session:</b> About 2 hours, plus 10 minutes of setup. Time yours.</span><span><b>Real time:</b> start ______ finish ______</span></div><p class="antes"><strong>Before 0:00 (about 10 minutes):</strong> clear the counter. Line 4 sheet pans with parchment. Grease a 12-cup muffin tin plus 3 cups of a second tin. Get out the scale, thermometer, an 8×8-inch (20 cm) baking dish with foil, 10 boxes, 6 small sauce cups and 5 breakfast containers. Fill the kettle.</p>
+<table class="t hoja">
+<thead>
+<tr>
+<th>Clock</th>
+<th>Station</th>
+<th>Do this</th>
+<th>Done when</th>
+<th>Recipe</th><th class="ck">✓</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>0:00</td>
+<td><span class="est est-oven">OVEN</span></td>
+<td>Heat to <strong>450 °F / 230 °C</strong>.</td>
+<td>Oven signals hot</td>
+<td>—</td><td class="ck"><span class="caja-in"></span></td></tr>
+<tr>
+<td>0:00</td>
+<td><span class="est est-prep">PREP</span> <span class=mientras>⏱</span></td>
+<td>Cut broccoli into florets with a flat side. Dry well. Toss with oil, salt, garlic powder on pan 1.</td>
+<td>Florets dry to the touch</td>
+<td><a href="#receta-v1">V1</a></td><td class="ck"><span class="caja-in"></span></td></tr>
+<tr>
+<td>0:05</td>
+<td><span class="est est-prep">PREP</span> <span class=mientras>⏱</span></td>
+<td>Whisk the chicken marinade. Toss the thighs in it. Into the fridge.</td>
+<td>Every piece coated</td>
+<td><a href="#receta-p1">P1</a></td><td class="ck"><span class="caja-in"></span></td></tr>
+<tr>
+<td>0:10</td>
+<td><span class="est est-prep">PREP</span> <span class=mientras>⏱</span></td>
+<td>Peel and cut sweet potatoes in ¾-inch (2 cm) cubes. Toss with oil and spices on pan 2. Slice peppers and onions ½ inch (1 cm). Toss with oil and spices on pan 3.</td>
+<td>Pieces the same size, one layer</td>
+<td>B4, V2</td><td class="ck"><span class="caja-in"></span></td></tr>
+<tr>
+<td>0:15</td>
+<td><span class="est est-oven">OVEN</span></td>
+<td><strong>Broccoli in</strong> (top rack), cut sides down. Timer: 18 min.</td>
+<td>—</td>
+<td><a href="#receta-v1">V1</a></td><td class="ck"><span class="caja-in"></span></td></tr>
+<tr>
+<td>0:15</td>
+<td><span class="est est-stove">STOVE</span> <span class=mientras>⏱</span></td>
+<td>Skillet, medium heat: onion 4-5 min, spices 30 sec, turkey 7-9 min, then tomato paste + ½ cup water 3-4 min.</td>
+<td>No pink. <strong>165 °F / 74 °C.</strong> Glossy, not soupy</td>
+<td><a href="#receta-p4">P4</a></td><td class="ck"><span class="caja-in"></span></td></tr>
+<tr>
+<td>0:35</td>
+<td><span class="est est-oven">OVEN</span></td>
+<td><strong>Broccoli out</strong> (18-22 min). Turn oven to <strong>425 °F / 220 °C</strong>, door open 1 minute.</td>
+<td>Tips blackened in spots, stems pierce easily</td>
+<td><a href="#receta-v1">V1</a></td><td class="ck"><span class="caja-in"></span></td></tr>
+<tr>
+<td>0:35</td>
+<td><span class="est est-oven">OVEN</span></td>
+<td><strong>Chicken (pan 4) and sweet potatoes (pan 2) in.</strong> Timers: chicken 22 min, sweet potato flip at 15 min.</td>
+<td>—</td>
+<td>P1, B4</td><td class="ck"><span class="caja-in"></span></td></tr>
+<tr>
+<td>0:35</td>
+<td><span class="est est-stove">STOVE</span> <span class=mientras>⏱</span></td>
+<td>Turkey off the heat. Spread in a wide dish to cool. Kettle on: 2¼ cups water. Rinse the rice.</td>
+<td>—</td>
+<td>P4, B1</td><td class="ck"><span class="caja-in"></span></td></tr>
+<tr>
+<td>0:40</td>
+<td><span class="est est-stove">STOVE</span> <span class=mientras>⏱</span></td>
+<td>Saucepan: teriyaki. Simmer, whisk in the cornstarch, 1-2 min more. Off heat, sesame oil.</td>
+<td>Glossy, coats a spoon</td>
+<td><a href="#receta-s4">S4</a></td><td class="ck"><span class="caja-in"></span></td></tr>
+<tr>
+<td>0:50</td>
+<td><span class="est est-oven">OVEN</span></td>
+<td>Flip the sweet potatoes.</td>
+<td>—</td>
+<td><a href="#receta-b4">B4</a></td><td class="ck"><span class="caja-in"></span></td></tr>
+<tr>
+<td>0:50</td>
+<td><span class="est est-cold">COLD</span> <span class=mientras>⏱</span></td>
+<td>Stir the chipotle-lime yogurt. Whisk the lemon-tahini. Into the fridge.</td>
+<td>Even pale orange · thick ribbon</td>
+<td>S1, S8</td><td class="ck"><span class="caja-in"></span></td></tr>
+<tr>
+<td>0:57-1:03</td>
+<td><span class="est est-oven">OVEN</span></td>
+<td><strong>Chicken out</strong> when the thermometer says so. Rest 5 min on the pan.</td>
+<td><strong>165 °F / 74 °C</strong> in the thickest piece. Edges browned</td>
+<td><a href="#receta-p1">P1</a></td><td class="ck"><span class="caja-in"></span></td></tr>
+<tr>
+<td>1:00</td>
+<td><span class="est est-oven">OVEN</span></td>
+<td><strong>Peppers &amp; onions (pan 3) in.</strong> Timer: stir at 15 min.</td>
+<td>—</td>
+<td><a href="#receta-v2">V2</a></td><td class="ck"><span class="caja-in"></span></td></tr>
+<tr>
+<td>1:05</td>
+<td><span class="est est-oven">OVEN</span></td>
+<td><strong>Sweet potatoes out</strong> (12-15 min after the flip). <strong>Rice in:</strong> rice, oil, salt and boiling water in the dish, foil crimped tight. Timer: 25 min.</td>
+<td>Browned edges, fork slides in</td>
+<td>B4, B1</td><td class="ck"><span class="caja-in"></span></td></tr>
+<tr>
+<td>1:05</td>
+<td><span class="est est-prep">PREP</span> <span class=mientras>⏱</span></td>
+<td>Slice the chicken. Wilt the spinach in the skillet 1-2 min, press out water, chop. Whisk eggs + cottage cheese + seasoning. Fill 15 muffin cups with spinach, feta, then egg to ¾.</td>
+<td>Spinach bright green. Cups ¾ full</td>
+<td>P1, D1</td><td class="ck"><span class="caja-in"></span></td></tr>
+<tr>
+<td>1:15</td>
+<td><span class="est est-oven">OVEN</span></td>
+<td>Stir the peppers.</td>
+<td>—</td>
+<td><a href="#receta-v2">V2</a></td><td class="ck"><span class="caja-in"></span></td></tr>
+<tr>
+<td>1:25-1:28</td>
+<td><span class="est est-oven">OVEN</span></td>
+<td><strong>Peppers out</strong> (25-28 min). Lime juice on top.</td>
+<td>Onions soft and golden at the edges</td>
+<td><a href="#receta-v2">V2</a></td><td class="ck"><span class="caja-in"></span></td></tr>
+<tr>
+<td>1:30-1:35</td>
+<td><span class="est est-oven">OVEN</span></td>
+<td><strong>Rice out</strong> (check at 25 min). Leave covered 10 min.</td>
+<td>Water gone, small steam holes</td>
+<td><a href="#receta-b1">B1</a></td><td class="ck"><span class="caja-in"></span></td></tr>
+<tr>
+<td>1:35</td>
+<td><span class="est est-oven">OVEN</span></td>
+<td>Oven to <strong>350 °F / 175 °C</strong>, door open 2-3 min. <strong>Egg bites in.</strong> Timer: 20 min.</td>
+<td>—</td>
+<td><a href="#receta-d1">D1</a></td><td class="ck"><span class="caja-in"></span></td></tr>
+<tr>
+<td>1:45</td>
+<td><span class="est est-assembly">ASSEMBLY</span> <span class=mientras>⏱</span></td>
+<td>Fluff the rice and spread it thin on a pan. Into the fridge within 1 hour. Weigh each batch, divide by its box count (table below). Fill the boxes.</td>
+<td>All boxes filled</td>
+<td>all</td><td class="ck"><span class="caja-in"></span></td></tr>
+<tr>
+<td>1:57-2:01</td>
+<td><span class="est est-oven">OVEN</span></td>
+<td><strong>Egg bites out</strong> (20-24 min). Cool 5 min in the tin, lift out.</td>
+<td>Centers set, knife comes out clean. <strong>160 °F / 71 °C</strong></td>
+<td><a href="#receta-d1">D1</a></td><td class="ck"><span class="caja-in"></span></td></tr>
+<tr>
+<td>2:05</td>
+<td><span class="est est-assembly">ASSEMBLY</span></td>
+<td>Lids on. Labels on. Fridge for Mon-Thu, <strong>freezer for Friday's 2 boxes</strong> and 2 spare teriyaki cups. Egg bites: 3 per container once fully cool.</td>
+<td>Fridge 40 °F / 4 °C or below</td>
+<td>all</td><td class="ck"><span class="caja-in"></span></td></tr>
+</tbody>
+</table><h2>Assembly</h2><table class="t corta">
+<thead>
+<tr>
+<th>Part</th>
+<th>Boxes it fills</th>
+<th>Per box (×1)</th>
+<th>Goes into</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>P1 chicken</td>
+<td>6</td>
+<td>about 113 g (4 oz)</td>
+<td>M1, A1, D-8</td>
+</tr>
+<tr>
+<td>P4 turkey</td>
+<td>4</td>
+<td>about 175 g (6 oz)</td>
+<td>M3, M10</td>
+</tr>
+<tr>
+<td>B1 rice</td>
+<td>6</td>
+<td>about 133 g (4¾ oz)</td>
+<td>M1, M10, A1</td>
+</tr>
+<tr>
+<td>B4 sweet potato</td>
+<td>4</td>
+<td>about 212 g (7½ oz)</td>
+<td>M3, D-8</td>
+</tr>
+<tr>
+<td>V1 broccoli</td>
+<td>6</td>
+<td>about 108 g (3¾ oz)</td>
+<td>M10, A1, D-8</td>
+</tr>
+<tr>
+<td>V2 peppers &amp; onions</td>
+<td>4</td>
+<td>about 162 g (5¾ oz)</td>
+<td>M1, M3</td>
+</tr>
+<tr>
+<td>S1 chipotle-lime (cup)</td>
+<td>6</td>
+<td>about 35 g (2 Tbsp)</td>
+<td>M1, M3, M10</td>
+</tr>
+<tr>
+<td>S4 teriyaki (cup)</td>
+<td>2 + 3 spare</td>
+<td>34 g</td>
+<td><a href="#plato-a1">A1</a></td>
+</tr>
+<tr>
+<td>S8 lemon-tahini (cup)</td>
+<td>2 + 3 spare</td>
+<td>34 g</td>
+<td><a href="#plato-d-8">D-8</a></td>
+</tr>
+<tr>
+<td>D1 egg bites</td>
+<td>5 containers</td>
+<td>3 bites</td>
+<td>breakfast</td>
+</tr>
+</tbody>
+</table><div class="franja">❄ Friday: Friday's 2 boxes go in on Sunday · Thursday morning: move Friday's boxes to the fridge.</div></section><section class="hoja" id="hoja-semana-2"><h1><svg class="ico"><use href="#ico-reloj"/></svg>Sunday Sheet · Week 2</h1><div class="cabecera-semana"><span><b>Week 2</b></span><span><span class="caja-in"></span> ×1 &nbsp;<span class="caja-in"></span> ×2</span><span><b>Oven:</b> 425 °F the whole time, then the broiler</span><span><b>Session:</b> About 2 hours at the counter. The slow cooker starts 2½ hours earlier and works alone.</span><span><b>Real time:</b> start ______ finish ______</span></div><p><strong>2½ hours before 0:00 (10 minutes):</strong> chicken breasts in the slow cooker in one layer. Cumin, chili powder, garlic powder and salt on top. Pour the salsa over. No water. Lid on, <strong>HIGH</strong>. Now go do something else.</p>
+<p class="antes"><strong>Before 0:00 (about 10 minutes):</strong> line 2 sheet pans with parchment, keep a third pan bare for the potatoes. Get out the scale, thermometer, a large pot, 2 small saucepans, blender, 10 boxes, 10 sauce cups, 5 jars of at least 12 oz (350 ml).</p>
+<table class="t hoja">
+<thead>
+<tr>
+<th>Clock</th>
+<th>Station</th>
+<th>Do this</th>
+<th>Done when</th>
+<th>Recipe</th><th class="ck">✓</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>0:00</td>
+<td><span class="est est-oven">OVEN</span></td>
+<td>Heat to <strong>425 °F / 220 °C</strong> with the bare pan inside.</td>
+<td>Oven signals hot</td>
+<td><a href="#receta-b3">B3</a></td><td class="ck"><span class="caja-in"></span></td></tr>
+<tr>
+<td>0:00</td>
+<td><span class="est est-stove">STOVE</span></td>
+<td>Large pot, medium-high: oil, then the beef. Break it up. 6-8 min.</td>
+<td>No pink. <strong>160 °F / 71 °C</strong></td>
+<td><a href="#receta-p5">P5</a></td><td class="ck"><span class="caja-in"></span></td></tr>
+<tr>
+<td>0:00</td>
+<td><span class="est est-prep">PREP</span> <span class=mientras>⏱</span></td>
+<td>Halve the potatoes (quarter big ones). Dry. Toss with oil and spices. Slice peppers and onions ½ inch. Toss with oil and spices on a lined pan.</td>
+<td>Same-size pieces</td>
+<td>B3, V2</td><td class="ck"><span class="caja-in"></span></td></tr>
+<tr>
+<td>0:10</td>
+<td><span class="est est-oven">OVEN</span></td>
+<td><strong>Potatoes onto the hot pan</strong>, cut side down (lower rack). Timer: 20 min, then flip. <strong>Peppers in</strong> (top rack). Timer: stir at 15 min.</td>
+<td>They sizzle</td>
+<td>B3, V2</td><td class="ck"><span class="caja-in"></span></td></tr>
+<tr>
+<td>0:10</td>
+<td><span class="est est-stove">STOVE</span> <span class=mientras>⏱</span></td>
+<td>Pot: onion + carrot 5 min, garlic + tomato paste + spices 1 min, then rinsed lentils, salt, 3 cups water. Boil, then simmer partly covered 22-28 min. Stir now and then.</td>
+<td>—</td>
+<td><a href="#receta-p5">P5</a></td><td class="ck"><span class="caja-in"></span></td></tr>
+<tr>
+<td>0:15</td>
+<td><span class="est est-stove">STOVE</span> <span class=mientras>⏱</span></td>
+<td>Saucepan 1: whisk all the BBQ ingredients, bring to a gentle bubble, then low 10-12 min.</td>
+<td>Spoon leaves a clear trail</td>
+<td><a href="#receta-s10">S10</a></td><td class="ck"><span class="caja-in"></span></td></tr>
+<tr>
+<td>0:25</td>
+<td><span class="est est-oven">OVEN</span></td>
+<td>Stir the peppers.</td>
+<td>—</td>
+<td><a href="#receta-v2">V2</a></td><td class="ck"><span class="caja-in"></span></td></tr>
+<tr>
+<td>0:30</td>
+<td><span class="est est-oven">OVEN</span></td>
+<td>Flip the potatoes. Timer: 15 min.</td>
+<td>—</td>
+<td><a href="#receta-b3">B3</a></td><td class="ck"><span class="caja-in"></span></td></tr>
+<tr>
+<td>0:30</td>
+<td><span class="est est-prep">PREP</span> <span class=mientras>⏱</span></td>
+<td>Cut zucchini in ½-inch half-moons, red onion in wedges. Toss with oil and spices on a lined pan.</td>
+<td>—</td>
+<td><a href="#receta-v3">V3</a></td><td class="ck"><span class="caja-in"></span></td></tr>
+<tr>
+<td>0:35</td>
+<td><span class="est est-stove">STOVE</span> <span class=mientras>⏱</span></td>
+<td>Saucepan 2: oil, flour + spices 45-60 sec, then tomato sauce, water, vinegar, salt. Low 8-10 min.</td>
+<td>Coats a spoon, brick red</td>
+<td><a href="#receta-s3">S3</a></td><td class="ck"><span class="caja-in"></span></td></tr>
+<tr>
+<td>0:38</td>
+<td><span class="est est-oven">OVEN</span></td>
+<td><strong>Peppers out</strong> (25-28 min). Lime on top. <strong>Zucchini in.</strong> Timer: turn at 12 min.</td>
+<td>Onions soft and golden at the edges</td>
+<td>V2, V3</td><td class="ck"><span class="caja-in"></span></td></tr>
+<tr>
+<td>0:45-0:50</td>
+<td><span class="est est-oven">OVEN</span></td>
+<td><strong>Potatoes out.</strong></td>
+<td>Deep golden cut sides, knife slides in</td>
+<td><a href="#receta-b3">B3</a></td><td class="ck"><span class="caja-in"></span></td></tr>
+<tr>
+<td>0:45</td>
+<td><span class="est est-stove">STOVE</span></td>
+<td>Check the beef and lentils. Add ¼ cup water at a time if it dries too soon. Off the heat when done.</td>
+<td>Lentils tender, pot thick like chili</td>
+<td><a href="#receta-p5">P5</a></td><td class="ck"><span class="caja-in"></span></td></tr>
+<tr>
+<td>0:50</td>
+<td>SLOW COOKER</td>
+<td>Check the chicken. Shred with 2 forks. Stir in lime juice and ½ cup of the cooking liquid. If it isn't ready, check again at 1:10.</td>
+<td><strong>165 °F / 74 °C</strong>, shreds with no effort</td>
+<td><a href="#receta-p2">P2</a></td><td class="ck"><span class="caja-in"></span></td></tr>
+<tr>
+<td>0:55</td>
+<td><span class="est est-cold">COLD</span> <span class=mientras>⏱</span></td>
+<td>Overnight oats: dry mix, then yogurt, milk, honey, vanilla. Into 5 jars, berries on top. Fridge.</td>
+<td>No dry pockets</td>
+<td><a href="#receta-d3">D3</a></td><td class="ck"><span class="caja-in"></span></td></tr>
+<tr>
+<td>0:58-1:03</td>
+<td><span class="est est-oven">OVEN</span></td>
+<td><strong>Zucchini out</strong> (20-25 min). Lemon juice on top. Turn on the <strong>broiler, high</strong>.</td>
+<td>Golden edges, tender middle</td>
+<td><a href="#receta-v3">V3</a></td><td class="ck"><span class="caja-in"></span></td></tr>
+<tr>
+<td>1:05</td>
+<td><span class="est est-oven">OVEN</span></td>
+<td>Tomatillos, jalapeño, onion, unpeeled garlic on a foil-lined pan under the broiler, 5-7 min. Flip, 4-5 min more.</td>
+<td>Blistered, soft, slumped</td>
+<td><a href="#receta-s2">S2</a></td><td class="ck"><span class="caja-in"></span></td></tr>
+<tr>
+<td>1:05</td>
+<td><span class="est est-assembly">ASSEMBLY</span> <span class=mientras>⏱</span></td>
+<td>Weigh each batch, divide by its box count (table below). Fill the boxes. Stack 6 tortillas with parchment between them, into a zip bag.</td>
+<td>—</td>
+<td>all</td><td class="ck"><span class="caja-in"></span></td></tr>
+<tr>
+<td>1:20</td>
+<td><span class="est est-cold">COLD</span></td>
+<td>Cool the broiled salsa 5 min. Slip the garlic out of its skin. Blend with cilantro, lime, salt.</td>
+<td>Bright, not flat</td>
+<td><a href="#receta-s2">S2</a></td><td class="ck"><span class="caja-in"></span></td></tr>
+<tr>
+<td>1:30</td>
+<td><span class="est est-assembly">ASSEMBLY</span></td>
+<td>Sauce into cups. Lids, labels. Fridge for Mon-Thu, <strong>freezer for Friday's 2 M11 boxes</strong>. The tortilla bag stays in the fridge.</td>
+<td>Fridge 40 °F / 4 °C or below</td>
+<td>all</td><td class="ck"><span class="caja-in"></span></td></tr>
+</tbody>
+</table><h2>Assembly</h2><table class="t corta">
+<thead>
+<tr>
+<th>Part</th>
+<th>Boxes it fills</th>
+<th>Per box (×1)</th>
+<th>Goes into</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>P5 beef &amp; lentil</td>
+<td>4</td>
+<td>about 200 g (7 oz)</td>
+<td>M4, C5</td>
+</tr>
+<tr>
+<td>P2 salsa chicken</td>
+<td>6</td>
+<td>about 117 g (4 oz) + a spoon of juices</td>
+<td>M11, M9, C8</td>
+</tr>
+<tr>
+<td>B3 potatoes</td>
+<td>4</td>
+<td>about 212 g (7½ oz)</td>
+<td>M9, C5</td>
+</tr>
+<tr>
+<td>B6 tortillas</td>
+<td>6</td>
+<td>1 tortilla, in the bag, not in the box</td>
+<td>M4, M11, C8</td>
+</tr>
+<tr>
+<td>V3 zucchini &amp; onion</td>
+<td>4</td>
+<td>about 162 g (5¾ oz)</td>
+<td>M4, M9</td>
+</tr>
+<tr>
+<td>V2 peppers &amp; onions</td>
+<td>6</td>
+<td>about 108 g (3¾ oz)</td>
+<td>M11, C5, C8</td>
+</tr>
+<tr>
+<td>S3 enchilada (cup)</td>
+<td>4 + 1 spare</td>
+<td>about 42 g</td>
+<td>M4, M11</td>
+</tr>
+<tr>
+<td>S10 BBQ (cup)</td>
+<td>4 + 1 spare</td>
+<td>about 41 g</td>
+<td>C5, C8</td>
+</tr>
+<tr>
+<td>S2 salsa verde (cup)</td>
+<td>2 + 3 spare</td>
+<td>about 44 g</td>
+<td><a href="#plato-m9">M9</a></td>
+</tr>
+<tr>
+<td>D3 overnight oats</td>
+<td>5 jars</td>
+<td>1 jar</td>
+<td>breakfast</td>
+</tr>
+</tbody>
+</table><div class="franja">❄ Friday: Friday's 2 boxes go in on Sunday · Thursday morning: move Friday's boxes to the fridge.</div></section><section class="hoja" id="hoja-semana-3"><h1><svg class="ico"><use href="#ico-reloj"/></svg>Sunday Sheet · Week 3</h1><div class="cabecera-semana"><span><b>Week 3</b></span><span><span class="caja-in"></span> ×1 &nbsp;<span class="caja-in"></span> ×2</span><span><b>Oven:</b> 425 °F → 400 °F</span><span><b>Session:</b> About 2 hours, plus 10 minutes of setup. Time yours.</span><span><b>Real time:</b> start ______ finish ______</span></div><p class="antes"><strong>Before 0:00 (about 10 minutes):</strong> line 5 sheet pans with parchment. Fill a large pot with 3 quarts (3 L) of water. Get out the scale, thermometer, 10 boxes, 9 sauce cups, a freezer bag for the meatballs, foil or parchment for 5 burritos.</p>
+<table class="t hoja">
+<thead>
+<tr>
+<th>Clock</th>
+<th>Station</th>
+<th>Do this</th>
+<th>Done when</th>
+<th>Recipe</th><th class="ck">✓</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>0:00</td>
+<td><span class="est est-oven">OVEN</span></td>
+<td>Heat to <strong>425 °F / 220 °C</strong>.</td>
+<td>Oven signals hot</td>
+<td>—</td><td class="ck"><span class="caja-in"></span></td></tr>
+<tr>
+<td>0:00</td>
+<td><span class="est est-stove">STOVE</span></td>
+<td>Pasta water on, high, lid on.</td>
+<td>—</td>
+<td><a href="#receta-b5">B5</a></td><td class="ck"><span class="caja-in"></span></td></tr>
+<tr>
+<td>0:00</td>
+<td><span class="est est-prep">PREP</span> <span class=mientras>⏱</span></td>
+<td>Trim and dry the green beans. Toss with oil, salt, pepper on pan 1. Cut zucchini in ½-inch half-moons, red onion in wedges. Toss on pan 2.</td>
+<td>One layer, not crowded</td>
+<td>V4, V3</td><td class="ck"><span class="caja-in"></span></td></tr>
+<tr>
+<td>0:10</td>
+<td><span class="est est-oven">OVEN</span></td>
+<td><strong>Beans and zucchini in.</strong> Timers: beans 10 min, zucchini turn at 12 min.</td>
+<td>—</td>
+<td>V4, V3</td><td class="ck"><span class="caja-in"></span></td></tr>
+<tr>
+<td>0:10</td>
+<td><span class="est est-stove">STOVE</span> <span class=mientras>⏱</span></td>
+<td>Salt the boiling water, add the pasta. Cook <strong>1-2 min less</strong> than the package says. Drain, don't rinse, toss with oil, spread on a tray.</td>
+<td>Thin white dot in the center</td>
+<td><a href="#receta-b5">B5</a></td><td class="ck"><span class="caja-in"></span></td></tr>
+<tr>
+<td>0:12</td>
+<td><span class="est est-stove">STOVE</span> <span class=mientras>⏱</span></td>
+<td>Medium pot: rinse quinoa 30 sec, add 3 cups water, oil, salt. Boil, then lowest heat, lid on, 14-16 min. Off heat 5 min, lid on.</td>
+<td>Water gone, white spiral tails</td>
+<td><a href="#receta-b2">B2</a></td><td class="ck"><span class="caja-in"></span></td></tr>
+<tr>
+<td>0:15</td>
+<td><span class="est est-prep">PREP</span> <span class=mientras>⏱</span></td>
+<td>Meatball mix, <strong>two batches in one big bowl</strong>: egg, crumbs, Parmesan, garlic, spices, parsley, 3 min. Add the turkey, mix just until it comes together. Scoop 60 balls, about 2 Tbsp each, onto pans 3 and 4.</td>
+<td>Even size, close but not touching</td>
+<td><a href="#receta-p6">P6</a></td><td class="ck"><span class="caja-in"></span></td></tr>
+<tr>
+<td>0:20</td>
+<td><span class="est est-oven">OVEN</span></td>
+<td>Beans out, scatter the garlic, back in 4-6 min. Turn the zucchini.</td>
+<td>—</td>
+<td>V4, V3</td><td class="ck"><span class="caja-in"></span></td></tr>
+<tr>
+<td>0:26</td>
+<td><span class="est est-oven">OVEN</span></td>
+<td><strong>Beans out.</strong> Lemon juice on top.</td>
+<td>Wrinkled, brown spots, a little snap. Garlic pale gold</td>
+<td><a href="#receta-v4">V4</a></td><td class="ck"><span class="caja-in"></span></td></tr>
+<tr>
+<td>0:32-0:35</td>
+<td><span class="est est-oven">OVEN</span></td>
+<td><strong>Zucchini out</strong> (20-25 min). Lemon juice. Turn oven to <strong>400 °F / 205 °C</strong>, door open 1-2 min.</td>
+<td>Golden edges, tender middle</td>
+<td><a href="#receta-v3">V3</a></td><td class="ck"><span class="caja-in"></span></td></tr>
+<tr>
+<td>0:35</td>
+<td><span class="est est-oven">OVEN</span></td>
+<td><strong>Both meatball pans in.</strong> Timer: 18 min.</td>
+<td>—</td>
+<td><a href="#receta-p6">P6</a></td><td class="ck"><span class="caja-in"></span></td></tr>
+<tr>
+<td>0:35</td>
+<td><span class="est est-stove">STOVE</span> <span class=mientras>⏱</span></td>
+<td>Saucepan 1, medium-low: garlic 30-60 sec, tomato sauce + oregano + salt 8-10 min, then cream cheese on lowest heat, Parmesan off heat.</td>
+<td>Smooth, creamy pink-orange</td>
+<td><a href="#receta-s12">S12</a></td><td class="ck"><span class="caja-in"></span></td></tr>
+<tr>
+<td>0:40</td>
+<td><span class="est est-stove">STOVE</span> <span class=mientras>⏱</span></td>
+<td>Saucepan 2: teriyaki. Simmer, whisk in the cornstarch, 1-2 min. Off heat, sesame oil.</td>
+<td>Glossy, coats a spoon</td>
+<td><a href="#receta-s4">S4</a></td><td class="ck"><span class="caja-in"></span></td></tr>
+<tr>
+<td>0:50</td>
+<td><span class="est est-prep">PREP</span> <span class=mientras>⏱</span></td>
+<td>Pat the salmon dry. Cut into 5 even pieces (about 180 g raw each). On pan 5, skin side down. Oil, lemon, spices.</td>
+<td>—</td>
+<td><a href="#receta-p8">P8</a></td><td class="ck"><span class="caja-in"></span></td></tr>
+<tr>
+<td>0:53-0:55</td>
+<td><span class="est est-oven">OVEN</span></td>
+<td><strong>Meatballs out.</strong> Cool 15 min.</td>
+<td>Browned. <strong>165 °F / 74 °C</strong> in the middle</td>
+<td><a href="#receta-p6">P6</a></td><td class="ck"><span class="caja-in"></span></td></tr>
+<tr>
+<td>0:55</td>
+<td><span class="est est-oven">OVEN</span></td>
+<td><strong>Salmon in.</strong> Timer: 11 min.</td>
+<td>—</td>
+<td><a href="#receta-p8">P8</a></td><td class="ck"><span class="caja-in"></span></td></tr>
+<tr>
+<td>0:55</td>
+<td><span class="est est-stove">STOVE</span> <span class=mientras>⏱</span></td>
+<td>Nonstick pan: onion + red pepper 3-4 min, spices, then the beaten eggs, folding 3-4 min. Onto a plate to cool 10 min.</td>
+<td>Large soft curds, no wet shine</td>
+<td><a href="#receta-d5">D5</a></td><td class="ck"><span class="caja-in"></span></td></tr>
+<tr>
+<td>1:06-1:09</td>
+<td><span class="est est-oven">OVEN</span></td>
+<td><strong>Salmon out.</strong> Rest 3 min. Oven off.</td>
+<td>Flakes with a fork. <strong>145 °F / 63 °C</strong></td>
+<td><a href="#receta-p8">P8</a></td><td class="ck"><span class="caja-in"></span></td></tr>
+<tr>
+<td>1:10</td>
+<td><span class="est est-assembly">ASSEMBLY</span> <span class=mientras>⏱</span></td>
+<td>Meatballs: 36 into 6 boxes (6 each). The other <strong>24 on a tray into the freezer</strong> for 1 hour, then into a bag. Weigh and divide the rest (table below).</td>
+<td>—</td>
+<td>all</td><td class="ck"><span class="caja-in"></span></td></tr>
+<tr>
+<td>1:15</td>
+<td><span class="est est-prep">PREP</span></td>
+<td>Burritos: warm each tortilla 10 sec, add ⅕ of the eggs, 3 Tbsp beans, ⅕ of the cheddar. Fold the sides, roll tight. Wrap each one.</td>
+<td>5 tight rolls</td>
+<td><a href="#receta-d5">D5</a></td><td class="ck"><span class="caja-in"></span></td></tr>
+<tr>
+<td>1:35</td>
+<td><span class="est est-cold">COLD</span></td>
+<td>Chimichurri, last so it's freshest. Chop parsley and garlic fine, add vinegar, oregano, flakes, salt, then the oil.</td>
+<td>Sharp and green</td>
+<td><a href="#receta-s9">S9</a></td><td class="ck"><span class="caja-in"></span></td></tr>
+<tr>
+<td>1:45</td>
+<td><span class="est est-assembly">ASSEMBLY</span></td>
+<td>Sauces into cups. Lids, labels. Fridge for Mon-Thu. <strong>Freezer:</strong> Friday's A10 + D-5 boxes, 1 burrito, the meatball bag. Salmon portion #5 is <strong>Sunday dinner</strong>.</td>
+<td>Fridge 40 °F / 4 °C or below</td>
+<td>all</td><td class="ck"><span class="caja-in"></span></td></tr>
+</tbody>
+</table><h2>Assembly</h2><table class="t corta">
+<thead>
+<tr>
+<th>Part</th>
+<th>Boxes it fills</th>
+<th>Per box (×1)</th>
+<th>Goes into</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>P6 meatballs</td>
+<td>6 + 4 reserve portions</td>
+<td>6 meatballs (about 156 g / 5½ oz)</td>
+<td>C3, D-5, A10</td>
+</tr>
+<tr>
+<td>P8 salmon</td>
+<td>4 + 1 for Sunday dinner</td>
+<td>1 piece (about 146 g / 5 oz)</td>
+<td>A4, D-3</td>
+</tr>
+<tr>
+<td>B5 pasta</td>
+<td>4</td>
+<td>about 188 g (6½ oz)</td>
+<td>C3, A10</td>
+</tr>
+<tr>
+<td>B2 quinoa</td>
+<td>6</td>
+<td>about 140 g (5 oz)</td>
+<td>D-5, A4, D-3</td>
+</tr>
+<tr>
+<td>V4 green beans</td>
+<td>6</td>
+<td>about 100 g (3½ oz)</td>
+<td>D-5, A4, A10</td>
+</tr>
+<tr>
+<td>V3 zucchini &amp; onion</td>
+<td>4</td>
+<td>about 162 g (5¾ oz)</td>
+<td>C3, D-3</td>
+</tr>
+<tr>
+<td>S12 creamy tomato (cup)</td>
+<td>2 + 3 spare</td>
+<td>45 g</td>
+<td><a href="#plato-c3">C3</a></td>
+</tr>
+<tr>
+<td>S9 chimichurri (cup)</td>
+<td>4 + 1 spare</td>
+<td>about 38 g</td>
+<td>D-5, D-3</td>
+</tr>
+<tr>
+<td>S4 teriyaki (cup)</td>
+<td>4 + 1 spare</td>
+<td>34 g</td>
+<td>A4, A10</td>
+</tr>
+<tr>
+<td>D5 burritos</td>
+<td>5</td>
+<td>1 burrito</td>
+<td>breakfast</td>
+</tr>
+</tbody>
+</table><div class="franja">❄ Friday: Friday's 2 boxes, 1 burrito, 24 meatballs · Thursday morning: move Friday's boxes to the fridge. · Salmon: Monday and Tuesday only.</div></section><section class="hoja" id="hoja-semana-4"><h1><svg class="ico"><use href="#ico-reloj"/></svg>Sunday Sheet · Week 4</h1><div class="cabecera-semana"><span><b>Week 4</b></span><span><span class="caja-in"></span> ×1 &nbsp;<span class="caja-in"></span> ×2</span><span><b>Oven:</b> 300 °F (pork, before you start) → 450 °F → 425 °F → 350 °F</span><span><b>Session:</b> About 2 hours at the counter. The pork goes in about 4½ hours earlier and roasts alone.</span><span><b>Real time:</b> start ______ finish ______</span></div><ol start="2">
+<li>Pick 2 proteins, 2 bases, 2 vegetables and 3 sauces from the Mix &amp; Match chart (Chapter 16). Keep at most one protein that needs a long, slow oven.</li>
+<li>Copy each recipe's "Sunday-sheet slot" into the oven, stove and cold columns, hottest oven first.</li>
+<li>Run the day-5 rule: which 2 boxes freeze on Sunday? Do their parts freeze?</li>
+</ol>
+<table class="t escribir corta">
+<thead>
+<tr>
+<th>Week 5</th>
+<th>Choice</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Proteins</td>
+<td></td>
+</tr>
+<tr>
+<td>Bases</td>
+<td></td>
+</tr>
+<tr>
+<td>Vegetables</td>
+<td></td>
+</tr>
+<tr>
+<td>Sauces</td>
+<td></td>
+</tr>
+<tr>
+<td>Friday's frozen plate</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<div class="espacio" style="--lineas:3"></div>
+
+<p class="fuentes"><em>Sources: USDA FoodData Central SR Legacy (nutrition). USDA FSIS, "Leftovers and Food Safety", "Safe Minimum Internal Temperature Chart" (fsis.usda.gov). FDA, 9 major food allergens.</em></p><h2>Assembly</h2><table class="t corta">
+<thead>
+<tr>
+<th>Part</th>
+<th>Boxes it fills</th>
+<th>Per box (×1)</th>
+<th>Goes into</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>P7 pulled pork</td>
+<td>6</td>
+<td>about 130 g (4½ oz) + juices</td>
+<td>A3, M5, A12</td>
+</tr>
+<tr>
+<td>P9 tofu</td>
+<td>4</td>
+<td>about 170 g (6 oz)</td>
+<td>A2, A7</td>
+</tr>
+<tr>
+<td>B1 rice</td>
+<td>6</td>
+<td>about 133 g (4¾ oz)</td>
+<td>A3, M5, A7</td>
+</tr>
+<tr>
+<td>B2 quinoa</td>
+<td>4</td>
+<td>about 210 g (7½ oz)</td>
+<td>A2, A12</td>
+</tr>
+<tr>
+<td>V5 slaw</td>
+<td>6</td>
+<td>about 108 g (3¾ oz) + ⅙ of the dressing in a cup</td>
+<td>A3, M5, A2</td>
+</tr>
+<tr>
+<td>V1 broccoli</td>
+<td>4</td>
+<td>about 162 g (5¾ oz)</td>
+<td>A7, A12</td>
+</tr>
+<tr>
+<td>S6 gochujang (cup)</td>
+<td>4 + 1 spare</td>
+<td>30 g</td>
+<td>A3, A7</td>
+</tr>
+<tr>
+<td>S5 peanut-ginger (cup)</td>
+<td>4 + 1 spare</td>
+<td>about 37 g</td>
+<td>A2, A12</td>
+</tr>
+<tr>
+<td>✎ your sauce (cup)</td>
+<td>2 + 3 spare</td>
+<td>one card portion</td>
+<td><a href="#plato-m5">M5</a></td>
+</tr>
+<tr>
+<td>D2 egg bites</td>
+<td>5 containers</td>
+<td>3 bites</td>
+<td>breakfast</td>
+</tr>
+</tbody>
+</table><div class="franja">❄ Friday: Friday's 2 boxes go in on Sunday · Thursday morning: move Friday's boxes to the fridge.</div></section><section class="hoja" id="hoja-blanca"><h1><svg class="ico"><use href="#ico-reloj"/></svg>Sunday Sheet · Blank</h1><p><strong>Week:</strong> ______ <strong>Cooking for:</strong> <span class="caja-in"></span> ×1 <span class="caja-in"></span> ×2 <strong>Date:</strong> ______</p>
+<p class="rotulo">Parts this week</p>
+<table class="t corta">
+<thead>
+<tr>
+<th>Proteins</th>
+<th>Bases</th>
+<th>Vegetables</th>
+<th>Sauces</th>
+<th>Breakfast</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.</td>
+<td>1.</td>
+<td>1.</td>
+<td>1.</td>
+<td></td>
+</tr>
+<tr>
+<td>2.</td>
+<td>2.</td>
+<td>2.</td>
+<td>2.</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>3.</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Oven order (hottest first):</strong> ______ °F → ______ °F → ______ °F</p>
+<p class="antes"><strong>Before 0:00:</strong> <span class="caja-in"></span> pans lined <span class="caja-in"></span> containers out <span class="caja-in"></span> scale + thermometer <span class="caja-in"></span> kettle <span class="caja-in"></span> fridge space</p>
+<table class="t escribir hoja vacia corta">
+<thead>
+<tr>
+<th>Clock</th>
+<th>Station</th>
+<th>Do this</th>
+<th>Done when</th>
+<th>Recipe</th>
+<th>✓</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0:00</td>
+<td><span class="est est-oven">OVEN</span></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="est est-assembly">ASSEMBLY</span></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Station key: OVEN · STOVE · COLD · PREP · ASSEMBLY · ⏱ = while the oven runs</p>
+<p class="rotulo">Assembly</p>
+<table class="t escribir corta">
+<thead>
+<tr>
+<th>Part</th>
+<th>Batch weight (g)</th>
+<th>÷ boxes</th>
+<th>= per box (g)</th>
+<th>Goes into</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Friday ❄:</strong> __________ <strong>Thursday morning reminder set:</strong> <span class="caja-in"></span></p>
+<p><strong>Safe temperatures:</strong> poultry (also ground) 165 °F / 74 °C · ground beef 160 °F / 71 °C · pork 145 °F / 63 °C + 3 min rest · fish 145 °F / 63 °C · egg dishes 160 °F / 71 °C (USDA FSIS)</p>
+<p><strong>Real time:</strong> start ______ finish ______ = ______ min · Slowest step: ______________</p>
+<hr class="sep"></section><section class="hoja" id="compra-semana-1"><h1><svg class="ico"><use href="#ico-carro"/></svg>Shopping list · Week 1</h1><p class="consigna">Amounts are what the recipes use, rounded up to what you can buy. <strong>×1</strong> = 10 boxes + 5 breakfasts. <strong>×2</strong> = 20 boxes + 10 breakfasts. Package sizes are common US sizes; yours may differ.</p><div class="dos-col"><div><p class="rotulo">Meat</p>
+<table class="t compra corta">
+<thead>
+<tr><th class="ck"></th><th>Item</th>
+<th>×1</th>
+<th>×2</th>
+</tr>
+</thead>
+<tbody>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Boneless skinless chicken thighs</td>
+<td>2 lb (907 g)</td>
+<td>4 lb (1.8 kg)</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>93% lean ground turkey</td>
+<td>2 lb (907 g)</td>
+<td>4 lb (1.8 kg)</td>
+</tr>
+</tbody>
+</table></div><div><p class="rotulo">Produce</p>
+<table class="t compra corta">
+<thead>
+<tr><th class="ck"></th><th>Item</th>
+<th>×1</th>
+<th>×2</th>
+</tr>
+</thead>
+<tbody>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Broccoli crowns</td>
+<td>2 lb (900 g), about 2 large</td>
+<td>4 lb (1.8 kg)</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Sweet potatoes</td>
+<td>2.2 lb (1 kg), about 3 medium</td>
+<td>4.4 lb (2 kg), about 6 medium</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Bell peppers, red and/or green</td>
+<td>3</td>
+<td>6</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Yellow onions</td>
+<td>3 medium (about 1 lb / 450 g)</td>
+<td>6 medium</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Baby spinach</td>
+<td>4 packed cups (about 4 oz / 120 g): one 5-oz bag</td>
+<td>8 packed cups: one 10-oz bag</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Lemons</td>
+<td>enough for 6 Tbsp juice (about 3)</td>
+<td>enough for 12 Tbsp (about 6)</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Limes</td>
+<td>enough for 2 Tbsp juice (1-2)</td>
+<td>enough for 4 Tbsp (2-3)</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Garlic</td>
+<td>10 cloves: 1 head</td>
+<td>20 cloves: 2 heads</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Fresh ginger</td>
+<td>1 small knob (1 tsp grated)</td>
+<td>same knob (2 tsp)</td>
+</tr>
+</tbody>
+</table></div><div><p class="rotulo">Dairy &amp; eggs</p>
+<table class="t compra corta">
+<thead>
+<tr><th class="ck"></th><th>Item</th>
+<th>×1</th>
+<th>×2</th>
+</tr>
+</thead>
+<tbody>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Large eggs</td>
+<td>10</td>
+<td>20</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Plain nonfat Greek yogurt</td>
+<td>¾ cup (6 oz / 170 g)</td>
+<td>1½ cups (12 oz): one 16-oz tub</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>2% cottage cheese</td>
+<td>½ cup (4 oz / 113 g)</td>
+<td>1 cup (8 oz)</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Crumbled feta</td>
+<td>½ cup (about 2.6 oz / 75 g): one 4-oz container</td>
+<td>1 cup: one 6-oz container</td>
+</tr>
+</tbody>
+</table></div><div><p class="rotulo">Pantry, canned &amp; condiments</p>
+<table class="t compra corta">
+<thead>
+<tr><th class="ck"></th><th>Item</th>
+<th>×1</th>
+<th>×2</th>
+</tr>
+</thead>
+<tbody>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Long-grain white rice</td>
+<td>1½ cups (10 oz / 278 g)</td>
+<td>3 cups (20 oz)</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Olive oil</td>
+<td>10 Tbsp + 2 tsp</td>
+<td>1⅓ cups</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Tahini</td>
+<td>¼ cup</td>
+<td>½ cup</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Reduced-sodium soy sauce</td>
+<td>¼ cup</td>
+<td>½ cup</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Honey</td>
+<td>1½ Tbsp</td>
+<td>3 Tbsp</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Rice vinegar or cider vinegar</td>
+<td>1 Tbsp</td>
+<td>2 Tbsp</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Cornstarch</td>
+<td>2 tsp</td>
+<td>4 tsp</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Toasted sesame oil</td>
+<td>½ tsp</td>
+<td>1 tsp</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Tomato paste</td>
+<td>2 Tbsp</td>
+<td>4 Tbsp</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Chipotle peppers in adobo</td>
+<td>1 pepper + 1 tsp sauce: one 7-oz can</td>
+<td>2 peppers + 2 tsp sauce</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Canola oil or cooking spray</td>
+<td>for the muffin tin</td>
+<td>for 2 rounds</td>
+</tr>
+</tbody>
+</table></div><div><p><strong>Spice check</strong> (tick what you have; amounts are the week's total for ×1, double for ×2)</p>
+<ul class="lista-hoy">
+<li><span class="caja"></span><span>Kosher salt: 6½ tsp · fine salt: about ⅝ tsp</span></li>
+<li><span class="caja"></span><span>Chili powder: 2 Tbsp + 2 tsp</span></li>
+<li><span class="caja"></span><span>Ground cumin: 3¼ tsp + a pinch</span></li>
+<li><span class="caja"></span><span>Smoked paprika: 1 Tbsp</span></li>
+<li><span class="caja"></span><span>Garlic powder: 2½ tsp</span></li>
+<li><span class="caja"></span><span>Dried oregano: 2 tsp</span></li>
+<li><span class="caja"></span><span>Black pepper: 1¼ tsp</span></li>
+</ul></div></div><div class="caja-i consejo"><div class="cabecera"><svg class="ico"><use href="#ico-consejo"/></svg>What's left over after this week</div>
+<ul>
+<li>3 cups each of teriyaki and lemon-tahini. Fridge 4 days; teriyaki freezes 3 months and tahini sauce 2 months. Freeze them flat in a small bag for Week 3 (S4 is on that list) or any plate.</li>
+<li>Most of the chipotle can: spoon the rest into an ice tray and freeze.</li>
+<li>The rest of the tahini jar, soy sauce, honey and vinegar: they're pantry items for later weeks.</li>
+</ul></div></section><section class="hoja" id="compra-semana-2"><h1><svg class="ico"><use href="#ico-carro"/></svg>Shopping list · Week 2</h1><p class="consigna"><strong>×1</strong> = 10 boxes + 5 breakfasts. <strong>×2</strong> = 20 boxes + 10 breakfasts. Common US package sizes; yours may differ.</p><div class="dos-col"><div><p class="rotulo">Meat</p>
+<table class="t compra corta">
+<thead>
+<tr><th class="ck"></th><th>Item</th>
+<th>×1</th>
+<th>×2</th>
+</tr>
+</thead>
+<tbody>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Boneless skinless chicken breasts</td>
+<td>2.2 lb (1 kg)</td>
+<td>4.4 lb (2 kg)</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>90% lean ground beef</td>
+<td>1 lb (454 g)</td>
+<td>2 lb (908 g)</td>
+</tr>
+</tbody>
+</table></div><div><p class="rotulo">Produce</p>
+<table class="t compra corta">
+<thead>
+<tr><th class="ck"></th><th>Item</th>
+<th>×1</th>
+<th>×2</th>
+</tr>
+</thead>
+<tbody>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Baby red potatoes</td>
+<td>2.2 lb (1 kg): a 3-lb bag covers it</td>
+<td>4.4 lb (2 kg): a 5-lb bag</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Zucchini</td>
+<td>3 medium (about 1.7 lb / 750 g)</td>
+<td>6 medium</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Bell peppers, red and/or green</td>
+<td>3</td>
+<td>6</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Yellow onions</td>
+<td>3 medium (about 1 lb / 450 g)</td>
+<td>6 medium</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Red onion</td>
+<td>1 large (7 oz / 200 g)</td>
+<td>2 large</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Carrot</td>
+<td>1 large</td>
+<td>2 large</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Tomatillos</td>
+<td>3-4 medium (6 oz / 170 g)</td>
+<td>6-8 (12 oz)</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Jalapeño</td>
+<td>1</td>
+<td>2</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>White onion</td>
+<td>1 small (you use ¼)</td>
+<td>1 small (you use ½)</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Cilantro</td>
+<td>1 bunch (you use ¼ cup packed)</td>
+<td>1 bunch</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Limes</td>
+<td>enough for 3 Tbsp + 1 tsp juice (2)</td>
+<td>about 4</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Lemon</td>
+<td>1 (1 Tbsp juice)</td>
+<td>1</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Garlic</td>
+<td>4 cloves: 1 head</td>
+<td>8 cloves: 1 head</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Blueberries, fresh or frozen</td>
+<td>1¼ cups (6.5 oz / 185 g)</td>
+<td>2½ cups (13 oz)</td>
+</tr>
+</tbody>
+</table></div><div><p class="rotulo">Dairy</p>
+<table class="t compra corta">
+<thead>
+<tr><th class="ck"></th><th>Item</th>
+<th>×1</th>
+<th>×2</th>
+</tr>
+</thead>
+<tbody>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Plain nonfat Greek yogurt</td>
+<td>2½ cups (21 oz / 600 g): one 32-oz tub</td>
+<td>5 cups (42 oz): one 32-oz + one 16-oz tub</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>1% milk</td>
+<td>2½ cups: 1 quart</td>
+<td>5 cups: ½ gallon</td>
+</tr>
+</tbody>
+</table></div><div><p class="rotulo">Bakery</p>
+<table class="t compra corta">
+<thead>
+<tr><th class="ck"></th><th>Item</th>
+<th>×1</th>
+<th>×2</th>
+</tr>
+</thead>
+<tbody>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Flour tortillas, 8-inch</td>
+<td>6: one pack of 8 or 10</td>
+<td>12</td>
+</tr>
+</tbody>
+</table></div><div><p class="rotulo">Pantry, canned &amp; condiments</p>
+<table class="t compra">
+<thead>
+<tr><th class="ck"></th><th>Item</th>
+<th>×1</th>
+<th>×2</th>
+</tr>
+</thead>
+<tbody>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Jarred salsa, medium</td>
+<td>1½ cups: one 16-oz jar</td>
+<td>two 16-oz jars</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Dry brown lentils</td>
+<td>¾ cup (5.3 oz / 150 g): a 1-lb bag</td>
+<td>1½ cups</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Old-fashioned rolled oats</td>
+<td>2½ cups (7 oz / 200 g)</td>
+<td>5 cups (14 oz)</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Chia seeds</td>
+<td>2 Tbsp + 2 tsp</td>
+<td>⅓ cup</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Tomato paste</td>
+<td>4 Tbsp: one 6-oz can</td>
+<td>8 Tbsp</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Tomato sauce, plain</td>
+<td>½ cup: one 8-oz can</td>
+<td>1 cup: one 8-oz can</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Ketchup</td>
+<td>⅓ cup</td>
+<td>⅔ cup</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Yellow mustard</td>
+<td>1 tsp</td>
+<td>2 tsp</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Worcestershire sauce</td>
+<td>1 tsp</td>
+<td>2 tsp</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Cider vinegar</td>
+<td>2 Tbsp + 1 tsp</td>
+<td>¼ cup + 2 tsp</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Brown sugar</td>
+<td>1 Tbsp</td>
+<td>2 Tbsp</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Honey</td>
+<td>5 tsp</td>
+<td>3 Tbsp + 1 tsp</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Vanilla extract</td>
+<td>1 tsp</td>
+<td>2 tsp</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>All-purpose flour</td>
+<td>2 tsp</td>
+<td>4 tsp</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Olive oil</td>
+<td>7 Tbsp + 2 tsp</td>
+<td>about 1 cup</td>
+</tr>
+</tbody>
+</table></div><div><p><strong>Spice check</strong> (week total for ×1; double for ×2)</p>
+<ul class="lista-hoy">
+<li><span class="caja"></span><span>Kosher salt: 5½ tsp · fine salt: about 1 tsp + a pinch</span></li>
+<li><span class="caja"></span><span>Chili powder: 2 Tbsp + 2 tsp</span></li>
+<li><span class="caja"></span><span>Ground cumin: 5¼ tsp</span></li>
+<li><span class="caja"></span><span>Garlic powder: 4¼ tsp</span></li>
+<li><span class="caja"></span><span>Smoked paprika: 4 tsp</span></li>
+<li><span class="caja"></span><span>Dried oregano: 1¼ tsp</span></li>
+<li><span class="caja"></span><span>Ground cinnamon: 1 tsp</span></li>
+<li><span class="caja"></span><span>Onion powder: ½ tsp · cayenne: a pinch · black pepper: ½ tsp</span></li>
+</ul></div></div><div class="caja-i consejo"><div class="cabecera"><svg class="ico"><use href="#ico-consejo"/></svg>What's left over after this week</div>
+<ul>
+<li>3 cups of salsa verde, 1 of enchilada sauce, 1 of BBQ. All three freeze 3 months. Salsa verde goes into Week 4.</li>
+<li>2-4 tortillas: they freeze 2 months wrapped in foil.</li>
+<li>Most of the lentil bag, oats and chia: pantry for later.</li>
+<li>About 11 oz of Greek yogurt and some milk: use them by their package date.</li>
+</ul></div></section><section class="hoja" id="compra-semana-3"><h1><svg class="ico"><use href="#ico-carro"/></svg>Shopping list · Week 3</h1><p class="consigna"><strong>×1</strong> = 10 boxes + 5 breakfasts + Sunday salmon + 4 reserve portions. <strong>×2</strong> = double all of it. Common US package sizes; yours may differ.</p><div class="dos-col"><div><p class="rotulo">Meat &amp; fish</p>
+<table class="t compra corta">
+<thead>
+<tr><th class="ck"></th><th>Item</th>
+<th>×1</th>
+<th>×2</th>
+</tr>
+</thead>
+<tbody>
+<tr><td class="ck"><span class="caja-in"></span></td><td>93% lean ground turkey</td>
+<td>4 lb (1.8 kg)</td>
+<td>8 lb (3.6 kg)</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Salmon fillets</td>
+<td>2 lb (907 g)</td>
+<td>4 lb (1.8 kg)</td>
+</tr>
+</tbody>
+</table></div><div><p class="rotulo">Produce</p>
+<table class="t compra corta">
+<thead>
+<tr><th class="ck"></th><th>Item</th>
+<th>×1</th>
+<th>×2</th>
+</tr>
+</thead>
+<tbody>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Green beans</td>
+<td>1.5 lb (700 g)</td>
+<td>3 lb (1.4 kg)</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Zucchini</td>
+<td>3 medium (about 1.7 lb / 750 g)</td>
+<td>6 medium</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Red onion</td>
+<td>1 large (7 oz / 200 g)</td>
+<td>2 large</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Red bell pepper</td>
+<td>1 medium</td>
+<td>2 medium</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Yellow onion</td>
+<td>1 small (⅓ cup diced)</td>
+<td>1 medium</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Flat-leaf parsley</td>
+<td>about 2 bunches (1 cup packed + ¼ cup chopped)</td>
+<td>about 4 bunches</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Lemons</td>
+<td>enough for 3 Tbsp juice (1-2)</td>
+<td>3</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Garlic</td>
+<td>17 cloves: 2 heads</td>
+<td>34 cloves: 3-4 heads</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Fresh ginger</td>
+<td>1 small knob (1 tsp grated)</td>
+<td>same knob</td>
+</tr>
+</tbody>
+</table></div><div><p class="rotulo">Dairy &amp; eggs</p>
+<table class="t compra corta">
+<thead>
+<tr><th class="ck"></th><th>Item</th>
+<th>×1</th>
+<th>×2</th>
+</tr>
+</thead>
+<tbody>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Large eggs</td>
+<td>12 (10 for burritos, 2 for meatballs)</td>
+<td>24</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Shredded sharp cheddar</td>
+<td>1¼ cups (5 oz / 140 g): one 8-oz bag</td>
+<td>2½ cups: two 8-oz bags</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Grated Parmesan</td>
+<td>½ cup + 2 Tbsp (about 2.3 oz)</td>
+<td>1¼ cups (about 4.7 oz)</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Reduced-fat cream cheese</td>
+<td>3 Tbsp (1.6 oz): one 8-oz block</td>
+<td>6 Tbsp</td>
+</tr>
+</tbody>
+</table></div><div><p class="rotulo">Bakery</p>
+<table class="t compra corta">
+<thead>
+<tr><th class="ck"></th><th>Item</th>
+<th>×1</th>
+<th>×2</th>
+</tr>
+</thead>
+<tbody>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Flour tortillas, 10-inch</td>
+<td>5</td>
+<td>10</td>
+</tr>
+</tbody>
+</table></div><div><p class="rotulo">Pantry, canned &amp; condiments</p>
+<table class="t compra corta">
+<thead>
+<tr><th class="ck"></th><th>Item</th>
+<th>×1</th>
+<th>×2</th>
+</tr>
+</thead>
+<tbody>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Short pasta (penne or fusilli)</td>
+<td>12 oz (340 g): one 16-oz box</td>
+<td>24 oz: two 16-oz boxes</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Quinoa</td>
+<td>1½ cups (9 oz / 255 g)</td>
+<td>3 cups (18 oz)</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Plain dry breadcrumbs</td>
+<td>1 cup (3.9 oz / 110 g)</td>
+<td>2 cups</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Low-sodium black beans</td>
+<td>1 cup drained: one 15-oz can</td>
+<td>two 15-oz cans</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Tomato sauce, plain</td>
+<td>¾ cup: one 8-oz can</td>
+<td>1½ cups: one 15-oz can</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Red wine vinegar</td>
+<td>3 Tbsp</td>
+<td>6 Tbsp</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Reduced-sodium soy sauce</td>
+<td>¼ cup</td>
+<td>½ cup</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Honey</td>
+<td>1½ Tbsp</td>
+<td>3 Tbsp</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Rice vinegar or cider vinegar</td>
+<td>1 Tbsp</td>
+<td>2 Tbsp</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Cornstarch</td>
+<td>2 tsp</td>
+<td>4 tsp</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Toasted sesame oil</td>
+<td>½ tsp</td>
+<td>1 tsp</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Olive oil</td>
+<td>about 14 Tbsp (⅞ cup)</td>
+<td>about 1¾ cups</td>
+</tr>
+</tbody>
+</table></div><div><p><strong>Spice check</strong> (week total for ×1; double for ×2)</p>
+<ul class="lista-hoy">
+<li><span class="caja"></span><span>Kosher salt: about 6¼ tsp + 1 Tbsp for the pasta water · fine salt: 1½ tsp</span></li>
+<li><span class="caja"></span><span>Dried oregano: 4½ tsp</span></li>
+<li><span class="caja"></span><span>Onion powder: 2 tsp</span></li>
+<li><span class="caja"></span><span>Garlic powder: 1½ tsp</span></li>
+<li><span class="caja"></span><span>Black pepper: 1¾ tsp</span></li>
+<li><span class="caja"></span><span>Smoked paprika: 1 tsp · ground cumin: ½ tsp · red pepper flakes: ¼ tsp</span></li>
+</ul></div></div><div class="caja-i consejo"><div class="cabecera"><svg class="ico"><use href="#ico-consejo"/></svg>What's left over after this week</div>
+<ul>
+<li>24 meatballs in the freezer (the point of this week).</li>
+<li>3 cups of creamy tomato sauce (freezer 2 months), 1 chimichurri, 1 teriyaki (freezer 3 months).</li>
+<li>Most of the cream cheese block and some Parmesan: use by the package date.</li>
+<li>4 oz pasta from the box: pantry.</li>
+</ul></div></section><section class="hoja" id="compra-semana-4"><h1><svg class="ico"><use href="#ico-carro"/></svg>Shopping list · Week 4</h1><p class="consigna"><strong>×1</strong> = 10 boxes + 5 breakfasts. <strong>×2</strong> = 20 boxes + 10 breakfasts. The <strong>S2</strong> lines are marked: cross them out if you chose another sauce and add that sauce's card ingredients. Common US package sizes; yours may differ.</p><div class="dos-col"><div><p class="rotulo">Meat</p>
+<table class="t compra corta">
+<thead>
+<tr><th class="ck"></th><th>Item</th>
+<th>×1</th>
+<th>×2</th>
+</tr>
+</thead>
+<tbody>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Boneless pork shoulder (butt)</td>
+<td>about 3¾ lb (3 lb / 1.36 kg after trimming)</td>
+<td>about 7½ lb (6 lb after trimming)</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>93% lean ground turkey</td>
+<td>8 oz (227 g)</td>
+<td>1 lb (454 g)</td>
+</tr>
+</tbody>
+</table></div><div><p class="rotulo">Produce</p>
+<table class="t compra corta">
+<thead>
+<tr><th class="ck"></th><th>Item</th>
+<th>×1</th>
+<th>×2</th>
+</tr>
+</thead>
+<tbody>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Extra-firm tofu</td>
+<td>2 blocks, 14-16 oz each (908 g)</td>
+<td>4 blocks</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Broccoli crowns</td>
+<td>2 lb (900 g), about 2 large</td>
+<td>4 lb (1.8 kg)</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Green cabbage</td>
+<td>½ small head (about 1 lb / 450 g)</td>
+<td>1 small head (about 2 lb)</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Carrots</td>
+<td>2 large</td>
+<td>4 large</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Scallions</td>
+<td>3: one bunch</td>
+<td>6: one bunch</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Red bell pepper</td>
+<td>1 medium</td>
+<td>2 medium</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Yellow onion</td>
+<td>1 small (¼ cup diced)</td>
+<td>1 small</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Garlic</td>
+<td>3 cloves (+1 for S2): 1 head</td>
+<td>1 head</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Fresh ginger</td>
+<td>1 small knob (2 tsp grated)</td>
+<td>same knob (4 tsp)</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Limes</td>
+<td>1 (1 Tbsp juice; +1 tsp for S2)</td>
+<td>2</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td><strong>S2</strong> Tomatillos</td>
+<td>3-4 medium (6 oz / 170 g)</td>
+<td>6-8 (12 oz)</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td><strong>S2</strong> Jalapeño</td>
+<td>1</td>
+<td>2</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td><strong>S2</strong> White onion</td>
+<td>1 small (you use ¼)</td>
+<td>1 small</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td><strong>S2</strong> Cilantro</td>
+<td>1 bunch (¼ cup packed)</td>
+<td>1 bunch</td>
+</tr>
+</tbody>
+</table></div><div><p class="rotulo">Dairy &amp; eggs</p>
+<table class="t compra corta">
+<thead>
+<tr><th class="ck"></th><th>Item</th>
+<th>×1</th>
+<th>×2</th>
+</tr>
+</thead>
+<tbody>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Large eggs</td>
+<td>10</td>
+<td>20</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Shredded sharp cheddar</td>
+<td>½ cup (2 oz / 55 g)</td>
+<td>1 cup: one 8-oz bag</td>
+</tr>
+</tbody>
+</table></div><div><p class="rotulo">Pantry &amp; condiments</p>
+<table class="t compra">
+<thead>
+<tr><th class="ck"></th><th>Item</th>
+<th>×1</th>
+<th>×2</th>
+</tr>
+</thead>
+<tbody>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Long-grain white rice</td>
+<td>1½ cups (10 oz / 278 g)</td>
+<td>3 cups</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Quinoa</td>
+<td>1½ cups (9 oz / 255 g)</td>
+<td>3 cups</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Smooth peanut butter, no sugar added</td>
+<td>¼ cup</td>
+<td>½ cup</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Gochujang</td>
+<td>3 Tbsp: one tub</td>
+<td>6 Tbsp</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Soy sauce (regular)</td>
+<td>¼ cup</td>
+<td>½ cup</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Reduced-sodium soy sauce</td>
+<td>2 Tbsp</td>
+<td>¼ cup</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Apple cider vinegar</td>
+<td>7 Tbsp (+ 1 Tbsp rice or cider vinegar for S6)</td>
+<td>about 1 cup</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Honey</td>
+<td>3 Tbsp</td>
+<td>6 Tbsp</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Brown sugar</td>
+<td>1 Tbsp</td>
+<td>2 Tbsp</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Cornstarch</td>
+<td>3 Tbsp</td>
+<td>6 Tbsp</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Toasted sesame oil</td>
+<td>1 Tbsp + 1½ tsp</td>
+<td>3 Tbsp</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Toasted sesame seeds</td>
+<td>1 Tbsp</td>
+<td>2 Tbsp</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Sriracha</td>
+<td>½ tsp</td>
+<td>1 tsp</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Olive oil</td>
+<td>6 Tbsp + 1 tsp</td>
+<td>¾ cup + 2 tsp</td>
+</tr>
+<tr><td class="ck"><span class="caja-in"></span></td><td>Canola oil</td>
+<td>1 Tbsp + spray for the tin</td>
+<td>2 Tbsp + spray</td>
+</tr>
+</tbody>
+</table></div><div><p><strong>Spice check</strong> (week total for ×1; double for ×2)</p>
+<ul class="lista-hoy">
+<li><span class="caja"></span><span>Kosher salt: 5¼ tsp · fine salt: about 1 tsp (⅓ tsp of it for S2)</span></li>
+<li><span class="caja"></span><span>Smoked paprika: 4½ tsp</span></li>
+<li><span class="caja"></span><span>Garlic powder: 4 tsp</span></li>
+<li><span class="caja"></span><span>Ground cumin: 2 tsp</span></li>
+<li><span class="caja"></span><span>Black pepper: 1¾ tsp</span></li>
+<li><span class="caja"></span><span>Ground ginger: ½ tsp</span></li>
+</ul></div></div><div class="caja-i consejo"><div class="cabecera"><svg class="ico"><use href="#ico-consejo"/></svg>What's left over after this week</div>
+<ul>
+<li>3 cups of your sauce, 1 gochujang, 1 peanut-ginger. Check each card for freezer time.</li>
+<li>Most of the gochujang tub: it keeps for months in the fridge once opened (check the label).</li>
+<li>Salsa verde from Week 2 still in the freezer? Use it here instead of making S2 and skip the S2 lines.</li>
+</ul></div></section><section class="hoja" id="compra-blanca"><h1><svg class="ico"><use href="#ico-carro"/></svg>Shopping list · Blank</h1><p><strong>Week:</strong> ______ <span class="caja-in"></span> ×1 <span class="caja-in"></span> ×2</p>
+<p><strong>Already have (left over from last week):</strong> ________________________________</p>
+<table class="t escribir">
+<thead>
+<tr>
+<th>Aisle</th>
+<th><span class="caja-in"></span></th>
+<th>Item</th>
+<th>Amount</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Meat &amp; fish</td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Produce</td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Dairy &amp; eggs</td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Bakery</td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Pantry &amp; canned</td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Condiments &amp; oils</td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Spice check</td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<hr class="sep"></section><section class="hoja" id="tabla-conservacion"><h1><svg class="ico"><use href="#ico-nevera"/></svg>Storage chart · All 60 recipes</h1><div class="caja-i aviso"><div class="cabecera"><svg class="ico"><use href="#ico-aviso"/></svg>The rules (USDA FSIS)</div><ol class="reglas">
+<li><strong>Fridge at 40 °F (4 °C) or colder.</strong> Cooked leftovers keep <strong>3-4 days</strong>. Count from the day you cook (day 0).</li>
+<li><strong>The day-5 rule (this book):</strong> anything you'll eat on day 5 or later goes in the freezer on cooking day. Move it to the fridge the morning before.</li>
+<li><strong>2 hours max at room temperature</strong> after cooking, <strong>1 hour</strong> if the room is above 90 °F (32 °C). Spread food shallow so it cools fast.</li>
+<li><strong>Freezer at 0 °F (-18 °C).</strong> Frozen food stays safe as long as it stays frozen. The months below are for <strong>quality</strong> (taste and texture), not safety.</li>
+<li><strong>Thaw in the fridge,</strong> never on the counter. Or on defrost in the microwave, then reheat and eat right away.</li>
+<li><strong>Reheat leftovers to 165 °F (74 °C).</strong> Cover, stir halfway, check the thickest piece.</li>
+<li><strong>When in doubt, throw it out.</strong> If it smells off or you don't know how old it is.</li>
+</ol></div><table class="t">
+<thead>
+<tr>
+<th>ID</th>
+<th>Recipe</th>
+<th>Fridge (days)</th>
+<th>Freezer (months)</th>
+<th>Reheat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="#receta-b1">B1</a></td>
+<td>Hands-Off Oven Rice</td>
+<td>4</td>
+<td>2</td>
+<td>Microwave 90 sec with 1 tbsp of water, covered, until steaming hot (165 °F / 74 °C).</td>
+</tr>
+<tr>
+<td><a href="#receta-b2">B2</a></td>
+<td>Fluffy Quinoa</td>
+<td>4</td>
+<td>3</td>
+<td>Microwave 60-90 sec with a splash of water, covered, until steaming hot (165 °F / 74 °C).</td>
+</tr>
+<tr>
+<td><a href="#receta-b3">B3</a></td>
+<td>Crispy Roasted Baby Potatoes</td>
+<td>4</td>
+<td>no (texture)</td>
+<td>Oven or air fryer, 400 °F / 205 °C for 8-10 minutes. Microwave makes them soft.</td>
+</tr>
+<tr>
+<td><a href="#receta-b4">B4</a></td>
+<td>Roasted Sweet Potato Cubes</td>
+<td>4</td>
+<td>3</td>
+<td>Microwave 60-90 sec, covered, or 8 minutes in a 400 °F / 205 °C oven to re-crisp.</td>
+</tr>
+<tr>
+<td><a href="#receta-b5">B5</a></td>
+<td>Reheat-Ready Pasta</td>
+<td>4</td>
+<td>2</td>
+<td>Microwave 60-90 sec with 1 tbsp of water or sauce, covered, until steaming hot (165 °F / 74 °C).</td>
+</tr>
+<tr>
+<td><a href="#receta-b6">B6</a></td>
+<td>Wraps &amp; Tortillas (Store &amp; Assemble)</td>
+<td>7</td>
+<td>2</td>
+<td>Warm 15 seconds per side in a dry pan, or 10 seconds in the microwave wrapped in a damp towel. Assemble the wrap at lunch.</td>
+</tr>
+<tr>
+<td><a href="#receta-d1">D1</a></td>
+<td>Spinach-Feta Egg Bites</td>
+<td>4</td>
+<td>3</td>
+<td>Microwave 2 bites 30-45 sec, 3 bites 45-60 sec, until hot in the middle (165 °F / 74 °C). From frozen: 90 sec at 50% power, then 30 sec at full.</td>
+</tr>
+<tr>
+<td><a href="#receta-d2">D2</a></td>
+<td>Turkey &amp; Pepper Egg Bites</td>
+<td>4</td>
+<td>3</td>
+<td>Microwave 2 bites 30-45 sec, 3 bites 45-60 sec, until hot in the middle (165 °F / 74 °C). From frozen: 90 sec at 50% power, then 30 sec at full.</td>
+</tr>
+<tr>
+<td><a href="#receta-d3">D3</a></td>
+<td>Greek Yogurt Overnight Oats</td>
+<td>4</td>
+<td>no (texture)</td>
+<td>Eat cold, straight from the jar. Or microwave 60-90 sec and stir.</td>
+</tr>
+<tr>
+<td><a href="#receta-d4">D4</a></td>
+<td>Peanut Butter-Banana Overnight Oats</td>
+<td>4</td>
+<td>no (texture)</td>
+<td>Eat cold. Or microwave 60-90 sec, stir, and add a splash of milk.</td>
+</tr>
+<tr>
+<td><a href="#receta-d5">D5</a></td>
+<td>Freezer Breakfast Burritos</td>
+<td>4</td>
+<td>3</td>
+<td>From frozen: unwrap, wrap in a damp paper towel and microwave 2 min, flip, then 45-60 sec more until hot in the middle (165 °F / 74 °C). Or thaw overnight in the fridge and microwave 60-90 sec.</td>
+</tr>
+<tr>
+<td><a href="#receta-d6">D6</a></td>
+<td>Cottage Cheese Baked Oats</td>
+<td>4</td>
+<td>2</td>
+<td>Microwave a square 60-90 sec until hot in the middle. Or 350 °F / 175 °C oven 10 min, covered. Good cold too.</td>
+</tr>
+<tr>
+<td><a href="#receta-d7">D7</a></td>
+<td>Freezer Protein Pancakes</td>
+<td>4</td>
+<td>3</td>
+<td>Toaster or toaster oven (375 °F / 190 °C) 4-5 min until hot and crisp at the edges. Or microwave 3 pancakes 45-60 sec. From frozen: add 1 min.</td>
+</tr>
+<tr>
+<td><a href="#receta-d8">D8</a></td>
+<td>Turkey Sausage &amp; Sweet Potato Hash</td>
+<td>4</td>
+<td>3</td>
+<td>Skillet over medium heat 3-4 min, or microwave 90 sec, stirring once, until steaming and 165 °F / 74 °C.</td>
+</tr>
+<tr>
+<td><a href="#receta-fm1">FM1</a></td>
+<td>Turkey Three-Bean Chili</td>
+<td>4</td>
+<td>3</td>
+<td>Thaw overnight in the fridge (never on the counter). Reheat covered in the microwave 3-4 min, stirring halfway, or in a pot over medium 6-8 min, until steaming and 165 °F / 74 °C in the center.</td>
+</tr>
+<tr>
+<td><a href="#receta-fm2">FM2</a></td>
+<td>Chicken Tikka-Style Curry</td>
+<td>3</td>
+<td>3</td>
+<td>Thaw overnight in the fridge (never on the counter). Microwave covered 3-4 min, stirring halfway, adding 1 tbsp water to the rice; or reheat the curry in a pan over medium 6-8 min. It must reach 165 °F / 74 °C in the center.</td>
+</tr>
+<tr>
+<td><a href="#receta-fm3">FM3</a></td>
+<td>Beef &amp; Lentil Ragù</td>
+<td>4</td>
+<td>3</td>
+<td>Thaw overnight in the fridge (never on the counter). Reheat in a pot over medium 6-8 min (or microwave covered 3-4 min), stirring, until 165 °F / 74 °C in the center. Meanwhile boil 1.75 oz / 50 g dry pasta per portion for the time on the package minus 1 minute, and toss it with the hot ragù. Nutrition below includes this pasta and the Parmesan.</td>
+</tr>
+<tr>
+<td><a href="#receta-fm4">FM4</a></td>
+<td>Chicken Enchilada Bake</td>
+<td>3</td>
+<td>2</td>
+<td>Thaw overnight in the fridge (never on the counter). Microwave 2-3 min on a plate, covered, until steaming; or bake at 350 °F / 175 °C for 15-20 min covered with foil. Center must reach 165 °F / 74 °C.</td>
+</tr>
+<tr>
+<td><a href="#receta-fm5">FM5</a></td>
+<td>Turkey Sausage &amp; Lentil Soup</td>
+<td>4</td>
+<td>3</td>
+<td>Thaw overnight in the fridge (never on the counter). Reheat in a pot over medium 6-8 min, adding 1/4 cup water or broth per portion because the barley keeps drinking liquid, until steaming and 165 °F / 74 °C in the center. Microwave covered 3-4 min, stirring halfway.</td>
+</tr>
+<tr>
+<td><a href="#receta-fm6">FM6</a></td>
+<td>Chicken Tortilla Soup</td>
+<td>3</td>
+<td>3</td>
+<td>Thaw overnight in the fridge (never on the counter). Reheat in a pot over medium 6-8 min or microwave covered 3-4 min, until 165 °F / 74 °C in the center. Add toppings after heating.</td>
+</tr>
+<tr>
+<td><a href="#receta-fm7">FM7</a></td>
+<td>Teriyaki Chicken Fried Rice</td>
+<td>3</td>
+<td>2</td>
+<td>Thaw overnight in the fridge (never on the counter). Microwave covered with 1 tbsp water 2-3 min, stirring halfway, until steaming and 165 °F / 74 °C in the center; or reheat in a skillet over medium-high 4-5 min.</td>
+</tr>
+<tr>
+<td><a href="#receta-fm8">FM8</a></td>
+<td>Turkey Meatball &amp; Orzo Bake</td>
+<td>3</td>
+<td>2</td>
+<td>Thaw overnight in the fridge (never on the counter). Microwave covered 3-4 min with 1 tbsp water on top, or bake covered at 350 °F / 175 °C for 15-20 min, until 165 °F / 74 °C in the center.</td>
+</tr>
+<tr>
+<td><a href="#receta-fm9">FM9</a></td>
+<td>Black Bean &amp; Sweet Potato Burritos</td>
+<td>3</td>
+<td>2</td>
+<td>Thaw overnight in the fridge (never on the counter). Microwave unwrapped, wrapped in a damp paper towel, 1.5-2 min, flipping once; or bake at 375 °F / 190 °C for 20 min. The center must reach 165 °F / 74 °C. Finish in a dry skillet 1 min per side for a crisp outside.</td>
+</tr>
+<tr>
+<td><a href="#receta-fm10">FM10</a></td>
+<td>Creamy Chicken &amp; Broccoli Pasta Bake</td>
+<td>3</td>
+<td>2</td>
+<td>Thaw overnight in the fridge (never on the counter). Microwave covered 2-3 min with 1 tbsp milk drizzled on top, stirring once; or bake covered at 350 °F / 175 °C for 15-20 min, until 165 °F / 74 °C in the center.</td>
+</tr>
+<tr>
+<td><a href="#receta-p1">P1</a></td>
+<td>Lemon-Garlic Sheet-Pan Chicken Thighs</td>
+<td>4</td>
+<td>3</td>
+<td>Microwave 60-90 sec, covered, until steaming hot (165 °F / 74 °C).</td>
+</tr>
+<tr>
+<td><a href="#receta-p2">P2</a></td>
+<td>Slow-Cooker Salsa Shredded Chicken</td>
+<td>4</td>
+<td>3</td>
+<td>Microwave 90 sec with 1 tbsp of its cooking juices, stir halfway, until steaming hot (165 °F / 74 °C).</td>
+</tr>
+<tr>
+<td><a href="#receta-p3">P3</a></td>
+<td>Never-Dry Baked Chicken Breast</td>
+<td>4</td>
+<td>3</td>
+<td>Microwave at 70% power for 60-90 sec, or slice and warm in a covered pan with a splash of water. Never full power for long.</td>
+</tr>
+<tr>
+<td><a href="#receta-p4">P4</a></td>
+<td>Turkey Taco Crumble</td>
+<td>4</td>
+<td>3</td>
+<td>Microwave 90 sec, stirring halfway, until steaming hot (165 °F / 74 °C).</td>
+</tr>
+<tr>
+<td><a href="#receta-p5">P5</a></td>
+<td>Beef &amp; Lentil Power Mince</td>
+<td>4</td>
+<td>3</td>
+<td>Microwave 90 sec, stirring halfway, until steaming hot (165 °F / 74 °C).</td>
+</tr>
+<tr>
+<td><a href="#receta-p6">P6</a></td>
+<td>Freezer Turkey Meatballs</td>
+<td>4</td>
+<td>3</td>
+<td>Microwave 6 meatballs 60-90 sec, or 12 min at 350 °F / 175 °C from frozen, until 165 °F / 74 °C in the centre.</td>
+</tr>
+<tr>
+<td><a href="#receta-p7">P7</a></td>
+<td>Oven Pulled Pork Shoulder</td>
+<td>4</td>
+<td>3</td>
+<td>Microwave 90 sec with 1 tbsp of its juices until steaming hot (165 °F / 74 °C).</td>
+</tr>
+<tr>
+<td><a href="#receta-p8">P8</a></td>
+<td>Simple Baked Salmon</td>
+<td>3</td>
+<td>2</td>
+<td>Eat cold, or microwave at 50% power 60-90 sec. Do not boil it; it dries and smells.</td>
+</tr>
+<tr>
+<td><a href="#receta-p9">P9</a></td>
+<td>Crispy Baked Tofu</td>
+<td>4</td>
+<td>2</td>
+<td>Oven or air fryer, 400 °F / 205 °C for 6-8 minutes to bring back the crisp. Microwave makes it soft.</td>
+</tr>
+<tr>
+<td><a href="#receta-p10">P10</a></td>
+<td>Smoky Spiced Chickpeas</td>
+<td>4</td>
+<td>2</td>
+<td>Microwave 60 sec, or 5 minutes in a hot oven or air fryer to bring back the edges.</td>
+</tr>
+<tr>
+<td><a href="#receta-s1">S1</a></td>
+<td>Chipotle-Lime Yogurt</td>
+<td>4</td>
+<td>no (texture)</td>
+<td>Serve cold. Don't heat it. Stir before using.</td>
+</tr>
+<tr>
+<td><a href="#receta-s2">S2</a></td>
+<td>Tomatillo Salsa Verde</td>
+<td>4</td>
+<td>3</td>
+<td>Eat cold or at room temperature. For a warm sauce, simmer 3 min in a small pan.</td>
+</tr>
+<tr>
+<td><a href="#receta-s3">S3</a></td>
+<td>Quick Red Enchilada Sauce</td>
+<td>4</td>
+<td>3</td>
+<td>Warm in a small pan or microwave 30-45 sec until steaming.</td>
+</tr>
+<tr>
+<td><a href="#receta-s4">S4</a></td>
+<td>Lighter Teriyaki</td>
+<td>4</td>
+<td>3</td>
+<td>Warm in a pan or microwave 30 sec. Stir; it thickens as it cools.</td>
+</tr>
+<tr>
+<td><a href="#receta-s5">S5</a></td>
+<td>Peanut-Ginger Sauce</td>
+<td>4</td>
+<td>2</td>
+<td>Serve cool or room temperature. Thin with 1 tsp warm water if it has set firm.</td>
+</tr>
+<tr>
+<td><a href="#receta-s6">S6</a></td>
+<td>Gochujang-Honey Sauce</td>
+<td>4</td>
+<td>3</td>
+<td>Serve cool or warm 20 sec in the microwave. It thickens in the fridge; stir in a splash of water.</td>
+</tr>
+<tr>
+<td><a href="#receta-s7">S7</a></td>
+<td>Tzatziki</td>
+<td>4</td>
+<td>no (texture)</td>
+<td>Serve cold. Don't heat. A little water on top is normal; stir it back in.</td>
+</tr>
+<tr>
+<td><a href="#receta-s8">S8</a></td>
+<td>Lemon-Tahini Sauce</td>
+<td>4</td>
+<td>2</td>
+<td>Serve cool. It sets firm in the fridge; whisk in 1 Tbsp water per portion.</td>
+</tr>
+<tr>
+<td><a href="#receta-s9">S9</a></td>
+<td>Chimichurri</td>
+<td>4</td>
+<td>3</td>
+<td>Thaw in the fridge overnight, or at room temperature 20 min only, then stir.</td>
+</tr>
+<tr>
+<td><a href="#receta-s10">S10</a></td>
+<td>Smoky BBQ Sauce (Less Sugar)</td>
+<td>4</td>
+<td>3</td>
+<td>Warm in a pan or microwave 30 sec. Stir.</td>
+</tr>
+<tr>
+<td><a href="#receta-s11">S11</a></td>
+<td>Honey-Mustard Yogurt</td>
+<td>4</td>
+<td>no (texture)</td>
+<td>Serve cold. Don't heat.</td>
+</tr>
+<tr>
+<td><a href="#receta-s12">S12</a></td>
+<td>Creamy Tomato-Garlic Sauce</td>
+<td>4</td>
+<td>2</td>
+<td>Warm in a pan over low heat, whisking, or microwave at 50% power 45 sec. Stir.</td>
+</tr>
+<tr>
+<td><a href="#receta-sn1">SN1</a></td>
+<td>Greek Yogurt Protein Cups (3 flavors)</td>
+<td>4</td>
+<td>no (texture)</td>
+<td>Eat cold. Do not freeze. Keep at 40 °F / 4 °C or colder; do not leave out more than 2 hours.</td>
+</tr>
+<tr>
+<td><a href="#receta-sn2">SN2</a></td>
+<td>Hummus &amp; Veg Boxes</td>
+<td>4</td>
+<td>no (texture)</td>
+<td>Eat cold. Not freezer-friendly (the vegetables turn limp).</td>
+</tr>
+<tr>
+<td><a href="#receta-sn3">SN3</a></td>
+<td>Perfect Hard-Boiled Eggs</td>
+<td>7</td>
+<td>no (texture)</td>
+<td>Eat cold. Do not microwave in the shell (they can burst). Do not freeze: the whites turn rubbery.</td>
+</tr>
+<tr>
+<td><a href="#receta-sn4">SN4</a></td>
+<td>Peanut Butter Oat Bites</td>
+<td>7</td>
+<td>3</td>
+<td>Eat cold or at room temperature. To freeze, set the bites on a tray for 1 hour, then bag them. Thaw 15 minutes on the counter or overnight in the fridge. (No raw egg or meat, so counter thawing is safe here.)</td>
+</tr>
+<tr>
+<td><a href="#receta-sn5">SN5</a></td>
+<td>Crunchy Roasted Chickpeas</td>
+<td>5</td>
+<td>3</td>
+<td>Re-crisp in a 400 °F / 200 °C oven or air fryer for 5 minutes. Counter: 2 days in a loosely closed jar. Fridge: 5 days, but they soften. Freezer: 3 months in a bag; re-crisp from frozen.</td>
+</tr>
+<tr>
+<td><a href="#receta-sn6">SN6</a></td>
+<td>Turkey &amp; Cheese Roll-Ups</td>
+<td>3</td>
+<td>no (texture)</td>
+<td>Eat cold. Do not freeze (cheese and cucumber go grainy and watery).</td>
+</tr>
+<tr>
+<td><a href="#receta-sn7">SN7</a></td>
+<td>Cottage Cheese Ranch Dip</td>
+<td>5</td>
+<td>no (texture)</td>
+<td>Eat cold. Do not freeze: it splits and turns grainy.</td>
+</tr>
+<tr>
+<td><a href="#receta-sn8">SN8</a></td>
+<td>Edamame Snack Boxes</td>
+<td>4</td>
+<td>no (texture)</td>
+<td>Eat cold, or warm the edamame alone 30 seconds in the microwave. The assembled box is not freezer-friendly (vegetables go limp); plain cooked edamame freezes for 3 months.</td>
+</tr>
+<tr>
+<td><a href="#receta-v1">V1</a></td>
+<td>Charred Roasted Broccoli</td>
+<td>4</td>
+<td>no (texture)</td>
+<td>Eat cold in bowls, or 10 minutes in a hot oven or air fryer. Microwave makes it soft but it is safe.</td>
+</tr>
+<tr>
+<td><a href="#receta-v2">V2</a></td>
+<td>Sheet-Pan Fajita Peppers &amp; Onions</td>
+<td>4</td>
+<td>3</td>
+<td>Microwave 60 sec, or a hot dry pan for 3 minutes for better texture.</td>
+</tr>
+<tr>
+<td><a href="#receta-v3">V3</a></td>
+<td>Roasted Zucchini &amp; Red Onion</td>
+<td>3</td>
+<td>no (texture)</td>
+<td>Eat cold, or microwave 45 sec. Best on the first 3 days; it gets watery after.</td>
+</tr>
+<tr>
+<td><a href="#receta-v4">V4</a></td>
+<td>Garlic Green Beans</td>
+<td>4</td>
+<td>no (texture)</td>
+<td>Eat cold in bowls, or microwave 45-60 sec.</td>
+</tr>
+<tr>
+<td><a href="#receta-v5">V5</a></td>
+<td>Sesame Cabbage-Carrot Slaw (raw)</td>
+<td>4</td>
+<td>no (texture)</td>
+<td>Not reheated. Eat cold. Keep the dressing in a jar and toss on the day for crunch.</td>
+</tr>
+<tr>
+<td><a href="#receta-v6">V6</a></td>
+<td>Chopped Cucumber-Tomato Salad (raw)</td>
+<td>3</td>
+<td>no (texture)</td>
+<td>Not reheated. Eat cold. Add the dressing on the day.</td>
+</tr>
+</tbody>
+</table>
+<p><em>Fridge days come from the recipe cards, set within the FSIS 3-4 day guidance for cooked leftovers. Raw-vegetable and dairy items (V5, V6, sauces, snacks) use their own card times. Hard-boiled eggs (SN3) and tortillas (B6) keep longer: 7 days, following FSIS for eggs and the package for tortillas.</em></p></section><section class="hoja" id="mix-match"><h1><svg class="ico"><use href="#ico-consejo"/></svg>Mix & Match poster</h1><div class="poster-regla">Pick a sauce. <span>Any ✓ in its column goes with it.</span></div><table class="t corta">
+<thead>
+<tr>
+<th>Family</th>
+<th>Sauce 1</th>
+<th>Sauce 2</th>
+<th>Sauce 3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>MEX</strong> Mexican-style</td>
+<td>S1 Chipotle-Lime Yogurt</td>
+<td>S2 Tomatillo Salsa Verde</td>
+<td>S3 Quick Red Enchilada</td>
+</tr>
+<tr>
+<td><strong>ASI</strong> Asian-style</td>
+<td>S4 Lighter Teriyaki</td>
+<td>S5 Peanut-Ginger</td>
+<td>S6 Gochujang-Honey</td>
+</tr>
+<tr>
+<td><strong>MED</strong> Mediterranean-style</td>
+<td>S7 Tzatziki</td>
+<td>S8 Lemon-Tahini</td>
+<td>S9 Chimichurri</td>
+</tr>
+<tr>
+<td><strong>COM</strong> Comfort</td>
+<td>S10 Smoky BBQ</td>
+<td>S11 Honey-Mustard Yogurt</td>
+<td>S12 Creamy Tomato-Garlic</td>
+</tr>
+</tbody>
+</table><div class="cuatro"><div><p class="rotulo">Proteins</p><table class="t corta">
+<thead>
+<tr>
+<th></th>
+<th>MEX</th>
+<th>ASI</th>
+<th>MED</th>
+<th>COM</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>P1 Lemon-Garlic Chicken Thighs</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+</tr>
+<tr>
+<td>P2 Slow-Cooker Salsa Chicken</td>
+<td>✓</td>
+<td></td>
+<td></td>
+<td>✓</td>
+</tr>
+<tr>
+<td>P3 Never-Dry Chicken Breast</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+</tr>
+<tr>
+<td>P4 Turkey Taco Crumble</td>
+<td>✓</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>P5 Beef &amp; Lentil Power Mince</td>
+<td>✓</td>
+<td></td>
+<td>✓</td>
+<td>✓</td>
+</tr>
+<tr>
+<td>P6 Freezer Turkey Meatballs</td>
+<td></td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+</tr>
+<tr>
+<td>P7 Oven Pulled Pork</td>
+<td>✓</td>
+<td>✓</td>
+<td></td>
+<td>✓</td>
+</tr>
+<tr>
+<td>P8 Simple Baked Salmon</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+</tr>
+<tr>
+<td>P9 Crispy Baked Tofu</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td></td>
+</tr>
+<tr>
+<td>P10 Smoky Spiced Chickpeas</td>
+<td>✓</td>
+<td></td>
+<td>✓</td>
+<td></td>
+</tr>
+</tbody>
+</table></div><div><p class="rotulo">Bases</p><table class="t corta">
+<thead>
+<tr>
+<th></th>
+<th>MEX</th>
+<th>ASI</th>
+<th>MED</th>
+<th>COM</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>B1 Oven Rice</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+</tr>
+<tr>
+<td>B2 Quinoa</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+</tr>
+<tr>
+<td>B3 Roasted Baby Potatoes</td>
+<td>✓</td>
+<td></td>
+<td>✓</td>
+<td>✓</td>
+</tr>
+<tr>
+<td>B4 Sweet Potato Cubes</td>
+<td>✓</td>
+<td>✓</td>
+<td></td>
+<td>✓</td>
+</tr>
+<tr>
+<td>B5 Reheat-Ready Pasta</td>
+<td></td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+</tr>
+<tr>
+<td>B6 Wraps &amp; Tortillas</td>
+<td>✓</td>
+<td></td>
+<td>✓</td>
+<td>✓</td>
+</tr>
+</tbody>
+</table></div><div><p class="rotulo">Vegetables</p><table class="t corta">
+<thead>
+<tr>
+<th></th>
+<th>MEX</th>
+<th>ASI</th>
+<th>MED</th>
+<th>COM</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>V1 Charred Broccoli</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+</tr>
+<tr>
+<td>V2 Fajita Peppers &amp; Onions</td>
+<td>✓</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>V3 Zucchini &amp; Red Onion</td>
+<td>✓</td>
+<td></td>
+<td>✓</td>
+<td>✓</td>
+</tr>
+<tr>
+<td>V4 Garlic Green Beans</td>
+<td></td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+</tr>
+<tr>
+<td>V5 Sesame Slaw (raw)</td>
+<td>✓</td>
+<td>✓</td>
+<td></td>
+<td>✓</td>
+</tr>
+<tr>
+<td>V6 Cucumber-Tomato Salad (raw)</td>
+<td>✓</td>
+<td></td>
+<td>✓</td>
+<td></td>
+</tr>
+</tbody>
+</table></div></div><p class="fuentes">1,815 combinations pass this rule. The 48 signature plates are in Chapter 16.</p></section><section class="hoja" id="build-your-plate"><h1><svg class="ico"><use href="#ico-ejercicio"/></svg>Build Your Plate</h1><table class="t escribir ancha corta">
+<thead>
+<tr>
+<th>Part</th>
+<th>ID</th>
+<th>Name</th>
+<th>kcal</th>
+<th>Protein (g)</th>
+<th>Carbs (g)</th>
+<th>Fat (g)</th>
+<th>Allergens</th>
+<th>Fridge days</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Protein</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Base</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Vegetable</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Sauce</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Box total</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><strong>all of the above</strong></td>
+<td><strong>shortest</strong></td>
+</tr>
+</tbody>
+</table>
+<p><span class="caja-in"></span> Passes the Mix &amp; Match rule (all four share a family: MEX / ASI / MED / COM)<br />
+<span class="caja-in"></span> Fridge days cover the day I'll eat it<br />
+<span class="caja-in"></span> If it's a Friday box: every hot part freezes, no raw vegetables or yogurt sauce</p>
+<p><em>Per-portion numbers are on each recipe card (USDA FoodData Central). The book doesn't tell you how much to eat.</em></p>
+<hr class="sep"></section><section class="hoja" id="cost-per-box"><h1><svg class="ico"><use href="#ico-carro"/></svg>Cost per box</h1><p><strong>Store:</strong> ______________ <strong>Date:</strong> ______</p>
+<table class="t escribir corta">
+<thead>
+<tr>
+<th>Item</th>
+<th>Package price ($)</th>
+<th>Package size</th>
+<th>Amount used</th>
+<th>Cost used ($)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Week total</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Cost per box</strong> = week total ÷ number of boxes (10 or 20) = $ ______<br />
+<strong>Cost per breakfast</strong> = breakfast items ÷ 5 (or 10) = $ ______</p>
+<p>How to count "cost used": package price × (amount used ÷ package size). Pantry items you already own count only for what you use (Chapter 5).</p>
+<p>Example (Week 1, 1 person): week total about <strong>$43.72</strong>, about <strong>$3.67 per plate</strong>. <em>US average retail prices, USDA ERS (meat, eggs and dairy: latest month available; fruit and vegetables: 2023 annual averages) plus reference prices for pantry items. Your store will differ.</em></p>
+<hr class="sep"></section><section class="hoja" id="despensa"><h1><svg class="ico"><use href="#ico-carro"/></svg>Pantry checklist · 26 items</h1><p class="consigna">Tick what you have. Write the rest at the top of your next shopping list. From Chapter 7.</p><div class="dos-col"><div><p class="rotulo">Oils and vinegars</p>
+<table class="t corta">
+<thead>
+<tr>
+<th>✓</th>
+<th>Item</th>
+<th>Used in</th>
+<th>Allergen</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="caja-in"></span></td>
+<td>Olive oil</td>
+<td>All</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="caja-in"></span></td>
+<td>Neutral oil (canola or avocado)</td>
+<td>All</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="caja-in"></span></td>
+<td>Rice vinegar</td>
+<td>ASI</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="caja-in"></span></td>
+<td>Apple cider vinegar</td>
+<td>COM, MEX</td>
+<td></td>
+</tr>
+</tbody>
+</table></div><div><p class="rotulo">Spices and dried herbs</p>
+<table class="t corta">
+<thead>
+<tr>
+<th>✓</th>
+<th>Item</th>
+<th>Used in</th>
+<th>Allergen</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="caja-in"></span></td>
+<td>Kosher salt</td>
+<td>All</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="caja-in"></span></td>
+<td>Black pepper</td>
+<td>All</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="caja-in"></span></td>
+<td>Garlic powder</td>
+<td>All</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="caja-in"></span></td>
+<td>Smoked paprika</td>
+<td>COM, MEX, MED</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="caja-in"></span></td>
+<td>Ground cumin</td>
+<td>MEX, MED</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="caja-in"></span></td>
+<td>Chili powder</td>
+<td>MEX, COM</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="caja-in"></span></td>
+<td>Dried oregano</td>
+<td>MED, MEX</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="caja-in"></span></td>
+<td>Red pepper flakes</td>
+<td>ASI, MED</td>
+<td></td>
+</tr>
+</tbody>
+</table></div><div><p class="rotulo">Sauces and jars</p>
+<table class="t corta">
+<thead>
+<tr>
+<th>✓</th>
+<th>Item</th>
+<th>Used in</th>
+<th>Allergen</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="caja-in"></span></td>
+<td>Low-sodium soy sauce (or tamari)</td>
+<td>ASI</td>
+<td>Soy, usually wheat</td>
+</tr>
+<tr>
+<td><span class="caja-in"></span></td>
+<td>Toasted sesame oil</td>
+<td>ASI</td>
+<td>Sesame</td>
+</tr>
+<tr>
+<td><span class="caja-in"></span></td>
+<td>Gochujang</td>
+<td>ASI</td>
+<td>Soy, often wheat</td>
+</tr>
+<tr>
+<td><span class="caja-in"></span></td>
+<td>Natural peanut butter</td>
+<td>ASI, breakfasts</td>
+<td>Peanuts</td>
+</tr>
+<tr>
+<td><span class="caja-in"></span></td>
+<td>Tahini</td>
+<td>MED</td>
+<td>Sesame</td>
+</tr>
+<tr>
+<td><span class="caja-in"></span></td>
+<td>Honey</td>
+<td>ASI, COM</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="caja-in"></span></td>
+<td>Dijon mustard</td>
+<td>COM, MED</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="caja-in"></span></td>
+<td>Chipotle peppers in adobo (small can)</td>
+<td>MEX</td>
+<td>Check label</td>
+</tr>
+</tbody>
+</table></div><div><p class="rotulo">Dry goods and cans</p>
+<table class="t corta">
+<thead>
+<tr>
+<th>✓</th>
+<th>Item</th>
+<th>Used in</th>
+<th>Allergen</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="caja-in"></span></td>
+<td>Long-grain white rice</td>
+<td>All</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="caja-in"></span></td>
+<td>Quinoa</td>
+<td>ASI, MED, MEX</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="caja-in"></span></td>
+<td>Rolled oats</td>
+<td>Breakfasts, snacks</td>
+<td>Check label (gluten)</td>
+</tr>
+<tr>
+<td><span class="caja-in"></span></td>
+<td>Dry lentils (brown or green)</td>
+<td>Budget mince, soups</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="caja-in"></span></td>
+<td>Canned chickpeas</td>
+<td>MED, MEX, snacks</td>
+<td></td>
+</tr>
+<tr>
+<td><span class="caja-in"></span></td>
+<td>Canned crushed tomatoes</td>
+<td>COM, MED, freezer meals</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Store them well.</strong> Opened chipotles in adobo keep longer if you freeze the rest flat in a zip-top bag and break off a piece when needed. Natural peanut butter and tahini separate on the shelf. Stir them well once, then keep them in the fridge if the label says so.</p></div></div></section><section class="hoja" id="etiquetas-nevera"><h1><svg class="ico"><use href="#ico-nevera"/></svg>Box labels · Fridge</h1><p class="consigna">Cut along the dashed lines, or print on a 2 × 4-inch label sheet.</p><div class="etiquetas"><div class="etq"><b>EAT BY:</b> &nbsp;MON &nbsp;TUE &nbsp;WED &nbsp;THU <small>(circle one)</small><br>Plate: <span class="l"></span> &nbsp;Cooked: <span class="l" style="min-width:14mm"></span><br>Sauce cup: <span class="caja-in"></span> yes &nbsp;· Reheat to 165 °F</div><div class="etq"><b>EAT BY:</b> &nbsp;MON &nbsp;TUE &nbsp;WED &nbsp;THU <small>(circle one)</small><br>Plate: <span class="l"></span> &nbsp;Cooked: <span class="l" style="min-width:14mm"></span><br>Sauce cup: <span class="caja-in"></span> yes &nbsp;· Reheat to 165 °F</div><div class="etq"><b>EAT BY:</b> &nbsp;MON &nbsp;TUE &nbsp;WED &nbsp;THU <small>(circle one)</small><br>Plate: <span class="l"></span> &nbsp;Cooked: <span class="l" style="min-width:14mm"></span><br>Sauce cup: <span class="caja-in"></span> yes &nbsp;· Reheat to 165 °F</div><div class="etq"><b>EAT BY:</b> &nbsp;MON &nbsp;TUE &nbsp;WED &nbsp;THU <small>(circle one)</small><br>Plate: <span class="l"></span> &nbsp;Cooked: <span class="l" style="min-width:14mm"></span><br>Sauce cup: <span class="caja-in"></span> yes &nbsp;· Reheat to 165 °F</div><div class="etq"><b>EAT BY:</b> &nbsp;MON &nbsp;TUE &nbsp;WED &nbsp;THU <small>(circle one)</small><br>Plate: <span class="l"></span> &nbsp;Cooked: <span class="l" style="min-width:14mm"></span><br>Sauce cup: <span class="caja-in"></span> yes &nbsp;· Reheat to 165 °F</div><div class="etq"><b>EAT BY:</b> &nbsp;MON &nbsp;TUE &nbsp;WED &nbsp;THU <small>(circle one)</small><br>Plate: <span class="l"></span> &nbsp;Cooked: <span class="l" style="min-width:14mm"></span><br>Sauce cup: <span class="caja-in"></span> yes &nbsp;· Reheat to 165 °F</div><div class="etq"><b>EAT BY:</b> &nbsp;MON &nbsp;TUE &nbsp;WED &nbsp;THU <small>(circle one)</small><br>Plate: <span class="l"></span> &nbsp;Cooked: <span class="l" style="min-width:14mm"></span><br>Sauce cup: <span class="caja-in"></span> yes &nbsp;· Reheat to 165 °F</div><div class="etq"><b>EAT BY:</b> &nbsp;MON &nbsp;TUE &nbsp;WED &nbsp;THU <small>(circle one)</small><br>Plate: <span class="l"></span> &nbsp;Cooked: <span class="l" style="min-width:14mm"></span><br>Sauce cup: <span class="caja-in"></span> yes &nbsp;· Reheat to 165 °F</div><div class="etq"><b>EAT BY:</b> &nbsp;MON &nbsp;TUE &nbsp;WED &nbsp;THU <small>(circle one)</small><br>Plate: <span class="l"></span> &nbsp;Cooked: <span class="l" style="min-width:14mm"></span><br>Sauce cup: <span class="caja-in"></span> yes &nbsp;· Reheat to 165 °F</div><div class="etq"><b>EAT BY:</b> &nbsp;MON &nbsp;TUE &nbsp;WED &nbsp;THU <small>(circle one)</small><br>Plate: <span class="l"></span> &nbsp;Cooked: <span class="l" style="min-width:14mm"></span><br>Sauce cup: <span class="caja-in"></span> yes &nbsp;· Reheat to 165 °F</div></div></section><section class="hoja" id="etiquetas-congelador"><h1><svg class="ico"><use href="#ico-frio"/></svg>Box labels · Freezer</h1><p class="consigna">Friday boxes and reserve portions (Week 3 meatballs, freezer meals).</p><div class="etiquetas"><div class="etq"><b>❄ FRIDAY BOX</b><br>Plate: <span class="l"></span> &nbsp;Frozen: <span class="l" style="min-width:14mm"></span><br>Move to fridge: <b>THURSDAY MORNING</b><br>Best within: <span class="l" style="min-width:10mm"></span> months</div><div class="etq"><b>❄ FRIDAY BOX</b><br>Plate: <span class="l"></span> &nbsp;Frozen: <span class="l" style="min-width:14mm"></span><br>Move to fridge: <b>THURSDAY MORNING</b><br>Best within: <span class="l" style="min-width:10mm"></span> months</div><div class="etq"><b>❄ FRIDAY BOX</b><br>Plate: <span class="l"></span> &nbsp;Frozen: <span class="l" style="min-width:14mm"></span><br>Move to fridge: <b>THURSDAY MORNING</b><br>Best within: <span class="l" style="min-width:10mm"></span> months</div><div class="etq"><b>❄ FRIDAY BOX</b><br>Plate: <span class="l"></span> &nbsp;Frozen: <span class="l" style="min-width:14mm"></span><br>Move to fridge: <b>THURSDAY MORNING</b><br>Best within: <span class="l" style="min-width:10mm"></span> months</div><div class="etq"><b>❄ FRIDAY BOX</b><br>Plate: <span class="l"></span> &nbsp;Frozen: <span class="l" style="min-width:14mm"></span><br>Move to fridge: <b>THURSDAY MORNING</b><br>Best within: <span class="l" style="min-width:10mm"></span> months</div><div class="etq"><b>❄ FRIDAY BOX</b><br>Plate: <span class="l"></span> &nbsp;Frozen: <span class="l" style="min-width:14mm"></span><br>Move to fridge: <b>THURSDAY MORNING</b><br>Best within: <span class="l" style="min-width:10mm"></span> months</div><div class="etq"><b>❄ RESERVE</b><br>Recipe: <span class="l" style="min-width:40mm"></span><br>Frozen: <span class="l" style="min-width:14mm"></span> &nbsp;Portions: <span class="l" style="min-width:10mm"></span><br><small>Thaw in the fridge overnight · reheat to 165 °F / 74 °C</small></div><div class="etq"><b>❄ RESERVE</b><br>Recipe: <span class="l" style="min-width:40mm"></span><br>Frozen: <span class="l" style="min-width:14mm"></span> &nbsp;Portions: <span class="l" style="min-width:10mm"></span><br><small>Thaw in the fridge overnight · reheat to 165 °F / 74 °C</small></div><div class="etq"><b>❄ RESERVE</b><br>Recipe: <span class="l" style="min-width:40mm"></span><br>Frozen: <span class="l" style="min-width:14mm"></span> &nbsp;Portions: <span class="l" style="min-width:10mm"></span><br><small>Thaw in the fridge overnight · reheat to 165 °F / 74 °C</small></div><div class="etq"><b>❄ RESERVE</b><br>Recipe: <span class="l" style="min-width:40mm"></span><br>Frozen: <span class="l" style="min-width:14mm"></span> &nbsp;Portions: <span class="l" style="min-width:10mm"></span><br><small>Thaw in the fridge overnight · reheat to 165 °F / 74 °C</small></div></div></section><section class="hoja tarjeta-pag"><div class="tarjeta" id="tarjeta-nevera"><div class="tarjeta-top"><svg class="ico"><use href="#ico-nevera"/></svg>Fridge card 1</div><p class="tarjeta-titulo">The day-5 rule</p><p class="rotulo">Cooked food keeps 3-4 days in the fridge (USDA FSIS).</p>
+<table class="t corta">
+<thead>
+<tr>
+<th>Sun</th>
+<th>Mon</th>
+<th>Tue</th>
+<th>Wed</th>
+<th>Thu</th>
+<th>Fri</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>cook · day 0</td>
+<td>day 1</td>
+<td>day 2</td>
+<td>day 3</td>
+<td>day 4</td>
+<td><strong>day 5 → freezer on Sunday</strong></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>❄ Friday's boxes go in the freezer on <strong>Sunday</strong>.</li>
+<li><strong>Thursday morning:</strong> move them to the fridge.</li>
+<li>Salmon: Monday and Tuesday only.</li>
+<li>3-day parts: salmon, zucchini, cucumber-tomato salad. Eat them by Wednesday.</li>
+<li>Fridge 40 °F / 4 °C or colder. Freezer 0 °F / -18 °C.</li>
+<li>When in doubt, throw it out.</li>
+</ul><div class="tarjeta-pie">THE SUNDAY SHEET</div></div><div class="tarjeta" id="tarjeta-recalentar"><div class="tarjeta-top"><svg class="ico"><use href="#ico-nevera"/></svg>Fridge card 2</div><p class="tarjeta-titulo">Reheating by part</p><table class="t corta">
+<thead>
+<tr>
+<th>Part</th>
+<th>How</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Chicken, turkey, beef, pork, meatballs</td>
+<td>Covered, 1 Tbsp water or juices, until 165 °F / 74 °C. Chicken breast at 70% power.</td>
+</tr>
+<tr>
+<td>Salmon</td>
+<td>Cold, or 50% power 60-90 sec. Don't boil it.</td>
+</tr>
+<tr>
+<td>Tofu, potatoes, chickpeas</td>
+<td>Oven or air fryer 400 °F / 205 °C, 5-10 min. Microwave makes them soft.</td>
+</tr>
+<tr>
+<td>Rice, quinoa, pasta</td>
+<td>1 Tbsp water on top, covered, 60-90 sec.</td>
+</tr>
+<tr>
+<td>Roasted vegetables</td>
+<td>Cold, or microwave 45-60 sec. Hot pan for better texture.</td>
+</tr>
+<tr>
+<td>Slaw, cucumber-tomato salad</td>
+<td>Never heated. Dress on the day.</td>
+</tr>
+<tr>
+<td>Yogurt sauces (chipotle, tzatziki, honey-mustard)</td>
+<td>Never heated. Cold, on top.</td>
+</tr>
+<tr>
+<td>Other sauces</td>
+<td>Warm 20-30 sec, or cool. Stir; thin with 1 tsp water if set.</td>
+</tr>
+<tr>
+<td>Frozen box</td>
+<td>Thawed in the fridge overnight. Forgot? Defrost setting, then reheat and eat right away.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Always:</strong> cover loosely, stir halfway, check the thickest piece: 165 °F / 74 °C.</p><div class="tarjeta-pie">THE SUNDAY SHEET</div></div></section><section class="hoja tarjeta-pag"><div class="tarjeta" id="tarjeta-salsas"><div class="tarjeta-top"><svg class="ico"><use href="#ico-nevera"/></svg>Fridge card 3</div><p class="tarjeta-titulo">The 12 sauces at a glance</p><table class="t corta">
+<thead>
+<tr>
+<th></th>
+<th>Sauce</th>
+<th>Heat?</th>
+<th>Freezes?</th>
+<th>Allergens</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>MEX</td>
+<td>S1 Chipotle-Lime Yogurt</td>
+<td>cold</td>
+<td>no</td>
+<td>milk</td>
+</tr>
+<tr>
+<td>MEX</td>
+<td>S2 Tomatillo Salsa Verde</td>
+<td>cold or warm</td>
+<td>3 mo</td>
+<td>—</td>
+</tr>
+<tr>
+<td>MEX</td>
+<td>S3 Quick Red Enchilada</td>
+<td>warm</td>
+<td>3 mo</td>
+<td>wheat</td>
+</tr>
+<tr>
+<td>ASI</td>
+<td>S4 Lighter Teriyaki</td>
+<td>warm</td>
+<td>3 mo</td>
+<td>soy, wheat, sesame</td>
+</tr>
+<tr>
+<td>ASI</td>
+<td>S5 Peanut-Ginger</td>
+<td>cool</td>
+<td>2 mo</td>
+<td>peanuts, soy, wheat, sesame</td>
+</tr>
+<tr>
+<td>ASI</td>
+<td>S6 Gochujang-Honey</td>
+<td>cool or warm</td>
+<td>3 mo</td>
+<td>soy, wheat, sesame</td>
+</tr>
+<tr>
+<td>MED</td>
+<td>S7 Tzatziki</td>
+<td>cold</td>
+<td>no</td>
+<td>milk</td>
+</tr>
+<tr>
+<td>MED</td>
+<td>S8 Lemon-Tahini</td>
+<td>cool</td>
+<td>2 mo</td>
+<td>sesame</td>
+</tr>
+<tr>
+<td>MED</td>
+<td>S9 Chimichurri</td>
+<td>room temp</td>
+<td>3 mo</td>
+<td>—</td>
+</tr>
+<tr>
+<td>COM</td>
+<td>S10 Smoky BBQ</td>
+<td>warm</td>
+<td>3 mo</td>
+<td>fish (Worcestershire)</td>
+</tr>
+<tr>
+<td>COM</td>
+<td>S11 Honey-Mustard Yogurt</td>
+<td>cold</td>
+<td>no</td>
+<td>milk</td>
+</tr>
+<tr>
+<td>COM</td>
+<td>S12 Creamy Tomato-Garlic</td>
+<td>warm</td>
+<td>2 mo</td>
+<td>milk</td>
+</tr>
+</tbody>
+</table>
+<p>All sauces: 4 days in the fridge, in their own cup, added after reheating.</p>
+<p class="fuentes"><em>Sources: USDA FSIS (storage, safe temperatures, thawing). USDA FoodData Central SR Legacy (nutrition). FDA, 9 major food allergens.</em></p><div class="tarjeta-pie">THE SUNDAY SHEET</div></div></section><section class="hoja" id="hoja-blanca-2"><h1><svg class="ico"><use href="#ico-reloj"/></svg>Sunday Sheet · Blank</h1><p><strong>Week:</strong> ______ <strong>Cooking for:</strong> <span class="caja-in"></span> ×1 <span class="caja-in"></span> ×2 <strong>Date:</strong> ______</p>
+<p class="rotulo">Parts this week</p>
+<table class="t corta">
+<thead>
+<tr>
+<th>Proteins</th>
+<th>Bases</th>
+<th>Vegetables</th>
+<th>Sauces</th>
+<th>Breakfast</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.</td>
+<td>1.</td>
+<td>1.</td>
+<td>1.</td>
+<td></td>
+</tr>
+<tr>
+<td>2.</td>
+<td>2.</td>
+<td>2.</td>
+<td>2.</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>3.</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Oven order (hottest first):</strong> ______ °F → ______ °F → ______ °F</p>
+<p class="antes"><strong>Before 0:00:</strong> <span class="caja-in"></span> pans lined <span class="caja-in"></span> containers out <span class="caja-in"></span> scale + thermometer <span class="caja-in"></span> kettle <span class="caja-in"></span> fridge space</p>
+<table class="t escribir hoja vacia corta">
+<thead>
+<tr>
+<th>Clock</th>
+<th>Station</th>
+<th>Do this</th>
+<th>Done when</th>
+<th>Recipe</th>
+<th>✓</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0:00</td>
+<td><span class="est est-oven">OVEN</span></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="est est-assembly">ASSEMBLY</span></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Station key: OVEN · STOVE · COLD · PREP · ASSEMBLY · ⏱ = while the oven runs</p>
+<p class="rotulo">Assembly</p>
+<table class="t escribir corta">
+<thead>
+<tr>
+<th>Part</th>
+<th>Batch weight (g)</th>
+<th>÷ boxes</th>
+<th>= per box (g)</th>
+<th>Goes into</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Friday ❄:</strong> __________ <strong>Thursday morning reminder set:</strong> <span class="caja-in"></span></p>
+<p><strong>Safe temperatures:</strong> poultry (also ground) 165 °F / 74 °C · ground beef 160 °F / 71 °C · pork 145 °F / 63 °C + 3 min rest · fish 145 °F / 63 °C · egg dishes 160 °F / 71 °C (USDA FSIS)</p>
+<p><strong>Real time:</strong> start ______ finish ______ = ______ min · Slowest step: ______________</p>
+<hr class="sep"></section><section class="hoja" id="hoja-blanca-3"><h1><svg class="ico"><use href="#ico-reloj"/></svg>Sunday Sheet · Blank</h1><p><strong>Week:</strong> ______ <strong>Cooking for:</strong> <span class="caja-in"></span> ×1 <span class="caja-in"></span> ×2 <strong>Date:</strong> ______</p>
+<p class="rotulo">Parts this week</p>
+<table class="t corta">
+<thead>
+<tr>
+<th>Proteins</th>
+<th>Bases</th>
+<th>Vegetables</th>
+<th>Sauces</th>
+<th>Breakfast</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.</td>
+<td>1.</td>
+<td>1.</td>
+<td>1.</td>
+<td></td>
+</tr>
+<tr>
+<td>2.</td>
+<td>2.</td>
+<td>2.</td>
+<td>2.</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>3.</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Oven order (hottest first):</strong> ______ °F → ______ °F → ______ °F</p>
+<p class="antes"><strong>Before 0:00:</strong> <span class="caja-in"></span> pans lined <span class="caja-in"></span> containers out <span class="caja-in"></span> scale + thermometer <span class="caja-in"></span> kettle <span class="caja-in"></span> fridge space</p>
+<table class="t escribir hoja vacia corta">
+<thead>
+<tr>
+<th>Clock</th>
+<th>Station</th>
+<th>Do this</th>
+<th>Done when</th>
+<th>Recipe</th>
+<th>✓</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0:00</td>
+<td><span class="est est-oven">OVEN</span></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="est est-assembly">ASSEMBLY</span></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Station key: OVEN · STOVE · COLD · PREP · ASSEMBLY · ⏱ = while the oven runs</p>
+<p class="rotulo">Assembly</p>
+<table class="t escribir corta">
+<thead>
+<tr>
+<th>Part</th>
+<th>Batch weight (g)</th>
+<th>÷ boxes</th>
+<th>= per box (g)</th>
+<th>Goes into</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Friday ❄:</strong> __________ <strong>Thursday morning reminder set:</strong> <span class="caja-in"></span></p>
+<p><strong>Safe temperatures:</strong> poultry (also ground) 165 °F / 74 °C · ground beef 160 °F / 71 °C · pork 145 °F / 63 °C + 3 min rest · fish 145 °F / 63 °C · egg dishes 160 °F / 71 °C (USDA FSIS)</p>
+<p><strong>Real time:</strong> start ______ finish ______ = ______ min · Slowest step: ______________</p>
+<hr class="sep"></section><section class="hoja" id="hoja-blanca-4"><h1><svg class="ico"><use href="#ico-reloj"/></svg>Sunday Sheet · Blank</h1><p><strong>Week:</strong> ______ <strong>Cooking for:</strong> <span class="caja-in"></span> ×1 <span class="caja-in"></span> ×2 <strong>Date:</strong> ______</p>
+<p class="rotulo">Parts this week</p>
+<table class="t corta">
+<thead>
+<tr>
+<th>Proteins</th>
+<th>Bases</th>
+<th>Vegetables</th>
+<th>Sauces</th>
+<th>Breakfast</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.</td>
+<td>1.</td>
+<td>1.</td>
+<td>1.</td>
+<td></td>
+</tr>
+<tr>
+<td>2.</td>
+<td>2.</td>
+<td>2.</td>
+<td>2.</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>3.</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Oven order (hottest first):</strong> ______ °F → ______ °F → ______ °F</p>
+<p class="antes"><strong>Before 0:00:</strong> <span class="caja-in"></span> pans lined <span class="caja-in"></span> containers out <span class="caja-in"></span> scale + thermometer <span class="caja-in"></span> kettle <span class="caja-in"></span> fridge space</p>
+<table class="t escribir hoja vacia corta">
+<thead>
+<tr>
+<th>Clock</th>
+<th>Station</th>
+<th>Do this</th>
+<th>Done when</th>
+<th>Recipe</th>
+<th>✓</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0:00</td>
+<td><span class="est est-oven">OVEN</span></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="est est-assembly">ASSEMBLY</span></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Station key: OVEN · STOVE · COLD · PREP · ASSEMBLY · ⏱ = while the oven runs</p>
+<p class="rotulo">Assembly</p>
+<table class="t escribir corta">
+<thead>
+<tr>
+<th>Part</th>
+<th>Batch weight (g)</th>
+<th>÷ boxes</th>
+<th>= per box (g)</th>
+<th>Goes into</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Friday ❄:</strong> __________ <strong>Thursday morning reminder set:</strong> <span class="caja-in"></span></p>
+<p><strong>Safe temperatures:</strong> poultry (also ground) 165 °F / 74 °C · ground beef 160 °F / 71 °C · pork 145 °F / 63 °C + 3 min rest · fish 145 °F / 63 °C · egg dishes 160 °F / 71 °C (USDA FSIS)</p>
+<p><strong>Real time:</strong> start ______ finish ______ = ______ min · Slowest step: ______________</p>
+<hr class="sep"></section><section class="hoja" id="hoja-blanca-5"><h1><svg class="ico"><use href="#ico-reloj"/></svg>Sunday Sheet · Blank</h1><p><strong>Week:</strong> ______ <strong>Cooking for:</strong> <span class="caja-in"></span> ×1 <span class="caja-in"></span> ×2 <strong>Date:</strong> ______</p>
+<p class="rotulo">Parts this week</p>
+<table class="t corta">
+<thead>
+<tr>
+<th>Proteins</th>
+<th>Bases</th>
+<th>Vegetables</th>
+<th>Sauces</th>
+<th>Breakfast</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.</td>
+<td>1.</td>
+<td>1.</td>
+<td>1.</td>
+<td></td>
+</tr>
+<tr>
+<td>2.</td>
+<td>2.</td>
+<td>2.</td>
+<td>2.</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>3.</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Oven order (hottest first):</strong> ______ °F → ______ °F → ______ °F</p>
+<p class="antes"><strong>Before 0:00:</strong> <span class="caja-in"></span> pans lined <span class="caja-in"></span> containers out <span class="caja-in"></span> scale + thermometer <span class="caja-in"></span> kettle <span class="caja-in"></span> fridge space</p>
+<table class="t escribir hoja vacia corta">
+<thead>
+<tr>
+<th>Clock</th>
+<th>Station</th>
+<th>Do this</th>
+<th>Done when</th>
+<th>Recipe</th>
+<th>✓</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0:00</td>
+<td><span class="est est-oven">OVEN</span></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="est est-assembly">ASSEMBLY</span></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Station key: OVEN · STOVE · COLD · PREP · ASSEMBLY · ⏱ = while the oven runs</p>
+<p class="rotulo">Assembly</p>
+<table class="t escribir corta">
+<thead>
+<tr>
+<th>Part</th>
+<th>Batch weight (g)</th>
+<th>÷ boxes</th>
+<th>= per box (g)</th>
+<th>Goes into</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Friday ❄:</strong> __________ <strong>Thursday morning reminder set:</strong> <span class="caja-in"></span></p>
+<p><strong>Safe temperatures:</strong> poultry (also ground) 165 °F / 74 °C · ground beef 160 °F / 71 °C · pork 145 °F / 63 °C + 3 min rest · fish 145 °F / 63 °C · egg dishes 160 °F / 71 °C (USDA FSIS)</p>
+<p><strong>Real time:</strong> start ______ finish ______ = ______ min · Slowest step: ______________</p>
+<hr class="sep"></section><section class="hoja" id="compra-blanca-2"><h1><svg class="ico"><use href="#ico-carro"/></svg>Shopping list · Blank</h1><p><strong>Week:</strong> ______ <span class="caja-in"></span> ×1 <span class="caja-in"></span> ×2</p>
+<p><strong>Already have (left over from last week):</strong> ________________________________</p>
+<table class="t escribir">
+<thead>
+<tr>
+<th>Aisle</th>
+<th><span class="caja-in"></span></th>
+<th>Item</th>
+<th>Amount</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Meat &amp; fish</td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Produce</td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Dairy &amp; eggs</td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Bakery</td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Pantry &amp; canned</td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Condiments &amp; oils</td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Spice check</td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<hr class="sep"></section><section class="hoja" id="compra-blanca-3"><h1><svg class="ico"><use href="#ico-carro"/></svg>Shopping list · Blank</h1><p><strong>Week:</strong> ______ <span class="caja-in"></span> ×1 <span class="caja-in"></span> ×2</p>
+<p><strong>Already have (left over from last week):</strong> ________________________________</p>
+<table class="t escribir">
+<thead>
+<tr>
+<th>Aisle</th>
+<th><span class="caja-in"></span></th>
+<th>Item</th>
+<th>Amount</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Meat &amp; fish</td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Produce</td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Dairy &amp; eggs</td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Bakery</td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Pantry &amp; canned</td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Condiments &amp; oils</td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Spice check</td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<hr class="sep"></section><section class="hoja" id="compra-blanca-4"><h1><svg class="ico"><use href="#ico-carro"/></svg>Shopping list · Blank</h1><p><strong>Week:</strong> ______ <span class="caja-in"></span> ×1 <span class="caja-in"></span> ×2</p>
+<p><strong>Already have (left over from last week):</strong> ________________________________</p>
+<table class="t escribir">
+<thead>
+<tr>
+<th>Aisle</th>
+<th><span class="caja-in"></span></th>
+<th>Item</th>
+<th>Amount</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Meat &amp; fish</td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Produce</td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Dairy &amp; eggs</td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Bakery</td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Pantry &amp; canned</td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Condiments &amp; oils</td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Spice check</td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<hr class="sep"></section><section class="hoja" id="compra-blanca-5"><h1><svg class="ico"><use href="#ico-carro"/></svg>Shopping list · Blank</h1><p><strong>Week:</strong> ______ <span class="caja-in"></span> ×1 <span class="caja-in"></span> ×2</p>
+<p><strong>Already have (left over from last week):</strong> ________________________________</p>
+<table class="t escribir">
+<thead>
+<tr>
+<th>Aisle</th>
+<th><span class="caja-in"></span></th>
+<th>Item</th>
+<th>Amount</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Meat &amp; fish</td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Produce</td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Dairy &amp; eggs</td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Bakery</td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Pantry &amp; canned</td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Condiments &amp; oils</td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Spice check</td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><span class="caja-in"></span></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<hr class="sep"></section>
+<script src="../../../../.claude/skills/maquetar-pdf/lineas.js"></script>
+</body></html>
