@@ -1,6 +1,7 @@
 ### SN3 · Perfect Hard-Boiled Eggs
 **Makes:** 5 portions (2 large eggs (about 100 g peeled)) · **Active:** 5 min · **Total:** 25 min
 **Per portion:** 160 kcal · 13 g protein · 1 g carbs · 11 g fat (USDA FoodData Central) · **Allergens:** egg
+**Cost/portion:** about $0.40 (US average retail prices, USDA ERS (meat, eggs, dairy: Sep 2026; fruit and vegetables: 2023 data); your store will differ.)
 **Fridge:** 7 days · **Freezer:** not recommended (see Reheat) · **Reheat:** Eat cold. Do not microwave in the shell (they can burst). Do not freeze: the whites turn rubbery.
 **Goes with:** D1 Spinach-Feta Egg Bites (same protein, different style), V5 Sesame Cabbage-Carrot Slaw; stands alone as a snack
 

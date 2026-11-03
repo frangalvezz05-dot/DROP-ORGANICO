@@ -1,6 +1,7 @@
 ### FM3 · Beef & Lentil Ragù
 **Makes:** 6 portions (~490 g each) · **Active:** 25 min · **Total:** 65 min
 **Per portion:** 560 kcal · 37 g protein · 72 g carbs · 15 g fat (USDA FoodData Central) · **Allergens:** wheat, milk
+**Cost/portion:** about $3.05 (US average retail prices, USDA ERS (meat, eggs, dairy: Sep 2026; fruit and vegetables: 2023 data); your store will differ.)
 **Fridge:** 4 days · **Freezer:** 3 months · **Reheat:** Thaw overnight in the fridge (never on the counter). Reheat in a pot over medium 6-8 min (or microwave covered 3-4 min), stirring, until 165 °F / 74 °C in the center. Meanwhile boil 1.75 oz / 50 g dry pasta per portion for the time on the package minus 1 minute, and toss it with the hot ragù. Nutrition below includes this pasta and the Parmesan.
 **Goes with:** B5 Reheat-Ready Pasta (use instead of fresh pasta if you prefer), V1 Charred Roasted Broccoli, V3 Roasted Zucchini & Red Onion
 

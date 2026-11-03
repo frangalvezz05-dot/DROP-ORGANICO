@@ -1,6 +1,7 @@
 ### FM6 · Chicken Tortilla Soup
 **Makes:** 6 portions (~655 g each) · **Active:** 20 min · **Total:** 50 min
 **Per portion:** 560 kcal · 58 g protein · 43 g carbs · 19 g fat (USDA FoodData Central) · **Allergens:** milk
+**Cost/portion:** about $3.60 (US average retail prices, USDA ERS (meat, eggs, dairy: Sep 2026; fruit and vegetables: 2023 data); your store will differ.)
 **Fridge:** 3 days · **Freezer:** 3 months · **Reheat:** Thaw overnight in the fridge (never on the counter). Reheat in a pot over medium 6-8 min or microwave covered 3-4 min, until 165 °F / 74 °C in the center. Add toppings after heating.
 **Goes with:** B1 Hands-Off Oven Rice (a scoop in the bowl), S1 Chipotle-Lime Yogurt, V6 Chopped Cucumber-Tomato Salad
 

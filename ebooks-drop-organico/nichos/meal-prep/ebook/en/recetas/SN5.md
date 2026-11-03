@@ -1,6 +1,7 @@
 ### SN5 · Crunchy Roasted Chickpeas
 **Makes:** 5 portions (about 100 g roasted (3/4 cup)) · **Active:** 10 min · **Total:** 50 min · **Oven:** 425 °F / 220 °C
 **Per portion:** 230 kcal · 10 g protein · 34 g carbs · 7 g fat (USDA FoodData Central) · **Allergens:** none
+**Cost/portion:** about $0.50 (US average retail prices, USDA ERS (meat, eggs, dairy: Sep 2026; fruit and vegetables: 2023 data); your store will differ.)
 **Fridge:** 5 days · **Freezer:** 3 months · **Reheat:** Re-crisp in a 400 °F / 200 °C oven or air fryer for 5 minutes. Counter: 2 days in a loosely closed jar. Fridge: 5 days, but they soften. Freezer: 3 months in a bag; re-crisp from frozen.
 **Goes with:** P10 Smoky Spiced Chickpeas (a bigger, saucier version), V6 Chopped Cucumber-Tomato Salad (as a crunchy topper); stands alone as a snack
 

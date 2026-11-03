@@ -1,6 +1,7 @@
 ### FM8 · Turkey Meatball & Orzo Bake
 **Makes:** 6 portions (~380 g each) · **Active:** 30 min · **Total:** 65 min · **Oven:** 400 °F / 205 °C
 **Per portion:** 530 kcal · 39 g protein · 53 g carbs · 19 g fat (USDA FoodData Central) · **Allergens:** egg, wheat, milk
+**Cost/portion:** about $2.90 (US average retail prices, USDA ERS (meat, eggs, dairy: Sep 2026; fruit and vegetables: 2023 data); your store will differ.)
 **Fridge:** 3 days · **Freezer:** 2 months · **Reheat:** Thaw overnight in the fridge (never on the counter). Microwave covered 3-4 min with 1 tbsp water on top, or bake covered at 350 °F / 175 °C for 15-20 min, until 165 °F / 74 °C in the center.
 **Goes with:** V3 Roasted Zucchini & Red Onion, V4 Garlic Green Beans, S9 Chimichurri
 

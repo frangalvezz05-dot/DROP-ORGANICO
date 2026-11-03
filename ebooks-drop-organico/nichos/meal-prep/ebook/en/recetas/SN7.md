@@ -1,6 +1,7 @@
 ### SN7 · Cottage Cheese Ranch Dip
 **Makes:** 5 portions (1/2 cup dip (120 g) + about 150 g raw veg) · **Active:** 10 min · **Total:** 10 min
 **Per portion:** 130 kcal · 13 g protein · 14 g carbs · 2 g fat (USDA FoodData Central) · **Allergens:** milk
+**Cost/portion:** about $1.40 (US average retail prices, USDA ERS (meat, eggs, dairy: Sep 2026; fruit and vegetables: 2023 data); your store will differ.)
 **Fridge:** 5 days · **Freezer:** not recommended (see Reheat) · **Reheat:** Eat cold. Do not freeze: it splits and turns grainy.
 **Goes with:** V5 Sesame Cabbage-Carrot Slaw, B6 Wraps & Tortillas (as a spread), P3 Never-Dry Baked Chicken Breast (as a dip for sliced chicken); stands alone as a snack
 

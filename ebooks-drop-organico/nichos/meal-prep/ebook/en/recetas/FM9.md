@@ -1,6 +1,7 @@
 ### FM9 · Black Bean & Sweet Potato Burritos
 **Makes:** 6 burritos (1 per portion, ~350 g each) · **Active:** 30 min · **Total:** 55 min · **Oven:** 425 °F / 220 °C
 **Per portion:** 530 kcal · 24 g protein · 70 g carbs · 18 g fat (USDA FoodData Central) · **Allergens:** wheat, soy, milk
+**Cost/portion:** about $1.85 (US average retail prices, USDA ERS (meat, eggs, dairy: Sep 2026; fruit and vegetables: 2023 data); your store will differ.)
 **Fridge:** 3 days · **Freezer:** 2 months · **Reheat:** Thaw overnight in the fridge (never on the counter). Microwave unwrapped, wrapped in a damp paper towel, 1.5-2 min, flipping once; or bake at 375 °F / 190 °C for 20 min. The center must reach 165 °F / 74 °C. Finish in a dry skillet 1 min per side for a crisp outside.
 **Goes with:** S1 Chipotle-Lime Yogurt, S2 Tomatillo Salsa Verde, V6 Chopped Cucumber-Tomato Salad
 

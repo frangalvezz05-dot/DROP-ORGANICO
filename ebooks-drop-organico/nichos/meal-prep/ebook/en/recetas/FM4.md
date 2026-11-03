@@ -1,6 +1,7 @@
 ### FM4 · Chicken Enchilada Bake
 **Makes:** 6 portions (~390 g each) · **Active:** 30 min · **Total:** 70 min · **Oven:** 375 °F / 190 °C
 **Per portion:** 550 kcal · 50 g protein · 45 g carbs · 19 g fat (USDA FoodData Central) · **Allergens:** milk
+**Cost/portion:** about $3.20 (US average retail prices, USDA ERS (meat, eggs, dairy: Sep 2026; fruit and vegetables: 2023 data); your store will differ.)
 **Fridge:** 3 days · **Freezer:** 2 months · **Reheat:** Thaw overnight in the fridge (never on the counter). Microwave 2-3 min on a plate, covered, until steaming; or bake at 350 °F / 175 °C for 15-20 min covered with foil. Center must reach 165 °F / 74 °C.
 **Goes with:** V2 Sheet-Pan Fajita Peppers & Onions, B1 Hands-Off Oven Rice, S1 Chipotle-Lime Yogurt
 

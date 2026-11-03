@@ -1,6 +1,7 @@
 ### SN2 · Hummus & Veg Boxes
 **Makes:** 5 portions (60 g hummus + 30 g cheese + 190 g raw veg) · **Active:** 15 min · **Total:** 15 min
 **Per portion:** 270 kcal · 14 g protein · 22 g carbs · 16 g fat (USDA FoodData Central) · **Allergens:** sesame, milk
+**Cost/portion:** about $1.65 (US average retail prices, USDA ERS (meat, eggs, dairy: Sep 2026; fruit and vegetables: 2023 data); your store will differ.)
 **Fridge:** 4 days · **Freezer:** not recommended (see Reheat) · **Reheat:** Eat cold. Not freezer-friendly (the vegetables turn limp).
 **Goes with:** B6 Wraps & Tortillas, S8 Lemon-Tahini (use instead of hummus); stands alone as a snack
 

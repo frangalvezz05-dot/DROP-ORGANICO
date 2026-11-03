@@ -1,6 +1,7 @@
 ### FM7 · Teriyaki Chicken Fried Rice
 **Makes:** 6 portions (~310 g each) · **Active:** 30 min · **Total:** 45 min
 **Per portion:** 500 kcal · 38 g protein · 54 g carbs · 14 g fat (USDA FoodData Central) · **Allergens:** egg, soy, wheat, sesame
+**Cost/portion:** about $1.80 (US average retail prices, USDA ERS (meat, eggs, dairy: Sep 2026; fruit and vegetables: 2023 data); your store will differ.)
 **Fridge:** 3 days · **Freezer:** 2 months · **Reheat:** Thaw overnight in the fridge (never on the counter). Microwave covered with 1 tbsp water 2-3 min, stirring halfway, until steaming and 165 °F / 74 °C in the center; or reheat in a skillet over medium-high 4-5 min.
 **Goes with:** V1 Charred Roasted Broccoli, V5 Sesame Cabbage-Carrot Slaw, S6 Gochujang-Honey
 

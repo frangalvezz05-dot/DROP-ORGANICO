@@ -1,6 +1,7 @@
 ### SN4 · Peanut Butter Oat Bites
 **Makes:** 5 portions (3 bites (about 70 g)) · **Active:** 15 min · **Total:** 45 min
 **Per portion:** 330 kcal · 11 g protein · 38 g carbs · 17 g fat (USDA FoodData Central) · **Allergens:** peanuts
+**Cost/portion:** about $0.60 (US average retail prices, USDA ERS (meat, eggs, dairy: Sep 2026; fruit and vegetables: 2023 data); your store will differ.)
 **Fridge:** 7 days · **Freezer:** 3 months · **Reheat:** Eat cold or at room temperature. To freeze, set the bites on a tray for 1 hour, then bag them. Thaw 15 minutes on the counter or overnight in the fridge. (No raw egg or meat, so counter thawing is safe here.)
 **Goes with:** D4 Peanut Butter-Banana Overnight Oats; stands alone as a snack
 

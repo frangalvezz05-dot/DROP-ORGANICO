@@ -1,6 +1,7 @@
 ### FM2 · Chicken Tikka-Style Curry
 **Makes:** 6 portions (~525 g each) · **Active:** 25 min · **Total:** 55 min
 **Per portion:** 550 kcal · 46 g protein · 49 g carbs · 20 g fat (USDA FoodData Central) · **Allergens:** milk (coconut milk too)
+**Cost/portion:** about $2.85 (US average retail prices, USDA ERS (meat, eggs, dairy: Sep 2026; fruit and vegetables: 2023 data); your store will differ.)
 **Fridge:** 3 days · **Freezer:** 3 months · **Reheat:** Thaw overnight in the fridge (never on the counter). Microwave covered 3-4 min, stirring halfway, adding 1 tbsp water to the rice; or reheat the curry in a pan over medium 6-8 min. It must reach 165 °F / 74 °C in the center.
 **Goes with:** B1 Hands-Off Oven Rice (the rice is already packed in), V5 Sesame Cabbage-Carrot Slaw, S7 Tzatziki
 

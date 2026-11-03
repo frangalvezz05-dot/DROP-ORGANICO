@@ -1,6 +1,7 @@
 ### SN1 · Greek Yogurt Protein Cups (3 flavors)
 **Makes:** 5 portions (200 g yogurt + toppings; nutrition is the average of the 5 cups) · **Active:** 10 min · **Total:** 10 min
 **Per portion:** 280 kcal · 25 g protein · 26 g carbs · 10 g fat (USDA FoodData Central) · **Allergens:** milk, peanuts, tree nuts
+**Cost/portion:** about $2.30 (US average retail prices, USDA ERS (meat, eggs, dairy: Sep 2026; fruit and vegetables: 2023 data); your store will differ.)
 **Fridge:** 4 days · **Freezer:** not recommended (see Reheat) · **Reheat:** Eat cold. Do not freeze. Keep at 40 °F / 4 °C or colder; do not leave out more than 2 hours.
 **Goes with:** D3 Greek Yogurt Overnight Oats (same yogurt tub), D4 Peanut Butter-Banana Overnight Oats; stands alone as a snack
 

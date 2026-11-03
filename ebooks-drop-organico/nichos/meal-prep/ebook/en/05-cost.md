@@ -15,9 +15,18 @@ Food prices move every week. They differ by store, by city and by brand. Any pri
 
 So every cost in this book comes with a **store type, a region and a date**. Treat it as a reference point, not a quote. Your receipt is the real number. The method below lets you work out your own in a few minutes.
 
-[COST_TABLE]
+The table below uses the recipes of each weekly sheet. "One batch" is the full shopping for that week as written in the recipes; "double batch" is the same plan cooked twice. A plate is one protein + one base + one vegetable + one sauce, one portion each.
 
-<!-- [COST_TABLE] = marcador. Aquí va la tabla de coste por ración y por semana (fuente de precios, tienda/región, fecha). Se rellena después con el script de costes. No inventar cifras. -->
+| Week | Plates (avg. per plate) | One batch | Double batch (x2) |
+|---|---|---|---|
+| 1 | $3.65 | $43.70 | $87.45 |
+| 2 | $3.65 | $47.15 | $94.30 |
+| 3 | $4.85 | $71.35 | $142.70 |
+| 4 | $3.25 | $39.65 | $79.25 |
+
+Across all 48 signature plates the average is about **$3.75 per plate** (cheapest $1.80, priciest $6.65).
+
+*US average retail prices, USDA ERS (meat, eggs, dairy: Sep 2026; fruit and vegetables: 2023 data); your store will differ. Pantry items, spices and sauces without a USDA figure are our own reference estimates (about 36% of the total comes from USDA data). Rounded to the nearest 5 cents; no yield loss from trimming is applied.*
 
 ## The method: cost per portion
 

@@ -1,6 +1,7 @@
 ### SN6 · Turkey & Cheese Roll-Ups
 **Makes:** 5 portions (3 roll-ups (about 135 g)) · **Active:** 15 min · **Total:** 15 min
 **Per portion:** 210 kcal · 22 g protein · 4 g carbs · 11 g fat (USDA FoodData Central) · **Allergens:** milk
+**Cost/portion:** about $1.90 (US average retail prices, USDA ERS (meat, eggs, dairy: Sep 2026; fruit and vegetables: 2023 data); your store will differ.)
 **Fridge:** 3 days · **Freezer:** not recommended (see Reheat) · **Reheat:** Eat cold. Do not freeze (cheese and cucumber go grainy and watery).
 **Goes with:** B6 Wraps & Tortillas (roll a few inside a wrap for a lunch), V6 Chopped Cucumber-Tomato Salad; stands alone as a snack
 

@@ -1,0 +1,205 @@
+nombre_en,usd_por_lb,fuente,fecha,tipo,nota
+1% milk,0.478,"USDA ERS/BLS retail meat-dairy-eggs, Sep 2026 (galon entero -> lb)",2026-11-03,[ESTIMACION],sustituto: leche entera
+10-inch flour tortillas,3.2,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+2% cottage cheese,3.5,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+90% lean ground beef,8.461,"USDA ERS/BLS retail meat-dairy-eggs, Sep 2026",2026-11-03,[DATO ERS],lean & extra lean
+93% lean ground turkey,5.5,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+Atlantic salmon fillets,11.0,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+Dijon or yellow mustard,2.2,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+Swiss cheese slices,6.133,"USDA ERS/BLS retail meat-dairy-eggs, Sep 2026",2026-11-03,[ESTIMACION],sustituto: precio del cheddar
+Worcestershire sauce,3.5,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+all-purpose flour,0.8,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+apple cider vinegar,2.0,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+baby carrots,1.463,"USDA ERS Vegetable Prices, 2023 retail scanner data (Circana), latest ERS year",2026-11-03,[DATO ERS],
+baby red potatoes,0.922,"USDA ERS Vegetable Prices, 2023 retail scanner data (Circana), latest ERS year",2026-11-03,[DATO ERS],patata fresca
+"baby spinach, chopped",4.5,"USDA ERS Vegetable Prices, 2023 retail scanner data (Circana), latest ERS year",2026-11-03,[DATO ERS],
+baking powder,3.5,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+bell peppers (red and green),1.604,"USDA ERS Vegetable Prices, 2023 retail scanner data (Circana), latest ERS year",2026-11-03,[DATO ERS],media pimiento verde y rojo
+"black beans, canned, drained and rinsed",1.306,"USDA ERS Vegetable Prices, 2023 retail scanner data (Circana), latest ERS year",2026-11-03,[DATO ERS],enlatadas
+black pepper,14.0,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],"especia, por gramo usado"
+blueberries (fresh or frozen),5.132,"USDA ERS Fruit Prices, 2023 retail scanner data (Circana), latest ERS year",2026-11-03,[DATO ERS],fresca
+boneless skinless chicken breasts,4.203,"USDA ERS/BLS retail meat-dairy-eggs, Sep 2026",2026-11-03,[DATO ERS],
+"boneless skinless chicken breasts, cut in 1 in cubes",4.203,"USDA ERS/BLS retail meat-dairy-eggs, Sep 2026",2026-11-03,[DATO ERS],
+"boneless skinless chicken breasts, cut in 3/4 in cubes",4.203,"USDA ERS/BLS retail meat-dairy-eggs, Sep 2026",2026-11-03,[DATO ERS],
+boneless skinless chicken thighs,3.5,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],boneless; el ERS solo publica pechuga y muslo con hueso
+"boneless skinless chicken thighs, cut in 1.5 in chunks",3.5,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],boneless; el ERS solo publica pechuga y muslo con hueso
+broccoli crowns,3.083,"USDA ERS Vegetable Prices, 2023 retail scanner data (Circana), latest ERS year",2026-11-03,[DATO ERS],
+"broccoli florets, small",3.083,"USDA ERS Vegetable Prices, 2023 retail scanner data (Circana), latest ERS year",2026-11-03,[DATO ERS],
+"brown or green lentils, dry, rinsed",1.958,"USDA ERS Vegetable Prices, 2023 retail scanner data (Circana), latest ERS year",2026-11-03,[DATO ERS],secas
+brown sugar,1.5,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+butter,5.0,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+"canned chickpeas, drained and rinsed",1.4,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],no esta en el CSV del ERS
+"canned chipotle pepper in adobo, minced (+ 1 tsp of the adobo sauce)",4.5,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+canned coconut milk,2.6,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+"canned low-sodium black beans, drained and rinsed",1.306,"USDA ERS Vegetable Prices, 2023 retail scanner data (Circana), latest ERS year",2026-11-03,[DATO ERS],enlatadas
+canola oil,2.0,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+canola oil (for the pan),2.0,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+canola oil or cooking spray (for the tin),2.0,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+carrots,1.006,"USDA ERS Vegetable Prices, 2023 retail scanner data (Circana), latest ERS year",2026-11-03,[DATO ERS],
+"carrots, cut in sticks",1.006,"USDA ERS Vegetable Prices, 2023 retail scanner data (Circana), latest ERS year",2026-11-03,[DATO ERS],
+"carrots, diced",1.006,"USDA ERS Vegetable Prices, 2023 retail scanner data (Circana), latest ERS year",2026-11-03,[DATO ERS],
+"carrots, finely diced",1.006,"USDA ERS Vegetable Prices, 2023 retail scanner data (Circana), latest ERS year",2026-11-03,[DATO ERS],
+cayenne,9.0,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],"especia, por gramo usado"
+celery sticks,1.328,"USDA ERS Vegetable Prices, 2023 retail scanner data (Circana), latest ERS year",2026-11-03,[DATO ERS],
+"celery, diced",1.328,"USDA ERS Vegetable Prices, 2023 retail scanner data (Circana), latest ERS year",2026-11-03,[DATO ERS],
+"celery, finely diced",1.328,"USDA ERS Vegetable Prices, 2023 retail scanner data (Circana), latest ERS year",2026-11-03,[DATO ERS],
+"cherry tomatoes, halved",4.156,"USDA ERS Vegetable Prices, 2023 retail scanner data (Circana), latest ERS year",2026-11-03,[DATO ERS],
+chia seeds,6.0,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+chia seeds (Berry-Vanilla cups),6.0,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+"chickpeas, canned, drained and rinsed",1.4,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],no esta en el CSV del ERS
+chili powder,9.0,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],"especia, por gramo usado"
+chopped walnuts (Cinnamon-Walnut cup),8.0,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+cider vinegar,2.0,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+cooking spray or butter (for the dish),2.0,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+corn tortillas (6 in),3.2,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+"corn tortillas, cut in strips (topping, baked fresh on serving day)",3.2,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+cornstarch,1.8,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+crumbled feta,7.5,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+crushed tomatoes,1.208,"USDA ERS Vegetable Prices, 2023 retail scanner data (Circana), latest ERS year",2026-11-03,[DATO ERS],tomate enlatado
+"cucumber, cut in sticks",1.093,"USDA ERS Vegetable Prices, 2023 retail scanner data (Circana), latest ERS year",2026-11-03,[DATO ERS],
+"cucumber, cut in thin sticks",1.093,"USDA ERS Vegetable Prices, 2023 retail scanner data (Circana), latest ERS year",2026-11-03,[DATO ERS],
+"cucumber, grated and squeezed dry",1.093,"USDA ERS Vegetable Prices, 2023 retail scanner data (Circana), latest ERS year",2026-11-03,[DATO ERS],
+"cucumber, in rounds",1.093,"USDA ERS Vegetable Prices, 2023 retail scanner data (Circana), latest ERS year",2026-11-03,[DATO ERS],
+cucumbers,1.093,"USDA ERS Vegetable Prices, 2023 retail scanner data (Circana), latest ERS year",2026-11-03,[DATO ERS],
+curry powder,12.0,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],"especia, por gramo usado"
+diced tomatoes with green chilies,1.208,"USDA ERS Vegetable Prices, 2023 retail scanner data (Circana), latest ERS year",2026-11-03,[DATO ERS],tomate enlatado
+diced tomatoes with their juice,1.208,"USDA ERS Vegetable Prices, 2023 retail scanner data (Circana), latest ERS year",2026-11-03,[DATO ERS],tomate enlatado
+dried dill,12.0,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],"especia, por gramo usado"
+dried oregano,12.0,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],"especia, por gramo usado"
+dried thyme,12.0,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],"especia, por gramo usado"
+dry brown lentils,1.958,"USDA ERS Vegetable Prices, 2023 retail scanner data (Circana), latest ERS year",2026-11-03,[DATO ERS],secas
+dry orzo (or other small pasta),1.6,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+dry short pasta (penne or rotini),1.6,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+"dry spaghetti or penne (cooked fresh on serving day, about 1.75 oz / 50 g dry per portion)",1.6,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+dry-roasted almonds,8.0,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+egg,1.718,"USDA ERS/BLS retail meat-dairy-eggs, Sep 2026 (docena -> lb, huevo ~50 g)",2026-11-03,[DATO ERS],
+everything bagel seasoning or paprika (pinch per box),9.0,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],"especia, por gramo usado"
+extra-firm tofu,2.8,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+fine salt,1.5,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],sal
+"firm tofu, crumbled",2.8,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+flaky sea salt (pinch per box),1.5,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],sal
+flour tortillas (8-inch),3.2,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+fresh baby spinach,4.5,"USDA ERS Vegetable Prices, 2023 retail scanner data (Circana), latest ERS year",2026-11-03,[DATO ERS],
+"fresh cilantro, chopped",5.0,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],hierba fresca
+"fresh cilantro, leaves and tender stems",5.0,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],hierba fresca
+"fresh flat-leaf parsley, leaves and tender stems",5.0,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],hierba fresca
+"fresh ginger, finely grated",4.0,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+"fresh ginger, grated",4.0,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+fresh parsley,5.0,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],hierba fresca
+"fresh parsley, finely chopped",5.0,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],hierba fresca
+frozen corn kernels,1.825,"USDA ERS Vegetable Prices, 2023 retail scanner data (Circana), latest ERS year",2026-11-03,[DATO ERS],
+"frozen mixed vegetables (peas, carrots, corn, green beans)",1.006,"USDA ERS Vegetable Prices, 2023 retail scanner data (Circana), latest ERS year",2026-11-03,[DATO ERS],
+frozen shelled edamame,3.5,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+"fully cooked smoked turkey sausage, sliced into coins",6.5,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+garlic,4.0,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+garlic cloves,4.0,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+garlic powder,8.0,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+"garlic, grated",4.0,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+"garlic, in the skin",4.0,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+"garlic, minced",4.0,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+gochujang (Korean chili paste),6.0,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+grated Parmesan,9.0,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+grated Parmesan (1 tbsp per portion),9.0,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+green beans,2.659,"USDA ERS Vegetable Prices, 2023 retail scanner data (Circana), latest ERS year",2026-11-03,[DATO ERS],
+green cabbage,0.827,"USDA ERS Vegetable Prices, 2023 retail scanner data (Circana), latest ERS year",2026-11-03,[DATO ERS],
+ground cinnamon,12.0,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],"especia, por gramo usado"
+ground cinnamon (Cinnamon-Walnut cup),12.0,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],"especia, por gramo usado"
+ground cumin,12.0,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],"especia, por gramo usado"
+ground flaxseed,4.0,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+ground ginger,12.0,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],"especia, por gramo usado"
+ground turkey (93% lean),5.5,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+ground turmeric,12.0,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],"especia, por gramo usado"
+honey,4.5,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+honey (all flavors),4.5,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+"hummus, store-bought",5.5,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+"jalapeño, seeded and minced",2.5,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+"jalapeño, stem removed",2.5,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+jarred salsa (medium),3.0,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+"kale, stems removed, chopped",3.571,"USDA ERS Vegetable Prices, 2023 retail scanner data (Circana), latest ERS year",2026-11-03,[DATO ERS],
+ketchup,1.8,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+"kidney beans, canned, drained and rinsed",1.2,"USDA ERS Vegetable Prices, 2023 retail scanner data (Circana), latest ERS year",2026-11-03,[DATO ERS],enlatadas
+kosher salt,1.5,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],sal
+kosher salt (pinch per portion),1.5,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],sal
+kosher salt (table-salt equivalent),1.5,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],sal
+large egg,1.718,"USDA ERS/BLS retail meat-dairy-eggs, Sep 2026 (docena -> lb, huevo ~50 g)",2026-11-03,[DATO ERS],
+large eggs,1.718,"USDA ERS/BLS retail meat-dairy-eggs, Sep 2026 (docena -> lb, huevo ~50 g)",2026-11-03,[DATO ERS],
+"large eggs, beaten",1.718,"USDA ERS/BLS retail meat-dairy-eggs, Sep 2026 (docena -> lb, huevo ~50 g)",2026-11-03,[DATO ERS],
+"large eggs, cold from the fridge",1.718,"USDA ERS/BLS retail meat-dairy-eggs, Sep 2026 (docena -> lb, huevo ~50 g)",2026-11-03,[DATO ERS],
+large flour tortillas (10 in),3.2,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+lean ground beef (90/10),8.461,"USDA ERS/BLS retail meat-dairy-eggs, Sep 2026",2026-11-03,[DATO ERS],lean & extra lean
+lean ground turkey (93/7),5.5,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+lemon juice,4.5,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+light cream cheese,4.5,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+lime juice,4.5,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+long-grain white rice,1.0,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+"long-grain white rice, cooked (to pack with each portion)",0.8,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],arroz cocido (~1/3 del coste en seco por peso)
+"long-grain white rice, dry (cook ahead and chill)",1.0,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+low-sodium beef broth,1.3,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+low-sodium chicken broth,1.3,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+low-sodium deli turkey breast slices,10.0,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+low-sodium soy sauce,3.0,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+"marinara sauce, no sugar added",2.0,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+old-fashioned rolled oats,1.8,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+olive oil,5.5,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+olive oil (for the spinach),5.5,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+onion powder,9.0,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+"part-skim mozzarella, cut in cubes (or string cheese)",6.133,"USDA ERS/BLS retail meat-dairy-eggs, Sep 2026",2026-11-03,[ESTIMACION],sustituto: precio del cheddar
+pearled barley,1.5,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+"pinto beans, canned, drained and rinsed",1.212,"USDA ERS Vegetable Prices, 2023 retail scanner data (Circana), latest ERS year",2026-11-03,[DATO ERS],enlatadas
+plain dry breadcrumbs,2.5,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+plain nonfat Greek yogurt,3.8,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+plain nonfat Greek yogurt (stirred into the filling),3.8,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+pure maple syrup,12.0,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+quinoa,4.0,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+"red bell pepper, cut in strips",1.705,"USDA ERS Vegetable Prices, 2023 retail scanner data (Circana), latest ERS year",2026-11-03,[DATO ERS],
+"red bell pepper, diced",1.705,"USDA ERS Vegetable Prices, 2023 retail scanner data (Circana), latest ERS year",2026-11-03,[DATO ERS],
+"red bell pepper, finely diced",1.705,"USDA ERS Vegetable Prices, 2023 retail scanner data (Circana), latest ERS year",2026-11-03,[DATO ERS],
+"red enchilada sauce, mild",2.0,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+red onion,1.062,"USDA ERS Vegetable Prices, 2023 retail scanner data (Circana), latest ERS year",2026-11-03,[DATO ERS],
+red pepper flakes,9.0,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],"especia, por gramo usado"
+red wine vinegar,2.0,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+"reduced-fat cream cheese, cubed",4.5,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+reduced-sodium soy sauce,3.0,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+rice vinegar or cider vinegar,2.0,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+ripe banana,0.61,"USDA ERS Fruit Prices, 2023 retail scanner data (Circana), latest ERS year",2026-11-03,[DATO ERS],
+ripe bananas,0.61,"USDA ERS Fruit Prices, 2023 retail scanner data (Circana), latest ERS year",2026-11-03,[DATO ERS],
+"ripe bananas, mashed",0.61,"USDA ERS Fruit Prices, 2023 retail scanner data (Circana), latest ERS year",2026-11-03,[DATO ERS],
+scallions,3.5,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+"scallions, sliced",3.5,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+short dry pasta (penne or fusilli),1.6,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+shredded Mexican-blend cheese,6.133,"USDA ERS/BLS retail meat-dairy-eggs, Sep 2026",2026-11-03,[ESTIMACION],sustituto: precio del cheddar
+shredded Monterey Jack (1 oz per portion),6.133,"USDA ERS/BLS retail meat-dairy-eggs, Sep 2026",2026-11-03,[ESTIMACION],sustituto: precio del cheddar
+shredded part-skim mozzarella,6.133,"USDA ERS/BLS retail meat-dairy-eggs, Sep 2026",2026-11-03,[ESTIMACION],sustituto: precio del cheddar
+shredded sharp cheddar,6.133,"USDA ERS/BLS retail meat-dairy-eggs, Sep 2026",2026-11-03,[DATO ERS],
+smoked paprika,9.0,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],"especia, por gramo usado"
+"smoked paprika or everything seasoning (optional, pinch per portion)",9.0,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],"especia, por gramo usado"
+smooth peanut butter,3.2,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+smooth peanut butter (Cocoa-Peanut cups),3.2,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+smooth peanut butter (no sugar added),1.5,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+soy sauce,3.0,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+sriracha,4.0,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+"strawberries, diced (Berry-Vanilla cups)",3.079,"USDA ERS Fruit Prices, 2023 retail scanner data (Circana), latest ERS year",2026-11-03,[DATO ERS],fresca
+sweet potatoes,1.165,"USDA ERS Vegetable Prices, 2023 retail scanner data (Circana), latest ERS year",2026-11-03,[DATO ERS],
+"sweet potatoes, peeled and cut in 1/2 in cubes",1.165,"USDA ERS Vegetable Prices, 2023 retail scanner data (Circana), latest ERS year",2026-11-03,[DATO ERS],
+"sweet potatoes, peeled, 1/2-inch cubes",1.165,"USDA ERS Vegetable Prices, 2023 retail scanner data (Circana), latest ERS year",2026-11-03,[DATO ERS],
+tahini (stir the jar first),7.0,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+teriyaki sauce,3.0,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+toasted sesame oil,10.0,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+toasted sesame seeds,7.0,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+"tomatillos, husked and rinsed",2.5,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+tomato paste,4.0,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+"tomato sauce (plain, canned)",2.0,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+tomatoes (Roma or cherry),1.235,"USDA ERS Vegetable Prices, 2023 retail scanner data (Circana), latest ERS year",2026-11-03,[DATO ERS],Roma
+trimmed boneless pork shoulder (butt),3.6,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],ERS no publica paleta
+unsweetened cocoa powder,8.0,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+unsweetened cocoa powder (Cocoa-Peanut cups),8.0,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+vanilla extract,60.0,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+vanilla extract (Berry-Vanilla),60.0,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+water,0,agua del grifo,2026-11-03,[DATO ERS],coste 0
+"white onion, quartered",1.062,"USDA ERS Vegetable Prices, 2023 retail scanner data (Circana), latest ERS year",2026-11-03,[DATO ERS],
+yellow mustard,2.2,Estimacion propia (referencia supermercado EE. UU.),2026-11-03,[ESTIMACION],
+yellow onion,1.062,"USDA ERS Vegetable Prices, 2023 retail scanner data (Circana), latest ERS year",2026-11-03,[DATO ERS],
+"yellow onion, diced",1.062,"USDA ERS Vegetable Prices, 2023 retail scanner data (Circana), latest ERS year",2026-11-03,[DATO ERS],
+"yellow onion, finely diced",1.062,"USDA ERS Vegetable Prices, 2023 retail scanner data (Circana), latest ERS year",2026-11-03,[DATO ERS],
+"yellow onion, grated",1.062,"USDA ERS Vegetable Prices, 2023 retail scanner data (Circana), latest ERS year",2026-11-03,[DATO ERS],
+zucchini,1.639,"USDA ERS Vegetable Prices, 2023 retail scanner data (Circana), latest ERS year",2026-11-03,[DATO ERS],

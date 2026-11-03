@@ -1,6 +1,7 @@
 ### FM5 · Turkey Sausage & Lentil Soup
 **Makes:** 6 portions (~555 g each) · **Active:** 20 min · **Total:** 65 min
 **Per portion:** 560 kcal · 28 g protein · 50 g carbs · 30 g fat (USDA FoodData Central) · **Allergens:** wheat
+**Cost/portion:** about $2.70 (US average retail prices, USDA ERS (meat, eggs, dairy: Sep 2026; fruit and vegetables: 2023 data); your store will differ.)
 **Fridge:** 4 days · **Freezer:** 3 months · **Reheat:** Thaw overnight in the fridge (never on the counter). Reheat in a pot over medium 6-8 min, adding 1/4 cup water or broth per portion because the barley keeps drinking liquid, until steaming and 165 °F / 74 °C in the center. Microwave covered 3-4 min, stirring halfway.
 **Goes with:** B6 Wraps & Tortillas (for dipping, toasted), V6 Chopped Cucumber-Tomato Salad, S9 Chimichurri (a spoonful on top)
 

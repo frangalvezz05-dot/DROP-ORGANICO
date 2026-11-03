@@ -1,0 +1,1124 @@
+{
+ "periodos": {
+  "carne_lacteos_huevos": "Sep 2026 (ERS/BLS, ultimo mes del CSV; el CSV cubre sep 2024 - sep 2026)",
+  "frutas_verduras": "2023 retail scanner data (Circana), latest ERS year (precio medio anual, no mensual)"
+ },
+ "descarga": "2026-11-03",
+ "pct_dato_global": 36.0,
+ "media_plato": 3.771,
+ "recetas": {
+  "B1": {
+   "id": "B1",
+   "nombre": "Hands-Off Oven Rice",
+   "raciones": 5,
+   "coste_receta": 0.802,
+   "coste_racion": 0.16,
+   "dato": 0.0
+  },
+  "B2": {
+   "id": "B2",
+   "nombre": "Fluffy Quinoa",
+   "raciones": 5,
+   "coste_receta": 2.433,
+   "coste_racion": 0.487,
+   "dato": 0.0
+  },
+  "B3": {
+   "id": "B3",
+   "nombre": "Crispy Roasted Baby Potatoes",
+   "raciones": 5,
+   "coste_receta": 2.512,
+   "coste_racion": 0.502,
+   "dato": 2.032
+  },
+  "B4": {
+   "id": "B4",
+   "nombre": "Roasted Sweet Potato Cubes",
+   "raciones": 5,
+   "coste_receta": 2.995,
+   "coste_racion": 0.599,
+   "dato": 2.568
+  },
+  "B5": {
+   "id": "B5",
+   "nombre": "Reheat-Ready Pasta",
+   "raciones": 5,
+   "coste_receta": 1.389,
+   "coste_racion": 0.278,
+   "dato": 0.0
+  },
+  "B6": {
+   "id": "B6",
+   "nombre": "Wraps & Tortillas (Store & Assemble)",
+   "raciones": 5,
+   "coste_receta": 1.764,
+   "coste_racion": 0.353,
+   "dato": 0.0
+  },
+  "D1": {
+   "id": "D1",
+   "nombre": "Spinach-Feta Egg Bites",
+   "raciones": 5,
+   "coste_receta": 5.317,
+   "coste_racion": 1.063,
+   "dato": 3.084
+  },
+  "D2": {
+   "id": "D2",
+   "nombre": "Turkey & Pepper Egg Bites",
+   "raciones": 5,
+   "coste_receta": 6.063,
+   "coste_racion": 1.213,
+   "dato": 3.182
+  },
+  "D3": {
+   "id": "D3",
+   "nombre": "Greek Yogurt Overnight Oats",
+   "raciones": 5,
+   "coste_receta": 9.767,
+   "coste_racion": 1.953,
+   "dato": 2.093
+  },
+  "D4": {
+   "id": "D4",
+   "nombre": "Peanut Butter-Banana Overnight Oats",
+   "raciones": 5,
+   "coste_receta": 5.395,
+   "coste_racion": 1.079,
+   "dato": 0.317
+  },
+  "D5": {
+   "id": "D5",
+   "nombre": "Freezer Breakfast Burritos",
+   "raciones": 5,
+   "coste_receta": 7.432,
+   "coste_racion": 1.486,
+   "dato": 4.974
+  },
+  "D6": {
+   "id": "D6",
+   "nombre": "Cottage Cheese Baked Oats",
+   "raciones": 5,
+   "coste_receta": 9.507,
+   "coste_racion": 1.901,
+   "dato": 2.772
+  },
+  "D7": {
+   "id": "D7",
+   "nombre": "Freezer Protein Pancakes",
+   "raciones": 5,
+   "coste_receta": 4.675,
+   "coste_racion": 0.935,
+   "dato": 0.892
+  },
+  "D8": {
+   "id": "D8",
+   "nombre": "Turkey Sausage & Sweet Potato Hash",
+   "raciones": 5,
+   "coste_receta": 8.519,
+   "coste_racion": 1.704,
+   "dato": 2.456
+  },
+  "FM1": {
+   "id": "FM1",
+   "nombre": "Turkey Three-Bean Chili",
+   "raciones": 6,
+   "coste_receta": 19.155,
+   "coste_racion": 3.192,
+   "dato": 5.718
+  },
+  "FM10": {
+   "id": "FM10",
+   "nombre": "Creamy Chicken & Broccoli Pasta Bake",
+   "raciones": 6,
+   "coste_receta": 13.987,
+   "coste_racion": 2.331,
+   "dato": 8.865
+  },
+  "FM2": {
+   "id": "FM2",
+   "nombre": "Chicken Tikka-Style Curry",
+   "raciones": 6,
+   "coste_receta": 17.031,
+   "coste_racion": 2.838,
+   "dato": 3.069
+  },
+  "FM3": {
+   "id": "FM3",
+   "nombre": "Beef & Lentil Ragù",
+   "raciones": 6,
+   "coste_receta": 18.184,
+   "coste_racion": 3.031,
+   "dato": 14.329
+  },
+  "FM4": {
+   "id": "FM4",
+   "nombre": "Chicken Enchilada Bake",
+   "raciones": 6,
+   "coste_receta": 19.066,
+   "coste_racion": 3.178,
+   "dato": 10.05
+  },
+  "FM5": {
+   "id": "FM5",
+   "nombre": "Turkey Sausage & Lentil Soup",
+   "raciones": 6,
+   "coste_receta": 16.061,
+   "coste_racion": 2.677,
+   "dato": 4.145
+  },
+  "FM6": {
+   "id": "FM6",
+   "nombre": "Chicken Tortilla Soup",
+   "raciones": 6,
+   "coste_receta": 21.651,
+   "coste_racion": 3.609,
+   "dato": 12.765
+  },
+  "FM7": {
+   "id": "FM7",
+   "nombre": "Teriyaki Chicken Fried Rice",
+   "raciones": 6,
+   "coste_receta": 10.676,
+   "coste_racion": 1.779,
+   "dato": 8.13
+  },
+  "FM8": {
+   "id": "FM8",
+   "nombre": "Turkey Meatball & Orzo Bake",
+   "raciones": 6,
+   "coste_receta": 17.524,
+   "coste_racion": 2.921,
+   "dato": 1.506
+  },
+  "FM9": {
+   "id": "FM9",
+   "nombre": "Black Bean & Sweet Potato Burritos",
+   "raciones": 6,
+   "coste_receta": 11.126,
+   "coste_racion": 1.854,
+   "dato": 3.487
+  },
+  "P1": {
+   "id": "P1",
+   "nombre": "Lemon-Garlic Sheet-Pan Chicken Thighs",
+   "raciones": 5,
+   "coste_receta": 8.018,
+   "coste_racion": 1.604,
+   "dato": 0.0
+  },
+  "P10": {
+   "id": "P10",
+   "nombre": "Smoky Spiced Chickpeas",
+   "raciones": 5,
+   "coste_receta": 3.016,
+   "coste_racion": 0.603,
+   "dato": 0.0
+  },
+  "P2": {
+   "id": "P2",
+   "nombre": "Slow-Cooker Salsa Shredded Chicken",
+   "raciones": 5,
+   "coste_receta": 12.222,
+   "coste_racion": 2.444,
+   "dato": 9.266
+  },
+  "P3": {
+   "id": "P3",
+   "nombre": "Never-Dry Baked Chicken Breast",
+   "raciones": 5,
+   "coste_receta": 9.589,
+   "coste_racion": 1.918,
+   "dato": 9.266
+  },
+  "P4": {
+   "id": "P4",
+   "nombre": "Turkey Taco Crumble",
+   "raciones": 5,
+   "coste_receta": 12.422,
+   "coste_racion": 2.484,
+   "dato": 0.351
+  },
+  "P5": {
+   "id": "P5",
+   "nombre": "Beef & Lentil Power Mince",
+   "raciones": 5,
+   "coste_receta": 10.508,
+   "coste_racion": 2.102,
+   "dato": 9.689
+  },
+  "P6": {
+   "id": "P6",
+   "nombre": "Freezer Turkey Meatballs",
+   "raciones": 5,
+   "coste_receta": 12.363,
+   "coste_racion": 2.473,
+   "dato": 0.189
+  },
+  "P7": {
+   "id": "P7",
+   "nombre": "Oven Pulled Pork Shoulder",
+   "raciones": 5,
+   "coste_receta": 11.562,
+   "coste_racion": 2.312,
+   "dato": 0.0
+  },
+  "P8": {
+   "id": "P8",
+   "nombre": "Simple Baked Salmon",
+   "raciones": 5,
+   "coste_receta": 22.447,
+   "coste_racion": 4.489,
+   "dato": 0.0
+  },
+  "P9": {
+   "id": "P9",
+   "nombre": "Crispy Baked Tofu",
+   "raciones": 5,
+   "coste_receta": 6.478,
+   "coste_racion": 1.296,
+   "dato": 0.0
+  },
+  "S1": {
+   "id": "S1",
+   "nombre": "Chipotle-Lime Yogurt",
+   "raciones": 5,
+   "coste_receta": 1.818,
+   "coste_racion": 0.364,
+   "dato": 0.0
+  },
+  "S10": {
+   "id": "S10",
+   "nombre": "Smoky BBQ Sauce (Less Sugar)",
+   "raciones": 5,
+   "coste_receta": 0.966,
+   "coste_racion": 0.193,
+   "dato": 0.0
+  },
+  "S11": {
+   "id": "S11",
+   "nombre": "Honey-Mustard Yogurt",
+   "raciones": 5,
+   "coste_receta": 1.798,
+   "coste_racion": 0.36,
+   "dato": 0.0
+  },
+  "S12": {
+   "id": "S12",
+   "nombre": "Creamy Tomato-Garlic Sauce",
+   "raciones": 5,
+   "coste_receta": 1.717,
+   "coste_racion": 0.343,
+   "dato": 0.0
+  },
+  "S2": {
+   "id": "S2",
+   "nombre": "Tomatillo Salsa Verde",
+   "raciones": 5,
+   "coste_receta": 1.261,
+   "coste_racion": 0.252,
+   "dato": 0.07
+  },
+  "S3": {
+   "id": "S3",
+   "nombre": "Quick Red Enchilada Sauce",
+   "raciones": 5,
+   "coste_receta": 0.882,
+   "coste_racion": 0.176,
+   "dato": 0.0
+  },
+  "S4": {
+   "id": "S4",
+   "nombre": "Lighter Teriyaki",
+   "raciones": 5,
+   "coste_receta": 0.888,
+   "coste_racion": 0.178,
+   "dato": 0.0
+  },
+  "S5": {
+   "id": "S5",
+   "nombre": "Peanut-Ginger Sauce",
+   "raciones": 5,
+   "coste_receta": 0.793,
+   "coste_racion": 0.159,
+   "dato": 0.0
+  },
+  "S6": {
+   "id": "S6",
+   "nombre": "Gochujang-Honey Sauce",
+   "raciones": 5,
+   "coste_receta": 1.211,
+   "coste_racion": 0.242,
+   "dato": 0.0
+  },
+  "S7": {
+   "id": "S7",
+   "nombre": "Tzatziki",
+   "raciones": 5,
+   "coste_receta": 1.606,
+   "coste_racion": 0.321,
+   "dato": 0.096
+  },
+  "S8": {
+   "id": "S8",
+   "nombre": "Lemon-Tahini Sauce",
+   "raciones": 5,
+   "coste_receta": 1.412,
+   "coste_racion": 0.282,
+   "dato": 0.0
+  },
+  "S9": {
+   "id": "S9",
+   "nombre": "Chimichurri",
+   "raciones": 5,
+   "coste_receta": 1.871,
+   "coste_racion": 0.374,
+   "dato": 0.0
+  },
+  "SN1": {
+   "id": "SN1",
+   "nombre": "Greek Yogurt Protein Cups (3 flavors)",
+   "raciones": 5,
+   "coste_receta": 11.618,
+   "coste_racion": 2.324,
+   "dato": 1.018
+  },
+  "SN2": {
+   "id": "SN2",
+   "nombre": "Hummus & Veg Boxes",
+   "raciones": 5,
+   "coste_receta": 8.371,
+   "coste_racion": 1.674,
+   "dato": 2.646
+  },
+  "SN3": {
+   "id": "SN3",
+   "nombre": "Perfect Hard-Boiled Eggs",
+   "raciones": 5,
+   "coste_receta": 1.923,
+   "coste_racion": 0.385,
+   "dato": 1.893
+  },
+  "SN4": {
+   "id": "SN4",
+   "nombre": "Peanut Butter Oat Bites",
+   "raciones": 5,
+   "coste_receta": 3.072,
+   "coste_racion": 0.614,
+   "dato": 0.0
+  },
+  "SN5": {
+   "id": "SN5",
+   "nombre": "Crunchy Roasted Chickpeas",
+   "raciones": 5,
+   "coste_receta": 2.61,
+   "coste_racion": 0.522,
+   "dato": 0.0
+  },
+  "SN6": {
+   "id": "SN6",
+   "nombre": "Turkey & Cheese Roll-Ups",
+   "raciones": 5,
+   "coste_receta": 9.45,
+   "coste_racion": 1.89,
+   "dato": 0.361
+  },
+  "SN7": {
+   "id": "SN7",
+   "nombre": "Cottage Cheese Ranch Dip",
+   "raciones": 5,
+   "coste_receta": 7.049,
+   "coste_racion": 1.41,
+   "dato": 2.181
+  },
+  "SN8": {
+   "id": "SN8",
+   "nombre": "Edamame Snack Boxes",
+   "raciones": 5,
+   "coste_receta": 8.243,
+   "coste_racion": 1.649,
+   "dato": 3.312
+  },
+  "V1": {
+   "id": "V1",
+   "nombre": "Charred Roasted Broccoli",
+   "raciones": 5,
+   "coste_receta": 6.517,
+   "coste_racion": 1.303,
+   "dato": 6.117
+  },
+  "V2": {
+   "id": "V2",
+   "nombre": "Sheet-Pan Fajita Peppers & Onions",
+   "raciones": 5,
+   "coste_receta": 3.526,
+   "coste_racion": 0.705,
+   "dato": 2.825
+  },
+  "V3": {
+   "id": "V3",
+   "nombre": "Roasted Zucchini & Red Onion",
+   "raciones": 5,
+   "coste_receta": 3.741,
+   "coste_racion": 0.748,
+   "dato": 3.178
+  },
+  "V4": {
+   "id": "V4",
+   "nombre": "Garlic Green Beans",
+   "raciones": 5,
+   "coste_receta": 4.716,
+   "coste_racion": 0.943,
+   "dato": 4.104
+  },
+  "V5": {
+   "id": "V5",
+   "nombre": "Sesame Cabbage-Carrot Slaw (raw)",
+   "raciones": 5,
+   "coste_receta": 2.51,
+   "coste_racion": 0.502,
+   "dato": 1.153
+  },
+  "V6": {
+   "id": "V6",
+   "nombre": "Chopped Cucumber-Tomato Salad (raw)",
+   "raciones": 5,
+   "coste_receta": 3.067,
+   "coste_racion": 0.613,
+   "dato": 2.24
+  }
+ },
+ "platos": [
+  {
+   "id": "M1",
+   "nombres": [
+    "Lemon-Garlic Sheet-Pan Chicken Thighs",
+    "Hands-Off Oven Rice",
+    "Sheet-Pan Fajita Peppers & Onions",
+    "Chipotle-Lime Yogurt"
+   ],
+   "coste_plato": 2.833,
+   "pct_dato": 19.9
+  },
+  {
+   "id": "M2",
+   "nombres": [
+    "Slow-Cooker Salsa Shredded Chicken",
+    "Hands-Off Oven Rice",
+    "Chopped Cucumber-Tomato Salad (raw)",
+    "Tomatillo Salsa Verde"
+   ],
+   "coste_plato": 3.469,
+   "pct_dato": 66.7
+  },
+  {
+   "id": "M3",
+   "nombres": [
+    "Turkey Taco Crumble",
+    "Roasted Sweet Potato Cubes",
+    "Sheet-Pan Fajita Peppers & Onions",
+    "Chipotle-Lime Yogurt"
+   ],
+   "coste_plato": 4.152,
+   "pct_dato": 27.7
+  },
+  {
+   "id": "M4",
+   "nombres": [
+    "Beef & Lentil Power Mince",
+    "Wraps & Tortillas (Store & Assemble)",
+    "Roasted Zucchini & Red Onion",
+    "Quick Red Enchilada Sauce"
+   ],
+   "coste_plato": 3.379,
+   "pct_dato": 76.2
+  },
+  {
+   "id": "M5",
+   "nombres": [
+    "Oven Pulled Pork Shoulder",
+    "Hands-Off Oven Rice",
+    "Sesame Cabbage-Carrot Slaw (raw)",
+    "Tomatillo Salsa Verde"
+   ],
+   "coste_plato": 3.226,
+   "pct_dato": 7.6
+  },
+  {
+   "id": "M6",
+   "nombres": [
+    "Crispy Baked Tofu",
+    "Fluffy Quinoa",
+    "Sheet-Pan Fajita Peppers & Onions",
+    "Chipotle-Lime Yogurt"
+   ],
+   "coste_plato": 2.852,
+   "pct_dato": 19.8
+  },
+  {
+   "id": "M7",
+   "nombres": [
+    "Smoky Spiced Chickpeas",
+    "Wraps & Tortillas (Store & Assemble)",
+    "Chopped Cucumber-Tomato Salad (raw)",
+    "Tomatillo Salsa Verde"
+   ],
+   "coste_plato": 1.821,
+   "pct_dato": 25.4
+  },
+  {
+   "id": "M8",
+   "nombres": [
+    "Simple Baked Salmon",
+    "Hands-Off Oven Rice",
+    "Sesame Cabbage-Carrot Slaw (raw)",
+    "Chipotle-Lime Yogurt"
+   ],
+   "coste_plato": 5.515,
+   "pct_dato": 4.2
+  },
+  {
+   "id": "M9",
+   "nombres": [
+    "Slow-Cooker Salsa Shredded Chicken",
+    "Crispy Roasted Baby Potatoes",
+    "Roasted Zucchini & Red Onion",
+    "Tomatillo Salsa Verde"
+   ],
+   "coste_plato": 3.946,
+   "pct_dato": 73.7
+  },
+  {
+   "id": "M10",
+   "nombres": [
+    "Turkey Taco Crumble",
+    "Hands-Off Oven Rice",
+    "Charred Roasted Broccoli",
+    "Chipotle-Lime Yogurt"
+   ],
+   "coste_plato": 4.311,
+   "pct_dato": 30.0
+  },
+  {
+   "id": "M11",
+   "nombres": [
+    "Slow-Cooker Salsa Shredded Chicken",
+    "Wraps & Tortillas (Store & Assemble)",
+    "Sheet-Pan Fajita Peppers & Onions",
+    "Quick Red Enchilada Sauce"
+   ],
+   "coste_plato": 3.678,
+   "pct_dato": 65.7
+  },
+  {
+   "id": "M12",
+   "nombres": [
+    "Beef & Lentil Power Mince",
+    "Crispy Roasted Baby Potatoes",
+    "Charred Roasted Broccoli",
+    "Chipotle-Lime Yogurt"
+   ],
+   "coste_plato": 4.271,
+   "pct_dato": 83.5
+  },
+  {
+   "id": "A1",
+   "nombres": [
+    "Lemon-Garlic Sheet-Pan Chicken Thighs",
+    "Hands-Off Oven Rice",
+    "Charred Roasted Broccoli",
+    "Lighter Teriyaki"
+   ],
+   "coste_plato": 3.245,
+   "pct_dato": 37.7
+  },
+  {
+   "id": "A2",
+   "nombres": [
+    "Crispy Baked Tofu",
+    "Fluffy Quinoa",
+    "Sesame Cabbage-Carrot Slaw (raw)",
+    "Peanut-Ginger Sauce"
+   ],
+   "coste_plato": 2.444,
+   "pct_dato": 9.4
+  },
+  {
+   "id": "A3",
+   "nombres": [
+    "Oven Pulled Pork Shoulder",
+    "Hands-Off Oven Rice",
+    "Sesame Cabbage-Carrot Slaw (raw)",
+    "Gochujang-Honey Sauce"
+   ],
+   "coste_plato": 3.216,
+   "pct_dato": 7.2
+  },
+  {
+   "id": "A4",
+   "nombres": [
+    "Simple Baked Salmon",
+    "Fluffy Quinoa",
+    "Garlic Green Beans",
+    "Lighter Teriyaki"
+   ],
+   "coste_plato": 6.097,
+   "pct_dato": 13.5
+  },
+  {
+   "id": "A5",
+   "nombres": [
+    "Never-Dry Baked Chicken Breast",
+    "Roasted Sweet Potato Cubes",
+    "Charred Roasted Broccoli",
+    "Peanut-Ginger Sauce"
+   ],
+   "coste_plato": 3.979,
+   "pct_dato": 90.2
+  },
+  {
+   "id": "A6",
+   "nombres": [
+    "Freezer Turkey Meatballs",
+    "Hands-Off Oven Rice",
+    "Garlic Green Beans",
+    "Gochujang-Honey Sauce"
+   ],
+   "coste_plato": 3.818,
+   "pct_dato": 22.5
+  },
+  {
+   "id": "A7",
+   "nombres": [
+    "Crispy Baked Tofu",
+    "Hands-Off Oven Rice",
+    "Charred Roasted Broccoli",
+    "Gochujang-Honey Sauce"
+   ],
+   "coste_plato": 3.001,
+   "pct_dato": 40.8
+  },
+  {
+   "id": "A8",
+   "nombres": [
+    "Lemon-Garlic Sheet-Pan Chicken Thighs",
+    "Reheat-Ready Pasta",
+    "Sesame Cabbage-Carrot Slaw (raw)",
+    "Peanut-Ginger Sauce"
+   ],
+   "coste_plato": 2.543,
+   "pct_dato": 9.1
+  },
+  {
+   "id": "A9",
+   "nombres": [
+    "Simple Baked Salmon",
+    "Hands-Off Oven Rice",
+    "Charred Roasted Broccoli",
+    "Gochujang-Honey Sauce"
+   ],
+   "coste_plato": 6.194,
+   "pct_dato": 19.8
+  },
+  {
+   "id": "A10",
+   "nombres": [
+    "Freezer Turkey Meatballs",
+    "Reheat-Ready Pasta",
+    "Garlic Green Beans",
+    "Lighter Teriyaki"
+   ],
+   "coste_plato": 3.872,
+   "pct_dato": 22.2
+  },
+  {
+   "id": "A11",
+   "nombres": [
+    "Never-Dry Baked Chicken Breast",
+    "Roasted Sweet Potato Cubes",
+    "Garlic Green Beans",
+    "Gochujang-Honey Sauce"
+   ],
+   "coste_plato": 3.702,
+   "pct_dato": 86.1
+  },
+  {
+   "id": "A12",
+   "nombres": [
+    "Oven Pulled Pork Shoulder",
+    "Fluffy Quinoa",
+    "Charred Roasted Broccoli",
+    "Peanut-Ginger Sauce"
+   ],
+   "coste_plato": 4.261,
+   "pct_dato": 28.7
+  },
+  {
+   "id": "D-1",
+   "nombres": [
+    "Lemon-Garlic Sheet-Pan Chicken Thighs",
+    "Hands-Off Oven Rice",
+    "Chopped Cucumber-Tomato Salad (raw)",
+    "Tzatziki"
+   ],
+   "coste_plato": 2.698,
+   "pct_dato": 17.3
+  },
+  {
+   "id": "D-2",
+   "nombres": [
+    "Smoky Spiced Chickpeas",
+    "Fluffy Quinoa",
+    "Roasted Zucchini & Red Onion",
+    "Lemon-Tahini Sauce"
+   ],
+   "coste_plato": 2.12,
+   "pct_dato": 30.0
+  },
+  {
+   "id": "D-3",
+   "nombres": [
+    "Simple Baked Salmon",
+    "Fluffy Quinoa",
+    "Roasted Zucchini & Red Onion",
+    "Chimichurri"
+   ],
+   "coste_plato": 6.098,
+   "pct_dato": 10.4
+  },
+  {
+   "id": "D-4",
+   "nombres": [
+    "Never-Dry Baked Chicken Breast",
+    "Wraps & Tortillas (Store & Assemble)",
+    "Chopped Cucumber-Tomato Salad (raw)",
+    "Tzatziki"
+   ],
+   "coste_plato": 3.205,
+   "pct_dato": 72.4
+  },
+  {
+   "id": "D-5",
+   "nombres": [
+    "Freezer Turkey Meatballs",
+    "Fluffy Quinoa",
+    "Garlic Green Beans",
+    "Chimichurri"
+   ],
+   "coste_plato": 4.277,
+   "pct_dato": 20.1
+  },
+  {
+   "id": "D-6",
+   "nombres": [
+    "Beef & Lentil Power Mince",
+    "Hands-Off Oven Rice",
+    "Chopped Cucumber-Tomato Salad (raw)",
+    "Lemon-Tahini Sauce"
+   ],
+   "coste_plato": 3.157,
+   "pct_dato": 75.6
+  },
+  {
+   "id": "D-7",
+   "nombres": [
+    "Crispy Baked Tofu",
+    "Fluffy Quinoa",
+    "Charred Roasted Broccoli",
+    "Lemon-Tahini Sauce"
+   ],
+   "coste_plato": 3.368,
+   "pct_dato": 36.3
+  },
+  {
+   "id": "D-8",
+   "nombres": [
+    "Lemon-Garlic Sheet-Pan Chicken Thighs",
+    "Roasted Sweet Potato Cubes",
+    "Charred Roasted Broccoli",
+    "Lemon-Tahini Sauce"
+   ],
+   "coste_plato": 3.788,
+   "pct_dato": 45.9
+  },
+  {
+   "id": "D-9",
+   "nombres": [
+    "Smoky Spiced Chickpeas",
+    "Wraps & Tortillas (Store & Assemble)",
+    "Roasted Zucchini & Red Onion",
+    "Tzatziki"
+   ],
+   "coste_plato": 2.025,
+   "pct_dato": 32.3
+  },
+  {
+   "id": "D-10",
+   "nombres": [
+    "Simple Baked Salmon",
+    "Hands-Off Oven Rice",
+    "Chopped Cucumber-Tomato Salad (raw)",
+    "Tzatziki"
+   ],
+   "coste_plato": 5.583,
+   "pct_dato": 8.4
+  },
+  {
+   "id": "D-11",
+   "nombres": [
+    "Never-Dry Baked Chicken Breast",
+    "Crispy Roasted Baby Potatoes",
+    "Charred Roasted Broccoli",
+    "Lemon-Tahini Sauce"
+   ],
+   "coste_plato": 4.005,
+   "pct_dato": 87.0
+  },
+  {
+   "id": "D-12",
+   "nombres": [
+    "Freezer Turkey Meatballs",
+    "Wraps & Tortillas (Store & Assemble)",
+    "Chopped Cucumber-Tomato Salad (raw)",
+    "Tzatziki"
+   ],
+   "coste_plato": 3.76,
+   "pct_dato": 13.4
+  },
+  {
+   "id": "C1",
+   "nombres": [
+    "Lemon-Garlic Sheet-Pan Chicken Thighs",
+    "Crispy Roasted Baby Potatoes",
+    "Garlic Green Beans",
+    "Smoky BBQ Sauce (Less Sugar)"
+   ],
+   "coste_plato": 3.242,
+   "pct_dato": 37.9
+  },
+  {
+   "id": "C2",
+   "nombres": [
+    "Oven Pulled Pork Shoulder",
+    "Roasted Sweet Potato Cubes",
+    "Charred Roasted Broccoli",
+    "Smoky BBQ Sauce (Less Sugar)"
+   ],
+   "coste_plato": 4.407,
+   "pct_dato": 39.4
+  },
+  {
+   "id": "C3",
+   "nombres": [
+    "Freezer Turkey Meatballs",
+    "Reheat-Ready Pasta",
+    "Roasted Zucchini & Red Onion",
+    "Creamy Tomato-Garlic Sauce"
+   ],
+   "coste_plato": 3.842,
+   "pct_dato": 17.5
+  },
+  {
+   "id": "C4",
+   "nombres": [
+    "Never-Dry Baked Chicken Breast",
+    "Hands-Off Oven Rice",
+    "Garlic Green Beans",
+    "Honey-Mustard Yogurt"
+   ],
+   "coste_plato": 3.381,
+   "pct_dato": 79.1
+  },
+  {
+   "id": "C5",
+   "nombres": [
+    "Beef & Lentil Power Mince",
+    "Crispy Roasted Baby Potatoes",
+    "Sheet-Pan Fajita Peppers & Onions",
+    "Smoky BBQ Sauce (Less Sugar)"
+   ],
+   "coste_plato": 3.502,
+   "pct_dato": 83.1
+  },
+  {
+   "id": "C6",
+   "nombres": [
+    "Simple Baked Salmon",
+    "Crispy Roasted Baby Potatoes",
+    "Charred Roasted Broccoli",
+    "Honey-Mustard Yogurt"
+   ],
+   "coste_plato": 6.654,
+   "pct_dato": 24.5
+  },
+  {
+   "id": "C7",
+   "nombres": [
+    "Lemon-Garlic Sheet-Pan Chicken Thighs",
+    "Reheat-Ready Pasta",
+    "Charred Roasted Broccoli",
+    "Creamy Tomato-Garlic Sauce"
+   ],
+   "coste_plato": 3.528,
+   "pct_dato": 34.7
+  },
+  {
+   "id": "C8",
+   "nombres": [
+    "Slow-Cooker Salsa Shredded Chicken",
+    "Wraps & Tortillas (Store & Assemble)",
+    "Sheet-Pan Fajita Peppers & Onions",
+    "Smoky BBQ Sauce (Less Sugar)"
+   ],
+   "coste_plato": 3.695,
+   "pct_dato": 65.4
+  },
+  {
+   "id": "C9",
+   "nombres": [
+    "Never-Dry Baked Chicken Breast",
+    "Wraps & Tortillas (Store & Assemble)",
+    "Roasted Zucchini & Red Onion",
+    "Honey-Mustard Yogurt"
+   ],
+   "coste_plato": 3.379,
+   "pct_dato": 73.7
+  },
+  {
+   "id": "C10",
+   "nombres": [
+    "Beef & Lentil Power Mince",
+    "Reheat-Ready Pasta",
+    "Roasted Zucchini & Red Onion",
+    "Creamy Tomato-Garlic Sauce"
+   ],
+   "coste_plato": 3.471,
+   "pct_dato": 74.1
+  },
+  {
+   "id": "C11",
+   "nombres": [
+    "Oven Pulled Pork Shoulder",
+    "Hands-Off Oven Rice",
+    "Garlic Green Beans",
+    "Smoky BBQ Sauce (Less Sugar)"
+   ],
+   "coste_plato": 3.608,
+   "pct_dato": 22.7
+  },
+  {
+   "id": "C12",
+   "nombres": [
+    "Freezer Turkey Meatballs",
+    "Roasted Sweet Potato Cubes",
+    "Garlic Green Beans",
+    "Honey-Mustard Yogurt"
+   ],
+   "coste_plato": 4.375,
+   "pct_dato": 31.4
+  }
+ ],
+ "semanas": {
+  "1": {
+   "recetas": [
+    "P1",
+    "P4",
+    "B1",
+    "B4",
+    "V1",
+    "V2",
+    "S1",
+    "S4",
+    "S8",
+    "D1"
+   ],
+   "platos": [
+    "M1",
+    "M3",
+    "M10",
+    "A1",
+    "D-8"
+   ],
+   "x1": 43.72,
+   "x2": 87.43,
+   "pct_dato": 34.2,
+   "media_plato": 3.666
+  },
+  "2": {
+   "recetas": [
+    "P5",
+    "P2",
+    "B3",
+    "B6",
+    "V3",
+    "V2",
+    "S3",
+    "S10",
+    "S2",
+    "D3"
+   ],
+   "platos": [
+    "M4",
+    "M11",
+    "M9",
+    "C5",
+    "C8"
+   ],
+   "x1": 47.15,
+   "x2": 94.3,
+   "pct_dato": 61.8,
+   "media_plato": 3.64
+  },
+  "3": {
+   "recetas": [
+    "P6",
+    "P6",
+    "P8",
+    "B5",
+    "B2",
+    "V4",
+    "V3",
+    "S12",
+    "S9",
+    "S4",
+    "D5"
+   ],
+   "platos": [
+    "C3",
+    "D-5",
+    "A4",
+    "A10",
+    "D-3"
+   ],
+   "x1": 71.36,
+   "x2": 142.72,
+   "pct_dato": 17.7,
+   "media_plato": 4.837
+  },
+  "4": {
+   "recetas": [
+    "P9",
+    "P7",
+    "B1",
+    "B2",
+    "V5",
+    "V1",
+    "S6",
+    "S5",
+    "S2",
+    "D2"
+   ],
+   "platos": [
+    "A3",
+    "M5",
+    "A2",
+    "A7",
+    "A12"
+   ],
+   "x1": 39.63,
+   "x2": 79.26,
+   "pct_dato": 26.6,
+   "media_plato": 3.23
+  }
+ }
+}

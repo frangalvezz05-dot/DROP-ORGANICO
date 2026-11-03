@@ -1,6 +1,7 @@
 ### FM1 · Turkey Three-Bean Chili
 **Makes:** 6 portions (~540 g each) · **Active:** 25 min · **Total:** 60 min
 **Per portion:** 480 kcal · 42 g protein · 44 g carbs · 18 g fat (USDA FoodData Central) · **Allergens:** none
+**Cost/portion:** about $3.20 (US average retail prices, USDA ERS (meat, eggs, dairy: Sep 2026; fruit and vegetables: 2023 data); your store will differ.)
 **Fridge:** 4 days · **Freezer:** 3 months · **Reheat:** Thaw overnight in the fridge (never on the counter). Reheat covered in the microwave 3-4 min, stirring halfway, or in a pot over medium 6-8 min, until steaming and 165 °F / 74 °C in the center.
 **Goes with:** B1 Hands-Off Oven Rice, S1 Chipotle-Lime Yogurt, V6 Chopped Cucumber-Tomato Salad
 

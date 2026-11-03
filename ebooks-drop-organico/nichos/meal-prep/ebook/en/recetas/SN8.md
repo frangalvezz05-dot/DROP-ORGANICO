@@ -1,6 +1,7 @@
 ### SN8 · Edamame Snack Boxes
 **Makes:** 5 portions (about 90 g shelled edamame + 90 g veg + 14 g almonds) · **Active:** 10 min · **Total:** 20 min
 **Per portion:** 220 kcal · 15 g protein · 15 g carbs · 13 g fat (USDA FoodData Central) · **Allergens:** soy, tree nuts, sesame, wheat
+**Cost/portion:** about $1.65 (US average retail prices, USDA ERS (meat, eggs, dairy: Sep 2026; fruit and vegetables: 2023 data); your store will differ.)
 **Fridge:** 4 days · **Freezer:** not recommended (see Reheat) · **Reheat:** Eat cold, or warm the edamame alone 30 seconds in the microwave. The assembled box is not freezer-friendly (vegetables go limp); plain cooked edamame freezes for 3 months.
 **Goes with:** V5 Sesame Cabbage-Carrot Slaw, A2 and A7 plates (a spoonful on top); stands alone as a snack
 
