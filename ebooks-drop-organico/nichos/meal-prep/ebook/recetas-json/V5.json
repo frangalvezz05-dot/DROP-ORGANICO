@@ -1,0 +1,115 @@
+{
+ "id": "V5",
+ "nombre": "Sesame Cabbage-Carrot Slaw (raw)",
+ "componente": "verdura",
+ "familias": [
+  "ASI",
+  "MEX",
+  "COM"
+ ],
+ "raciones": 5,
+ "rinde_g_cocinado": 650,
+ "racion_g": 130,
+ "ingredientes": [
+  {
+   "nombre_en": "green cabbage",
+   "cantidad_us": "1/2 small head (about 1 lb), thinly shredded",
+   "g": 450,
+   "fdc_id": "169975",
+   "pasillo": "produce",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "carrots",
+   "cantidad_us": "2 large, grated",
+   "g": 150,
+   "fdc_id": "170393",
+   "pasillo": "produce",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "scallions",
+   "cantidad_us": "3, thinly sliced",
+   "g": 40,
+   "fdc_id": "170005",
+   "pasillo": "produce",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "toasted sesame oil",
+   "cantidad_us": "1 tbsp",
+   "g": 14,
+   "fdc_id": "171016",
+   "pasillo": "pantry",
+   "estado": "oil"
+  },
+  {
+   "nombre_en": "canola oil",
+   "cantidad_us": "1 tbsp",
+   "g": 14,
+   "fdc_id": "172336",
+   "pasillo": "pantry",
+   "estado": "oil"
+  },
+  {
+   "nombre_en": "apple cider vinegar",
+   "cantidad_us": "3 tbsp",
+   "g": 45,
+   "fdc_id": "173469",
+   "pasillo": "pantry",
+   "estado": "liquid"
+  },
+  {
+   "nombre_en": "soy sauce",
+   "cantidad_us": "1 tbsp",
+   "g": 16,
+   "fdc_id": "174277",
+   "pasillo": "pantry",
+   "estado": "sauce"
+  },
+  {
+   "nombre_en": "honey",
+   "cantidad_us": "1 tbsp",
+   "g": 21,
+   "fdc_id": "169640",
+   "pasillo": "pantry",
+   "estado": "liquid"
+  },
+  {
+   "nombre_en": "toasted sesame seeds",
+   "cantidad_us": "1 tbsp",
+   "g": 9,
+   "fdc_id": "170151",
+   "pasillo": "pantry",
+   "estado": "dry"
+  },
+  {
+   "nombre_en": "ground ginger",
+   "cantidad_us": "1/2 tsp",
+   "g": 1,
+   "fdc_id": "170926",
+   "pasillo": "spices",
+   "estado": "dry"
+  }
+ ],
+ "macros_por_racion": {
+  "kcal": 114.1,
+  "proteina_g": 2.2,
+  "grasa_g": 6.7,
+  "carbohidratos_g": 13.0,
+  "fibra_g": 3.6,
+  "sodio_mg": 214.8
+ },
+ "alergenos": [
+  "sesame",
+  "soy",
+  "wheat"
+ ],
+ "nevera_dias": 4,
+ "congelador_meses": 0,
+ "recalentar": "Not reheated. Eat cold. Keep the dressing in a jar and toss on the day for crunch.",
+ "tiempo_activo_min": 15,
+ "tiempo_total_min": 15,
+ "horno_c": null,
+ "horno_f": null
+}

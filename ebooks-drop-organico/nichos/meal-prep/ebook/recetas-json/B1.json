@@ -1,0 +1,58 @@
+{
+ "id": "B1",
+ "nombre": "Hands-Off Oven Rice",
+ "componente": "base",
+ "familias": [
+  "MEX",
+  "ASI",
+  "MED",
+  "COM"
+ ],
+ "raciones": 5,
+ "rinde_g_cocinado": 800,
+ "racion_g": 160,
+ "ingredientes": [
+  {
+   "nombre_en": "long-grain white rice",
+   "cantidad_us": "1 1/2 cups",
+   "g": 278,
+   "fdc_id": "168877",
+   "pasillo": "pantry",
+   "estado": "dry"
+  },
+  {
+   "nombre_en": "olive oil",
+   "cantidad_us": "1 tbsp",
+   "g": 14,
+   "fdc_id": "171413",
+   "pasillo": "pantry",
+   "estado": "oil"
+  },
+  {
+   "nombre_en": "kosher salt (table-salt equivalent)",
+   "cantidad_us": "1 tsp",
+   "g": 6,
+   "fdc_id": "173468",
+   "pasillo": "spices",
+   "estado": "dry"
+  }
+ ],
+ "macros_por_racion": {
+  "kcal": 227.7,
+  "proteina_g": 4.0,
+  "grasa_g": 3.2,
+  "carbohidratos_g": 44.5,
+  "fibra_g": 0.7,
+  "sodio_mg": 467.9
+ },
+ "alergenos": [
+  "none"
+ ],
+ "nevera_dias": 4,
+ "congelador_meses": 2,
+ "recalentar": "Microwave 90 sec with 1 tbsp of water, covered, until steaming hot (165 °F / 74 °C).",
+ "tiempo_activo_min": 5,
+ "tiempo_total_min": 45,
+ "horno_c": 190,
+ "horno_f": 375
+}

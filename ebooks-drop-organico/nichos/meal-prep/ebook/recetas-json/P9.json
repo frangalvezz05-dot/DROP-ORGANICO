@@ -1,0 +1,90 @@
+{
+ "id": "P9",
+ "nombre": "Crispy Baked Tofu",
+ "componente": "proteina",
+ "familias": [
+  "ASI",
+  "MEX",
+  "MED"
+ ],
+ "raciones": 5,
+ "rinde_g_cocinado": 680,
+ "racion_g": 136,
+ "ingredientes": [
+  {
+   "nombre_en": "extra-firm tofu",
+   "cantidad_us": "2 blocks (16 oz / 454 g each), extra-firm",
+   "g": 908,
+   "fdc_id": "172475",
+   "pasillo": "produce",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "cornstarch",
+   "cantidad_us": "3 tbsp",
+   "g": 24,
+   "fdc_id": "169698",
+   "pasillo": "pantry",
+   "estado": "dry"
+  },
+  {
+   "nombre_en": "soy sauce",
+   "cantidad_us": "3 tbsp",
+   "g": 48,
+   "fdc_id": "174277",
+   "pasillo": "pantry",
+   "estado": "sauce"
+  },
+  {
+   "nombre_en": "olive oil",
+   "cantidad_us": "2 tbsp",
+   "g": 27,
+   "fdc_id": "171413",
+   "pasillo": "pantry",
+   "estado": "oil"
+  },
+  {
+   "nombre_en": "garlic powder",
+   "cantidad_us": "1 tsp",
+   "g": 3,
+   "fdc_id": "171325",
+   "pasillo": "spices",
+   "estado": "dry"
+  },
+  {
+   "nombre_en": "smoked paprika",
+   "cantidad_us": "1 tsp",
+   "g": 2.5,
+   "fdc_id": "171329",
+   "pasillo": "spices",
+   "estado": "dry"
+  },
+  {
+   "nombre_en": "black pepper",
+   "cantidad_us": "1/2 tsp",
+   "g": 1,
+   "fdc_id": "170931",
+   "pasillo": "spices",
+   "estado": "dry"
+  }
+ ],
+ "macros_por_racion": {
+  "kcal": 336.5,
+  "proteina_g": 32.3,
+  "grasa_g": 21.4,
+  "carbohidratos_g": 10.7,
+  "fibra_g": 4.6,
+  "sodio_mg": 554.0
+ },
+ "alergenos": [
+  "soy",
+  "wheat"
+ ],
+ "nevera_dias": 4,
+ "congelador_meses": 2,
+ "recalentar": "Oven or air fryer, 400 °F / 205 °C for 6-8 minutes to bring back the crisp. Microwave makes it soft.",
+ "tiempo_activo_min": 15,
+ "tiempo_total_min": 55,
+ "horno_c": 220,
+ "horno_f": 425
+}

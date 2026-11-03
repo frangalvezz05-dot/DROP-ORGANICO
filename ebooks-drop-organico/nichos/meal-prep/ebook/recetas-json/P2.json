@@ -1,0 +1,88 @@
+{
+ "id": "P2",
+ "nombre": "Slow-Cooker Salsa Shredded Chicken",
+ "componente": "proteina",
+ "familias": [
+  "MEX",
+  "COM"
+ ],
+ "raciones": 5,
+ "rinde_g_cocinado": 700,
+ "racion_g": 140,
+ "ingredientes": [
+  {
+   "nombre_en": "boneless skinless chicken breasts",
+   "cantidad_us": "2.2 lb",
+   "g": 1000,
+   "fdc_id": "171077",
+   "pasillo": "meat",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "jarred salsa (medium)",
+   "cantidad_us": "1 1/2 cups (1 jar, 16 oz)",
+   "g": 360,
+   "fdc_id": "174524",
+   "pasillo": "pantry",
+   "estado": "jarred"
+  },
+  {
+   "nombre_en": "ground cumin",
+   "cantidad_us": "2 tsp",
+   "g": 4,
+   "fdc_id": "170923",
+   "pasillo": "spices",
+   "estado": "dry"
+  },
+  {
+   "nombre_en": "chili powder",
+   "cantidad_us": "2 tsp",
+   "g": 5,
+   "fdc_id": "171319",
+   "pasillo": "spices",
+   "estado": "dry"
+  },
+  {
+   "nombre_en": "garlic powder",
+   "cantidad_us": "1 tsp",
+   "g": 3,
+   "fdc_id": "171325",
+   "pasillo": "spices",
+   "estado": "dry"
+  },
+  {
+   "nombre_en": "kosher salt (table-salt equivalent)",
+   "cantidad_us": "1 tsp",
+   "g": 6,
+   "fdc_id": "173468",
+   "pasillo": "spices",
+   "estado": "dry"
+  },
+  {
+   "nombre_en": "lime juice",
+   "cantidad_us": "2 tbsp",
+   "g": 30,
+   "fdc_id": "168156",
+   "pasillo": "produce",
+   "estado": "juice"
+  }
+ ],
+ "macros_por_racion": {
+  "kcal": 270.2,
+  "proteina_g": 46.5,
+  "grasa_g": 5.7,
+  "carbohidratos_g": 6.6,
+  "fibra_g": 1.9,
+  "sodio_mg": 1097.5
+ },
+ "alergenos": [
+  "none"
+ ],
+ "nevera_dias": 4,
+ "congelador_meses": 3,
+ "recalentar": "Microwave 90 sec with 1 tbsp of its cooking juices, stir halfway, until steaming hot (165 °F / 74 °C).",
+ "tiempo_activo_min": 10,
+ "tiempo_total_min": 250,
+ "horno_c": null,
+ "horno_f": null
+}

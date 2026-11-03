@@ -1,0 +1,98 @@
+{
+ "id": "P1",
+ "nombre": "Lemon-Garlic Sheet-Pan Chicken Thighs",
+ "componente": "proteina",
+ "familias": [
+  "MEX",
+  "ASI",
+  "MED",
+  "COM"
+ ],
+ "raciones": 5,
+ "rinde_g_cocinado": 680,
+ "racion_g": 136,
+ "ingredientes": [
+  {
+   "nombre_en": "boneless skinless chicken thighs",
+   "cantidad_us": "2 lb",
+   "g": 907,
+   "fdc_id": "173627",
+   "pasillo": "meat",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "olive oil",
+   "cantidad_us": "2 tbsp",
+   "g": 27,
+   "fdc_id": "171413",
+   "pasillo": "pantry",
+   "estado": "oil"
+  },
+  {
+   "nombre_en": "lemon juice",
+   "cantidad_us": "3 tbsp",
+   "g": 45,
+   "fdc_id": "167747",
+   "pasillo": "produce",
+   "estado": "juice"
+  },
+  {
+   "nombre_en": "garlic cloves",
+   "cantidad_us": "4 cloves, minced",
+   "g": 12,
+   "fdc_id": "169230",
+   "pasillo": "produce",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "dried oregano",
+   "cantidad_us": "1 tsp",
+   "g": 1.5,
+   "fdc_id": "171328",
+   "pasillo": "spices",
+   "estado": "dry"
+  },
+  {
+   "nombre_en": "smoked paprika",
+   "cantidad_us": "1 tsp",
+   "g": 2.5,
+   "fdc_id": "171329",
+   "pasillo": "spices",
+   "estado": "dry"
+  },
+  {
+   "nombre_en": "kosher salt (table-salt equivalent)",
+   "cantidad_us": "1 tsp",
+   "g": 6,
+   "fdc_id": "173468",
+   "pasillo": "spices",
+   "estado": "dry"
+  },
+  {
+   "nombre_en": "black pepper",
+   "cantidad_us": "1/2 tsp",
+   "g": 1,
+   "fdc_id": "170931",
+   "pasillo": "spices",
+   "estado": "dry"
+  }
+ ],
+ "macros_por_racion": {
+  "kcal": 275.5,
+  "proteina_g": 36.0,
+  "grasa_g": 13.0,
+  "carbohidratos_g": 2.0,
+  "fibra_g": 0.4,
+  "sodio_mg": 638.5
+ },
+ "alergenos": [
+  "none"
+ ],
+ "nevera_dias": 4,
+ "congelador_meses": 3,
+ "recalentar": "Microwave 60-90 sec, covered, until steaming hot (165 °F / 74 °C).",
+ "tiempo_activo_min": 10,
+ "tiempo_total_min": 40,
+ "horno_c": 220,
+ "horno_f": 425
+}

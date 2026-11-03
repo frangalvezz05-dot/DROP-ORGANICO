@@ -1,0 +1,115 @@
+{
+ "id": "P6",
+ "nombre": "Freezer Turkey Meatballs",
+ "componente": "proteina",
+ "familias": [
+  "MED",
+  "COM",
+  "ASI"
+ ],
+ "raciones": 5,
+ "rinde_g_cocinado": 780,
+ "racion_g": 156,
+ "ingredientes": [
+  {
+   "nombre_en": "93% lean ground turkey",
+   "cantidad_us": "2 lb",
+   "g": 907,
+   "fdc_id": "172850",
+   "pasillo": "meat",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "egg",
+   "cantidad_us": "1 large",
+   "g": 50,
+   "fdc_id": "171287",
+   "pasillo": "dairy",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "plain dry breadcrumbs",
+   "cantidad_us": "1/2 cup",
+   "g": 55,
+   "fdc_id": "174928",
+   "pasillo": "pantry",
+   "estado": "dry"
+  },
+  {
+   "nombre_en": "grated Parmesan",
+   "cantidad_us": "1/4 cup (about 1 oz)",
+   "g": 28,
+   "fdc_id": "171247",
+   "pasillo": "dairy",
+   "estado": "dry"
+  },
+  {
+   "nombre_en": "garlic cloves",
+   "cantidad_us": "3 cloves, minced",
+   "g": 9,
+   "fdc_id": "169230",
+   "pasillo": "produce",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "onion powder",
+   "cantidad_us": "1 tsp",
+   "g": 2.5,
+   "fdc_id": "171327",
+   "pasillo": "spices",
+   "estado": "dry"
+  },
+  {
+   "nombre_en": "dried oregano",
+   "cantidad_us": "1 tsp",
+   "g": 1.5,
+   "fdc_id": "171328",
+   "pasillo": "spices",
+   "estado": "dry"
+  },
+  {
+   "nombre_en": "fresh parsley",
+   "cantidad_us": "2 tbsp, chopped",
+   "g": 8,
+   "fdc_id": "170416",
+   "pasillo": "produce",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "kosher salt (table-salt equivalent)",
+   "cantidad_us": "1 1/2 tsp",
+   "g": 9,
+   "fdc_id": "173468",
+   "pasillo": "spices",
+   "estado": "dry"
+  },
+  {
+   "nombre_en": "black pepper",
+   "cantidad_us": "1/2 tsp",
+   "g": 1,
+   "fdc_id": "170931",
+   "pasillo": "spices",
+   "estado": "dry"
+  }
+ ],
+ "macros_por_racion": {
+  "kcal": 359.6,
+  "proteina_g": 38.6,
+  "grasa_g": 18.3,
+  "carbohidratos_g": 10.2,
+  "fibra_g": 0.8,
+  "sodio_mg": 1020.2
+ },
+ "alergenos": [
+  "milk",
+  "egg",
+  "wheat"
+ ],
+ "nevera_dias": 4,
+ "congelador_meses": 3,
+ "recalentar": "Microwave 6 meatballs 60-90 sec, or 12 min at 350 °F / 175 °C from frozen, until 165 °F / 74 °C in the centre.",
+ "tiempo_activo_min": 15,
+ "tiempo_total_min": 35,
+ "horno_c": 205,
+ "horno_f": 400
+}

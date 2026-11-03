@@ -1,0 +1,58 @@
+{
+ "id": "B2",
+ "nombre": "Fluffy Quinoa",
+ "componente": "base",
+ "familias": [
+  "ASI",
+  "MED",
+  "MEX",
+  "COM"
+ ],
+ "raciones": 5,
+ "rinde_g_cocinado": 840,
+ "racion_g": 168,
+ "ingredientes": [
+  {
+   "nombre_en": "quinoa",
+   "cantidad_us": "1 1/2 cups",
+   "g": 255,
+   "fdc_id": "168874",
+   "pasillo": "pantry",
+   "estado": "dry"
+  },
+  {
+   "nombre_en": "olive oil",
+   "cantidad_us": "1 tbsp",
+   "g": 14,
+   "fdc_id": "171413",
+   "pasillo": "pantry",
+   "estado": "oil"
+  },
+  {
+   "nombre_en": "kosher salt (table-salt equivalent)",
+   "cantidad_us": "3/4 tsp",
+   "g": 4.5,
+   "fdc_id": "173468",
+   "pasillo": "spices",
+   "estado": "dry"
+  }
+ ],
+ "macros_por_racion": {
+  "kcal": 212.4,
+  "proteina_g": 7.2,
+  "grasa_g": 5.9,
+  "carbohidratos_g": 32.7,
+  "fibra_g": 3.6,
+  "sodio_mg": 351.4
+ },
+ "alergenos": [
+  "none"
+ ],
+ "nevera_dias": 4,
+ "congelador_meses": 3,
+ "recalentar": "Microwave 60-90 sec with a splash of water, covered, until steaming hot (165 °F / 74 °C).",
+ "tiempo_activo_min": 5,
+ "tiempo_total_min": 25,
+ "horno_c": null,
+ "horno_f": null
+}

@@ -1,0 +1,81 @@
+{
+ "id": "B3",
+ "nombre": "Crispy Roasted Baby Potatoes",
+ "componente": "base",
+ "familias": [
+  "MEX",
+  "MED",
+  "COM"
+ ],
+ "raciones": 5,
+ "rinde_g_cocinado": 850,
+ "racion_g": 170,
+ "ingredientes": [
+  {
+   "nombre_en": "baby red potatoes",
+   "cantidad_us": "2.2 lb baby red potatoes, halved",
+   "g": 1000,
+   "fdc_id": "170029",
+   "pasillo": "produce",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "olive oil",
+   "cantidad_us": "2 tbsp",
+   "g": 27,
+   "fdc_id": "171413",
+   "pasillo": "pantry",
+   "estado": "oil"
+  },
+  {
+   "nombre_en": "kosher salt (table-salt equivalent)",
+   "cantidad_us": "1 tsp",
+   "g": 6,
+   "fdc_id": "173468",
+   "pasillo": "spices",
+   "estado": "dry"
+  },
+  {
+   "nombre_en": "garlic powder",
+   "cantidad_us": "1 tsp",
+   "g": 3,
+   "fdc_id": "171325",
+   "pasillo": "spices",
+   "estado": "dry"
+  },
+  {
+   "nombre_en": "smoked paprika",
+   "cantidad_us": "1 tsp",
+   "g": 2.5,
+   "fdc_id": "171329",
+   "pasillo": "spices",
+   "estado": "dry"
+  },
+  {
+   "nombre_en": "black pepper",
+   "cantidad_us": "1/2 tsp",
+   "g": 1,
+   "fdc_id": "170931",
+   "pasillo": "spices",
+   "estado": "dry"
+  }
+ ],
+ "macros_por_racion": {
+  "kcal": 191.6,
+  "proteina_g": 4.0,
+  "grasa_g": 5.8,
+  "carbohidratos_g": 32.6,
+  "fibra_g": 3.7,
+  "sodio_mg": 501.9
+ },
+ "alergenos": [
+  "none"
+ ],
+ "nevera_dias": 4,
+ "congelador_meses": 0,
+ "recalentar": "Oven or air fryer, 400 °F / 205 °C for 8-10 minutes. Microwave makes them soft.",
+ "tiempo_activo_min": 10,
+ "tiempo_total_min": 45,
+ "horno_c": 220,
+ "horno_f": 425
+}

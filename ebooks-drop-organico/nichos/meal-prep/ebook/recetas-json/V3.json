@@ -1,0 +1,89 @@
+{
+ "id": "V3",
+ "nombre": "Roasted Zucchini & Red Onion",
+ "componente": "verdura",
+ "familias": [
+  "MEX",
+  "MED",
+  "COM"
+ ],
+ "raciones": 5,
+ "rinde_g_cocinado": 650,
+ "racion_g": 130,
+ "ingredientes": [
+  {
+   "nombre_en": "zucchini",
+   "cantidad_us": "3 medium (about 1.7 lb), cut in 1/2-inch half-moons",
+   "g": 750,
+   "fdc_id": "169291",
+   "pasillo": "produce",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "red onion",
+   "cantidad_us": "1 large red onion, cut in wedges",
+   "g": 200,
+   "fdc_id": "170000",
+   "pasillo": "produce",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "olive oil",
+   "cantidad_us": "2 tbsp",
+   "g": 27,
+   "fdc_id": "171413",
+   "pasillo": "pantry",
+   "estado": "oil"
+  },
+  {
+   "nombre_en": "dried oregano",
+   "cantidad_us": "1 tsp",
+   "g": 1.5,
+   "fdc_id": "171328",
+   "pasillo": "spices",
+   "estado": "dry"
+  },
+  {
+   "nombre_en": "garlic powder",
+   "cantidad_us": "1/2 tsp",
+   "g": 1.5,
+   "fdc_id": "171325",
+   "pasillo": "spices",
+   "estado": "dry"
+  },
+  {
+   "nombre_en": "kosher salt (table-salt equivalent)",
+   "cantidad_us": "1 tsp",
+   "g": 6,
+   "fdc_id": "173468",
+   "pasillo": "spices",
+   "estado": "dry"
+  },
+  {
+   "nombre_en": "lemon juice",
+   "cantidad_us": "1 tbsp",
+   "g": 15,
+   "fdc_id": "167747",
+   "pasillo": "produce",
+   "estado": "juice"
+  }
+ ],
+ "macros_por_racion": {
+  "kcal": 91.7,
+  "proteina_g": 2.3,
+  "grasa_g": 5.9,
+  "carbohidratos_g": 9.0,
+  "fibra_g": 2.3,
+  "sodio_mg": 479.1
+ },
+ "alergenos": [
+  "none"
+ ],
+ "nevera_dias": 3,
+ "congelador_meses": 0,
+ "recalentar": "Eat cold, or microwave 45 sec. Best on the first 3 days; it gets watery after.",
+ "tiempo_activo_min": 10,
+ "tiempo_total_min": 30,
+ "horno_c": 220,
+ "horno_f": 425
+}

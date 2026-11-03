@@ -1,0 +1,90 @@
+{
+ "id": "P8",
+ "nombre": "Simple Baked Salmon",
+ "componente": "proteina",
+ "familias": [
+  "MEX",
+  "ASI",
+  "MED",
+  "COM"
+ ],
+ "raciones": 5,
+ "rinde_g_cocinado": 730,
+ "racion_g": 146,
+ "ingredientes": [
+  {
+   "nombre_en": "Atlantic salmon fillets",
+   "cantidad_us": "2 lb (skin-off or skin-on)",
+   "g": 907,
+   "fdc_id": "175167",
+   "pasillo": "seafood",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "olive oil",
+   "cantidad_us": "1 tbsp",
+   "g": 14,
+   "fdc_id": "171413",
+   "pasillo": "pantry",
+   "estado": "oil"
+  },
+  {
+   "nombre_en": "lemon juice",
+   "cantidad_us": "1 tbsp",
+   "g": 15,
+   "fdc_id": "167747",
+   "pasillo": "produce",
+   "estado": "juice"
+  },
+  {
+   "nombre_en": "garlic powder",
+   "cantidad_us": "1 tsp",
+   "g": 3,
+   "fdc_id": "171325",
+   "pasillo": "spices",
+   "estado": "dry"
+  },
+  {
+   "nombre_en": "smoked paprika",
+   "cantidad_us": "1 tsp",
+   "g": 2.5,
+   "fdc_id": "171329",
+   "pasillo": "spices",
+   "estado": "dry"
+  },
+  {
+   "nombre_en": "kosher salt (table-salt equivalent)",
+   "cantidad_us": "3/4 tsp",
+   "g": 4.5,
+   "fdc_id": "173468",
+   "pasillo": "spices",
+   "estado": "dry"
+  },
+  {
+   "nombre_en": "black pepper",
+   "cantidad_us": "1/4 tsp",
+   "g": 0.5,
+   "fdc_id": "170931",
+   "pasillo": "spices",
+   "estado": "dry"
+  }
+ ],
+ "macros_por_racion": {
+  "kcal": 406.4,
+  "proteina_g": 37.2,
+  "grasa_g": 27.2,
+  "carbohidratos_g": 1.0,
+  "fibra_g": 0.3,
+  "sodio_mg": 456.7
+ },
+ "alergenos": [
+  "fish"
+ ],
+ "nevera_dias": 3,
+ "congelador_meses": 2,
+ "recalentar": "Eat cold, or microwave at 50% power 60-90 sec. Do not boil it; it dries and smells.",
+ "tiempo_activo_min": 8,
+ "tiempo_total_min": 22,
+ "horno_c": 205,
+ "horno_f": 400
+}

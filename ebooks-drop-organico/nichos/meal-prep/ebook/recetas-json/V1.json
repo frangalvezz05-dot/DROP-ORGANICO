@@ -1,0 +1,66 @@
+{
+ "id": "V1",
+ "nombre": "Charred Roasted Broccoli",
+ "componente": "verdura",
+ "familias": [
+  "MEX",
+  "ASI",
+  "MED",
+  "COM"
+ ],
+ "raciones": 5,
+ "rinde_g_cocinado": 650,
+ "racion_g": 130,
+ "ingredientes": [
+  {
+   "nombre_en": "broccoli crowns",
+   "cantidad_us": "2 large crowns (about 2 lb), cut into florets",
+   "g": 900,
+   "fdc_id": "170379",
+   "pasillo": "produce",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "olive oil",
+   "cantidad_us": "2 tbsp",
+   "g": 27,
+   "fdc_id": "171413",
+   "pasillo": "pantry",
+   "estado": "oil"
+  },
+  {
+   "nombre_en": "kosher salt (table-salt equivalent)",
+   "cantidad_us": "1 tsp",
+   "g": 6,
+   "fdc_id": "173468",
+   "pasillo": "spices",
+   "estado": "dry"
+  },
+  {
+   "nombre_en": "garlic powder",
+   "cantidad_us": "1 tsp",
+   "g": 3,
+   "fdc_id": "171325",
+   "pasillo": "spices",
+   "estado": "dry"
+  }
+ ],
+ "macros_por_racion": {
+  "kcal": 110.9,
+  "proteina_g": 5.2,
+  "grasa_g": 6.1,
+  "carbohidratos_g": 12.4,
+  "fibra_g": 4.7,
+  "sodio_mg": 525.0
+ },
+ "alergenos": [
+  "none"
+ ],
+ "nevera_dias": 4,
+ "congelador_meses": 0,
+ "recalentar": "Eat cold in bowls, or 10 minutes in a hot oven or air fryer. Microwave makes it soft but it is safe.",
+ "tiempo_activo_min": 10,
+ "tiempo_total_min": 30,
+ "horno_c": 230,
+ "horno_f": 450
+}
