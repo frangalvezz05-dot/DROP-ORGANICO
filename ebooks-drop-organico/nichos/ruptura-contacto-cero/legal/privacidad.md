@@ -11,7 +11,7 @@
 | Gestionar tu compra (cobro, entrega del archivo, facturación, atención de dudas y reclamaciones) | Nombre, email, país, datos del pedido y del pago (el pago lo procesa la pasarela; no vemos tu tarjeta completa) | Ejecución del contrato (art. 6.1.b RGPD) y obligación legal (art. 6.1.c: contabilidad y fiscalidad) | Mientras dure la relación y, después, el tiempo que obliguen las normas fiscales y mercantiles |
 | Enviarte la **muestra gratis** que pides | Email (y nombre si lo pides en el formulario) | Tu petición (art. 6.1.b) | Hasta que pidas la baja o se complete el envío, según lo que ocurra antes |
 | Enviarte **emails comerciales** (novedades, ofertas) | Email | Tu consentimiento (art. 6.1.a), que das con una casilla aparte y puedes retirar en cualquier momento | Hasta que retires el consentimiento |
-| Guardar la prueba de tus consentimientos (casilla del pago y de emails, fecha y hora) | Email, fecha, hora y texto aceptado | Interés legítimo en poder acreditar el cumplimiento (art. 6.1.f) y obligación legal | El plazo en que puedan reclamarse responsabilidades [SIN DATO: plazo concreto, ver comentario] |
+| Guardar la prueba de tus consentimientos (casilla del pago y de emails, fecha y hora) | Email, fecha, hora y texto aceptado | Interés legítimo en poder acreditar el cumplimiento (art. 6.1.f) y obligación legal | El tiempo necesario para poder acreditarlos ante una reclamación |
 
 Solo se envían emails comerciales a quien marca la casilla específica. Comprar o pedir la muestra no te suscribe a emails comerciales.
 
@@ -23,7 +23,7 @@ Solo se envían emails comerciales a quien marca la casilla específica. Comprar
 No vendemos tus datos.
 
 ## 4. Transferencias fuera del Espacio Económico Europeo
-Algunos de estos proveedores pueden tratar datos en EE. UU. Esto se apoya en el marco de privacidad UE-EE. UU. o en cláusulas contractuales tipo, según el proveedor [ESTIMACIÓN: confirmar con cada proveedor antes de publicar].
+Algunos de estos proveedores pueden tratar datos en EE. UU. Esto se apoya en el marco de privacidad UE-EE. UU. o en cláusulas contractuales tipo, según el proveedor.
 
 ## 5. Tus derechos
 Puedes pedir acceso, rectificación, supresión, oposición, limitación y portabilidad, y retirar tu consentimiento cuando quieras, escribiendo a {{EMAIL_CONTACTO}} (indica tu email de compra). En cada email comercial hay un enlace de baja con un clic. Si crees que no tratamos bien tus datos, puedes reclamar ante la **Agencia Española de Protección de Datos** (www.aepd.es).

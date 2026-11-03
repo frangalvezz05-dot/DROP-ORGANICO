@@ -25,7 +25,6 @@ Si no estás en España, busca la línea de tu país.
 
 ## 4. Precio y pago
 El precio final **incluye el IVA** y es el que ves en la página del producto y en el pago, antes de confirmar el pedido. No hay costes de envío. El pago se hace a través de Shopify Payments. Los impuestos se muestran en el pago según tu país. Pago único, sin suscripción.
-Nota para el titular: la tarifa de IVA del pack está pendiente de confirmar con el gestor (ver comentario final).
 
 ## 5. Entrega
 Entrega inmediata y digital: tras el pago recibes un correo con el enlace de descarga. El correo y el enlace pueden tener un límite de descargas o de tiempo, que se indica en el propio correo. Si no te llega, mira la carpeta de spam y escribe a {{EMAIL_CONTACTO}}.
@@ -47,7 +46,7 @@ Entrega inmediata y digital: tras el pago recibes un correo con el enlace de des
 El contenido digital debe ser conforme con lo descrito en la página del producto y en estas condiciones (formato, contenido, páginas y dispositivos) y servir para el uso previsto (arts. 115 bis y siguientes TRLGDCU). Si un archivo no se abre, está incompleto o no se corresponde con lo descrito, escribe a {{EMAIL_CONTACTO}} y lo resolveremos conforme a la ley. Esta garantía es un derecho legal que tienes siempre; no limita ningún otro derecho.
 
 ## 8. Reclamaciones y resolución de litigios
-Escribe a {{EMAIL_CONTACTO}} con tu número de pedido; responderemos lo antes posible. Como consumidor, también puedes acudir a los servicios de consumo de tu comunidad autónoma o a los juzgados que te correspondan. Plataforma europea de resolución de litigios en línea: https://ec.europa.eu/consumers/odr [SIN DATO: vigencia de la plataforma por confirmar con el profesional; ver comentario].
+Escribe a {{EMAIL_CONTACTO}} con tu número de pedido; responderemos lo antes posible. Como consumidor, también puedes acudir a los servicios de consumo de tu comunidad autónoma o a los juzgados que te correspondan.
 
 ## 9. Dónde vendemos
 Esta tienda en español vende a consumidores de España y de la Unión Europea. No vendemos al Reino Unido.
@@ -56,7 +55,7 @@ Esta tienda en español vende a consumidores de España y de la Unión Europea. 
 Esta tienda no muestra reseñas de clientes por ahora. Si se muestran en el futuro, se indicará si se comprueba que proceden de compradores reales y cómo se tramitan.
 
 ## 11. Ley aplicable
-Ley española; en cuanto a los consumidores, se respetan las normas imperativas de su país de residencia en la UE.
+Ley española, sin perjuicio de los derechos que la ley reconozca al consumidor.
 
 Última actualización: {{FECHA_ACTUALIZACION}}
 
@@ -64,7 +63,8 @@ Ley española; en cuanto a los consumidores, se respetan las normas imperativas 
 - IVA 4 % ebook [DATO] fiscal.md §3; pack con plantillas: 4 % o 21 % [SIN DATO] -> consulta-gestor.md nº 4. estructura.md §2.2 calcula con 21 % [ESTIMACIÓN]: incoherente con 4 %; resolver con gestor. El precio inicial (14,99 EUR) es [ESTIMACIÓN] y no se escribe aquí: sale del bloque automático de la tienda.
 - "Unas 60 páginas": [ESTIMACIÓN] de pagina-producto.md hasta redactar el ebook completo; ajustar.
 - Límite de descargas: [SIN DATO] depende de la app de entrega elegida (no elegida aún).
-- Plataforma ODR: [SIN DATO] no verificada en esta sesión.
+- Plataforma europea ODR: [SIN DATO] vigencia no verificada; por eso se ha quitado el enlace del texto público (vuelta 1). Preguntar al gestor.
+- La tarifa de IVA del pack sigue pendiente del gestor (nota movida aquí en vuelta 1).
 - Arts. 103.m, 97-98, 115 bis: [DATO] 02-analisis §1. Plazos y remedios de conformidad: [SIN DATO] (consumo... §5).
 - Reino Unido cerrado: [DATO] 02-analisis §1 nº 2. EE. UU. se trata en la tienda inglesa (otro texto en inglés pendiente; no pedido aquí).
 - Botón de desistimiento tras la excepción: [SIN DATO] de si es obligatorio; se ofrece por prudencia.
