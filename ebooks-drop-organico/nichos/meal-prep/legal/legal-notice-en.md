@@ -2,6 +2,8 @@
 
 # Legal notice
 
+_The Spanish version prevails if there is any discrepancy._
+
 ## Owner of this website (art. 10 LSSI, Spain)
 - Owner: {{NOMBRE_TITULAR}}
 - Tax ID (NIF): {{NIF}}

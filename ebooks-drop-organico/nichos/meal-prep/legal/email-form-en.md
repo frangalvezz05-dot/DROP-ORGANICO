@@ -2,6 +2,8 @@
 
 # Free sample form (email capture)
 
+_The Spanish version prevails if there is any discrepancy._
+
 ## Form text
 **Title:** Get the free sample of The Sunday Sheet
 **Fields:** Email (required).

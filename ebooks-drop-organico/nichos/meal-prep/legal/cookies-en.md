@@ -2,6 +2,8 @@
 
 # Cookie policy
 
+_The Spanish version prevails if there is any discrepancy._
+
 ## What they are
 Small files or similar technologies stored on your device when you visit {{DOMINIO}} (store {{NOMBRE_TIENDA}}, owner {{NOMBRE_TITULAR}}).
 

@@ -2,6 +2,8 @@
 
 # Checkout checkbox (next to the "Order with obligation to pay" button)
 
+_The Spanish version prevails if there is any discrepancy._
+
 Own checkbox, **not pre-ticked**, required to pay for the digital product. It applies to all customers of the English store.
 
 ## EN (English store)

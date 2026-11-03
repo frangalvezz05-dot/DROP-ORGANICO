@@ -2,6 +2,8 @@
 
 # Order confirmation email (durable medium, art. 98.7 TRLGDCU)
 
+_The Spanish version prevails if there is any discrepancy._
+
 Fields in square brackets [ ] are filled in automatically by the store with the real order data.
 
 **Subject:** Your order confirmation [ORDER NUMBER] · {{NOMBRE_TIENDA}}

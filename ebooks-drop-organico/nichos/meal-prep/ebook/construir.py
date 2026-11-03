@@ -8,8 +8,11 @@ PLATOS = {}
 estr = open('../estructura.md', encoding='utf-8').read()
 for cod, comp in re.findall(r'\b(M\d+|A\d+|D-\d+|C\d+) (P\d+\+B\d+\+V\d+\+S\d+)', estr):
     PLATOS[cod] = comp.split('+')
+def mpr(i):
+    m = R[i]['macros_por_racion']
+    return m.get('por_racion', m)  # algunas fichas (salsas, desayunos) guardan la salida completa de macros.py
 def plato(cod):
-    ids = PLATOS[cod]; m = {k: round(sum(R[i]['macros_por_racion'].get(k, 0) or 0 for i in ids), 1) for k in M}
+    ids = PLATOS[cod]; m = {k: round(sum(mpr(i).get(k, 0) or 0 for i in ids), 1) for k in M}
     al = sorted({a for i in ids for a in R[i]['alergenos'] if a != 'none'})
     return {'id': cod, 'componentes': ids, 'nombres': [R[i]['nombre'] for i in ids], 'macros': m,
             'kcal_redondeo': int(round(m['kcal'] / 10) * 10), 'proteina_redondeo': int(round(m['proteina_g'])),

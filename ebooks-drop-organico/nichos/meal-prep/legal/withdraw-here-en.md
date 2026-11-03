@@ -2,6 +2,8 @@
 
 # Withdraw from the contract here
 
+_The Spanish version prevails if there is any discrepancy._
+
 This page lets you request withdrawal from a purchase at {{NOMBRE_TIENDA}} ({{NOMBRE_TITULAR}}, {{EMAIL_CONTACTO}}). It is a voluntary function we offer to make it easy to exercise your rights.
 
 ## When does it apply?
