@@ -29,7 +29,7 @@ This is the week for your first Sunday. Every decision is made. You shop from th
 
 ## The Sunday Sheet · Week 1
 
-**Before 0:00 (about 10 minutes):** clear the counter. Line 4 sheet pans with parchment. Grease a 12-cup muffin tin plus 3 cups of a second tin. Get out the scale, thermometer, a 8×8-inch (20 cm) baking dish with foil, 10 boxes, 6 small sauce cups and 5 breakfast containers. Fill the kettle.
+**Before 0:00 (about 10 minutes):** clear the counter. Line 4 sheet pans with parchment. Grease a 12-cup muffin tin plus 3 cups of a second tin. Get out the scale, thermometer, an 8×8-inch (20 cm) baking dish with foil, 10 boxes, 6 small sauce cups and 5 breakfast containers. Fill the kettle.
 
 | Clock | Station | Do this | Done when | Recipe |
 |---|---|---|---|---|
