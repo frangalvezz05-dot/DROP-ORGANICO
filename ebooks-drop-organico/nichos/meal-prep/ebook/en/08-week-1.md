@@ -177,9 +177,11 @@ Amounts are what the recipes use, rounded up to what you can buy. **×1** = 10 b
 
 ## What this week costs
 
-[COST_TABLE]
+| Week 1 | 1 person | 2 people | Average per plate |
+|---|---|---|---|
+| Shopping total | **$43.72** | **$87.43** | $3.67 |
 
-<!-- [COST_TABLE] = marcador. Coste de la semana 1 (×1 y ×2) y coste por caja, con tienda/región y fecha de precios. Fuente prevista: datos/costes.md (USDA ERS). No inventar cifras. -->
+*US average retail prices, USDA ERS (meat, eggs and dairy: latest month available; fruit and vegetables: 2023 annual averages) plus reference prices for pantry items. Your store will differ.*
 
 ## Your action
 

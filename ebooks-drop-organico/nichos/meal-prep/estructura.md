@@ -35,13 +35,13 @@ Extra que nadie ofrece [ESTIMACIÓN, a partir de las páginas vistas]: **racione
 | Snacks altos en proteína | 8 | completan el día |
 | **Total recetas** | **60** | |
 | **Platos firmados** (combinaciones probadas, con foto, macros y coste del plato montado) | **48** | 12 por familia de sabor |
-| **Combinaciones compatibles** (tabla "Mix & Match" por reglas de sabor) | **2.106** | calculado por script: de 4.320 combinaciones posibles (10×6×6×12), las que respetan la familia de sabor de cada pieza |
+| **Combinaciones compatibles** (tabla "Mix & Match" por reglas de sabor) | **1.815** | calculado por script: de 4.320 combinaciones posibles (10×6×6×12), las que respetan la familia de sabor de cada pieza |
 
 **Por qué 60 y no 100-220** [ESTIMACIÓN argumentada]:
 1. El dolor del avatar no es "me faltan recetas", es **aburrirse, perder el domingo y que no cuadre** (F3, F19-F22, F24, F26). 200 recetas sueltas reproducen el problema de F5 ("random recipes"); 60 componentes con sistema lo resuelven.
 2. Valor percibido comparable sin inflar: **60 recetas + 48 platos montados con macros + plan de 4 semanas + tabla de 2.000+ combinaciones** (FeastRecipes 220 recetas a 29,99 $; Stealth Health 110 a ~25-30 $). En la página de producto se cuentan **60 recetas y 48 platos**, nunca "2.000 recetas".
 3. Calidad verificable: cada receta lleva macros calculadas, conservación, coste y alérgenos. Con 60 es realista calcularlo todo bien (y que Fran cocine 3-5); con 200 no.
-4. Las 2.106 combinaciones **no están probadas una a una**: se presentan como "tabla de emparejamientos"; las probadas son las 48. Las macros de cualquier combinación se suman con la tabla de macros por ración de cada componente (A3).
+4. Las 1.815 combinaciones **no están probadas una a una**: se presentan como "tabla de emparejamientos"; las probadas son las 48. Las macros de cualquier combinación se suman con la tabla de macros por ración de cada componente (A3).
 
 **Comprobación de macros** [DATO, `macros.py`, USDA SR Legacy]: plato muestra 140 g muslo de pollo asado + 150 g arroz + 100 g brócoli + 50 g yogur griego desnatado = **510 kcal, 46 g proteína**; 90 g ternera 93 % + 80 g lenteja + 150 g arroz + 100 g brócoli = **496 kcal, 38 g proteína, 10 g fibra**. → Objetivo realista: **platos de 450-600 kcal con 30-45 g de proteína**; los platos vegetales (tofu, garbanzo) bajarán a ~20-28 g y se muestra su cifra real, sin redondear al alza.
 
@@ -88,7 +88,7 @@ Extra que nadie ofrece [ESTIMACIÓN, a partir de las páginas vistas]: **racione
 | 13 | Bases (6) | Pasta/arroz que saben mal al recalentar | (ES, para la adaptación) E3 "…lo caliento al micro me sabe fatal" · https://www.mediavida.com/foro/cocina/meal-prep-590373/8 [SIN DATO en EN] | Punto de cocción para recalentar, cómo guardar | Bases con textura el jueves |
 | 14 | Vegetables (6) | Verdura blanda/aguada | [SIN DATO] (técnica estándar) | Asar vs crudo y cuándo montar | Verdura que aguanta |
 | 15 | Sauces (12) · the variety engine | Monotonía | F11 "…you reuse a lot of ingredients, seasonings, and sauces…"; F24 | 12 salsas, 3 por familia, cada una con "va con" | 5 platos con 1 tanda |
-| 16 | 48 Signature Plates + Mix & Match Chart | Combinar sin pensar | F22 | Platos montados (macros/coste/alérgenos del plato) + tabla de 2.106 emparejamientos | Más de un mes sin repetir plato |
+| 16 | 48 Signature Plates + Mix & Match Chart | Combinar sin pensar | F22 | Platos montados (macros/coste/alérgenos del plato) + tabla de 1.815 emparejamientos | Más de un mes sin repetir plato |
 | 17 | Breakfasts (8) | Solo cubrir una comida | F23 "…it's only for one meal a day…" (Batch Cooking) | Desayunos de tanda | Mañanas resueltas |
 | 18 | The Freezer Block (10 one-pot meals) | Semanas sin domingo | F1 | Una olla, raciones a congelar, descongelar y recalentar | Comida de reserva |
 | 19 | High-Protein Snacks (8) | Picar sin control de proteína | [SIN DATO] | Cajas de snack | Tentempiés con cifra |
@@ -157,7 +157,7 @@ Coincide con los datos:
 - Sin promesas de peso ni salud; se habla de tiempo, coste, variedad y proteína. [DATO]
 
 Fallos detectados y aplicados:
-1. **Riesgo de inflar el número**: sería tentador anunciar "2.000+ meals"; las combinaciones no están probadas → aplicado: se venden **60 recetas + 48 platos**; las 2.106 se llaman "tabla de emparejamientos" (§2.1 punto 4).
+1. **Riesgo de inflar el número**: sería tentador anunciar "2.000+ meals"; las combinaciones no están probadas → aplicado: se venden **60 recetas + 48 platos**; las 1.815 se llaman "tabla de emparejamientos" (§2.1 punto 4).
 2. **"Hasta el jueves" vs seguridad alimentaria**: cocinar el domingo y comer el viernes son 5 días, por encima de los 3-4 de USDA FSIS. Aplicado: **regla del día 5** (viernes al congelador el domingo) y salmón los dos primeros días (§3, cap. 4; §3.2).
 3. **Contradicción con el avatar**: F27 critica "4-5 lbs of meat each week" y la semana 1 lleva ~1,9 kg (≈4,2 lb) para una persona. Aplicado: se declara la cantidad por semana y las semanas 2 y 4 la bajan con lenteja y tofu (§3.2).
 4. **Proteína de platos vegetales**: no llegan a 30 g; aplicado: se muestra la cifra real, sin promedio que la tape (§2.1).

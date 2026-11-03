@@ -203,9 +203,13 @@ Now three things change, and you'll make each change yourself:
 
 ## What this week costs
 
-[COST_TABLE]
+| Week 4 | 1 person | 2 people | Average per plate |
+|---|---|---|---|
+| Shopping total | **$39.63** | **$79.26** | $3.23 |
 
-<!-- [COST_TABLE] = marcador. Coste de la semana 4 con S2 por defecto (×1 y ×2) y nota de cuánto cambia con cada salsa alternativa, con fuente y fecha (datos/costes.md). No inventar cifras. -->
+Priced with the default sauce. Swapping the sauce changes the total by cents, not dollars.
+
+*US average retail prices, USDA ERS (meat, eggs and dairy: latest month available; fruit and vegetables: 2023 annual averages) plus reference prices for pantry items. Your store will differ.*
 
 ## Your action: plan Week 5 yourself
 

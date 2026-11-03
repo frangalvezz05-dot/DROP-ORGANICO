@@ -180,9 +180,13 @@ This week you cook a little more than you eat. The meatballs are made twice. One
 
 ## What this week costs
 
-[COST_TABLE]
+| Week 3 | 1 person | 2 people | Average per plate |
+|---|---|---|---|
+| Shopping total | **$71.36** | **$142.72** | $4.84 |
 
-<!-- [COST_TABLE] = marcador. Coste de la semana 3 (×1 y ×2) separando lo que se come esta semana y la reserva del congelador (4 raciones), con fuente y fecha (datos/costes.md). No inventar cifras. -->
+This total includes the 4 extra freezer portions, so it buys more than one week of food.
+
+*US average retail prices, USDA ERS (meat, eggs and dairy: latest month available; fruit and vegetables: 2023 annual averages) plus reference prices for pantry items. Your store will differ.*
 
 ## Your action
 

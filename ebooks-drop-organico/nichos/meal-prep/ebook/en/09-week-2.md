@@ -1,4 +1,4 @@
-# 9 · Week 2 · The Budget Week
+# 9 · Week 2 · The Slow-Cooker Week
 
 > "Simply because it gets expensive and hard to source all the meat sometimes... especially the more expensive cuts."
 > — reader review
@@ -7,7 +7,7 @@
 
 This week spends less on meat without cutting the protein. Two tricks do it. Lentils stretch 1 lb of ground beef into 5 portions. Chicken breast goes in the slow cooker with a jar of salsa and needs nothing from you for hours.
 
-**Who it's for:** you did Week 1 and want a cheaper week, or meat prices are the reason you stopped prepping.
+**Who it's for:** you did Week 1 and want a Sunday where the slow cooker does part of the work, and less meat on the list thanks to lentils.
 
 **What comes out:** 10 boxes and 5 jars of overnight oats.
 
@@ -191,9 +191,13 @@ The recipe makes 5 tortillas' worth; this week has 6 wrap boxes, so buy a pack a
 
 ## What this week costs
 
-[COST_TABLE]
+| Week 2 | 1 person | 2 people | Average per plate |
+|---|---|---|---|
+| Shopping total | **$47.15** | **$94.30** | $3.64 |
 
-<!-- [COST_TABLE] = marcador. Coste de la semana 2 (×1 y ×2) y por caja, con fuente y fecha (datos/costes.md). Comparar con la semana 1: es la semana "barata" y el texto lo afirma; si los datos no lo confirman, cambiar el título. No inventar cifras. -->
+Not the cheapest week: it costs about the same as Week 1. Week 4 is the cheapest of the four.
+
+*US average retail prices, USDA ERS (meat, eggs and dairy: latest month available; fruit and vegetables: 2023 annual averages) plus reference prices for pantry items. Your store will differ.*
 
 ## Your action
 

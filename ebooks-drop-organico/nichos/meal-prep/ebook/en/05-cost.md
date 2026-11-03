@@ -63,11 +63,11 @@ Raw meat and fish per week, from each week's shopping list:
 | Week | Main proteins | Raw meat or fish, ×1 |
 |---|---|---|
 | 1 · Starter | Chicken thighs, ground turkey | 4 lb (1.8 kg) |
-| 2 · Budget | Beef stretched with lentils, slow-cooker chicken | about 3.2 lb (1.45 kg) |
+| 2 · Slow-cooker | Beef stretched with lentils, slow-cooker chicken | about 3.2 lb (1.45 kg) |
 | 3 · Freezer-ahead | Turkey meatballs ×2, salmon | 6 lb (2.7 kg), of which 2 lb of turkey becomes a 4-portion freezer reserve |
 | 4 · Mix-it-yourself | Tofu, pulled pork | about 3.5 lb (1.6 kg), plus 2 lb tofu |
 
-Week 1 keeps things familiar for your first Sunday. Week 3 is the biggest shop because a third of it goes to the freezer for later. If that's too much for your budget, start with Week 2 instead. It uses the same sheet layout.
+Week 1 keeps things familiar for your first Sunday. Week 3 is the biggest shop because a third of it goes to the freezer for later. If that's too much for your budget, start with Week 4 instead: at average US prices it's the cheapest of the four. It uses the same sheet layout.
 
 ## Five ways the plan keeps cost down
 

@@ -95,9 +95,58 @@ Use this when you cook for someone who avoids an allergen. It's based on the rec
 
 ## Cost per plate
 
-[COST_TABLE]
+| Plate | Cost per box |
+|---|---|
+| M7 | $1.80 |
+| D-9 | $2.00 |
+| D-2 | $2.10 |
+| A2 | $2.45 |
+| A8 | $2.55 |
+| D-1 | $2.70 |
+| M1 | $2.85 |
+| M6 | $2.85 |
+| A7 | $3.00 |
+| D-6 | $3.15 |
+| D-4 | $3.20 |
+| A3 | $3.20 |
+| M5 | $3.25 |
+| C1 | $3.25 |
+| A1 | $3.25 |
+| D-7 | $3.35 |
+| M4 | $3.40 |
+| C9 | $3.40 |
+| C4 | $3.40 |
+| M2 | $3.45 |
+| C10 | $3.45 |
+| C5 | $3.50 |
+| C7 | $3.55 |
+| C11 | $3.60 |
+| M11 | $3.70 |
+| C8 | $3.70 |
+| A11 | $3.70 |
+| D-12 | $3.75 |
+| D-8 | $3.80 |
+| A6 | $3.80 |
+| C3 | $3.85 |
+| A10 | $3.85 |
+| M9 | $3.95 |
+| A5 | $4.00 |
+| D-11 | $4.00 |
+| M3 | $4.15 |
+| A12 | $4.25 |
+| M12 | $4.25 |
+| D-5 | $4.30 |
+| M10 | $4.30 |
+| C12 | $4.40 |
+| C2 | $4.40 |
+| M8 | $5.50 |
+| D-10 | $5.60 |
+| A4 | $6.10 |
+| D-3 | $6.10 |
+| A9 | $6.20 |
+| C6 | $6.65 |
 
-<!-- [COST_TABLE] = marcador. Coste por caja de los 48 platos (y por ración de las 60 recetas), con fuente, región y fecha (datos/costes.md, USDA ERS). Se rellena con el script de costes. No inventar cifras. -->
+*US average retail prices, USDA ERS (meat, eggs and dairy: latest month available; fruit and vegetables: 2023 annual averages) plus reference prices for pantry items. Your store will differ.*
 
 ## Your action
 

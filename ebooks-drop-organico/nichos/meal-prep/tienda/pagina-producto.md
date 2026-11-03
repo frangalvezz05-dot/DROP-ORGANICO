@@ -77,7 +77,7 @@ Digital content can't be returned once the download starts, with the exceptions 
 
 **48 complete plates.** Each one is already put together, with calories, protein, cost and allergens for the plate as a whole, not just for its parts.
 
-**A 4-week plan.** Week 1 is oven-only. Week 2 is the budget week. Week 3 fills your freezer. In Week 4 you build your own. Each week has its own Sunday sheet, shopping list and menu of 5 plates.
+**A 4-week plan.** Week 1 is oven-only. Week 2 lets the slow cooker do part of the work. Week 3 fills your freezer. In Week 4 you build your own. Each week has its own Sunday sheet, shopping list and menu of 5 plates.
 
 **A pairing chart.** It shows which proteins, bases, vegetables and sauces go together, so you can build plates beyond the 48.
 
