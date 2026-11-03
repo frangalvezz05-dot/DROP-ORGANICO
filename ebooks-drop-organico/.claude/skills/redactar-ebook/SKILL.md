@@ -28,3 +28,9 @@ Salida: `nichos/<nicho>/ebook/<idioma>/<capitulo>.md` (texto con marcas simples 
 5. Sin promesas de resultado, testimonios inventados ni urgencias falsas. Avisos de contenido según la ficha del nicho (p. ej. "no sustituye ayuda profesional" + recursos de ayuda).
 6. Nada copiado ni parafraseado de cerca de ebooks del mercado ni de mentores.
 7. Tono: el del avatar (cómo habla en sus frases reales), segunda persona, frases cortas.
+
+## Nichos con recetas o datos nutricionales (añadido 03-nov-2026)
+- Calorías y macros **siempre calculados** con `python3 herramientas/macros.py` (base oficial USDA FoodData Central SR Legacy, dominio público), nunca estimados por la IA. Guardar el `receta.json` de cada receta en `nichos/<nicho>/ebook/recetas/` para poder recalcular.
+- Elegir la entrada USDA en el mismo estado que el gramaje (crudo o cocinado). Redondear: kcal a la decena, proteína al gramo.
+- Técnicas y tiempos de cocción estándar y seguros (temperaturas internas seguras de la carne, conservación en nevera 3-4 días, congelado). Alérgenos en cada receta.
+- Sin promesas de pérdida de peso ni de salud; aviso "no sustituye a un nutricionista o médico".
