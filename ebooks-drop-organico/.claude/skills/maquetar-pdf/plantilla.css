@@ -1,0 +1,140 @@
+﻿/* Plantilla editorial genérica (componentes comunes). Sirve para cualquier nicho.
+   Las variables de marca se definen en el :root del HTML de cada nicho.
+   Se usa junto con UNO de los dos archivos de formato:
+     plantilla-pantalla.css    (principal: página de libro, lectura en móvil/tablet)
+     plantilla-imprimible.css  (A4/Letter: hojas de ejercicios, tarjeta, tracker) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap');
+
+:root {
+  --color-principal: #2f3b52;
+  --color-acento: #c0675a;
+  --color-fondo-suave: #f5f1ec;
+  --fuente-titulos: 'Inter', sans-serif;
+  --fuente-texto: 'Source Serif 4', Georgia, serif;
+  /* derivados de la marca (si el navegador no soporta color-mix, queda el fondo suave) */
+  --tinte: var(--color-fondo-suave);
+  --tinte: color-mix(in srgb, var(--color-acento) 9%, #fff);
+  --linea: #cfc9bf;
+  /* tamaños: los redefine cada formato */
+  --cuerpo: 13pt; --interlineado: 1.5; --h1: 28pt; --h2: 18pt; --h3: 14pt; --ancho-linea: 8mm;
+}
+
+html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+body { font-family: var(--fuente-texto); font-size: var(--cuerpo); line-height: var(--interlineado); color: #1e1e1e; margin: 0; }
+h1, h2, h3 { font-family: var(--fuente-titulos); color: var(--color-principal); line-height: 1.15; break-after: avoid; }
+h1 { font-size: var(--h1); font-weight: 800; margin: 0 0 6mm; letter-spacing: -.01em; }
+h2 { font-size: var(--h2); font-weight: 800; margin: 8mm 0 4mm; letter-spacing: -.005em; break-inside: avoid; }
+h2 { padding-top: 4.4mm; background: linear-gradient(var(--color-acento), var(--color-acento)) no-repeat 0 0 / 12mm 1.4mm; }
+h3 { font-size: var(--h3); font-weight: 600; margin: 6mm 0 2mm; }
+p { margin: 0 0 3.2mm; orphans: 3; widows: 3; }
+ul, ol { margin: 0 0 3.5mm 5mm; padding-left: 3mm; } li { margin-bottom: 1.6mm; }
+strong { font-weight: 600; }
+
+/* ---------- Iconos (SVG en línea; el sprite va al principio del body) ---------- */
+.ico { width: 1.25em; height: 1.25em; flex: none; stroke: currentColor; fill: none; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
+
+/* ---------- Portada: motivo SVG a sangre + texto ---------- */
+.portada { position: relative; overflow: hidden; display: flex; flex-direction: column; justify-content: flex-end;
+  box-sizing: border-box; background: var(--color-principal); color: #fff; break-after: page; }
+.portada .motivo { position: absolute; inset: 0; width: 100%; height: 100%; }
+.portada .texto { position: relative; }
+.portada .marca { font-family: var(--fuente-titulos); letter-spacing: .16em; text-transform: uppercase; font-size: 9pt; opacity: .85; margin-bottom: 6mm; }
+.portada h1 { color: #fff; font-size: var(--h-portada, 38pt); line-height: 1.05; margin: 0 0 5mm; }
+.portada .subtitulo { font-family: var(--fuente-titulos); font-size: 13pt; line-height: 1.35; opacity: .92; max-width: 26em; }
+.portada .detalle { font-family: var(--fuente-titulos); font-size: 9.5pt; opacity: .8; margin-top: 7mm; }
+.portada .etiqueta { display: inline-block; margin-top: 7mm; background: var(--color-fondo-suave); color: var(--color-principal);
+  font-family: var(--fuente-titulos); font-weight: 600; font-size: 10.5pt; padding: 1.8mm 5mm; border-radius: 6mm; }
+
+/* ---------- Índice ---------- */
+nav.indice { break-before: page; break-after: page; }
+nav.indice a { color: var(--color-principal); text-decoration: none; }
+nav.indice > ul { list-style: none; margin: 0; padding: 0; }
+nav.indice > ul > li { margin: 0; padding: 3.5mm 0; border-bottom: 1px solid var(--linea); font-family: var(--fuente-titulos); font-weight: 600; font-size: 11.5pt; line-height: 1.3; }
+nav.indice ul ul { list-style: none; margin: 2mm 0 0 5mm; padding: 0; font-weight: 400; font-size: 10pt; color: #333; }
+nav.indice ul ul li { margin: 1mm 0; padding-left: 4mm; position: relative; }
+nav.indice ul ul li::before { content: ""; position: absolute; left: 0; top: .55em; width: 1.6mm; height: 1.6mm; border-radius: 50%; background: var(--color-acento); }
+
+/* ---------- Capítulos ---------- */
+.capitulo { break-before: page; }
+.capitulo .etiqueta { font-family: var(--fuente-titulos); color: var(--color-acento); font-size: 9.5pt; font-weight: 600; text-transform: uppercase; letter-spacing: .1em; }
+.apertura { background: var(--color-principal); color: #fff; border-radius: 3mm; padding: 8mm 8mm 9mm; margin: 0 0 7mm; position: relative; overflow: hidden; }
+.apertura .motivo { position: absolute; right: -8mm; bottom: -8mm; width: 55mm; height: 55mm; opacity: .5; }
+.apertura .etiqueta { color: #fff; opacity: .85; position: relative; }
+.apertura h1 { color: #fff; margin: 2mm 0 0; position: relative; }
+
+/* ---------- Pasos numerados: números grandes en círculo de color acento ---------- */
+ol.pasos { list-style: none; counter-reset: paso; margin: 5mm 0 5mm; padding: 0; }
+ol.pasos > li { counter-increment: paso; position: relative; padding: 0 0 0 15mm; margin: 0 0 5mm; min-height: 11mm; break-inside: avoid; }
+ol.pasos > li::before { content: counter(paso); position: absolute; left: 0; top: -.5mm; width: 10.5mm; height: 10.5mm; border-radius: 50%;
+  background: var(--color-acento); color: #fff; font-family: var(--fuente-titulos); font-weight: 800; font-size: 15pt; line-height: 10.5mm; text-align: center; }
+ol.pasos > li:not(:last-child)::after { content: ""; position: absolute; left: 5.1mm; top: 11mm; bottom: -4.2mm; width: .5mm; background: var(--tinte); background: color-mix(in srgb, var(--color-acento) 25%, #fff); }
+
+/* ---------- Frase destacada (pull quote) ---------- */
+blockquote.destacada { margin: 6mm 0; padding: 4mm 0 4mm 7mm; border-left: 1.6mm solid var(--color-acento); font-family: var(--fuente-titulos);
+  font-weight: 600; font-size: 1.28em; line-height: 1.3; color: var(--color-principal); break-inside: avoid; }
+blockquote.destacada p { margin: 0; }
+
+/* ---------- Cajas con icono: ejercicio, consejo, aviso, SOS ---------- */
+.caja-i { display: block; border-radius: 2.5mm; padding: 4.5mm 5mm; margin: 5mm 0; break-inside: avoid; }
+.caja-i.largo { break-inside: auto; } /* ejercicios largos (5+ líneas): pueden partirse entre páginas para no dejar blanco */
+.caja-i > .cabecera { display: flex; align-items: center; gap: 2.5mm; font-family: var(--fuente-titulos); font-weight: 800; font-size: 9.5pt; letter-spacing: .09em; text-transform: uppercase; margin-bottom: 2.5mm; break-after: avoid; }
+.caja-i > .cabecera .ico { width: 6mm; height: 6mm; }
+.caja-i p:last-child { margin-bottom: 0; }
+.ejercicio { background: var(--tinte); border-left: 1.6mm solid var(--color-acento); }
+.ejercicio > .cabecera { color: var(--color-acento); }
+.ejercicio p { margin-bottom: 2mm; } .ejercicio ol { margin-bottom: 0; }
+.consejo { background: #fff; border: 1px solid var(--linea); border-top: 1.2mm solid var(--color-acento); font-size: .96em; }
+.consejo > .cabecera { color: var(--color-principal); }
+.sos-uso { background: var(--color-principal); color: #fff; }
+.sos-uso > .cabecera { color: #fff; opacity: .9; }
+aside.aviso, .aviso { background: #fff; border: 1.5px solid var(--color-principal); font-size: .88em; line-height: 1.4; break-inside: auto; }
+.aviso li, .aviso p { break-inside: avoid; }
+.aviso > .cabecera { color: var(--color-principal); }
+.aviso li { margin-bottom: .6mm; } .aviso p { margin-bottom: 2mm; }
+
+/* ---------- Separadores ---------- */
+hr.sep { break-after: avoid; border: 0; height: 6mm; margin: 6mm 0 2mm; background: none; position: relative; text-align: center; }
+hr.sep::before { content: ""; position: absolute; left: 0; right: 0; top: 50%; height: 1px; background: var(--linea); }
+hr.sep::after { content: ""; position: absolute; left: 50%; top: 50%; width: 3mm; height: 3mm; background: var(--color-acento); transform: translate(-50%, -50%) rotate(45deg); box-shadow: 0 0 0 2.2mm #fff; }
+
+/* ---------- Espacios para escribir: líneas vectoriales creadas por lineas.js (no gradientes: se ven bien en cualquier lector) ---------- */
+.espacio { margin: 2mm 0 4mm; }
+.espacio .linea { height: var(--ancho-linea); border-bottom: 1px solid #b3ac9f; box-sizing: border-box; }
+li:has(> .espacio) { break-inside: avoid; }
+
+/* ---------- Lista de comprobación, tablas, tracker ---------- */
+ul.lista-hoy { list-style: none; margin: 0 0 4mm; padding: 0; break-inside: avoid; }
+ul.lista-hoy li { margin: 0 0 2.5mm; display: flex; gap: 3mm; align-items: flex-start; }
+.caja { flex: none; width: 5mm; height: 5mm; border: 1.4px solid var(--color-principal); border-radius: 1mm; margin-top: 1.2mm; }
+table.tracker { width: 100%; border-collapse: collapse; font-family: var(--fuente-titulos); font-size: 9.5pt; }
+table.tracker th, table.tracker td { border: 1px solid #b9b2a8; padding: 2.5mm; text-align: left; }
+table.tracker th { background: var(--color-principal); color: #fff; font-weight: 600; }
+table.tracker caption { text-align: left; font-family: var(--fuente-titulos); font-weight: 600; font-size: 10pt; color: var(--color-principal); padding-bottom: 2mm; }
+
+/* ---------- Tarjeta (tarjeta SOS, imprimible o en pantalla) ---------- */
+.tarjeta { border: 2.2px solid var(--color-acento); border-radius: 6mm; background: var(--color-fondo-suave); padding: 8mm 8mm 5mm; break-inside: avoid; }
+.tarjeta-top { font-family: var(--fuente-titulos); color: var(--color-acento); font-weight: 800; font-size: 10.5pt; letter-spacing: .07em; text-transform: uppercase; margin-bottom: 2mm; display: flex; align-items: center; gap: 2.5mm; }
+.tarjeta-top .ico { width: 6.5mm; height: 6.5mm; }
+.tarjeta-titulo { font-family: var(--fuente-titulos); color: var(--color-principal); font-weight: 800; font-size: 17pt; line-height: 1.2; margin: 0; }
+.tarjeta ol { list-style: none; counter-reset: p; margin: 6mm 0 4mm; padding: 0; }
+.tarjeta li { counter-increment: p; position: relative; padding: 0 0 0 11mm; margin: 0 0 4mm; font-family: var(--fuente-titulos); font-size: 11.5pt; line-height: 1.3; color: var(--color-principal); }
+.tarjeta li::before { content: counter(p); position: absolute; left: 0; top: -.3mm; width: 7.5mm; height: 7.5mm; border-radius: 50%; background: var(--color-acento); color: #fff; font-weight: 800; font-size: 10.5pt; text-align: center; line-height: 7.5mm; }
+.tarjeta-nota { border-top: 1px solid var(--linea); padding-top: 3.5mm; font-size: 10.5pt; color: #333; margin: 0 0 3mm; }
+.tarjeta-pie { font-family: var(--fuente-titulos); font-size: 8pt; color: #555; text-align: right; letter-spacing: .05em; }
+
+/* ---------- Mini tarjetas (resto del pack) ---------- */
+.minis { display: grid; grid-template-columns: 1fr 1fr; gap: 3.5mm; margin: 6mm 0; }
+.mini { display: flex; gap: 3mm; align-items: center; border: 1px solid var(--linea); border-radius: 3mm; padding: 3.5mm; font-family: var(--fuente-titulos); font-size: 10pt; line-height: 1.25; color: var(--color-principal); break-inside: avoid; }
+.mini b { flex: none; width: 7mm; height: 7mm; border-radius: 50%; background: #fff; border: 1.5px solid var(--color-acento); color: var(--color-acento); text-align: center; line-height: 6.2mm; font-size: 10pt; }
+.mini-on { background: var(--tinte); border-color: var(--color-acento); font-weight: 600; }
+.mini-on b { background: var(--color-acento); color: #fff; }
+
+.sr { position: absolute; left: -9999px; }
+.imprimible { break-before: page; }
+
+
+/* Evitar títulos huérfanos al final de página */
+h2 + *, hr.sep + h2, .caja-i > .cabecera + * { break-before: avoid; }
+table.tracker { break-inside: avoid; }
+
+

@@ -1,0 +1,14 @@
+{
+  "aprobado": "usuario, 14-oct-2026 (paleta y fuentes)",
+  "titulo": {"en": "No Contact SOS Kit", "es": "Kit SOS contacto cero", "nota": "elegido por Claude (usuario sin preferencia); comprobar que no exista antes de lanzar"},
+  "color_principal": "#22303C",
+  "color_acento": "#2F6B66",
+  "color_fondo_suave": "#F7F4EE",
+  "fuente_titulos": "Inter",
+  "fuente_texto": "Source Serif 4",
+  "tono_visual": "sereno, adulto, no infantil; mucho blanco",
+  "voz": "frases cortas, segunda persona, cálida y directa, sin prometer resultados",
+  "tamano_pagina": {"es": "A4", "en": "Letter"},
+  "publico_es": "España / UE (decisión del usuario 14-oct-2026)",
+  "portada": "A (clara ilustrada: móvil boca abajo), elegida por la usuaria 15-oct-2026"
+}

@@ -1,0 +1,68 @@
+{
+  "conocimiento/01-nichos/02-critica-travis-vs-elevate.md": {
+    "mtime": 1791993979.859663,
+    "seen": 1791994354.7602136,
+    "ast_hash": "c58958188f9886ec65a0ee26ec288ee8",
+    "semantic_hash": "c58958188f9886ec65a0ee26ec288ee8"
+  },
+  "conocimiento/01-nichos/datos/idioma-es-vs-en.md": {
+    "mtime": 1791992099.204432,
+    "seen": 1791994354.7602186,
+    "ast_hash": "b8bfdeb442de232540272ba53a4189fa",
+    "semantic_hash": "b8bfdeb442de232540272ba53a4189fa"
+  },
+  "conocimiento/01-nichos/elevate-publishers/00-indice.md": {
+    "mtime": 1791991468.7457645,
+    "seen": 1791994354.760221,
+    "ast_hash": "d1b8b7cd155b3dcdd6ef8904d1eab2d8",
+    "semantic_hash": "d1b8b7cd155b3dcdd6ef8904d1eab2d8"
+  },
+  "conocimiento/01-nichos/elevate-publishers/01-analisis.md": {
+    "mtime": 1791993902.4359481,
+    "seen": 1791994354.7602222,
+    "ast_hash": "ec21d135c066728ae67caa330aeb4764",
+    "semantic_hash": "ec21d135c066728ae67caa330aeb4764"
+  },
+  "conocimiento/01-nichos/travis-nicholson/00-indice.md": {
+    "mtime": 1791991299.555524,
+    "seen": 1791994354.7602305,
+    "ast_hash": "0806148d50443f2853b5a3b5bac56bbd",
+    "semantic_hash": "0806148d50443f2853b5a3b5bac56bbd"
+  },
+  "conocimiento/01-nichos/travis-nicholson/01-analisis.md": {
+    "mtime": 1791991810.6881242,
+    "seen": 1791994354.7602317,
+    "ast_hash": "87b50dd4d31b33045e3472406c0c023c",
+    "semantic_hash": "87b50dd4d31b33045e3472406c0c023c"
+  },
+  "conocimiento/01-nichos/03-resultado-modulo-1.md": {
+    "mtime": 1792000329.8277407,
+    "seen": 1792000429.9877422,
+    "ast_hash": "9fab88b0f51e29a54c0c3ba0cf428e25",
+    "semantic_hash": "9fab88b0f51e29a54c0c3ba0cf428e25"
+  },
+  "conocimiento/02-redaccion/02-critica.md": {
+    "mtime": 1792012339.2290297,
+    "seen": 1792069269.0508816,
+    "ast_hash": "d6f6c411e6141cf16103d838ba5cde4c",
+    "semantic_hash": "d6f6c411e6141cf16103d838ba5cde4c"
+  },
+  "conocimiento/02-redaccion/03-resultado-modulo-2.md": {
+    "mtime": 1792068920.837042,
+    "seen": 1792069269.0508838,
+    "ast_hash": "cabfae4940e9edb87fd426d63996aabe",
+    "semantic_hash": "cabfae4940e9edb87fd426d63996aabe"
+  },
+  "conocimiento/02-redaccion/kate-hayes/00-indice.md": {
+    "mtime": 1792002356.6912322,
+    "seen": 1792069269.0508852,
+    "ast_hash": "d5fa67398edc0c92d319d7f1d053f8e6",
+    "semantic_hash": "d5fa67398edc0c92d319d7f1d053f8e6"
+  },
+  "conocimiento/02-redaccion/kate-hayes/01-analisis.md": {
+    "mtime": 1792002515.7215316,
+    "seen": 1792069269.0508862,
+    "ast_hash": "f9e93bc0c80f65a5dd38dea17d5191c4",
+    "semantic_hash": "f9e93bc0c80f65a5dd38dea17d5191c4"
+  }
+}

@@ -1,0 +1,11 @@
+﻿/* Formato PANTALLA (principal): página estrecha tipo libro 148x210 mm (A5), para leer en móvil/tablet.
+   Cifras de diseño: [ESTIMACIÓN] (cuerpo 13 pt, interlineado 1,5, márgenes 15 mm; ~50-55 caracteres por línea). */
+:root { --cuerpo: 13pt; --interlineado: 1.5; --h1: 27pt; --h2: 18pt; --h3: 14pt; --h-portada: 36pt; --ancho-linea: 8mm; }
+@page { size: 148mm 210mm; margin: 17mm 15mm 19mm 15mm;
+  @bottom-center { content: counter(page); font-family: var(--fuente-titulos); font-size: 9pt; color: #6b6b6b; } }
+/* la portada es siempre la primera página: sin márgenes ni numeración (no usar páginas con nombre: generan una página en blanco) */
+@page :first { margin: 0; background: var(--color-principal); @bottom-center { content: none; } }
+.portada { height: 200mm; display: block; padding: 0; }
+.portada .texto { position: absolute; left: 15mm; right: 15mm; bottom: 22mm; }
+.portada .marca { margin-top: 0; }
+

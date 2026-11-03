@@ -1,0 +1,33 @@
+{
+  "avatar": "Person fighting the urge in the first weeks after a breakup: checks their ex's socials all day, can't sleep at night, fears being stuck while the other moves on, and wants to hold no contact without relapsing (avatar.md, EN).",
+  "angulo": "Kit by moment of urge (D1, estructura.md): a short, concrete answer for each situation (checking socials, texting, a message from the ex, a slip, the night, the weekend). Angles A1-A7 of avatar.md.",
+  "ancla_tarjeta": "tarjeta-sos",
+  "textos": {
+    "portada_pie": "Ebook + printable pack",
+    "escaparate_titulo": "Read it on your phone or tablet",
+    "escaparate_pie": "Screen PDF · printable version",
+    "incluye_titulo": "What's included",
+    "perspectivas_titulo": "Take a look inside",
+    "perspectivas_sub": "Real pages from the kit",
+    "perspectivas_pie": "Short steps for every moment",
+    "extras_titulo": "Bonus extras",
+    "extras_sub": "To keep at hand in the hard moment",
+    "extras_pie": "Printable and editable version"
+  },
+  "incluye": [
+    {"t": "Main workbook", "d": "PDF of about 60 pages", "icono": "libro"},
+    {"t": "6 SOS Cards", "d": "One per moment. Also as PNG for your phone", "icono": "tarjeta", "chips": ["Socials", "Before you send", "They texted", "I slipped", "Nights", "Weekend"]},
+    {"t": "30-day tracker", "d": "Days, urges and milestones", "icono": "calendario"},
+    {"t": "5 templates", "d": "Contract, closure letter, relapse plan...", "icono": "plantilla"},
+    {"t": "Printable + editable", "d": "Same content, two formats", "icono": "imprimir"}
+  ],
+  "extras": [
+    "The urge to check their socials",
+    "Before you send",
+    "They text me",
+    "I broke no contact",
+    "Nights and mornings",
+    "The weekend"
+  ],
+  "anclas": ["cap-3-s4", "cap-3-s3", "cap-3-s6"]
+}

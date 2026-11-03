@@ -1,0 +1,33 @@
+{
+  "avatar": "Persona en las primeras semanas o meses tras una ruptura que se pasa los días mirando las redes de su ex y las noches sin dormir, teme quedarse estancada mientras el otro sigue feliz, y quiere aguantar el contacto cero sin recaer y sacárselo de la cabeza (avatar.md §4, ES).",
+  "angulo": "Kit por momento de impulso (D1, estructura.md): una respuesta corta y concreta para cada situación (mirar redes, escribir, mensaje del ex, recaída, noche, fin de semana). Ángulos A1-A7 de avatar.md §5.",
+  "ancla_tarjeta": "tarjeta-sos",
+  "textos": {
+    "portada_pie": "Ebook + pack imprimible",
+    "escaparate_titulo": "Léelo en el móvil o la tablet",
+    "escaparate_pie": "PDF para pantalla · versión imprimible",
+    "incluye_titulo": "Qué incluye",
+    "perspectivas_titulo": "Mira por dentro",
+    "perspectivas_sub": "Páginas reales del kit",
+    "perspectivas_pie": "Pasos cortos para cada momento",
+    "extras_titulo": "Extras incluidos",
+    "extras_sub": "Para tener a mano en el momento difícil",
+    "extras_pie": "Versión imprimible y editable"
+  },
+  "incluye": [
+    {"t": "Cuaderno principal", "d": "PDF de unas 60 páginas", "icono": "libro"},
+    {"t": "6 Tarjetas SOS", "d": "Una por momento. También en PNG para el móvil", "icono": "tarjeta", "chips": ["Redes", "Antes de enviar", "Me escribe", "Recaí", "Noches", "Fin de semana"]},
+    {"t": "Registro de 30 días", "d": "Días, impulsos y hitos", "icono": "calendario"},
+    {"t": "5 plantillas", "d": "Contrato, carta de cierre, plan de recaída…", "icono": "plantilla"},
+    {"t": "Imprimible + editable", "d": "El mismo contenido, dos formatos", "icono": "imprimir"}
+  ],
+  "extras": [
+    "Las ganas de mirar sus redes",
+    "Antes de enviar",
+    "Me escribe",
+    "Recaí",
+    "Noches y mañanas",
+    "El fin de semana"
+  ],
+  "anclas": ["cap-3-s4", "cap-3-s3", "cap-3-s6"]
+}

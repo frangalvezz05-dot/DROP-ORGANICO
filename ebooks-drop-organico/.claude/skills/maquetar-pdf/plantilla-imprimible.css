@@ -1,0 +1,17 @@
+/* Formato IMPRIMIBLE: solo hojas de ejercicios, tarjeta y tracker. A4 (ES/UE) por defecto; para Letter (EN),
+   el HTML añade en su <style>:  @page { size: Letter; }  */
+:root { --cuerpo: 11pt; --interlineado: 1.4; --h1: 22pt; --h2: 15pt; --h3: 12.5pt; --ancho-linea: 8mm; }
+@page { size: A4; margin: 20mm 18mm 22mm 18mm;
+  @bottom-center { content: counter(page); font-family: var(--fuente-titulos); font-size: 9pt; color: #6b6b6b; } }
+body { max-width: none; }
+.hoja { break-before: page; }
+.hoja:first-of-type { break-before: auto; }
+.hoja h1 { margin-bottom: 3mm; padding-bottom: 3mm; border-bottom: 2px solid var(--color-acento); display: flex; align-items: center; gap: 3mm; }
+.hoja h1 .ico { width: 8mm; height: 8mm; color: var(--color-acento); }
+.hoja .consigna { color: #333; margin-bottom: 5mm; }
+.tarjeta-pag { break-before: page; display: flex; align-items: center; justify-content: center; min-height: 190mm; }
+.tarjeta-pag .tarjeta { width: 125mm; }
+.tarjeta-pag .tarjeta ol { margin: 7mm 0 5mm; } .tarjeta li { font-size: 12pt; margin-bottom: 4.5mm; } .tarjeta-titulo { font-size: 18pt; }
+table.t7 { table-layout: fixed; margin: 4mm 0; break-inside: avoid; }
+table.t7 td.dia { height: 55mm; font-size: 9pt; color: #444; vertical-align: top; padding: 1.5mm; }
+table.t10 { table-layout: fixed; font-size: 8.5pt; } table.t10 th { font-size: 8.5pt; padding: 1.8mm; } table.t10 td { height: 14mm; }
