@@ -19,7 +19,7 @@ Parte de los **patrones comunes** de `paginas-mercado.md`. Si no existe, usa est
 2. Imágenes: portada + "qué incluye" + páginas interiores (5 tipos de Adrián [VyGaE-cp1GI]).
 3. 3-4 beneficios concretos, desde los problemas del avatar.
 4. Qué incluye (formato, páginas, plantillas, dispositivos donde se lee, descarga inmediata).
-5. Precio [con IVA incluido para la UE: ESTIMACIÓN hasta el mód. 7] y botón de compra (fijo en móvil).
+5. Precio **con IVA incluido** [DATO, mód. 7] y botón de compra (fijo en móvil). Cerca del botón: formato, nº de páginas, idioma, dispositivos para abrirlo y enlace a condiciones y desistimiento (información precontractual). Garantía = conformidad del contenido (que funcione y sea lo descrito), nunca de resultados.
 6. Vista previa del ebook (páginas reales de la muestra).
 7. Descripción problema → dolor → solución con el lenguaje del avatar (paráfrasis, nunca frases literales de comentarios con datos de su autor).
 8. FAQ que resuelve dudas reales (de las frases del avatar y de `paginas-mercado.md`) [wWC8SoeQ_Fk].

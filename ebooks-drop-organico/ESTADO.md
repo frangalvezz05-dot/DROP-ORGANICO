@@ -1,6 +1,6 @@
 # ESTADO del proyecto
 
-_Última actualización: 14-oct-2026_
+_Última actualización: 03-nov-2026 (sesión nube)_
 
 ## Hecho
 - Estructura creada: `CLAUDE.md`, `ESTADO.md`, `conocimiento/01-nichos/`, `.claude/agents/`, `.claude/skills/`, `pruebas/`, `graphify-out/`.
@@ -79,3 +79,11 @@ _Última actualización: 14-oct-2026_
 - 03-nov: **abierto el módulo 7 · Legal** con la opción a) del usuario: **solo fuentes oficiales** (sin mentores de YouTube; un agente las resume y verifica). Paso 1 hecho (7 bloques: alta y fiscalidad, IVA, consumo y desistimiento, páginas legales, email y RGPD, publicidad e IA, derechos de autor). En curso: búsqueda de fuentes oficiales en `conocimiento/07-legal/` (fiscal.md y consumo-datos-publicidad.md). Aviso: información verificada, no asesoramiento; lo personal-fiscal se confirma con un gestor.
 - 03-nov: hecho `conocimiento/07-legal/fiscal.md` (alta 036 obligatoria; RETA sin umbral oficial, cuota mínima ≈206 €/mes [ESTIMACIÓN]; ebook 4 % [DATO art. 91.Dos.1.2º LIVA]; plantillas/pack mixto dudoso → consulta DGT; OSS 10.000 €; EE. UU. sin obligaciones al inicio; Reino Unido cerrado; 10 dudas para gestor) y `consumo-datos-publicidad.md` (excepción de desistimiento en contenido digital con 3 requisitos [DATO BOE]; botón de desistimiento desde 19-jun-2026, sin transponer en España; etiquetado IA en TikTok; texto 100 % IA probablemente no protegible). Verificación 2 hecha (LSSI 21-22, 14 años, Ley 7/1996 art. 20, reseñas TRLGDCU art. 20, Ley 3/1991, Meta atributos personales, OFL: confirmados; doble opt-in no exigido por la AEPD).
 - 03-nov: **paso 3 del módulo 7** → `conocimiento/07-legal/02-analisis.md` (Opus): 11 obligatorios, recomendables (botón de desistimiento, doble opt-in, edición humana), 6 puntos para el gestor (RETA, IAE, IVA del pack, declaraciones), impacto en el negocio (autónomo ≈206 €/mes → ≈16 ventas/mes de 15 € solo para cubrirlo [ESTIMACIÓN]) y cambios en las piezas ya hechas. **Pendiente de aprobación del usuario.**
+
+## 03-nov · Sesión NUBE (relevo tras quedarse sin créditos la local)
+- Proyecto subido a GitHub (repo DROP-ORGANICO, rama `claude/eager-dirac-x9n7c8`, carpeta `ebooks-drop-organico/`).
+- **Orden de Fran: modo continuo** (ver regla 1 de CLAUDE.md). Objetivo: todo listo para lanzar.
+- Módulo 7: análisis (`02-analisis.md`) **dado por aprobado** en modo continuo. Paso 4-5 creados: skill `textos-legales`, agente `revisor-legal`, `conocimiento/07-legal/consulta-gestor.md` (14 preguntas). Actualizadas `montar-tienda-shopify` (mercados, legales, casilla, impuestos), `revision-tienda` (pasada 2 = revisor-legal) y `pagina-producto` (IVA e información precontractual). Paso 6 (prueba con el nicho) en curso.
+- `maquetar-pdf`: añadido `generar-pdf.js` (Chromium, sirve en la nube; probado: 20 págs = original).
+- En curso: módulo 5 (análisis de Marc y Dani para contenido orgánico) y módulo 9 (costes y punto de equilibrio).
+- Bloqueos: la red de la nube no deja entrar en Amazon/YouTube/Trends (Fran debe abrirla) y Shopify pide reconectar.

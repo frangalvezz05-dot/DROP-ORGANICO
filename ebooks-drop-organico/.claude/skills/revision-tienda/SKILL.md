@@ -21,8 +21,8 @@ Haiku recorre la lista con el navegador integrado; para el punto "prácticas eng
 8. Prácticas engañosas (subagente Sonnet): reseñas, contadores, escasez, precios tachados, promesas.
 9. Declaración de avatar y ángulo en la página (regla 10).
 
-## Pasada 2 · Legal (después del módulo 7)
-Solo: precio con IVA, configuración de impuestos, casilla de desistimiento de contenido digital y email de confirmación, botón de desistimiento, políticas, garantía, consentimiento del formulario de email, mercados definitivos.
+## Pasada 2 · Legal
+La hace el agente `revisor-legal` con su lista de 13 puntos (basada en `conocimiento/07-legal/02-analisis.md` §1-2) sobre la tienda en borrador, haciendo una compra de prueba para ver la casilla y el email de confirmación.
 
 ## Veredicto
 LISTA PARA PUBLICAR (solo tras la pasada 2 y con "sí" del usuario) / CAMBIOS.

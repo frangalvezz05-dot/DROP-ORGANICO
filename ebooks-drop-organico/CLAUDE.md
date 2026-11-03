@@ -8,6 +8,7 @@ Construcción pieza a pieza de un sistema de agentes y skills con orquestador fi
 
 ## Reglas obligatorias
 1. **Un módulo cada vez.** Nada de agentes, skills ni archivos de un módulo no abierto juntos. Al terminar cada paso: parar y esperar aprobación.
+   **Modo continuo (03-nov-2026, orden de Fran):** "no pares hasta el objetivo" = dejarlo todo listo para lanzar (nicho decidido con datos, ebook, tienda en borrador, contenido, legal, números, orquestador). Claude decide con datos en vez de esperar aprobación en cada paso, y apunta cada decisión en `ESTADO.md` para que Fran la revise. Se para solo en la regla 9 (pagar, publicar, crear cuentas, contactar) y cuando haga falta algo que solo Fran puede hacer (conectar Shopify, datos personales, abrir red).
 2. **El conocimiento lo aporta el usuario.** Cada agente-mentor solo sabe lo que el usuario da + lo verificado con fuentes reales. Si falta información, decirlo y pedirla.
 3. **Crítico.** Señalar ideas flojas (del usuario, mentores o propias) con datos o lógica, y contradicciones entre mentores. Etiquetar siempre: **[DATO]** comprobado con fuente / **[OPINIÓN mentor]** / **[ESTIMACIÓN]** propia.
 4. Cambiar de postura solo ante un argumento o dato mejor, no por insistencia.
