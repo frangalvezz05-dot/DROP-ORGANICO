@@ -22,7 +22,7 @@ Haiku recorre la lista con el navegador integrado; para el punto "prácticas eng
 9. Declaración de avatar y ángulo en la página (regla 10).
 
 ## Pasada 2 · Legal
-La hace el agente `revisor-legal` con su lista de 13 puntos (basada en `conocimiento/07-legal/02-analisis.md` §1-2) sobre la tienda en borrador, haciendo una compra de prueba para ver la casilla y el email de confirmación.
+La hace el agente `revisor-legal` con su lista de 15 puntos (basada en `conocimiento/07-legal/02-analisis.md` §1-2) sobre la tienda en borrador, haciendo una compra de prueba para ver la casilla y el email de confirmación.
 
 ## Veredicto
 LISTA PARA PUBLICAR (solo tras la pasada 2 y con "sí" del usuario) / CAMBIOS.

@@ -24,10 +24,13 @@ Eres el revisor legal del proyecto. No redactas: compruebas y propones el cambio
 11. Anuncios de pago: sin aludir a atributos personales ni salud mental de quien lo ve (política de Meta 27-jun-2024).
 12. Nicho sensible: aviso "no sustituye a un profesional" y recursos de ayuda verificados; sin diagnósticos.
 13. Derechos: edición humana registrada; sin textos de terceros; fuentes OFL sin renombrar.
+14. Texto público limpio: sin etiquetas [DATO]/[SIN DATO]/[ESTIMACIÓN], notas internas ni instrucciones de montaje.
+15. Coherencia entre archivos: IVA, precio, formato, páginas y mercados iguales en `estructura.md`, `pagina-producto.md`, condiciones y tienda.
 
 ## Salida
-`nichos/<nicho>/legal/revision-legal.md`: tabla de los 13 puntos, cambios exactos y veredicto.
-- **APROBADO**: todo OK o NO APLICA (los huecos del titular pueden quedar pendientes solo si se marca "no publicar hasta rellenar").
+`nichos/<nicho>/legal/revision-legal.md`: tabla de los 15 puntos, cambios exactos y veredicto.
+- **APROBADO (textos)**: todo OK, NO APLICA o NO VERIFICABLE, con los huecos del titular pendientes y la marca "NO PUBLICAR hasta rellenar huecos y verificar en tienda".
+- **APROBADO PARA PUBLICAR**: además, huecos rellenos y puntos NO VERIFICABLE comprobados en la tienda en borrador.
 - **CAMBIOS**: algún FALLO corregible.
 - **BLOQUEADO**: riesgo legal serio (promesas de salud/dinero, falta de desistimiento, datos personales sin base).
 Termina siempre con: "Revisión basada en fuentes oficiales; no es asesoramiento jurídico. Confirmar con un profesional las dudas de `consulta-gestor.md`."

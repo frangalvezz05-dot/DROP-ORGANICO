@@ -13,7 +13,8 @@ Entradas: `nichos/<nicho>/00-ficha.md`, `estructura.md` (qué incluye el pack, f
 Salida: `nichos/<nicho>/legal/` con un archivo por texto, en ES (y EN si la tienda tiene inglés; el ES manda en caso de discrepancia).
 
 ## Huecos que rellena SOLO el usuario (nunca inventarlos)
-{{NOMBRE_TITULAR}} · {{NIF}} · {{DOMICILIO}} · {{EMAIL_CONTACTO}} · {{TELEFONO}} (opcional si hay otro medio rápido; [ESTIMACIÓN], confirmar con profesional) · {{NOMBRE_TIENDA}} · {{DOMINIO}} · {{FECHA_ACTUALIZACION}}.
+{{NOMBRE_TITULAR}} · {{NIF}} · {{DOMICILIO}} · {{EMAIL_CONTACTO}} · {{TELEFONO}} (opcional si hay otro medio rápido; [ESTIMACIÓN], confirmar con profesional) · {{NOMBRE_TIENDA}} · {{DOMINIO}} · {{FECHA_ACTUALIZACION}} · {{APP_ENTREGA}} · {{APP_EMAIL}} · {{LIMITE_DESCARGAS}} (lo que permita la app elegida).
+Variables del pedido en emails (las pone Shopify): entre corchetes, p. ej. [NUMERO_PEDIDO], [FECHA_HORA], [ENLACE_DESCARGA].
 Si falta un hueco, se deja visible en MAYÚSCULAS y la tienda no se publica (lo comprueba `revisor-legal`).
 
 ## Textos y contenido mínimo
@@ -31,7 +32,10 @@ Si falta un hueco, se deja visible en MAYÚSCULAS y la tienda no se publica (lo 
 - Lenguaje claro; nada de "garantizado", "resultados asegurados", ni presentar derechos legales como ventaja propia (Ley 3/1991).
 - Nichos sensibles (salud mental, finanzas, salud): añadir en condiciones y en la página un aviso "contenido informativo, no sustituye a un profesional" y, si procede, recursos de ayuda verificados del nicho.
 - Sin reseñas mostradas hasta que existan; si se muestran, texto de cómo se verifican (TRLGDCU art. 20.4).
-- Etiqueta cada afirmación dudosa con [ESTIMACIÓN] o [SIN DATO] en un comentario al final, nunca dentro del texto público.
+- **El texto público nunca lleva etiquetas, notas internas ni instrucciones de montaje.** Lo dudoso se redacta de forma prudente y se anota en un archivo aparte `legal/notas-internas.md` (frase, por qué es dudosa, pregunta para `consulta-gestor.md`). Lo mismo para instrucciones de montaje (van a `montaje.md`).
+- **Coherencia**: el IVA, precio, formato y nº de páginas deben coincidir con `estructura.md` y `pagina-producto.md`; si no coinciden, anotarlo en `notas-internas.md` y avisar.
+- **Idiomas**: si la tienda tiene inglés, crear también `condiciones-venta-en.md` y `privacidad-en.md` (traducción fiel; el español prevalece) para que los enlaces EN no queden rotos.
+- **EE. UU.**: no se cubre. Si el usuario abre EE. UU., añadir sección de sales tax y política de reembolso tras consultar al gestor (pregunta 7 de `consulta-gestor.md`).
 
 ## Al terminar
 Pasar a `revisor-legal`. Copiar la lista de dudas abiertas a `conocimiento/07-legal/consulta-gestor.md` si aparece alguna nueva.
