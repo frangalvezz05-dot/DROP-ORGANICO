@@ -1,0 +1,385 @@
+{
+ "1": {
+  "recetas": [
+   "P1",
+   "P4",
+   "B1",
+   "B4",
+   "V1",
+   "V2",
+   "S1",
+   "S4",
+   "S8",
+   "D1"
+  ],
+  "platos": [
+   "M1",
+   "M3",
+   "M10",
+   "A1",
+   "D-8"
+  ],
+  "faltan_platos": [],
+  "lista_g_x1": {
+   "meat": {
+    "93% lean ground turkey": 907,
+    "boneless skinless chicken thighs": 907
+   },
+   "pantry": {
+    "cornstarch": 5,
+    "honey": 32,
+    "long-grain white rice": 278,
+    "olive oil": 136,
+    "rice vinegar or cider vinegar": 15,
+    "tahini (stir the jar first)": 60,
+    "water": 135
+   },
+   "produce": {
+    "bell peppers (red and green)": 600,
+    "broccoli crowns": 900,
+    "fresh baby spinach": 120,
+    "fresh ginger, finely grated": 2,
+    "garlic cloves": 21,
+    "garlic, grated": 9,
+    "lemon juice": 90,
+    "lime juice": 30,
+    "sweet potatoes": 1000,
+    "yellow onion": 450
+   },
+   "spices": {
+    "black pepper": 2,
+    "chili powder": 21,
+    "dried oregano": 3,
+    "fine salt": 4,
+    "garlic powder": 8,
+    "ground cumin": 7,
+    "kosher salt (table-salt equivalent)": 39,
+    "smoked paprika": 8
+   },
+   "canned": {
+    "canned chipotle pepper in adobo, minced (+ 1 tsp of the adobo sauce)": 15,
+    "tomato paste": 32
+   },
+   "dairy": {
+    "2% cottage cheese": 113,
+    "crumbled feta": 75,
+    "plain nonfat Greek yogurt": 170
+   },
+   "oils": {
+    "canola oil or cooking spray (for the tin)": 4,
+    "olive oil": 4,
+    "olive oil (for the spinach)": 4,
+    "toasted sesame oil": 2
+   },
+   "condiments": {
+    "reduced-sodium soy sauce": 60
+   },
+   "eggs": {
+    "large eggs": 500
+   }
+  },
+  "media_plato": {
+   "kcal": 633.5,
+   "proteina_g": 43.4,
+   "carbohidratos_g": 60.1,
+   "grasa_g": 25.5,
+   "fibra_g": 8.5,
+   "sodio_mg": 1778.6
+  },
+  "carne_pescado_cruda_g": 1814
+ },
+ "2": {
+  "recetas": [
+   "P5",
+   "P2",
+   "B3",
+   "B6",
+   "V3",
+   "V2",
+   "S3",
+   "S10",
+   "S2",
+   "D3"
+  ],
+  "platos": [
+   "M4",
+   "M11",
+   "M9",
+   "C5",
+   "C8"
+  ],
+  "faltan_platos": [],
+  "lista_g_x1": {
+   "meat": {
+    "90% lean ground beef": 454,
+    "boneless skinless chicken breasts": 1000
+   },
+   "pantry": {
+    "all-purpose flour": 5,
+    "brown sugar": 14,
+    "chia seeds": 20,
+    "cider vinegar": 35,
+    "dry brown lentils": 150,
+    "honey": 35,
+    "jarred salsa (medium)": 360,
+    "old-fashioned rolled oats": 200,
+    "olive oil": 95,
+    "vanilla extract": 4,
+    "water": 140
+   },
+   "produce": {
+    "baby red potatoes": 1000,
+    "bell peppers (red and green)": 600,
+    "blueberries (fresh or frozen)": 185,
+    "carrots": 100,
+    "fresh cilantro, leaves and tender stems": 8,
+    "garlic cloves": 9,
+    "garlic, in the skin": 3,
+    "jalapeño, stem removed": 15,
+    "lemon juice": 15,
+    "lime juice": 50,
+    "red onion": 200,
+    "tomatillos, husked and rinsed": 170,
+    "white onion, quartered": 30,
+    "yellow onion": 450,
+    "zucchini": 750
+   },
+   "canned": {
+    "tomato paste": 64,
+    "tomato sauce (plain, canned)": 122
+   },
+   "spices": {
+    "black pepper": 1,
+    "cayenne": 0,
+    "chili powder": 21,
+    "dried oregano": 2,
+    "fine salt": 7,
+    "garlic powder": 13,
+    "ground cinnamon": 3,
+    "ground cumin": 10,
+    "kosher salt (table-salt equivalent)": 33,
+    "onion powder": 1,
+    "smoked paprika": 10
+   },
+   "bakery": {
+    "flour tortillas (8-inch)": 250
+   },
+   "oils": {
+    "olive oil": 9
+   },
+   "condiments": {
+    "Worcestershire sauce": 5,
+    "ketchup": 85,
+    "yellow mustard": 5
+   },
+   "dairy": {
+    "1% milk": 610,
+    "plain nonfat Greek yogurt": 600
+   }
+  },
+  "media_plato": {
+   "kcal": 563.5,
+   "proteina_g": 44.9,
+   "carbohidratos_g": 54.6,
+   "grasa_g": 19.2,
+   "fibra_g": 9.1,
+   "sodio_mg": 1891.4
+  },
+  "carne_pescado_cruda_g": 1454
+ },
+ "3": {
+  "recetas": [
+   "P6",
+   "P6",
+   "P8",
+   "B5",
+   "B2",
+   "V4",
+   "V3",
+   "S12",
+   "S9",
+   "S4",
+   "D5"
+  ],
+  "platos": [
+   "C3",
+   "D-5",
+   "A4",
+   "A10",
+   "D-3"
+  ],
+  "faltan_platos": [],
+  "lista_g_x1": {
+   "meat": {
+    "93% lean ground turkey": 1814
+   },
+   "dairy": {
+    "egg": 100,
+    "grated Parmesan": 66,
+    "reduced-fat cream cheese, cubed": 45,
+    "shredded sharp cheddar": 140
+   },
+   "pantry": {
+    "cornstarch": 5,
+    "honey": 32,
+    "olive oil": 96,
+    "plain dry breadcrumbs": 110,
+    "quinoa": 255,
+    "red wine vinegar": 45,
+    "rice vinegar or cider vinegar": 15,
+    "short dry pasta (penne or fusilli)": 340,
+    "water": 75
+   },
+   "produce": {
+    "fresh flat-leaf parsley, leaves and tender stems": 60,
+    "fresh ginger, finely grated": 2,
+    "fresh parsley": 16,
+    "garlic": 9,
+    "garlic cloves": 30,
+    "garlic, grated": 3,
+    "garlic, minced": 9,
+    "green beans": 700,
+    "lemon juice": 45,
+    "red bell pepper, finely diced": 120,
+    "red onion": 200,
+    "yellow onion, finely diced": 50,
+    "zucchini": 750
+   },
+   "spices": {
+    "black pepper": 4,
+    "dried oregano": 6,
+    "fine salt": 9,
+    "garlic powder": 4,
+    "ground cumin": 1,
+    "kosher salt (table-salt equivalent)": 44,
+    "onion powder": 5,
+    "red pepper flakes": 0,
+    "smoked paprika": 2
+   },
+   "seafood": {
+    "Atlantic salmon fillets": 907
+   },
+   "oils": {
+    "olive oil": 96,
+    "toasted sesame oil": 2
+   },
+   "canned": {
+    "canned low-sodium black beans, drained and rinsed": 215,
+    "tomato sauce (plain, canned)": 184
+   },
+   "condiments": {
+    "reduced-sodium soy sauce": 60
+   },
+   "eggs": {
+    "large eggs": 500
+   },
+   "bakery": {
+    "10-inch flour tortillas": 325
+   }
+  },
+  "media_plato": {
+   "kcal": 710.6,
+   "proteina_g": 48.5,
+   "carbohidratos_g": 56.5,
+   "grasa_g": 32.7,
+   "fibra_g": 6.9,
+   "sodio_mg": 1599.6
+  },
+  "carne_pescado_cruda_g": 2721
+ },
+ "4": {
+  "recetas": [
+   "P9",
+   "P7",
+   "B1",
+   "B2",
+   "V5",
+   "V1",
+   "S6",
+   "S5",
+   "S2",
+   "D2"
+  ],
+  "platos": [
+   "A3",
+   "M5",
+   "A2",
+   "A7",
+   "A12"
+  ],
+  "faltan_platos": [],
+  "lista_g_x1": {
+   "produce": {
+    "broccoli crowns": 900,
+    "carrots": 150,
+    "extra-firm tofu": 908,
+    "fresh cilantro, leaves and tender stems": 8,
+    "fresh ginger, finely grated": 4,
+    "garlic, grated": 9,
+    "garlic, in the skin": 3,
+    "green cabbage": 450,
+    "jalapeño, stem removed": 15,
+    "lime juice": 20,
+    "red bell pepper, finely diced": 120,
+    "scallions": 40,
+    "tomatillos, husked and rinsed": 170,
+    "white onion, quartered": 30,
+    "yellow onion, finely diced": 40
+   },
+   "pantry": {
+    "apple cider vinegar": 103,
+    "brown sugar": 13,
+    "canola oil": 14,
+    "cornstarch": 24,
+    "honey": 63,
+    "long-grain white rice": 278,
+    "olive oil": 82,
+    "quinoa": 255,
+    "rice vinegar or cider vinegar": 15,
+    "smooth peanut butter (no sugar added)": 65,
+    "soy sauce": 64,
+    "toasted sesame oil": 14,
+    "toasted sesame seeds": 9,
+    "water": 105
+   },
+   "spices": {
+    "black pepper": 4,
+    "fine salt": 6,
+    "garlic powder": 12,
+    "ground cumin": 4,
+    "ground ginger": 1,
+    "kosher salt (table-salt equivalent)": 32,
+    "smoked paprika": 11
+   },
+   "meat": {
+    "ground turkey (93% lean)": 227,
+    "trimmed boneless pork shoulder (butt)": 1361
+   },
+   "condiments": {
+    "gochujang (Korean chili paste)": 50,
+    "reduced-sodium soy sauce": 32,
+    "sriracha": 3
+   },
+   "oils": {
+    "canola oil or cooking spray (for the tin)": 4,
+    "olive oil": 4,
+    "toasted sesame oil": 6
+   },
+   "eggs": {
+    "large eggs": 500
+   },
+   "dairy": {
+    "shredded sharp cheddar": 55
+   }
+  },
+  "media_plato": {
+   "kcal": 725.3,
+   "proteina_g": 53.9,
+   "carbohidratos_g": 59.8,
+   "grasa_g": 31.2,
+   "fibra_g": 8.2,
+   "sodio_mg": 1806.2
+  },
+  "carne_pescado_cruda_g": 1588
+ }
+}

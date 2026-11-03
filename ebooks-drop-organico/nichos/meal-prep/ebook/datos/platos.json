@@ -1,0 +1,1454 @@
+[
+ {
+  "id": "M1",
+  "componentes": [
+   "P1",
+   "B1",
+   "V2",
+   "S1"
+  ],
+  "nombres": [
+   "Lemon-Garlic Sheet-Pan Chicken Thighs",
+   "Hands-Off Oven Rice",
+   "Sheet-Pan Fajita Peppers & Onions",
+   "Chipotle-Lime Yogurt"
+  ],
+  "macros": {
+   "kcal": 613.2,
+   "proteina_g": 42.2,
+   "carbohidratos_g": 60.7,
+   "grasa_g": 22.3,
+   "fibra_g": 5.1,
+   "sodio_mg": 1608.6
+  },
+  "kcal_redondeo": 610,
+  "proteina_redondeo": 42,
+  "alergenos": [
+   "milk"
+  ],
+  "nevera_dias_min": 4
+ },
+ {
+  "id": "M2",
+  "componentes": [
+   "P2",
+   "B1",
+   "V6",
+   "S2"
+  ],
+  "nombres": [
+   "Slow-Cooker Salsa Shredded Chicken",
+   "Hands-Off Oven Rice",
+   "Chopped Cucumber-Tomato Salad (raw)",
+   "Tomatillo Salsa Verde"
+  ],
+  "macros": {
+   "kcal": 581.3,
+   "proteina_g": 52.0,
+   "carbohidratos_g": 59.3,
+   "grasa_g": 14.6,
+   "fibra_g": 4.4,
+   "sodio_mg": 1922.3
+  },
+  "kcal_redondeo": 580,
+  "proteina_redondeo": 52,
+  "alergenos": [
+   "none"
+  ],
+  "nevera_dias_min": 3
+ },
+ {
+  "id": "M3",
+  "componentes": [
+   "P4",
+   "B4",
+   "V2",
+   "S1"
+  ],
+  "nombres": [
+   "Turkey Taco Crumble",
+   "Roasted Sweet Potato Cubes",
+   "Sheet-Pan Fajita Peppers & Onions",
+   "Chipotle-Lime Yogurt"
+  ],
+  "macros": {
+   "kcal": 662.6,
+   "proteina_g": 40.8,
+   "carbohidratos_g": 61.8,
+   "grasa_g": 30.4,
+   "fibra_g": 12.5,
+   "sodio_mg": 1999.5
+  },
+  "kcal_redondeo": 660,
+  "proteina_redondeo": 41,
+  "alergenos": [
+   "milk"
+  ],
+  "nevera_dias_min": 4
+ },
+ {
+  "id": "M4",
+  "componentes": [
+   "P5",
+   "B6",
+   "V3",
+   "S3"
+  ],
+  "nombres": [
+   "Beef & Lentil Power Mince",
+   "Wraps & Tortillas (Store & Assemble)",
+   "Roasted Zucchini & Red Onion",
+   "Quick Red Enchilada Sauce"
+  ],
+  "macros": {
+   "kcal": 570.3,
+   "proteina_g": 33.2,
+   "carbohidratos_g": 60.4,
+   "grasa_g": 22.6,
+   "fibra_g": 9.3,
+   "sodio_mg": 1643.1
+  },
+  "kcal_redondeo": 570,
+  "proteina_redondeo": 33,
+  "alergenos": [
+   "wheat"
+  ],
+  "nevera_dias_min": 3
+ },
+ {
+  "id": "M5",
+  "componentes": [
+   "P7",
+   "B1",
+   "V5",
+   "S2"
+  ],
+  "nombres": [
+   "Oven Pulled Pork Shoulder",
+   "Hands-Off Oven Rice",
+   "Sesame Cabbage-Carrot Slaw (raw)",
+   "Tomatillo Salsa Verde"
+  ],
+  "macros": {
+   "kcal": 768.9,
+   "proteina_g": 60.0,
+   "carbohidratos_g": 62.4,
+   "grasa_g": 29.7,
+   "fibra_g": 5.1,
+   "sodio_mg": 2056.7
+  },
+  "kcal_redondeo": 770,
+  "proteina_redondeo": 60,
+  "alergenos": [
+   "sesame",
+   "soy",
+   "wheat"
+  ],
+  "nevera_dias_min": 4
+ },
+ {
+  "id": "M6",
+  "componentes": [
+   "P9",
+   "B2",
+   "V2",
+   "S1"
+  ],
+  "nombres": [
+   "Crispy Baked Tofu",
+   "Fluffy Quinoa",
+   "Sheet-Pan Fajita Peppers & Onions",
+   "Chipotle-Lime Yogurt"
+  ],
+  "macros": {
+   "kcal": 658.9,
+   "proteina_g": 41.7,
+   "carbohidratos_g": 57.6,
+   "grasa_g": 33.4,
+   "fibra_g": 12.2,
+   "sodio_mg": 1407.6
+  },
+  "kcal_redondeo": 660,
+  "proteina_redondeo": 42,
+  "alergenos": [
+   "milk",
+   "soy",
+   "wheat"
+  ],
+  "nevera_dias_min": 4
+ },
+ {
+  "id": "M7",
+  "componentes": [
+   "P10",
+   "B6",
+   "V6",
+   "S2"
+  ],
+  "nombres": [
+   "Smoky Spiced Chickpeas",
+   "Wraps & Tortillas (Store & Assemble)",
+   "Chopped Cucumber-Tomato Salad (raw)",
+   "Tomatillo Salsa Verde"
+  ],
+  "macros": {
+   "kcal": 498.1,
+   "proteina_g": 16.5,
+   "carbohidratos_g": 68.6,
+   "grasa_g": 19.0,
+   "fibra_g": 13.5,
+   "sodio_mg": 1509.8
+  },
+  "kcal_redondeo": 500,
+  "proteina_redondeo": 16,
+  "alergenos": [
+   "wheat"
+  ],
+  "nevera_dias_min": 3
+ },
+ {
+  "id": "M8",
+  "componentes": [
+   "P8",
+   "B1",
+   "V5",
+   "S1"
+  ],
+  "nombres": [
+   "Simple Baked Salmon",
+   "Hands-Off Oven Rice",
+   "Sesame Cabbage-Carrot Slaw (raw)",
+   "Chipotle-Lime Yogurt"
+  ],
+  "macros": {
+   "kcal": 748.2,
+   "proteina_g": 43.4,
+   "carbohidratos_g": 58.5,
+   "grasa_g": 37.1,
+   "fibra_g": 4.6,
+   "sodio_mg": 1139.4
+  },
+  "kcal_redondeo": 750,
+  "proteina_redondeo": 43,
+  "alergenos": [
+   "fish",
+   "milk",
+   "sesame",
+   "soy",
+   "wheat"
+  ],
+  "nevera_dias_min": 3
+ },
+ {
+  "id": "M9",
+  "componentes": [
+   "P2",
+   "B3",
+   "V3",
+   "S2"
+  ],
+  "nombres": [
+   "Slow-Cooker Salsa Shredded Chicken",
+   "Crispy Roasted Baby Potatoes",
+   "Roasted Zucchini & Red Onion",
+   "Tomatillo Salsa Verde"
+  ],
+  "macros": {
+   "kcal": 553.5,
+   "proteina_g": 52.8,
+   "carbohidratos_g": 48.2,
+   "grasa_g": 17.4,
+   "fibra_g": 7.9,
+   "sodio_mg": 2078.5
+  },
+  "kcal_redondeo": 550,
+  "proteina_redondeo": 53,
+  "alergenos": [
+   "none"
+  ],
+  "nevera_dias_min": 3
+ },
+ {
+  "id": "M10",
+  "componentes": [
+   "P4",
+   "B1",
+   "V1",
+   "S1"
+  ],
+  "nombres": [
+   "Turkey Taco Crumble",
+   "Hands-Off Oven Rice",
+   "Charred Roasted Broccoli",
+   "Chipotle-Lime Yogurt"
+  ],
+  "macros": {
+   "kcal": 669.6,
+   "proteina_g": 44.6,
+   "carbohidratos_g": 63.9,
+   "grasa_g": 28.0,
+   "fibra_g": 7.7,
+   "sodio_mg": 1914.6
+  },
+  "kcal_redondeo": 670,
+  "proteina_redondeo": 45,
+  "alergenos": [
+   "milk"
+  ],
+  "nevera_dias_min": 4
+ },
+ {
+  "id": "M11",
+  "componentes": [
+   "P2",
+   "B6",
+   "V2",
+   "S3"
+  ],
+  "nombres": [
+   "Slow-Cooker Salsa Shredded Chicken",
+   "Wraps & Tortillas (Store & Assemble)",
+   "Sheet-Pan Fajita Peppers & Onions",
+   "Quick Red Enchilada Sauce"
+  ],
+  "macros": {
+   "kcal": 533.2,
+   "proteina_g": 52.8,
+   "carbohidratos_g": 45.5,
+   "grasa_g": 15.8,
+   "fibra_g": 7.7,
+   "sodio_mg": 1967.7
+  },
+  "kcal_redondeo": 530,
+  "proteina_redondeo": 53,
+  "alergenos": [
+   "wheat"
+  ],
+  "nevera_dias_min": 4
+ },
+ {
+  "id": "M12",
+  "componentes": [
+   "P5",
+   "B3",
+   "V1",
+   "S1"
+  ],
+  "nombres": [
+   "Beef & Lentil Power Mince",
+   "Crispy Roasted Baby Potatoes",
+   "Charred Roasted Broccoli",
+   "Chipotle-Lime Yogurt"
+  ],
+  "macros": {
+   "kcal": 628.1,
+   "proteina_g": 36.0,
+   "carbohidratos_g": 71.7,
+   "grasa_g": 24.6,
+   "fibra_g": 13.6,
+   "sodio_mg": 1822.9
+  },
+  "kcal_redondeo": 630,
+  "proteina_redondeo": 36,
+  "alergenos": [
+   "milk"
+  ],
+  "nevera_dias_min": 4
+ },
+ {
+  "id": "A1",
+  "componentes": [
+   "P1",
+   "B1",
+   "V1",
+   "S4"
+  ],
+  "nombres": [
+   "Lemon-Garlic Sheet-Pan Chicken Thighs",
+   "Hands-Off Oven Rice",
+   "Charred Roasted Broccoli",
+   "Lighter Teriyaki"
+  ],
+  "macros": {
+   "kcal": 614.1,
+   "proteina_g": 45.2,
+   "carbohidratos_g": 58.9,
+   "grasa_g": 22.3,
+   "fibra_g": 5.8,
+   "sodio_mg": 1631.4
+  },
+  "kcal_redondeo": 610,
+  "proteina_redondeo": 45,
+  "alergenos": [
+   "sesame",
+   "soy",
+   "wheat"
+  ],
+  "nevera_dias_min": 4
+ },
+ {
+  "id": "A2",
+  "componentes": [
+   "P9",
+   "B2",
+   "V5",
+   "S5"
+  ],
+  "nombres": [
+   "Crispy Baked Tofu",
+   "Fluffy Quinoa",
+   "Sesame Cabbage-Carrot Slaw (raw)",
+   "Peanut-Ginger Sauce"
+  ],
+  "macros": {
+   "kcal": 663.0,
+   "proteina_g": 41.7,
+   "carbohidratos_g": 56.4,
+   "grasa_g": 34.0,
+   "fibra_g": 11.8,
+   "sodio_mg": 1120.2
+  },
+  "kcal_redondeo": 660,
+  "proteina_redondeo": 42,
+  "alergenos": [
+   "peanuts",
+   "sesame",
+   "soy",
+   "wheat"
+  ],
+  "nevera_dias_min": 4
+ },
+ {
+  "id": "A3",
+  "componentes": [
+   "P7",
+   "B1",
+   "V5",
+   "S6"
+  ],
+  "nombres": [
+   "Oven Pulled Pork Shoulder",
+   "Hands-Off Oven Rice",
+   "Sesame Cabbage-Carrot Slaw (raw)",
+   "Gochujang-Honey Sauce"
+  ],
+  "macros": {
+   "kcal": 768.9,
+   "proteina_g": 60.0,
+   "carbohidratos_g": 62.4,
+   "grasa_g": 29.7,
+   "fibra_g": 5.1,
+   "sodio_mg": 2056.7
+  },
+  "kcal_redondeo": 770,
+  "proteina_redondeo": 60,
+  "alergenos": [
+   "sesame",
+   "soy",
+   "wheat"
+  ],
+  "nevera_dias_min": 4
+ },
+ {
+  "id": "A4",
+  "componentes": [
+   "P8",
+   "B2",
+   "V4",
+   "S4"
+  ],
+  "nombres": [
+   "Simple Baked Salmon",
+   "Fluffy Quinoa",
+   "Garlic Green Beans",
+   "Lighter Teriyaki"
+  ],
+  "macros": {
+   "kcal": 714.4,
+   "proteina_g": 47.1,
+   "carbohidratos_g": 44.5,
+   "grasa_g": 38.8,
+   "fibra_g": 7.8,
+   "sodio_mg": 1165.9
+  },
+  "kcal_redondeo": 710,
+  "proteina_redondeo": 47,
+  "alergenos": [
+   "fish",
+   "sesame",
+   "soy",
+   "wheat"
+  ],
+  "nevera_dias_min": 3
+ },
+ {
+  "id": "A5",
+  "componentes": [
+   "P3",
+   "B4",
+   "V1",
+   "S5"
+  ],
+  "nombres": [
+   "Never-Dry Baked Chicken Breast",
+   "Roasted Sweet Potato Cubes",
+   "Charred Roasted Broccoli",
+   "Peanut-Ginger Sauce"
+  ],
+  "macros": {
+   "kcal": 601.1,
+   "proteina_g": 53.6,
+   "carbohidratos_g": 53.8,
+   "grasa_g": 19.8,
+   "fibra_g": 11.2,
+   "sodio_mg": 1656.5
+  },
+  "kcal_redondeo": 600,
+  "proteina_redondeo": 54,
+  "alergenos": [
+   "peanuts",
+   "sesame",
+   "soy",
+   "wheat"
+  ],
+  "nevera_dias_min": 4
+ },
+ {
+  "id": "A6",
+  "componentes": [
+   "P6",
+   "B1",
+   "V4",
+   "S6"
+  ],
+  "nombres": [
+   "Freezer Turkey Meatballs",
+   "Hands-Off Oven Rice",
+   "Garlic Green Beans",
+   "Gochujang-Honey Sauce"
+  ],
+  "macros": {
+   "kcal": 682.9,
+   "proteina_g": 45.3,
+   "carbohidratos_g": 65.5,
+   "grasa_g": 27.2,
+   "fibra_g": 5.4,
+   "sodio_mg": 1845.9
+  },
+  "kcal_redondeo": 680,
+  "proteina_redondeo": 45,
+  "alergenos": [
+   "egg",
+   "milk",
+   "sesame",
+   "soy",
+   "wheat"
+  ],
+  "nevera_dias_min": 4
+ },
+ {
+  "id": "A7",
+  "componentes": [
+   "P9",
+   "B1",
+   "V1",
+   "S6"
+  ],
+  "nombres": [
+   "Crispy Baked Tofu",
+   "Hands-Off Oven Rice",
+   "Charred Roasted Broccoli",
+   "Gochujang-Honey Sauce"
+  ],
+  "macros": {
+   "kcal": 675.1,
+   "proteina_g": 41.5,
+   "carbohidratos_g": 67.6,
+   "grasa_g": 30.7,
+   "fibra_g": 10.0,
+   "sodio_mg": 1546.9
+  },
+  "kcal_redondeo": 680,
+  "proteina_redondeo": 42,
+  "alergenos": [
+   "sesame",
+   "soy",
+   "wheat"
+  ],
+  "nevera_dias_min": 4
+ },
+ {
+  "id": "A8",
+  "componentes": [
+   "P1",
+   "B5",
+   "V5",
+   "S5"
+  ],
+  "nombres": [
+   "Lemon-Garlic Sheet-Pan Chicken Thighs",
+   "Reheat-Ready Pasta",
+   "Sesame Cabbage-Carrot Slaw (raw)",
+   "Peanut-Ginger Sauce"
+  ],
+  "macros": {
+   "kcal": 666.6,
+   "proteina_g": 47.1,
+   "carbohidratos_g": 65.8,
+   "grasa_g": 23.5,
+   "fibra_g": 6.2,
+   "sodio_mg": 1322.5
+  },
+  "kcal_redondeo": 670,
+  "proteina_redondeo": 47,
+  "alergenos": [
+   "peanuts",
+   "sesame",
+   "soy",
+   "wheat"
+  ],
+  "nevera_dias_min": 4
+ },
+ {
+  "id": "A9",
+  "componentes": [
+   "P8",
+   "B1",
+   "V1",
+   "S6"
+  ],
+  "nombres": [
+   "Simple Baked Salmon",
+   "Hands-Off Oven Rice",
+   "Charred Roasted Broccoli",
+   "Gochujang-Honey Sauce"
+  ],
+  "macros": {
+   "kcal": 745.0,
+   "proteina_g": 46.4,
+   "carbohidratos_g": 57.9,
+   "grasa_g": 36.5,
+   "fibra_g": 5.7,
+   "sodio_mg": 1449.6
+  },
+  "kcal_redondeo": 740,
+  "proteina_redondeo": 46,
+  "alergenos": [
+   "fish",
+   "sesame",
+   "soy",
+   "wheat"
+  ],
+  "nevera_dias_min": 3
+ },
+ {
+  "id": "A10",
+  "componentes": [
+   "P6",
+   "B5",
+   "V4",
+   "S4"
+  ],
+  "nombres": [
+   "Freezer Turkey Meatballs",
+   "Reheat-Ready Pasta",
+   "Garlic Green Beans",
+   "Lighter Teriyaki"
+  ],
+  "macros": {
+   "kcal": 732.2,
+   "proteina_g": 50.2,
+   "carbohidratos_g": 71.8,
+   "grasa_g": 27.8,
+   "fibra_g": 6.9,
+   "sodio_mg": 1847.2
+  },
+  "kcal_redondeo": 730,
+  "proteina_redondeo": 50,
+  "alergenos": [
+   "egg",
+   "milk",
+   "sesame",
+   "soy",
+   "wheat"
+  ],
+  "nevera_dias_min": 4
+ },
+ {
+  "id": "A11",
+  "componentes": [
+   "P3",
+   "B4",
+   "V4",
+   "S6"
+  ],
+  "nombres": [
+   "Never-Dry Baked Chicken Breast",
+   "Roasted Sweet Potato Cubes",
+   "Garlic Green Beans",
+   "Gochujang-Honey Sauce"
+  ],
+  "macros": {
+   "kcal": 585.8,
+   "proteina_g": 51.1,
+   "carbohidratos_g": 52.2,
+   "grasa_g": 19.4,
+   "fibra_g": 10.4,
+   "sodio_mg": 1489.3
+  },
+  "kcal_redondeo": 590,
+  "proteina_redondeo": 51,
+  "alergenos": [
+   "sesame",
+   "soy",
+   "wheat"
+  ],
+  "nevera_dias_min": 4
+ },
+ {
+  "id": "A12",
+  "componentes": [
+   "P7",
+   "B2",
+   "V1",
+   "S5"
+  ],
+  "nombres": [
+   "Oven Pulled Pork Shoulder",
+   "Fluffy Quinoa",
+   "Charred Roasted Broccoli",
+   "Peanut-Ginger Sauce"
+  ],
+  "macros": {
+   "kcal": 750.4,
+   "proteina_g": 66.2,
+   "carbohidratos_g": 50.0,
+   "grasa_g": 31.8,
+   "fibra_g": 9.1,
+   "sodio_mg": 2250.4
+  },
+  "kcal_redondeo": 750,
+  "proteina_redondeo": 66,
+  "alergenos": [
+   "peanuts",
+   "sesame",
+   "soy",
+   "wheat"
+  ],
+  "nevera_dias_min": 4
+ },
+ {
+  "id": "D-1",
+  "componentes": [
+   "P1",
+   "B1",
+   "V6",
+   "S7"
+  ],
+  "nombres": [
+   "Lemon-Garlic Sheet-Pan Chicken Thighs",
+   "Hands-Off Oven Rice",
+   "Chopped Cucumber-Tomato Salad (raw)",
+   "Tzatziki"
+  ],
+  "macros": {
+   "kcal": 586.6,
+   "proteina_g": 41.5,
+   "carbohidratos_g": 54.7,
+   "grasa_g": 21.9,
+   "fibra_g": 2.9,
+   "sodio_mg": 1463.3
+  },
+  "kcal_redondeo": 590,
+  "proteina_redondeo": 42,
+  "alergenos": [
+   "milk"
+  ],
+  "nevera_dias_min": 3
+ },
+ {
+  "id": "D-2",
+  "componentes": [
+   "P10",
+   "B2",
+   "V3",
+   "S8"
+  ],
+  "nombres": [
+   "Smoky Spiced Chickpeas",
+   "Fluffy Quinoa",
+   "Roasted Zucchini & Red Onion",
+   "Lemon-Tahini Sauce"
+  ],
+  "macros": {
+   "kcal": 565.8,
+   "proteina_g": 20.4,
+   "carbohidratos_g": 77.4,
+   "grasa_g": 21.1,
+   "fibra_g": 15.8,
+   "sodio_mg": 1615.4
+  },
+  "kcal_redondeo": 570,
+  "proteina_redondeo": 20,
+  "alergenos": [
+   "sesame"
+  ],
+  "nevera_dias_min": 3
+ },
+ {
+  "id": "D-3",
+  "componentes": [
+   "P8",
+   "B2",
+   "V3",
+   "S9"
+  ],
+  "nombres": [
+   "Simple Baked Salmon",
+   "Fluffy Quinoa",
+   "Roasted Zucchini & Red Onion",
+   "Chimichurri"
+  ],
+  "macros": {
+   "kcal": 710.5,
+   "proteina_g": 46.7,
+   "carbohidratos_g": 42.7,
+   "grasa_g": 39.0,
+   "fibra_g": 6.2,
+   "sodio_mg": 1287.2
+  },
+  "kcal_redondeo": 710,
+  "proteina_redondeo": 47,
+  "alergenos": [
+   "fish"
+  ],
+  "nevera_dias_min": 3
+ },
+ {
+  "id": "D-4",
+  "componentes": [
+   "P3",
+   "B6",
+   "V6",
+   "S7"
+  ],
+  "nombres": [
+   "Never-Dry Baked Chicken Breast",
+   "Wraps & Tortillas (Store & Assemble)",
+   "Chopped Cucumber-Tomato Salad (raw)",
+   "Tzatziki"
+  ],
+  "macros": {
+   "kcal": 505.0,
+   "proteina_g": 50.8,
+   "carbohidratos_g": 33.7,
+   "grasa_g": 17.8,
+   "fibra_g": 3.9,
+   "sodio_mg": 1280.8
+  },
+  "kcal_redondeo": 500,
+  "proteina_redondeo": 51,
+  "alergenos": [
+   "milk",
+   "wheat"
+  ],
+  "nevera_dias_min": 3
+ },
+ {
+  "id": "D-5",
+  "componentes": [
+   "P6",
+   "B2",
+   "V4",
+   "S9"
+  ],
+  "nombres": [
+   "Freezer Turkey Meatballs",
+   "Fluffy Quinoa",
+   "Garlic Green Beans",
+   "Chimichurri"
+  ],
+  "macros": {
+   "kcal": 667.6,
+   "proteina_g": 48.5,
+   "carbohidratos_g": 53.7,
+   "grasa_g": 29.9,
+   "fibra_g": 8.3,
+   "sodio_mg": 1729.4
+  },
+  "kcal_redondeo": 670,
+  "proteina_redondeo": 48,
+  "alergenos": [
+   "egg",
+   "milk",
+   "wheat"
+  ],
+  "nevera_dias_min": 4
+ },
+ {
+  "id": "D-6",
+  "componentes": [
+   "P5",
+   "B1",
+   "V6",
+   "S8"
+  ],
+  "nombres": [
+   "Beef & Lentil Power Mince",
+   "Hands-Off Oven Rice",
+   "Chopped Cucumber-Tomato Salad (raw)",
+   "Lemon-Tahini Sauce"
+  ],
+  "macros": {
+   "kcal": 636.7,
+   "proteina_g": 32.3,
+   "carbohidratos_g": 79.4,
+   "grasa_g": 21.6,
+   "fibra_g": 7.7,
+   "sodio_mg": 1620.8
+  },
+  "kcal_redondeo": 640,
+  "proteina_redondeo": 32,
+  "alergenos": [
+   "sesame"
+  ],
+  "nevera_dias_min": 3
+ },
+ {
+  "id": "D-7",
+  "componentes": [
+   "P9",
+   "B2",
+   "V1",
+   "S8"
+  ],
+  "nombres": [
+   "Crispy Baked Tofu",
+   "Fluffy Quinoa",
+   "Charred Roasted Broccoli",
+   "Lemon-Tahini Sauce"
+  ],
+  "macros": {
+   "kcal": 659.8,
+   "proteina_g": 44.7,
+   "carbohidratos_g": 55.8,
+   "grasa_g": 33.4,
+   "fibra_g": 12.9,
+   "sodio_mg": 1430.4
+  },
+  "kcal_redondeo": 660,
+  "proteina_redondeo": 45,
+  "alergenos": [
+   "sesame",
+   "soy",
+   "wheat"
+  ],
+  "nevera_dias_min": 4
+ },
+ {
+  "id": "D-8",
+  "componentes": [
+   "P1",
+   "B4",
+   "V1",
+   "S8"
+  ],
+  "nombres": [
+   "Lemon-Garlic Sheet-Pan Chicken Thighs",
+   "Roasted Sweet Potato Cubes",
+   "Charred Roasted Broccoli",
+   "Lemon-Tahini Sauce"
+  ],
+  "macros": {
+   "kcal": 608.0,
+   "proteina_g": 44.4,
+   "carbohidratos_g": 55.0,
+   "grasa_g": 24.7,
+   "fibra_g": 11.3,
+   "sodio_mg": 1739.1
+  },
+  "kcal_redondeo": 610,
+  "proteina_redondeo": 44,
+  "alergenos": [
+   "sesame"
+  ],
+  "nevera_dias_min": 4
+ },
+ {
+  "id": "D-9",
+  "componentes": [
+   "P10",
+   "B6",
+   "V3",
+   "S7"
+  ],
+  "nombres": [
+   "Smoky Spiced Chickpeas",
+   "Wraps & Tortillas (Store & Assemble)",
+   "Roasted Zucchini & Red Onion",
+   "Tzatziki"
+  ],
+  "macros": {
+   "kcal": 506.4,
+   "proteina_g": 17.3,
+   "carbohidratos_g": 69.4,
+   "grasa_g": 19.2,
+   "fibra_g": 14.0,
+   "sodio_mg": 1632.0
+  },
+  "kcal_redondeo": 510,
+  "proteina_redondeo": 17,
+  "alergenos": [
+   "milk",
+   "wheat"
+  ],
+  "nevera_dias_min": 3
+ },
+ {
+  "id": "D-10",
+  "componentes": [
+   "P8",
+   "B1",
+   "V6",
+   "S7"
+  ],
+  "nombres": [
+   "Simple Baked Salmon",
+   "Hands-Off Oven Rice",
+   "Chopped Cucumber-Tomato Salad (raw)",
+   "Tzatziki"
+  ],
+  "macros": {
+   "kcal": 717.5,
+   "proteina_g": 42.7,
+   "carbohidratos_g": 53.7,
+   "grasa_g": 36.1,
+   "fibra_g": 2.8,
+   "sodio_mg": 1281.5
+  },
+  "kcal_redondeo": 720,
+  "proteina_redondeo": 43,
+  "alergenos": [
+   "fish",
+   "milk"
+  ],
+  "nevera_dias_min": 3
+ },
+ {
+  "id": "D-11",
+  "componentes": [
+   "P3",
+   "B3",
+   "V1",
+   "S8"
+  ],
+  "nombres": [
+   "Never-Dry Baked Chicken Breast",
+   "Crispy Roasted Baby Potatoes",
+   "Charred Roasted Broccoli",
+   "Lemon-Tahini Sauce"
+  ],
+  "macros": {
+   "kcal": 571.1,
+   "proteina_g": 54.4,
+   "carbohidratos_g": 45.8,
+   "grasa_g": 20.0,
+   "fibra_g": 8.7,
+   "sodio_mg": 1582.8
+  },
+  "kcal_redondeo": 570,
+  "proteina_redondeo": 54,
+  "alergenos": [
+   "sesame"
+  ],
+  "nevera_dias_min": 4
+ },
+ {
+  "id": "D-12",
+  "componentes": [
+   "P6",
+   "B6",
+   "V6",
+   "S7"
+  ],
+  "nombres": [
+   "Freezer Turkey Meatballs",
+   "Wraps & Tortillas (Store & Assemble)",
+   "Chopped Cucumber-Tomato Salad (raw)",
+   "Tzatziki"
+  ],
+  "macros": {
+   "kcal": 596.0,
+   "proteina_g": 44.2,
+   "carbohidratos_g": 43.1,
+   "grasa_g": 28.0,
+   "fibra_g": 4.4,
+   "sodio_mg": 1745.1
+  },
+  "kcal_redondeo": 600,
+  "proteina_redondeo": 44,
+  "alergenos": [
+   "egg",
+   "milk",
+   "wheat"
+  ],
+  "nevera_dias_min": 3
+ },
+ {
+  "id": "C1",
+  "componentes": [
+   "P1",
+   "B3",
+   "V4",
+   "S10"
+  ],
+  "nombres": [
+   "Lemon-Garlic Sheet-Pan Chicken Thighs",
+   "Crispy Roasted Baby Potatoes",
+   "Garlic Green Beans",
+   "Smoky BBQ Sauce (Less Sugar)"
+  ],
+  "macros": {
+   "kcal": 562.7,
+   "proteina_g": 42.7,
+   "carbohidratos_g": 45.4,
+   "grasa_g": 24.5,
+   "fibra_g": 8.0,
+   "sodio_mg": 1498.2
+  },
+  "kcal_redondeo": 560,
+  "proteina_redondeo": 43,
+  "alergenos": [
+   "fish"
+  ],
+  "nevera_dias_min": 4
+ },
+ {
+  "id": "C2",
+  "componentes": [
+   "P7",
+   "B4",
+   "V1",
+   "S10"
+  ],
+  "nombres": [
+   "Oven Pulled Pork Shoulder",
+   "Roasted Sweet Potato Cubes",
+   "Charred Roasted Broccoli",
+   "Smoky BBQ Sauce (Less Sugar)"
+  ],
+  "macros": {
+   "kcal": 759.6,
+   "proteina_g": 62.2,
+   "carbohidratos_g": 57.9,
+   "grasa_g": 31.5,
+   "fibra_g": 11.7,
+   "sodio_mg": 2474.6
+  },
+  "kcal_redondeo": 760,
+  "proteina_redondeo": 62,
+  "alergenos": [
+   "fish"
+  ],
+  "nevera_dias_min": 4
+ },
+ {
+  "id": "C3",
+  "componentes": [
+   "P6",
+   "B5",
+   "V3",
+   "S12"
+  ],
+  "nombres": [
+   "Freezer Turkey Meatballs",
+   "Reheat-Ready Pasta",
+   "Roasted Zucchini & Red Onion",
+   "Creamy Tomato-Garlic Sauce"
+  ],
+  "macros": {
+   "kcal": 728.3,
+   "proteina_g": 49.8,
+   "carbohidratos_g": 70.0,
+   "grasa_g": 28.0,
+   "fibra_g": 5.3,
+   "sodio_mg": 1968.5
+  },
+  "kcal_redondeo": 730,
+  "proteina_redondeo": 50,
+  "alergenos": [
+   "egg",
+   "milk",
+   "wheat"
+  ],
+  "nevera_dias_min": 3
+ },
+ {
+  "id": "C4",
+  "componentes": [
+   "P3",
+   "B1",
+   "V4",
+   "S11"
+  ],
+  "nombres": [
+   "Never-Dry Baked Chicken Breast",
+   "Hands-Off Oven Rice",
+   "Garlic Green Beans",
+   "Honey-Mustard Yogurt"
+  ],
+  "macros": {
+   "kcal": 591.9,
+   "proteina_g": 51.9,
+   "carbohidratos_g": 56.1,
+   "grasa_g": 17.0,
+   "fibra_g": 4.9,
+   "sodio_mg": 1381.6
+  },
+  "kcal_redondeo": 590,
+  "proteina_redondeo": 52,
+  "alergenos": [
+   "milk"
+  ],
+  "nevera_dias_min": 4
+ },
+ {
+  "id": "C5",
+  "componentes": [
+   "P5",
+   "B3",
+   "V2",
+   "S10"
+  ],
+  "nombres": [
+   "Beef & Lentil Power Mince",
+   "Crispy Roasted Baby Potatoes",
+   "Sheet-Pan Fajita Peppers & Onions",
+   "Smoky BBQ Sauce (Less Sugar)"
+  ],
+  "macros": {
+   "kcal": 627.2,
+   "proteina_g": 33.0,
+   "carbohidratos_g": 73.5,
+   "grasa_g": 24.6,
+   "fibra_g": 12.9,
+   "sodio_mg": 1800.1
+  },
+  "kcal_redondeo": 630,
+  "proteina_redondeo": 33,
+  "alergenos": [
+   "fish"
+  ],
+  "nevera_dias_min": 4
+ },
+ {
+  "id": "C6",
+  "componentes": [
+   "P8",
+   "B3",
+   "V1",
+   "S11"
+  ],
+  "nombres": [
+   "Simple Baked Salmon",
+   "Crispy Roasted Baby Potatoes",
+   "Charred Roasted Broccoli",
+   "Honey-Mustard Yogurt"
+  ],
+  "macros": {
+   "kcal": 708.9,
+   "proteina_g": 46.4,
+   "carbohidratos_g": 46.0,
+   "grasa_g": 39.1,
+   "fibra_g": 8.7,
+   "sodio_mg": 1483.6
+  },
+  "kcal_redondeo": 710,
+  "proteina_redondeo": 46,
+  "alergenos": [
+   "fish",
+   "milk"
+  ],
+  "nevera_dias_min": 3
+ },
+ {
+  "id": "C7",
+  "componentes": [
+   "P1",
+   "B5",
+   "V1",
+   "S12"
+  ],
+  "nombres": [
+   "Lemon-Garlic Sheet-Pan Chicken Thighs",
+   "Reheat-Ready Pasta",
+   "Charred Roasted Broccoli",
+   "Creamy Tomato-Garlic Sauce"
+  ],
+  "macros": {
+   "kcal": 663.4,
+   "proteina_g": 50.1,
+   "carbohidratos_g": 65.2,
+   "grasa_g": 22.9,
+   "fibra_g": 7.3,
+   "sodio_mg": 1632.7
+  },
+  "kcal_redondeo": 660,
+  "proteina_redondeo": 50,
+  "alergenos": [
+   "milk",
+   "wheat"
+  ],
+  "nevera_dias_min": 4
+ },
+ {
+  "id": "C8",
+  "componentes": [
+   "P2",
+   "B6",
+   "V2",
+   "S10"
+  ],
+  "nombres": [
+   "Slow-Cooker Salsa Shredded Chicken",
+   "Wraps & Tortillas (Store & Assemble)",
+   "Sheet-Pan Fajita Peppers & Onions",
+   "Smoky BBQ Sauce (Less Sugar)"
+  ],
+  "macros": {
+   "kcal": 533.2,
+   "proteina_g": 52.8,
+   "carbohidratos_g": 45.5,
+   "grasa_g": 15.8,
+   "fibra_g": 7.7,
+   "sodio_mg": 1967.7
+  },
+  "kcal_redondeo": 530,
+  "proteina_redondeo": 53,
+  "alergenos": [
+   "fish",
+   "wheat"
+  ],
+  "nevera_dias_min": 4
+ },
+ {
+  "id": "C9",
+  "componentes": [
+   "P3",
+   "B6",
+   "V3",
+   "S11"
+  ],
+  "nombres": [
+   "Never-Dry Baked Chicken Breast",
+   "Wraps & Tortillas (Store & Assemble)",
+   "Roasted Zucchini & Red Onion",
+   "Honey-Mustard Yogurt"
+  ],
+  "macros": {
+   "kcal": 513.3,
+   "proteina_g": 51.6,
+   "carbohidratos_g": 34.5,
+   "grasa_g": 18.0,
+   "fibra_g": 4.4,
+   "sodio_mg": 1403.0
+  },
+  "kcal_redondeo": 510,
+  "proteina_redondeo": 52,
+  "alergenos": [
+   "milk",
+   "wheat"
+  ],
+  "nevera_dias_min": 3
+ },
+ {
+  "id": "C10",
+  "componentes": [
+   "P5",
+   "B5",
+   "V3",
+   "S12"
+  ],
+  "nombres": [
+   "Beef & Lentil Power Mince",
+   "Reheat-Ready Pasta",
+   "Roasted Zucchini & Red Onion",
+   "Creamy Tomato-Garlic Sauce"
+  ],
+  "macros": {
+   "kcal": 694.3,
+   "proteina_g": 38.0,
+   "carbohidratos_g": 86.5,
+   "grasa_g": 22.4,
+   "fibra_g": 9.7,
+   "sodio_mg": 1744.3
+  },
+  "kcal_redondeo": 690,
+  "proteina_redondeo": 38,
+  "alergenos": [
+   "milk",
+   "wheat"
+  ],
+  "nevera_dias_min": 3
+ },
+ {
+  "id": "C11",
+  "componentes": [
+   "P7",
+   "B1",
+   "V4",
+   "S10"
+  ],
+  "nombres": [
+   "Oven Pulled Pork Shoulder",
+   "Hands-Off Oven Rice",
+   "Garlic Green Beans",
+   "Smoky BBQ Sauce (Less Sugar)"
+  ],
+  "macros": {
+   "kcal": 750.4,
+   "proteina_g": 60.5,
+   "carbohidratos_g": 60.2,
+   "grasa_g": 28.7,
+   "fibra_g": 5.4,
+   "sodio_mg": 2199.7
+  },
+  "kcal_redondeo": 750,
+  "proteina_redondeo": 60,
+  "alergenos": [
+   "fish"
+  ],
+  "nevera_dias_min": 4
+ },
+ {
+  "id": "C12",
+  "componentes": [
+   "P6",
+   "B4",
+   "V4",
+   "S11"
+  ],
+  "nombres": [
+   "Freezer Turkey Meatballs",
+   "Roasted Sweet Potato Cubes",
+   "Garlic Green Beans",
+   "Honey-Mustard Yogurt"
+  ],
+  "macros": {
+   "kcal": 676.8,
+   "proteina_g": 44.5,
+   "carbohidratos_g": 61.6,
+   "grasa_g": 29.6,
+   "fibra_g": 10.9,
+   "sodio_mg": 1953.6
+  },
+  "kcal_redondeo": 680,
+  "proteina_redondeo": 44,
+  "alergenos": [
+   "egg",
+   "milk",
+   "wheat"
+  ],
+  "nevera_dias_min": 4
+ }
+]
