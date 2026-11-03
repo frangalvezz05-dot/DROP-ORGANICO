@@ -302,7 +302,7 @@ Estrellas, nº de reseñas, "bestseller", "5 star"; precio tachado o "ahorras X"
 | 8 | Prácticas desleales / promesas | FALLO vuelta 1: "$0.62 por comida" podía leerse como coste de la comida; "High-protein snacks" era alegación nutricional (Reg. CE 1924/2006) → reformulado ("the price of the book works out to…") y "Protein snacks". Sin estrellas, tachados, urgencias ni resultados. OK vuelta 2 |
 | 12 | Nicho sensible | OK: aviso en sec. 9 y FAQ, alérgenos, cifras como estimaciones, sin salud ni peso. Aviso sobre "protein counted" en UE: pendiente del gestor (nota 11 de `legal/notas-internas.md`) |
 | 14 | Texto público limpio | FALLO vuelta 1: instrucciones de montaje dentro de bloques "TEXTO FINAL" (botón, formulario) → movidas a nota en cursiva "no publicar". OK vuelta 2 |
-| 15 | Coherencia | OK con `estructura.md` y `terms-of-sale-en.md` (165/30 págs., Letter/A4, 60/48, EE. UU.+UE, sin Reino Unido). Enlaces `/policies/...` a rellenar al montar |
+| 15 | Coherencia | OK con `estructura.md` y `terms-of-sale-en.md` (336/34 págs., A5/Letter, corregido tras maquetar 03-nov; 60/48, EE. UU.+UE, sin Reino Unido). Enlaces `/policies/...` a rellenar al montar |
 **Veredicto: APROBADO (textos)**, con "NO PUBLICAR hasta rellenar huecos del titular y verificar en tienda". Revisión basada en fuentes oficiales; no es asesoramiento jurídico.
 
 ### critico (una pasada)

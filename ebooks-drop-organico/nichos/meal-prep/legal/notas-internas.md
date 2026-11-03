@@ -16,7 +16,7 @@ _03-nov-2026. Aquí van las dudas, etiquetas y montaje que no pueden estar en el
 11. **Nicho nutrición**: aviso "no sustituye a médico o dietista-nutricionista" y "comprobar alérgenos" (instrucción de Fran). Revisar que las páginas de producto y los anuncios no prometan pérdida de peso, salud ni "detox" (Ley 3/1991; normas de Meta). En España, la publicidad de alimentos con alegaciones nutricionales (Reglamento CE 1924/2006) puede aplicar a frases como "alto en proteína" [SIN DATO]; consultar.
 
 ## Coherencia (punto 15) con `estructura.md`
-- ~165 págs. ebook (Letter), ~30 págs. imprimible (Letter y A4, apto blanco y negro), 60 recetas, 48 platos, plan de 4 semanas, 24,99 $: coinciden con `estructura.md` §2.1-2.3. Las "unas 165 / unas 30" son estimaciones hasta cerrar el PDF: **actualizar al maquetar**.
+- 336 págs. ebook (A5), 34 págs. imprimible (Letter, apto blanco y negro) — cifras reales del PDF (03-nov), 60 recetas, 48 platos, plan de 4 semanas, 24,99 $: coinciden con `estructura.md` §2.1-2.3. Las "unas 165 / unas 30" son estimaciones hasta cerrar el PDF: **actualizar al maquetar**.
 - `pagina-producto.md` del nicho meal-prep **no existe aún**: comprobar al crearla (precio, páginas, formato, mercados EE. UU. + UE, sin Reino Unido).
 - No se cita en texto público la cifra de combinaciones (2.106) ni "2.000 recetas" (estructura §2.1).
 - Muestra gratis: contenido concreto de la muestra a confirmar (estructura.md, sección de muestra); el texto solo dice "muestra gratis".

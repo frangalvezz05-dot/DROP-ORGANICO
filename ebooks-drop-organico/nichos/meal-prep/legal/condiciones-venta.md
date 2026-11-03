@@ -9,7 +9,7 @@ _Esta versión en español prevalece sobre la inglesa en caso de discrepancia._
 
 ## 2. Qué compras
 **The Sunday Sheet**, un producto digital (sin envío físico) que incluye:
-- **Ebook principal** en PDF, de 336 páginas, tamaño Carta (US Letter), con índice con enlaces y letra grande que se lee bien en móvil y tableta: el método, un plan de 4 semanas con una "hoja de domingo" y una lista de la compra por semana, 60 recetas con calorías, proteína, coste por ración, alérgenos y tiempos de conservación, y 48 platos completos montados.
+- **Ebook principal** en PDF, de 336 páginas, tamaño A5 pensado para pantalla de móvil y tableta, con índice con enlaces y letra grande que se lee bien en móvil y tableta: el método, un plan de 4 semanas con una "hoja de domingo" y una lista de la compra por semana, 60 recetas con calorías, proteína, coste por ración, alérgenos y tiempos de conservación, y 48 platos completos montados.
 - **Pack imprimible** en PDF, de 34 páginas, en tamaño Carta (US Letter), pensado para imprimir bien en blanco y negro: hojas de domingo, listas de la compra (para 1 y 2 personas), tabla de conservación, tabla Mix & Match, checklist de despensa, etiquetas para tuppers, tarjetas de nevera, hoja para montar tu plato y hoja de coste.
 
 **Funcionalidad e interoperabilidad:** los archivos son PDF. Se abren con cualquier lector de PDF en móvil, tableta u ordenador (basta el lector que traiga tu dispositivo o un navegador). No llevan protección anticopia (DRM). La entrega la gestiona {{APP_ENTREGA}}.
