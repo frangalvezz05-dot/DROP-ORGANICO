@@ -38,13 +38,18 @@ ES y EN por separado, datos buscados en cada idioma. Cada nota con fuente (URL +
 | Criterio | Peso | 1 | 3 | 5 |
 |---|---|---|---|---|
 | Dolor repetido | 30 % | top vídeos ESPECÍFICOS de YouTube sobre el problema (5 últimos años) <10 K visitas | 10-100 K | >100 K y comentarios que repiten el dolor |
-| Pruebas de pago (DIGITAL) | 30 % | ranking Kindle del ebook específico líder >500 K | 50-500 K | <50 K, o ventas visibles en Gumroad/Payhip/Etsy |
+| Pruebas de pago (DIGITAL, mismo modelo que el nuestro) | 30 % | ningún anunciante ni tienda propia vendiendo un ebook/pack del tema a ≥15 € | 1-2 anunciantes con anuncios activos <30 días, o tienda propia sin señales de venta | ≥3 anunciantes distintos con anuncios activos ≥30 días (o un anunciante con muchas variantes) en la Biblioteca de anuncios de Meta, y/o tiendas propias (Shopify, etc.) vendiendo el ebook/pack a ≥15 € con señales (reseñas, "X vendidos") |
 | Hueco | 15 % | reseñas negativas sin patrón | 1 queja repetida | ≥2 quejas repetidas que un ebook de acción resuelve |
 | Precio digital | 15 % | mediana digital <5 € y sin packs | 5-12 €, o packs 12-20 € | packs/guías ≥15 € con ventas visibles |
 
 Reglas de medición (añadidas 14-oct tras m1-prueba-1):
 - **Mínimo 3 vídeos específicos** por idioma para puntuar Dolor; con menos → [SIN DATO]. Vídeos fuera de tema (humor, música, temas generales) y libros genéricos no cuentan.
-- **Pago**: el criterio principal es el **ranking Kindle** del ebook específico líder (abrir siempre su ficha). Las valoraciones solo desempatan dentro de un tramo.
+- **Pago** (corrección de Fran, 03-nov-2026): el criterio principal es si **alguien ya vende un ebook/pack del tema desde su propia tienda**, que es nuestro modelo:
+  1. **Biblioteca de anuncios de Meta** (facebook.com/ads/library, país ES / EE. UU., "Todos los anuncios", palabras clave del tema + "ebook", "guía", "PDF", "plan"): contar anunciantes que venden un producto digital del tema, **días que lleva activo** cada anuncio (≥30 días = probablemente rentable [ESTIMACIÓN, criterio habitual de Adrián/Marc para producto físico]) y nº de variantes. Abrir la tienda de destino: precio, qué incluye, si es Shopify.
+  2. **Tiendas de e-commerce ya hechas**: las tiendas que salen de los anuncios y de TikTok/Instagram (perfiles del tema con enlace a tienda), Shopify, Stan, Hotmart. Anotar precio, estructura del pack, señales de venta.
+  3. **Etsy/Gumroad/Payhip**: ventas o valoraciones visibles a ≥15 €.
+  4. **Amazon Kindle pasa a ser señal SECUNDARIA** de demanda (ranking del líder), no de pago: allí el precio es 2-9 € y no es nuestro canal.
+  Los anuncios de pago son prueba de pago aunque nosotros vendamos en orgánico: si alguien paga anuncios durante meses, el producto vende.
 - **Hueco**: las reseñas de Amazon suelen pedir inicio de sesión; usar las visibles en la ficha, Goodreads o comentarios de YouTube que critiquen soluciones existentes. Si no hay → [SIN DATO].
 - **Precio**: los 0 € de Kindle Unlimited no entran en la mediana.
 | Estabilidad | 10 % | Google Trends cae >50 % en 5 años | estable | crece |
