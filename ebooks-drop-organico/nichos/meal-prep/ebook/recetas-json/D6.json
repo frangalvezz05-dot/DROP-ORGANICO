@@ -1,0 +1,139 @@
+{
+ "id": "D6",
+ "nombre": "Cottage Cheese Baked Oats",
+ "componente": "desayuno",
+ "familias": [],
+ "raciones": 5,
+ "rinde_g_cocinado": 1275,
+ "racion_g": 255,
+ "ingredientes": [
+  {
+   "nombre_en": "old-fashioned rolled oats",
+   "cantidad_us": "2 cups",
+   "g": 170,
+   "fdc_id": "169705",
+   "pasillo": "pantry",
+   "estado": "dry"
+  },
+  {
+   "nombre_en": "2% cottage cheese",
+   "cantidad_us": "2 cups",
+   "g": 450,
+   "fdc_id": "172182",
+   "pasillo": "dairy",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "large eggs",
+   "cantidad_us": "4",
+   "g": 200,
+   "fdc_id": "171287",
+   "pasillo": "eggs",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "ripe bananas",
+   "cantidad_us": "2 medium",
+   "g": 236,
+   "fdc_id": "173944",
+   "pasillo": "produce",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "1% milk",
+   "cantidad_us": "1/2 cup",
+   "g": 122,
+   "fdc_id": "170872",
+   "pasillo": "dairy",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "pure maple syrup",
+   "cantidad_us": "2 Tbsp",
+   "g": 40,
+   "fdc_id": "169661",
+   "pasillo": "pantry",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "baking powder",
+   "cantidad_us": "1 1/2 tsp",
+   "g": 7,
+   "fdc_id": "172804",
+   "pasillo": "pantry",
+   "estado": "dry"
+  },
+  {
+   "nombre_en": "vanilla extract",
+   "cantidad_us": "2 tsp",
+   "g": 9,
+   "fdc_id": "173471",
+   "pasillo": "pantry",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "ground cinnamon",
+   "cantidad_us": "2 tsp",
+   "g": 5,
+   "fdc_id": "171320",
+   "pasillo": "spices",
+   "estado": "dry"
+  },
+  {
+   "nombre_en": "fine salt",
+   "cantidad_us": "1/4 tsp",
+   "g": 1.5,
+   "fdc_id": "173468",
+   "pasillo": "spices",
+   "estado": "dry"
+  },
+  {
+   "nombre_en": "blueberries (fresh or frozen)",
+   "cantidad_us": "1 cup",
+   "g": 150,
+   "fdc_id": "171711",
+   "pasillo": "produce",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "cooking spray or butter (for the dish)",
+   "cantidad_us": "1 tsp",
+   "g": 4.5,
+   "fdc_id": "172336",
+   "pasillo": "oils",
+   "estado": "raw"
+  }
+ ],
+ "macros_por_racion": {
+  "por_racion": {
+   "kcal": 368.8,
+   "proteina_g": 21.8,
+   "grasa_g": 9.6,
+   "carbohidratos_g": 50.2,
+   "fibra_g": 6.1,
+   "sodio_mg": 574.2
+  },
+  "total": {
+   "kcal": 1844.2,
+   "proteina_g": 108.9,
+   "grasa_g": 48.0,
+   "carbohidratos_g": 250.9,
+   "fibra_g": 30.4,
+   "sodio_mg": 2870.9
+  },
+  "raciones": 5,
+  "fuente": "USDA FoodData Central SR Legacy (2018-04)"
+ },
+ "alergenos": [
+  "egg",
+  "milk"
+ ],
+ "nevera_dias": 4,
+ "congelador_meses": 2,
+ "recalentar": "Microwave a square 60-90 sec until hot in the middle. Or 350 °F / 175 °C oven 10 min, covered. Good cold too.",
+ "tiempo_activo_min": 10,
+ "tiempo_total_min": 60,
+ "horno_c": 175,
+ "horno_f": 350,
+ "encaja_en": "Breakfast slot. Tastes like dessert. Cut into 5 on Sunday and it reheats well all week."
+}

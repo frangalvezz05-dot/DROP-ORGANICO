@@ -1,0 +1,116 @@
+{
+ "id": "S4",
+ "nombre": "Lighter Teriyaki",
+ "componente": "salsa",
+ "familias": [
+  "ASI"
+ ],
+ "raciones": 5,
+ "rinde_g_cocinado": 169,
+ "racion_g": 35,
+ "ingredientes": [
+  {
+   "nombre_en": "reduced-sodium soy sauce",
+   "cantidad_us": "1/4 cup",
+   "g": 60,
+   "fdc_id": "172473",
+   "pasillo": "condiments",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "water",
+   "cantidad_us": "1/4 cup",
+   "g": 60,
+   "fdc_id": null,
+   "pasillo": "pantry",
+   "estado": "tap"
+  },
+  {
+   "nombre_en": "honey",
+   "cantidad_us": "1 1/2 Tbsp",
+   "g": 32,
+   "fdc_id": "169640",
+   "pasillo": "pantry",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "rice vinegar or cider vinegar",
+   "cantidad_us": "1 Tbsp",
+   "g": 15,
+   "fdc_id": "173469",
+   "pasillo": "pantry",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "fresh ginger, finely grated",
+   "cantidad_us": "1 tsp",
+   "g": 2,
+   "fdc_id": "169231",
+   "pasillo": "produce",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "garlic, grated",
+   "cantidad_us": "1 clove",
+   "g": 3,
+   "fdc_id": "169230",
+   "pasillo": "produce",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "toasted sesame oil",
+   "cantidad_us": "1/2 tsp",
+   "g": 2,
+   "fdc_id": "171016",
+   "pasillo": "oils",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "cornstarch",
+   "cantidad_us": "2 tsp",
+   "g": 5,
+   "fdc_id": "169698",
+   "pasillo": "pantry",
+   "estado": "dry"
+  },
+  {
+   "nombre_en": "water",
+   "cantidad_us": "1 Tbsp (for the cornstarch)",
+   "g": 15,
+   "fdc_id": null,
+   "pasillo": "pantry",
+   "estado": "tap"
+  }
+ ],
+ "macros_por_racion": {
+  "por_racion": {
+   "kcal": 35.5,
+   "proteina_g": 1.2,
+   "grasa_g": 0.4,
+   "carbohidratos_g": 7.2,
+   "fibra_g": 0.1,
+   "sodio_mg": 432.4
+  },
+  "total": {
+   "kcal": 177.4,
+   "proteina_g": 5.8,
+   "grasa_g": 2.2,
+   "carbohidratos_g": 35.8,
+   "fibra_g": 0.6,
+   "sodio_mg": 2162.1
+  },
+  "raciones": 5,
+  "fuente": "USDA FoodData Central SR Legacy (2018-04)"
+ },
+ "alergenos": [
+  "soy",
+  "wheat",
+  "sesame"
+ ],
+ "nevera_dias": 4,
+ "congelador_meses": 3,
+ "recalentar": "Warm in a pan or microwave 30 sec. Stir; it thickens as it cools.",
+ "tiempo_activo_min": 5,
+ "tiempo_total_min": 12,
+ "usado_en": "A1, A4, A10 (Asian plates with S4)"
+}

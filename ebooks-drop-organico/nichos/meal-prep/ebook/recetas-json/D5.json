@@ -1,0 +1,122 @@
+{
+ "id": "D5",
+ "nombre": "Freezer Breakfast Burritos",
+ "componente": "desayuno",
+ "familias": [],
+ "raciones": 5,
+ "rinde_g_cocinado": 1285,
+ "racion_g": 255,
+ "ingredientes": [
+  {
+   "nombre_en": "large eggs",
+   "cantidad_us": "10",
+   "g": 500,
+   "fdc_id": "171287",
+   "pasillo": "eggs",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "10-inch flour tortillas",
+   "cantidad_us": "5",
+   "g": 325,
+   "fdc_id": "167535",
+   "pasillo": "bakery",
+   "estado": "packaged"
+  },
+  {
+   "nombre_en": "canned low-sodium black beans, drained and rinsed",
+   "cantidad_us": "1 cup",
+   "g": 215,
+   "fdc_id": "175238",
+   "pasillo": "canned",
+   "estado": "canned"
+  },
+  {
+   "nombre_en": "shredded sharp cheddar",
+   "cantidad_us": "1 1/4 cups",
+   "g": 140,
+   "fdc_id": "170899",
+   "pasillo": "dairy",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "red bell pepper, finely diced",
+   "cantidad_us": "1 medium",
+   "g": 120,
+   "fdc_id": "170108",
+   "pasillo": "produce",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "yellow onion, finely diced",
+   "cantidad_us": "1/3 cup",
+   "g": 50,
+   "fdc_id": "170000",
+   "pasillo": "produce",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "olive oil",
+   "cantidad_us": "2 tsp",
+   "g": 9,
+   "fdc_id": "171413",
+   "pasillo": "oils",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "ground cumin",
+   "cantidad_us": "1/2 tsp",
+   "g": 1,
+   "fdc_id": "170923",
+   "pasillo": "spices",
+   "estado": "dry"
+  },
+  {
+   "nombre_en": "fine salt",
+   "cantidad_us": "3/4 tsp",
+   "g": 4.5,
+   "fdc_id": "173468",
+   "pasillo": "spices",
+   "estado": "dry"
+  },
+  {
+   "nombre_en": "black pepper",
+   "cantidad_us": "1/4 tsp",
+   "g": 0.5,
+   "fdc_id": "170931",
+   "pasillo": "spices",
+   "estado": "dry"
+  }
+ ],
+ "macros_por_racion": {
+  "por_racion": {
+   "kcal": 517.1,
+   "proteina_g": 27.5,
+   "grasa_g": 26.0,
+   "carbohidratos_g": 43.0,
+   "fibra_g": 5.2,
+   "sodio_mg": 1214.5
+  },
+  "total": {
+   "kcal": 2585.7,
+   "proteina_g": 137.7,
+   "grasa_g": 129.8,
+   "carbohidratos_g": 215.0,
+   "fibra_g": 26.2,
+   "sodio_mg": 6072.7
+  },
+  "raciones": 5,
+  "fuente": "USDA FoodData Central SR Legacy (2018-04)"
+ },
+ "alergenos": [
+  "egg",
+  "milk",
+  "wheat"
+ ],
+ "nevera_dias": 4,
+ "congelador_meses": 3,
+ "recalentar": "From frozen: unwrap, wrap in a damp paper towel and microwave 2 min, flip, then 45-60 sec more until hot in the middle (165 °F / 74 °C). Or thaw overnight in the fridge and microwave 60-90 sec.",
+ "tiempo_activo_min": 25,
+ "tiempo_total_min": 35,
+ "encaja_en": "Breakfast slot. Plan week 3 (Freezer-ahead). Serve with salsa S2 or S1 on the side (not counted)."
+}

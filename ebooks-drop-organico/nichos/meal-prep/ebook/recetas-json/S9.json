@@ -1,0 +1,98 @@
+{
+ "id": "S9",
+ "nombre": "Chimichurri",
+ "componente": "salsa",
+ "familias": [
+  "MED"
+ ],
+ "raciones": 5,
+ "rinde_g_cocinado": 192,
+ "racion_g": 40,
+ "ingredientes": [
+  {
+   "nombre_en": "fresh flat-leaf parsley, leaves and tender stems",
+   "cantidad_us": "1 cup packed",
+   "g": 60,
+   "fdc_id": "170416",
+   "pasillo": "produce",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "garlic",
+   "cantidad_us": "3 cloves",
+   "g": 9,
+   "fdc_id": "169230",
+   "pasillo": "produce",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "red wine vinegar",
+   "cantidad_us": "3 Tbsp",
+   "g": 45,
+   "fdc_id": "172240",
+   "pasillo": "pantry",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "olive oil",
+   "cantidad_us": "1/3 cup",
+   "g": 73,
+   "fdc_id": "171413",
+   "pasillo": "oils",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "dried oregano",
+   "cantidad_us": "1 tsp",
+   "g": 1,
+   "fdc_id": "171328",
+   "pasillo": "spices",
+   "estado": "dry"
+  },
+  {
+   "nombre_en": "red pepper flakes",
+   "cantidad_us": "1/4 tsp",
+   "g": 0.5,
+   "fdc_id": "170932",
+   "pasillo": "spices",
+   "estado": "dry"
+  },
+  {
+   "nombre_en": "fine salt",
+   "cantidad_us": "1/2 tsp",
+   "g": 3,
+   "fdc_id": "173468",
+   "pasillo": "spices",
+   "estado": "dry"
+  }
+ ],
+ "macros_por_racion": {
+  "por_racion": {
+   "kcal": 138.6,
+   "proteina_g": 0.5,
+   "grasa_g": 14.7,
+   "carbohidratos_g": 1.6,
+   "fibra_g": 0.5,
+   "sodio_mg": 240.7
+  },
+  "total": {
+   "kcal": 693.1,
+   "proteina_g": 2.5,
+   "grasa_g": 73.6,
+   "carbohidratos_g": 7.9,
+   "fibra_g": 2.7,
+   "sodio_mg": 1203.3
+  },
+  "raciones": 5,
+  "fuente": "USDA FoodData Central SR Legacy (2018-04)"
+ },
+ "alergenos": [
+  "none"
+ ],
+ "nevera_dias": 4,
+ "congelador_meses": 3,
+ "recalentar": "Thaw in the fridge overnight, or at room temperature 20 min only, then stir.",
+ "tiempo_activo_min": 10,
+ "tiempo_total_min": 10,
+ "usado_en": "D-3, D-5 (Mediterranean plates with S9)"
+}

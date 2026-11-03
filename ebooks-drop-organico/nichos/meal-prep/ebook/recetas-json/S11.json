@@ -1,0 +1,99 @@
+{
+ "id": "S11",
+ "nombre": "Honey-Mustard Yogurt",
+ "componente": "salsa",
+ "familias": [
+  "COM"
+ ],
+ "raciones": 5,
+ "rinde_g_cocinado": 220,
+ "racion_g": 45,
+ "ingredientes": [
+  {
+   "nombre_en": "plain nonfat Greek yogurt",
+   "cantidad_us": "2/3 cup",
+   "g": 150,
+   "fdc_id": "170894",
+   "pasillo": "dairy",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "Dijon or yellow mustard",
+   "cantidad_us": "2 Tbsp",
+   "g": 30,
+   "fdc_id": "172234",
+   "pasillo": "condiments",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "honey",
+   "cantidad_us": "1 1/2 Tbsp",
+   "g": 32,
+   "fdc_id": "169640",
+   "pasillo": "pantry",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "lemon juice",
+   "cantidad_us": "1 tsp",
+   "g": 5,
+   "fdc_id": "167747",
+   "pasillo": "produce",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "garlic powder",
+   "cantidad_us": "1/4 tsp",
+   "g": 0.8,
+   "fdc_id": "171325",
+   "pasillo": "spices",
+   "estado": "dry"
+  },
+  {
+   "nombre_en": "fine salt",
+   "cantidad_us": "1/4 tsp",
+   "g": 1.5,
+   "fdc_id": "173468",
+   "pasillo": "spices",
+   "estado": "dry"
+  },
+  {
+   "nombre_en": "black pepper",
+   "cantidad_us": "a pinch",
+   "g": 0.3,
+   "fdc_id": "170931",
+   "pasillo": "spices",
+   "estado": "dry"
+  }
+ ],
+ "macros_por_racion": {
+  "por_racion": {
+   "kcal": 41.7,
+   "proteina_g": 3.3,
+   "grasa_g": 0.3,
+   "carbohidratos_g": 6.9,
+   "fibra_g": 0.3,
+   "sodio_mg": 193.7
+  },
+  "total": {
+   "kcal": 208.3,
+   "proteina_g": 16.7,
+   "grasa_g": 1.6,
+   "carbohidratos_g": 34.6,
+   "fibra_g": 1.4,
+   "sodio_mg": 968.4
+  },
+  "raciones": 5,
+  "fuente": "USDA FoodData Central SR Legacy (2018-04)"
+ },
+ "alergenos": [
+  "milk"
+ ],
+ "nevera_dias": 4,
+ "congelador_meses": 0,
+ "recalentar": "Serve cold. Don't heat.",
+ "tiempo_activo_min": 5,
+ "tiempo_total_min": 5,
+ "nota_macros": "Costed with yellow mustard entry; Dijon is similar.",
+ "usado_en": "C4, C6, C9, C12 (Comfort plates with S11)"
+}

@@ -1,0 +1,112 @@
+{
+ "id": "D3",
+ "nombre": "Greek Yogurt Overnight Oats",
+ "componente": "desayuno",
+ "familias": [],
+ "raciones": 5,
+ "rinde_g_cocinado": 1657,
+ "racion_g": 330,
+ "ingredientes": [
+  {
+   "nombre_en": "old-fashioned rolled oats",
+   "cantidad_us": "2 1/2 cups",
+   "g": 200,
+   "fdc_id": "169705",
+   "pasillo": "pantry",
+   "estado": "dry"
+  },
+  {
+   "nombre_en": "plain nonfat Greek yogurt",
+   "cantidad_us": "2 1/2 cups",
+   "g": 600,
+   "fdc_id": "170894",
+   "pasillo": "dairy",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "1% milk",
+   "cantidad_us": "2 1/2 cups",
+   "g": 610,
+   "fdc_id": "170872",
+   "pasillo": "dairy",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "chia seeds",
+   "cantidad_us": "2 Tbsp + 2 tsp",
+   "g": 20,
+   "fdc_id": "170554",
+   "pasillo": "pantry",
+   "estado": "dry"
+  },
+  {
+   "nombre_en": "honey",
+   "cantidad_us": "5 tsp",
+   "g": 35,
+   "fdc_id": "169640",
+   "pasillo": "pantry",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "vanilla extract",
+   "cantidad_us": "1 tsp",
+   "g": 4,
+   "fdc_id": "173471",
+   "pasillo": "pantry",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "ground cinnamon",
+   "cantidad_us": "1 tsp",
+   "g": 2.6,
+   "fdc_id": "171320",
+   "pasillo": "spices",
+   "estado": "dry"
+  },
+  {
+   "nombre_en": "fine salt",
+   "cantidad_us": "a pinch",
+   "g": 0.5,
+   "fdc_id": "173468",
+   "pasillo": "spices",
+   "estado": "dry"
+  },
+  {
+   "nombre_en": "blueberries (fresh or frozen)",
+   "cantidad_us": "1 1/4 cups",
+   "g": 185,
+   "fdc_id": "171711",
+   "pasillo": "produce",
+   "estado": "raw"
+  }
+ ],
+ "macros_por_racion": {
+  "por_racion": {
+   "kcal": 343.0,
+   "proteina_g": 24.1,
+   "grasa_g": 5.8,
+   "carbohidratos_g": 50.3,
+   "fibra_g": 6.8,
+   "sodio_mg": 137.9
+  },
+  "total": {
+   "kcal": 1715.2,
+   "proteina_g": 120.4,
+   "grasa_g": 28.9,
+   "carbohidratos_g": 251.3,
+   "fibra_g": 34.0,
+   "sodio_mg": 689.3
+  },
+  "raciones": 5,
+  "fuente": "USDA FoodData Central SR Legacy (2018-04)"
+ },
+ "alergenos": [
+  "milk"
+ ],
+ "nevera_dias": 4,
+ "congelador_meses": 0,
+ "recalentar": "Eat cold, straight from the jar. Or microwave 60-90 sec and stir.",
+ "tiempo_activo_min": 10,
+ "tiempo_total_min": 370,
+ "encaja_en": "Breakfast slot. Plan week 2 (Budget). Takes no hands on the morning."
+}
