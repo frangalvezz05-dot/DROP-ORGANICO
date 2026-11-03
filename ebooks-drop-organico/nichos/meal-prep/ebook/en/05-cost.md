@@ -66,8 +66,8 @@ Week 1 is the heaviest because it keeps things familiar for your first Sunday. I
 
 1. **Stretch ground meat with lentils.** The Beef & Lentil Power Mince replaces part of the beef with cooked lentils. You get more portions per pound of beef, plus fiber, and the sauce carries the flavor.
 2. **Thighs before breasts.** Boneless thighs are often cheaper per pound and stay juicier when reheated. Check the unit price at your store.
-3. **Use whole packages.** The recipes are sized so you use what you buy. A half-used pack of meat at the back of the fridge is money in the trash.
-4. **Frozen vegetables are fine.** Frozen broccoli or green beans are picked and frozen in season. They roast well if you spread them out and give them a few extra minutes.
+3. **Use whole packages.** The recipes aim to use standard package sizes, and each shopping list notes leftovers you can use the next week. A half-used pack of meat at the back of the fridge is money in the trash.
+4. **Frozen vegetables are fine.** Frozen broccoli or green beans cost the same in January as in June and never wilt in the drawer. They roast well if you spread them out and give them a few extra minutes.
 5. **Buy the pantry once.** Spices and sauces are a big cost the first week and almost nothing after. Chapter 7 lists what to keep, so the weekly list stays short.
 
 What the plan skips: precut vegetables. They save time, and they often cost noticeably more per pound. Cutting is built into the Sunday Sheet, during oven time.

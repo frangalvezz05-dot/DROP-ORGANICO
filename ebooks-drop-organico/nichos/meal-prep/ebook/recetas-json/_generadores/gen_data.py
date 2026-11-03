@@ -1,0 +1,235 @@
+# ingredient shorthand: (nombre_en, us, g, fdc, pasillo, estado)
+Y="170894"; OIL="171413"; GARL="169230"; SALT="173468"; LIME="168156"; LEMON="167747"
+W=lambda us,g:("water",us,g,None,"pantry","tap")
+R=[]
+def add(**k): R.append(k)
+
+add(id="S1",nombre="Chipotle-Lime Yogurt",comp="salsa",fam=["MEX"],loss=0,
+ ing=[("plain nonfat Greek yogurt","3/4 cup",170,Y,"dairy","raw"),
+ ("canned chipotle pepper in adobo, minced (+ 1 tsp of the adobo sauce)","1 pepper",15,"170107","canned","canned"),
+ ("lime juice","1 Tbsp",15,LIME,"produce","raw"),("garlic, grated","1 small clove",3,GARL,"produce","raw"),
+ ("ground cumin","1/4 tsp",0.5,"170923","spices","dry"),("olive oil","1 tsp",4.5,OIL,"oils","raw"),("fine salt","1/8 tsp",0.7,SALT,"spices","dry")],
+ nota="Chipotle in adobo is costed with the closest USDA entry (canned hot red chili peppers); brands vary a little.",
+ al=["milk"],fr=4,fz=0,rec="Serve cold. Don't heat it. Stir before using.",act=5,tot=5,oven=None,
+ goes="M1, M3, M6, M8, M10, M12 (all the Mexican plates with S1)",
+ steps=["Mince the chipotle pepper as fine as you can. Grate the garlic.","Spoon the yogurt into a bowl or a 1-cup jar.","Add the chipotle, 1 tsp adobo sauce, lime juice, garlic, cumin, oil and salt. Stir until the color is an even pale orange with no white streaks.","Taste. Add a pinch more salt if it tastes flat, or a little more adobo if you want heat.","Scoop into one small lidded container or 5 mini containers (about 2-3 Tbsp / 40 g each). Chill at least 30 min so the garlic and chipotle settle in."],
+ slot="Cold. Make it in the 5-minute gap while the oven preheats or the chicken rests. No burner, no oven.",
+ fix=["Too thin? Your yogurt was watery. Stir in 1 more Tbsp of yogurt, or drain it in a sieve for 10 min next time.","Too hot the next day? Heat builds as it sits. Stir in 1 Tbsp yogurt to calm it."],
+ swap="No dairy: use unsweetened plain coconut or soy yogurt (macros change). Less heat: use half the chipotle.")
+
+add(id="S2",nombre="Tomatillo Salsa Verde",comp="salsa",fam=["MEX"],loss=15,
+ ing=[("tomatillos, husked and rinsed","3-4 medium",170,"168566","produce","raw"),("jalapeño, stem removed","1",15,"168576","produce","raw"),
+ ("white onion, quartered","about 1/4 small",30,"170000","produce","raw"),("garlic, in the skin","1 clove",3,GARL,"produce","raw"),
+ ("fresh cilantro, leaves and tender stems","1/4 cup packed",8,"169997","produce","raw"),("lime juice","1 tsp",5,LIME,"produce","raw"),("fine salt","1/3 tsp",2,SALT,"spices","dry")],
+ al=[],fr=4,fz=3,rec="Eat cold or at room temperature. For a warm sauce, simmer 3 min in a small pan.",act=10,tot=20,oven=("broil",None,None),
+ goes="M2, M5, M7, M9 (Mexican plates with S2)",
+ steps=["Heat the broiler on high with a rack 4-6 inches below the heat. Line a small sheet pan with foil.","Put the tomatillos, jalapeño, onion and unpeeled garlic on the pan. Broil 5-7 min until the tops are blistered and spotted black.","Flip everything. Broil 4-5 min more until the tomatillos are soft, slumped and leaking juice. The garlic should feel soft when squeezed.","Cool 5 min. Slip the garlic out of its skin. Tip everything, juices too, into a blender with cilantro, lime juice and salt.","Pulse 8-10 times for a bit of texture, or blend longer for smooth. Taste and add salt until it tastes bright, not flat.","Pour into a lidded jar or 5 mini containers (about 3 Tbsp / 45 g each). Cool fully before closing."],
+ slot="Oven (broiler) for 12 min. Fits in the last 20 minutes while the main tray rests, or right after the main tray comes out.",
+ fix=["Too sour or sharp? Tomatillos vary. Stir in 1/4 tsp honey or sugar.","Too watery? Simmer in a pan 4-5 min, stirring, until it coats the back of a spoon."],
+ swap="Mild: take the seeds and ribs out of the jalapeño. No broiler: pan-roast in a dry cast-iron skillet over medium-high heat, turning, 10 min. Not hot enough? Add a second jalapeño.")
+
+add(id="S3",nombre="Quick Red Enchilada Sauce",comp="salsa",fam=["MEX"],loss=25,
+ ing=[("olive oil","2 tsp",9,OIL,"oils","raw"),("all-purpose flour","2 tsp",5,"168894","pantry","dry"),("chili powder","1 Tbsp",8,"171319","spices","dry"),
+ ("ground cumin","1/4 tsp",0.5,"170923","spices","dry"),("garlic powder","1/4 tsp",0.8,"171325","spices","dry"),("dried oregano","1/4 tsp",0.3,"171328","spices","dry"),
+ ("tomato sauce (plain, canned)","1/2 cup",122,"170054","canned","canned"),W("1/3 cup",80),("cider vinegar","1 tsp",5,"173469","pantry","raw"),("fine salt","1/2 tsp",3,SALT,"spices","dry")],
+ al=["wheat"],fr=4,fz=3,rec="Warm in a small pan or microwave 30-45 sec until steaming.",act=5,tot=15,oven=None,
+ goes="M4, M11 (Mexican plates with S3)",
+ steps=["Warm the oil in a small saucepan over medium heat until it shimmers, about 1 min.","Whisk in the flour, chili powder, cumin, garlic powder and oregano. Cook 45-60 sec, whisking, until it smells toasty and looks like wet sand. Don't let it go dark.","Pour in the tomato sauce, water and vinegar while whisking. Scrape up any paste from the bottom.","Add the salt. Simmer on low 8-10 min, stirring now and then, until it coats the back of a spoon and the color deepens to brick red.","Taste. Add a pinch of salt if it tastes flat. Cool, then spoon into one jar or 5 mini containers (about 2-3 Tbsp / 42 g each)."],
+ slot="Fire. One burner, 15 min, low and unattended after minute 5. Fits while the oven is heating.",
+ fix=["Bitter? The spices burned. Stir in 1/2 tsp honey and 1 tsp tomato sauce; if still bitter, start again with lower heat.","Too thick when cold? Thin with 1-2 tsp water when you reheat."],
+ swap="Gluten-free: use 1 tsp cornstarch instead of the flour. Hotter: add 1/8 tsp cayenne.")
+
+add(id="S4",nombre="Lighter Teriyaki",comp="salsa",fam=["ASI"],loss=25,
+ ing=[("reduced-sodium soy sauce","1/4 cup",60,"172473","condiments","raw"),W("1/4 cup",60),("honey","1 1/2 Tbsp",32,"169640","pantry","raw"),("rice vinegar or cider vinegar","1 Tbsp",15,"173469","pantry","raw"),
+ ("fresh ginger, finely grated","1 tsp",2,"169231","produce","raw"),("garlic, grated","1 clove",3,GARL,"produce","raw"),("toasted sesame oil","1/2 tsp",2,"171016","oils","raw"),
+ ("cornstarch","2 tsp",5,"169698","pantry","dry"),W("1 Tbsp (for the cornstarch)",15)],
+ al=["soy","wheat","sesame"],fr=4,fz=3,rec="Warm in a pan or microwave 30 sec. Stir; it thickens as it cools.",act=5,tot=12,oven=None,
+ goes="A1, A4, A10 (Asian plates with S4)",
+ steps=["Whisk the cornstarch with 1 Tbsp cold water in a small cup until smooth. Set aside.","In a small saucepan, combine soy sauce, 1/4 cup water, honey, vinegar, ginger and garlic. Bring to a gentle simmer over medium heat, stirring.","Give the cornstarch cup another stir, then pour it in while whisking. Simmer 1-2 min until the sauce turns glossy and coats the back of a spoon.","Remove from the heat and stir in the sesame oil.","Cool 10 min. Pour into a jar or 5 mini containers (about 2-3 Tbsp / 34 g each)."],
+ slot="Fire. One burner, 10 min. Easy to run while the oven is on.",
+ fix=["Lumpy? The cornstarch wasn't mixed smooth. Pour through a small sieve.","Too thin? Simmer 1 more min. Too thick when cold? Whisk in 1 tsp warm water."],
+ swap="Gluten-free and soy-free: use coconut aminos and the same amount of honey, and taste for salt. Less sweet: use 1 Tbsp honey.")
+
+add(id="S5",nombre="Peanut-Ginger Sauce",comp="salsa",fam=["ASI"],loss=0,
+ ing=[("smooth peanut butter (no sugar added)","1/4 cup",65,"172470","pantry","raw"),("reduced-sodium soy sauce","1 Tbsp",16,"172473","condiments","raw"),("lime juice","1 Tbsp",15,LIME,"produce","raw"),
+ ("honey","1 Tbsp",21,"169640","pantry","raw"),("fresh ginger, finely grated","1 tsp",2,"169231","produce","raw"),("garlic, grated","1 clove",3,GARL,"produce","raw"),
+ ("toasted sesame oil","1/2 tsp",2,"171016","oils","raw"),("sriracha","1/2 tsp",3,"171186","condiments","raw"),W("warm, 1/4 cup",60)],
+ al=["peanuts","soy","wheat","sesame"],fr=4,fz=2,rec="Serve cool or room temperature. Thin with 1 tsp warm water if it has set firm.",act=5,tot=5,oven=None,
+ goes="A2, A5, A8, A12 (Asian plates with S5)",
+ steps=["Put the peanut butter in a bowl. Add soy sauce, lime juice, honey, ginger, garlic, sesame oil and sriracha.","Whisk it. It will look thick and grainy at first. Keep going.","Whisk in the warm water 1 Tbsp at a time. Stop when it falls from the whisk in a smooth ribbon.","Taste. More lime if it's heavy, more soy sauce if it's flat.","Spoon into a jar or 5 mini containers (about 2-3 Tbsp / 37 g each)."],
+ slot="Cold. 5 minutes anywhere in the session. No heat.",
+ fix=["Split or oily? Your peanut butter was cold or natural-style with a layer of oil. Whisk in 1 Tbsp warm water.","Too thick after chilling? Whisk in 1 tsp warm water per portion when you serve it."],
+ swap="Peanut allergy: use sunflower seed butter (nut-free; macros change). Spicier: double the sriracha.")
+
+add(id="S6",nombre="Gochujang-Honey Sauce",comp="salsa",fam=["ASI"],loss=10,
+ ing=[("gochujang (Korean chili paste)","3 Tbsp",50,"171186","condiments","raw"),("honey","1 Tbsp",21,"169640","pantry","raw"),("reduced-sodium soy sauce","1 Tbsp",16,"172473","condiments","raw"),
+ ("rice vinegar or cider vinegar","1 Tbsp",15,"173469","pantry","raw"),("toasted sesame oil","1 tsp",4.5,"171016","oils","raw"),("garlic, grated","2 cloves",6,GARL,"produce","raw"),
+ ("fresh ginger, finely grated","1 tsp",2,"169231","produce","raw"),W("3 Tbsp",45)],
+ nota="USDA has no gochujang entry. It is costed with the closest entry (sriracha chili sauce), which likely UNDERSTATES calories by roughly 10-15 kcal per portion. Check your jar's label.",
+ al=["soy","wheat","sesame"],fr=4,fz=3,rec="Serve cool or warm 20 sec in the microwave. It thickens in the fridge; stir in a splash of water.",act=5,tot=10,oven=None,
+ goes="A3, A6, A7, A9, A11 (Asian plates with S6)",
+ steps=["In a small saucepan, whisk the gochujang, honey, soy sauce, vinegar, garlic, ginger and water until smooth.","Heat over medium-low, stirring, until small bubbles break at the edges, about 2-3 min. Do not boil hard; it spits.","Simmer 1 min until it looks glossy and slightly thicker. Take it off the heat and stir in the sesame oil.","Cool 10 min. Spoon into a jar or 5 mini containers (about 2 Tbsp / 30 g each)."],
+ slot="Fire. One small burner, 8 min. Fits any gap.",
+ fix=["Too spicy? Stir in 1 tsp more honey and 1 tsp water.","Too salty? Gochujang brands differ. Add 1 tsp water and 1 tsp vinegar next time, and use less soy sauce."],
+ swap="Gluten-free: check the gochujang label (many brands contain wheat) and use tamari. Milder: swap 1 Tbsp of gochujang for tomato paste.")
+
+add(id="S7",nombre="Tzatziki",comp="salsa",fam=["MED"],loss=0,
+ ing=[("plain nonfat Greek yogurt","2/3 cup",150,Y,"dairy","raw"),("cucumber, grated and squeezed dry","1/4 cup",40,"168409","produce","raw"),("lemon juice","2 tsp",10,LEMON,"produce","raw"),
+ ("olive oil","2 tsp",9,OIL,"oils","raw"),("garlic, grated","1 small clove",3,GARL,"produce","raw"),("dried dill","1/2 tsp",0.5,"171322","spices","dry"),("fine salt","1/4 tsp",1.5,SALT,"spices","dry")],
+ al=["milk"],fr=4,fz=0,rec="Serve cold. Don't heat. A little water on top is normal; stir it back in.",act=8,tot=8,oven=None,
+ goes="D-1, D-4, D-9, D-10, D-12 (Mediterranean plates with S7)",
+ steps=["Grate the cucumber on the big holes. Wrap it in a clean towel or paper towel and squeeze hard until only a damp clump is left.","Stir the yogurt, lemon juice, oil, grated garlic, dill and salt in a bowl until smooth.","Fold in the cucumber.","Taste. Add salt until the cucumber tastes sweet, not watery. Spoon into a jar or 5 mini containers (about 2-3 Tbsp / 43 g each). Chill 30 min."],
+ slot="Cold. 8 minutes any time. Do it first so the flavors blend.",
+ fix=["Watery next day? The cucumber wasn't squeezed enough. Spoon off the liquid and stir in 1 Tbsp thick yogurt.","Garlic too sharp? Let it sit 1 hour, or use half a clove."],
+ swap="No dairy: unsweetened plain soy or coconut yogurt. Fresh dill: use 1 Tbsp chopped in place of dried.")
+
+add(id="S8",nombre="Lemon-Tahini Sauce",comp="salsa",fam=["MED"],loss=0,
+ ing=[("tahini (stir the jar first)","1/4 cup",60,"170189","pantry","raw"),("lemon juice","3 Tbsp",45,LEMON,"produce","raw"),W("cold, 1/4 cup",60),
+ ("garlic, grated","1 small clove",3,GARL,"produce","raw"),("fine salt","1/4 tsp",1.5,SALT,"spices","dry"),("ground cumin","a pinch",0.3,"170923","spices","dry")],
+ al=["sesame"],fr=4,fz=2,rec="Serve cool. It sets firm in the fridge; whisk in 1 Tbsp water per portion.",act=5,tot=5,oven=None,
+ goes="D-2, D-6, D-7, D-8, D-11 (Mediterranean plates with S8)",
+ steps=["Put the tahini in a bowl. Add the lemon juice, garlic, salt and cumin. Whisk. It will seize into a thick, pale paste. That's normal.","Whisk in the cold water 1 Tbsp at a time. The paste loosens and turns creamy and light.","Stop when it falls from the whisk in a thick ribbon.","Taste. More lemon if it's heavy, more salt if it's flat. Spoon into a jar or 5 mini containers (about 2-3 Tbsp / 34 g each)."],
+ slot="Cold. 5 minutes anywhere. No heat.",
+ fix=["Bitter? Cheaper tahini can be. Add 1 tsp honey and 1 tsp lemon.","Grainy or split? Whisk in 1 tsp cold water at a time until smooth again."],
+ swap="Sesame allergy: use sunflower seed butter (macros change). Sweeter: add 1 tsp honey.")
+
+add(id="S9",nombre="Chimichurri",comp="salsa",fam=["MED"],loss=0,
+ ing=[("fresh flat-leaf parsley, leaves and tender stems","1 cup packed",60,"170416","produce","raw"),("garlic","3 cloves",9,GARL,"produce","raw"),("red wine vinegar","3 Tbsp",45,"172240","pantry","raw"),
+ ("olive oil","1/3 cup",73,OIL,"oils","raw"),("dried oregano","1 tsp",1,"171328","spices","dry"),("red pepper flakes","1/4 tsp",0.5,"170932","spices","dry"),("fine salt","1/2 tsp",3,SALT,"spices","dry")],
+ al=[],fr=4,fz=3,rec="Thaw in the fridge overnight, or at room temperature 20 min only, then stir.",act=10,tot=10,oven=None,
+ goes="D-3, D-5 (Mediterranean plates with S9)",
+ steps=["Wash the parsley and dry it well. Wet leaves make a watery sauce.","Chop the parsley and garlic fine by hand, or pulse 5-6 times in a food processor until it looks like coarse crumbs. Don't purée it.","Tip into a bowl with the vinegar, oregano, pepper flakes and salt. Stir and let sit 5 min.","Stir in the oil. Taste. It should be sharp and green. Add salt if it tastes flat.","Spoon into a jar or 5 mini containers (about 2-3 Tbsp / 38 g each). Press a thin film of oil over the top. Refrigerate right away."],
+ slot="Cold. 10 minutes. Make it last so it's freshest.",
+ fix=["Dull brown-green after a day? That's normal. A squeeze of lemon on serving brings it back.","Too sharp? Add 1 Tbsp more oil, or reduce the vinegar next time."],
+ swap="Nothing fresh? Use 1 cup packed cilantro for a different but good version. Milder: use 1 garlic clove. Always refrigerate; fresh garlic in oil must not sit at room temperature.")
+
+add(id="S10",nombre="Smoky BBQ Sauce (Less Sugar)",comp="salsa",fam=["COM"],loss=35,
+ ing=[("ketchup","1/3 cup",85,"168556","condiments","raw"),("tomato paste","2 Tbsp",32,"170459","canned","canned"),("cider vinegar","2 Tbsp",30,"173469","pantry","raw"),
+ ("brown sugar","1 Tbsp",14,"168833","pantry","dry"),("yellow mustard","1 tsp",5,"172234","condiments","raw"),("Worcestershire sauce","1 tsp",5,"171610","condiments","raw"),
+ ("smoked paprika","1 tsp",2.3,"171329","spices","dry"),("garlic powder","1/2 tsp",1.5,"171325","spices","dry"),("onion powder","1/2 tsp",1.2,"171327","spices","dry"),
+ ("cayenne","a pinch",0.2,"170932","spices","dry"),("fine salt","1/4 tsp",1.5,SALT,"spices","dry"),W("1/4 cup",60)],
+ al=["fish"],fr=4,fz=3,rec="Warm in a pan or microwave 30 sec. Stir.",act=5,tot=20,oven=None,
+ goes="C1, C2, C5, C8, C11 (Comfort plates with S10)",
+ steps=["Whisk everything in a small saucepan: ketchup, tomato paste, vinegar, brown sugar, mustard, Worcestershire, paprika, garlic powder, onion powder, cayenne, salt and water.","Bring to a gentle bubble over medium heat, then turn to low. Simmer 10-12 min, stirring every few minutes.","It's done when a spoon leaves a clear trail across the bottom of the pan and the sauce looks dark and glossy.","Taste. More cayenne for heat, more vinegar for tang. Cool 10 min.","Spoon into a jar or 5 mini containers (about 2-3 Tbsp / 40 g each)."],
+ slot="Fire. One burner, 20 min, mostly unattended on low. Start it first.",
+ fix=["Splattering? Turn the heat down and half-cover the pan.","Too tangy? Stir in 1 tsp honey. Too thick when cold? Whisk in 1 tsp water."],
+ swap="No fish allergen: use 1 tsp soy sauce in place of Worcestershire (adds soy and wheat). Lower sugar still: use 2 tsp brown sugar.")
+
+add(id="S11",nombre="Honey-Mustard Yogurt",comp="salsa",fam=["COM"],loss=0,
+ ing=[("plain nonfat Greek yogurt","2/3 cup",150,Y,"dairy","raw"),("Dijon or yellow mustard","2 Tbsp",30,"172234","condiments","raw"),("honey","1 1/2 Tbsp",32,"169640","pantry","raw"),
+ ("lemon juice","1 tsp",5,LEMON,"produce","raw"),("garlic powder","1/4 tsp",0.8,"171325","spices","dry"),("fine salt","1/4 tsp",1.5,SALT,"spices","dry"),("black pepper","a pinch",0.3,"170931","spices","dry")],
+ nota="Costed with yellow mustard entry; Dijon is similar.",
+ al=["milk"],fr=4,fz=0,rec="Serve cold. Don't heat.",act=5,tot=5,oven=None,
+ goes="C4, C6, C9, C12 (Comfort plates with S11)",
+ steps=["Put the yogurt in a bowl.","Add the mustard, honey, lemon juice, garlic powder, salt and pepper.","Stir until smooth and pale gold, with no streaks of mustard or honey.","Taste. More honey if it's sharp, more mustard if it's sweet.","Spoon into a jar or 5 mini containers (about 2-3 Tbsp / 44 g each)."],
+ slot="Cold. 5 minutes anywhere. No heat.",
+ fix=["Too thin? Strain the yogurt next time, or stir in 1 more Tbsp yogurt.","Too sweet or too sharp? Balance with a little honey or a little lemon."],
+ swap="No dairy: unsweetened plain soy or coconut yogurt. Less sugar: use 1 Tbsp honey.")
+
+add(id="S12",nombre="Creamy Tomato-Garlic Sauce",comp="salsa",fam=["COM"],loss=40,
+ ing=[("olive oil","1 Tbsp",13.5,OIL,"oils","raw"),("garlic, minced","3 cloves",9,GARL,"produce","raw"),("tomato sauce (plain, canned)","3/4 cup",184,"170054","canned","canned"),
+ ("dried oregano","1/2 tsp",0.5,"171328","spices","dry"),("reduced-fat cream cheese, cubed","3 Tbsp",45,"169079","dairy","raw"),("grated Parmesan","2 Tbsp",10,"171247","dairy","raw"),("fine salt","1/4 tsp",1.5,SALT,"spices","dry")],
+ al=["milk"],fr=4,fz=2,rec="Warm in a pan over low heat, whisking, or microwave at 50% power 45 sec. Stir.",act=5,tot=15,oven=None,
+ goes="C3, C7, C10 (Comfort plates with S12)",
+ steps=["Warm the oil in a small saucepan over medium-low heat. Add the garlic. Cook 30-60 sec, stirring, until fragrant and just pale gold. Don't let it brown.","Pour in the tomato sauce and add the oregano and salt. Simmer on low 8-10 min, stirring now and then, until it darkens slightly and thickens.","Turn the heat to the lowest setting. Add the cream cheese and whisk until fully melted and the sauce turns a smooth, creamy pink-orange.","Whisk in the Parmesan off the heat. Taste and add salt if it needs it.","Cool 10 min. Spoon into a jar or 5 mini containers (about 2-3 Tbsp / 45 g each)."],
+ slot="Fire. One burner, 15 min. Low heat after the first 2 minutes.",
+ fix=["Grainy or split? The heat was too high. Whisk in 1 Tbsp warm water off the heat.","Too acidic? Stir in 1/4 tsp sugar or honey."],
+ swap="No dairy: use a plant-based cream cheese and skip the Parmesan (macros change). Lighter: skip the cream cheese and use 3 Tbsp Parmesan.")
+
+EGG="171287"; CAN="172336"
+add(id="D1",nombre="Spinach-Feta Egg Bites",comp="desayuno",fam=[],loss=60,
+ ing=[("large eggs","10",500,EGG,"eggs","raw"),("2% cottage cheese","1/2 cup",113,"172182","dairy","raw"),("fresh baby spinach","4 packed cups",120,"168462","produce","raw"),
+ ("crumbled feta","1/2 cup",75,"173420","dairy","raw"),("olive oil (for the spinach)","1 tsp",4.5,OIL,"oils","raw"),("garlic powder","1/2 tsp",1.5,"171325","spices","dry"),
+ ("fine salt","1/4 tsp",1.5,SALT,"spices","dry"),("black pepper","1/4 tsp",0.5,"170931","spices","dry"),("canola oil or cooking spray (for the tin)","1 tsp",4.5,CAN,"oils","raw")],
+ al=["egg","milk"],fr=4,fz=3,rec="Microwave 2 bites 30-45 sec, 3 bites 45-60 sec, until hot in the middle (165 °F / 74 °C). From frozen: 90 sec at 50% power, then 30 sec at full.",act=15,tot=40,oven=(175,350),
+ portion="3 egg bites per portion, about 150 g",
+ goes="Breakfast slot. Plan week 1 (Starter). Pairs with a piece of fruit or a slice of toast.",
+ steps=["Heat the oven to 350 °F / 175 °C. Grease 15 muffin cups well (one 12-cup tin plus 3 cups of a second tin) with oil or spray. Silicone cups work too.","Warm the olive oil in a large pan over medium heat. Add the spinach and stir 1-2 min until fully wilted and bright green. Tip into a sieve and press out the water with a spoon. Chop fine.","Blend or whisk the eggs and cottage cheese with the garlic powder, salt and pepper until nearly smooth, with only tiny curds.","Divide the spinach and feta evenly between the cups, then pour in the egg until each is about 3/4 full.","Bake 20-24 min until the tops are puffed and set, the centers don't jiggle when you nudge the tin, and a knife in the middle comes out clean (160 °F / 71 °C).","Cool in the tin 5 min, then run a knife around each and lift out. Cool completely before packing 3 per container."],
+ slot="Oven, 22 min at 350 °F. Slot it in beside the main tray (350 °F on the lower rack) or right after the proteins come out.",
+ fix=["Rubbery or weeping water? It baked too long or the spinach wasn't squeezed dry. Pull at 20 min and squeeze the spinach harder.","Stuck to the tin? Grease was too thin. Run a thin knife around each and use silicone cups next time."],
+ swap="Dairy-free: use 1/2 cup extra spinach and 3 Tbsp nutritional yeast in place of the cottage cheese and feta (macros change). Cheaper: swap the feta for 1/2 cup shredded cheddar.")
+
+add(id="D2",nombre="Turkey & Pepper Egg Bites",comp="desayuno",fam=[],loss=110,
+ ing=[("large eggs","10",500,EGG,"eggs","raw"),("ground turkey (93% lean)","8 oz",227,"171505","meat","raw"),("red bell pepper, finely diced","1 medium",120,"170108","produce","raw"),
+ ("yellow onion, finely diced","1/4 cup",40,"170000","produce","raw"),("shredded sharp cheddar","1/2 cup",55,"170899","dairy","raw"),("olive oil","1 tsp",4.5,OIL,"oils","raw"),
+ ("smoked paprika","1/2 tsp",1.2,"171329","spices","dry"),("fine salt","3/4 tsp",4.5,SALT,"spices","dry"),("black pepper","1/4 tsp",0.5,"170931","spices","dry"),("canola oil or cooking spray (for the tin)","1 tsp",4.5,CAN,"oils","raw")],
+ al=["egg","milk"],fr=4,fz=3,rec="Microwave 2 bites 30-45 sec, 3 bites 45-60 sec, until hot in the middle (165 °F / 74 °C). From frozen: 90 sec at 50% power, then 30 sec at full.",act=20,tot=45,oven=(175,350),
+ portion="3 egg bites per portion, about 170 g",
+ goes="Breakfast slot. Plan week 4 (Mix-it-yourself). Good with salsa S2 on the side.",
+ steps=["Heat the oven to 350 °F / 175 °C. Grease 15 muffin cups well.","Warm the olive oil in a large pan over medium-high heat. Add the onion and pepper. Cook 3 min until the pepper just softens.","Add the turkey, paprika and half the salt. Break it into small crumbs with a spoon. Cook 5-6 min until no pink remains and a thermometer reads 165 °F / 74 °C. Drain off any liquid. Cool 5 min.","Whisk the eggs with the rest of the salt and the pepper until fully mixed.","Divide the turkey mix and cheddar between the cups. Pour in egg until each is about 3/4 full.","Bake 20-24 min until puffed, set in the middle, and a knife comes out clean (160 °F / 71 °C). Cool 5 min in the tin, lift out, and cool fully before packing 3 per container."],
+ slot="Fire first (10 min for the turkey), then oven 22 min at 350 °F beside the main tray.",
+ fix=["Watery bottoms? The turkey liquid wasn't drained. Drain it and blot with a paper towel.","Dry? It baked past 24 min. Pull when the centers are just set."],
+ swap="Dairy-free: leave out the cheddar and add 1/2 tsp extra salt and 1 Tbsp nutritional yeast. Cheaper: use ground chicken or leftover cooked crumble from P4.")
+
+add(id="D3",nombre="Greek Yogurt Overnight Oats",comp="desayuno",fam=[],loss=0,
+ ing=[("old-fashioned rolled oats","2 1/2 cups",200,"169705","pantry","dry"),("plain nonfat Greek yogurt","2 1/2 cups",600,Y,"dairy","raw"),("1% milk","2 1/2 cups",610,"170872","dairy","raw"),
+ ("chia seeds","2 Tbsp + 2 tsp",20,"170554","pantry","dry"),("honey","5 tsp",35,"169640","pantry","raw"),("vanilla extract","1 tsp",4,"173471","pantry","raw"),("ground cinnamon","1 tsp",2.6,"171320","spices","dry"),
+ ("fine salt","a pinch",0.5,SALT,"spices","dry"),("blueberries (fresh or frozen)","1 1/4 cups",185,"171711","produce","raw")],
+ al=["milk"],fr=4,fz=0,rec="Eat cold, straight from the jar. Or microwave 60-90 sec and stir.",act=10,tot=370,oven=None,
+ portion="1 jar, about 330 g",
+ goes="Breakfast slot. Plan week 2 (Budget). Takes no hands on the morning.",
+ steps=["Line up 5 jars or containers of at least 12 oz / 350 ml each.","In a large bowl, stir together the oats, chia, cinnamon and salt.","Add the yogurt, milk, honey and vanilla. Stir until there are no dry pockets of oats and no yogurt lumps.","Divide evenly between the jars (about 1 cup / 285 g each).","Top each jar with 1/4 cup berries. Close the lids and refrigerate at least 6 hours.","In the morning, stir the jar. It's ready when the oats are soft and the mix looks thick and spoonable like pudding."],
+ slot="Cold. 10 minutes, any time on Sunday. Needs 6 hours in the fridge, so make it before dinner.",
+ fix=["Too thick? Stir in 2 Tbsp milk before eating.","Too runny? The oats were quick oats or the jar sat under 6 hours. Add 1 tsp chia and wait 30 min."],
+ swap="Dairy-free: use unsweetened soy milk and a plain soy or coconut yogurt (macros change). Cheaper: use frozen berries or 1 mashed banana instead.")
+
+add(id="D4",nombre="Peanut Butter-Banana Overnight Oats",comp="desayuno",fam=[],loss=0,
+ ing=[("old-fashioned rolled oats","2 1/2 cups",200,"169705","pantry","dry"),("1% milk","2 1/2 cups",610,"170872","dairy","raw"),("plain nonfat Greek yogurt","1 1/4 cups",300,Y,"dairy","raw"),
+ ("smooth peanut butter (no sugar added)","5 Tbsp",80,"172470","pantry","raw"),("ripe bananas, mashed","2 medium",236,"173944","produce","raw"),("chia seeds","2 Tbsp + 2 tsp",20,"170554","pantry","dry"),
+ ("vanilla extract","1 tsp",4,"173471","pantry","raw"),("ground cinnamon","1 tsp",2.6,"171320","spices","dry"),("fine salt","a pinch",0.5,SALT,"spices","dry")],
+ al=["milk","peanuts"],fr=4,fz=0,rec="Eat cold. Or microwave 60-90 sec, stir, and add a splash of milk.",act=10,tot=370,oven=None,
+ portion="1 jar, about 290 g",
+ goes="Breakfast slot. Banana is mashed in, so it doesn't brown. Add a few banana slices on top the morning you eat it if you like.",
+ steps=["Line up 5 jars of at least 12 oz / 350 ml each.","In a large bowl, mash the bananas with a fork until almost smooth. Stir in the peanut butter until it's mostly blended.","Whisk in the milk, then the yogurt, vanilla, cinnamon and salt until the mix is an even light tan.","Stir in the oats and chia.","Divide evenly between the jars (about 1 1/4 cups / 290 g each). Close and refrigerate at least 6 hours.","In the morning, stir. It's ready when the oats are soft and no dry oats show at the bottom."],
+ slot="Cold. 10 minutes, any time. Needs 6 hours in the fridge, so make it before dinner.",
+ fix=["Peanut butter lumps? Warm the spoon in hot water or microwave the peanut butter 10 sec before mixing.","Too thick? Stir in 2 Tbsp milk. Too sweet? Use one banana less."],
+ swap="Peanut allergy: use sunflower seed butter (macros change). Dairy-free: soy milk and plain soy yogurt (macros change).")
+
+add(id="D5",nombre="Freezer Breakfast Burritos",comp="desayuno",fam=[],loss=80,
+ ing=[("large eggs","10",500,EGG,"eggs","raw"),("10-inch flour tortillas","5",325,"167535","bakery","packaged"),("canned low-sodium black beans, drained and rinsed","1 cup",215,"175238","canned","canned"),
+ ("shredded sharp cheddar","1 1/4 cups",140,"170899","dairy","raw"),("red bell pepper, finely diced","1 medium",120,"170108","produce","raw"),("yellow onion, finely diced","1/3 cup",50,"170000","produce","raw"),
+ ("olive oil","2 tsp",9,OIL,"oils","raw"),("ground cumin","1/2 tsp",1,"170923","spices","dry"),("fine salt","3/4 tsp",4.5,SALT,"spices","dry"),("black pepper","1/4 tsp",0.5,"170931","spices","dry")],
+ al=["egg","milk","wheat"],fr=4,fz=3,rec="From frozen: unwrap, wrap in a damp paper towel and microwave 2 min, flip, then 45-60 sec more until hot in the middle (165 °F / 74 °C). Or thaw overnight in the fridge and microwave 60-90 sec.",act=25,tot=35,oven=None,
+ portion="1 burrito, about 255 g",
+ goes="Breakfast slot. Plan week 3 (Freezer-ahead). Serve with salsa S2 or S1 on the side (not counted).",
+ steps=["Warm the oil in a large nonstick pan over medium heat. Cook the onion and pepper 3-4 min until the edges soften. Stir in the cumin, salt and pepper.","Beat the eggs in a bowl. Pour them into the pan and stir gently, folding, until the eggs form large soft curds and no wet shine is left, 3-4 min. Take it off the heat; it keeps cooking.","Cool the egg mix 10 min on a plate. Hot filling steams the tortillas soggy.","Warm the tortillas 10 sec each in the microwave so they fold without cracking. Lay one flat and put 1/5 of the eggs, 3 Tbsp beans and 1/5 of the cheddar in a line below the center.","Fold the sides in, then roll up tight from the bottom. Repeat for all 5.","Wrap each burrito in parchment or foil. For the freezer, put them in a bag, press out the air and flatten. Label with the date."],
+ slot="Fire. One pan, 15 min of active time. Do it while the oven is full; no oven needed.",
+ fix=["Soggy burrito? The filling was warm when you rolled. Cool it fully first and drain the beans well.","Eggs dry after reheating? Cook them softer (still set, a little glossy) and reheat covered with a damp towel."],
+ swap="Dairy-free: omit the cheddar and add 1/2 cup more beans. Gluten-free: use large corn tortillas or serve as a bowl (macros change). More protein: add 4 oz / 115 g cooked turkey crumble (P4) to the mix.")
+
+add(id="D6",nombre="Cottage Cheese Baked Oats",comp="desayuno",fam=[],loss=120,
+ ing=[("old-fashioned rolled oats","2 cups",170,"169705","pantry","dry"),("2% cottage cheese","2 cups",450,"172182","dairy","raw"),("large eggs","4",200,EGG,"eggs","raw"),
+ ("ripe bananas","2 medium",236,"173944","produce","raw"),("1% milk","1/2 cup",122,"170872","dairy","raw"),("pure maple syrup","2 Tbsp",40,"169661","pantry","raw"),
+ ("baking powder","1 1/2 tsp",7,"172804","pantry","dry"),("vanilla extract","2 tsp",9,"173471","pantry","raw"),("ground cinnamon","2 tsp",5,"171320","spices","dry"),
+ ("fine salt","1/4 tsp",1.5,SALT,"spices","dry"),("blueberries (fresh or frozen)","1 cup",150,"171711","produce","raw"),("cooking spray or butter (for the dish)","1 tsp",4.5,CAN,"oils","raw")],
+ al=["egg","milk"],fr=4,fz=2,rec="Microwave a square 60-90 sec until hot in the middle. Or 350 °F / 175 °C oven 10 min, covered. Good cold too.",act=10,tot=60,oven=(175,350),
+ portion="1 large square, about 255 g",
+ goes="Breakfast slot. Tastes like dessert. Cut into 5 on Sunday and it reheats well all week.",
+ steps=["Heat the oven to 350 °F / 175 °C. Grease a 9x13 inch / 23x33 cm baking dish.","Blend the cottage cheese, eggs, bananas, milk, maple syrup, vanilla, baking powder, cinnamon and salt in a blender until smooth and pourable, about 30 sec.","Stir in the oats in a large bowl until all the oats are wet.","Pour into the dish and spread level. Scatter the blueberries over the top, pressing in lightly.","Bake 40-45 min until the edges are golden, the middle doesn't jiggle, and a knife in the center comes out clean (160 °F / 71 °C).","Cool 15 min. Cut into 5 squares (or more, thinner). Cool completely before packing."],
+ slot="Oven, 45 min at 350 °F. Put it on the lower rack beside the main tray or in first thing.",
+ fix=["Wet in the middle? Bake 5-8 min more. Cover the top with foil if it browns too fast.","Dry or rubbery edges? Your oven runs hot or the dish was smaller than 9x13. Check at 35 min next time."],
+ swap="Cheaper: use frozen berries. Dairy-free: not a good fit (cottage cheese is the structure); try D3 with plant yogurt. Less sweet: use 1 Tbsp maple syrup.")
+
+add(id="D7",nombre="Freezer Protein Pancakes",comp="desayuno",fam=[],loss=25,
+ ing=[("old-fashioned rolled oats","1 cup",100,"169705","pantry","dry"),("2% cottage cheese","1 1/2 cups",340,"172182","dairy","raw"),("large eggs","4",200,EGG,"eggs","raw"),
+ ("ripe banana","1 small",100,"173944","produce","raw"),("baking powder","1 1/2 tsp",7,"172804","pantry","dry"),("vanilla extract","1 tsp",4.5,"173471","pantry","raw"),
+ ("ground cinnamon","1 tsp",2.6,"171320","spices","dry"),("fine salt","1/4 tsp",1.5,SALT,"spices","dry"),("canola oil (for the pan)","2 tsp",9,CAN,"oils","raw")],
+ al=["egg","milk"],fr=4,fz=3,rec="Toaster or toaster oven (375 °F / 190 °C) 4-5 min until hot and crisp at the edges. Or microwave 3 pancakes 45-60 sec. From frozen: add 1 min.",act=30,tot=40,oven=None,
+ portion="3 pancakes, about 150 g",
+ goes="Breakfast slot. Syrup, peanut butter or fruit are extra and not counted.",
+ steps=["Blend the oats, cottage cheese, eggs, banana, baking powder, vanilla, cinnamon and salt in a blender 30-40 sec until smooth. Rest the batter 5 min so the oats soften.","Heat a nonstick pan or griddle over medium heat. Brush with a little oil.","Pour 3 Tbsp / 45 g of batter per pancake, about 4 inches wide. Cook 2-3 min until bubbles form and pop on top and the edges look dry.","Flip. Cook 1-2 min until golden underneath and the center springs back (160 °F / 71 °C). Re-oil the pan every batch. Make 15 pancakes.","Cool the pancakes in a single layer on a rack, 10 min. Stacked warm pancakes steam and stick.","Pack 3 per portion. For the freezer, freeze flat on a tray 1 hour, then bag them with parchment between layers."],
+ slot="Fire. One pan, about 25 min of active time. Do it while the oven bakes everything else.",
+ fix=["Pancakes tear when flipped? Wait for bubbles to pop across the surface and the edges to look dry, and use a thin spatula.","Raw center? The heat is too high. Drop to medium-low and make them smaller."],
+ swap="Gluten-free: use certified gluten-free oats. More protein: replace 2 Tbsp of the oats with 2 Tbsp unflavored or vanilla protein powder (macros change). No banana: use 1/4 cup unsweetened applesauce.")
+
+add(id="D8",nombre="Turkey Sausage & Sweet Potato Hash",comp="desayuno",fam=[],loss=250,
+ ing=[("ground turkey (93% lean)","1 lb",454,"171505","meat","raw"),("sweet potatoes, peeled, 1/2-inch cubes","2 medium",600,"168482","produce","raw"),("yellow onion, diced","1 large",150,"170000","produce","raw"),
+ ("red bell pepper, diced","1 large",150,"170108","produce","raw"),("olive oil","2 Tbsp",27,OIL,"oils","raw"),("smoked paprika","2 tsp",4.6,"171329","spices","dry"),
+ ("dried thyme","1 tsp",1,"170938","spices","dry"),("garlic powder","1 tsp",3,"171325","spices","dry"),("fine salt","1 1/2 tsp",9,SALT,"spices","dry"),("black pepper","1/2 tsp",1,"170931","spices","dry")],
+ al=[],fr=4,fz=3,rec="Skillet over medium heat 3-4 min, or microwave 90 sec, stirring once, until steaming and 165 °F / 74 °C.",act=20,tot=50,oven=(220,425),
+ portion="1 heaping cup, about 230 g",
+ goes="Breakfast slot. Top with a fried or poached egg the morning you eat it (not counted).",
+ steps=["Heat the oven to 425 °F / 220 °C with two rimmed sheet pans inside.","Toss the sweet potato, onion and pepper with the oil, paprika, thyme, garlic powder, salt and pepper in a big bowl.","Spread over the two hot pans in one layer with space between. Roast 15 min until the potato edges just start to brown.","Pull the pans out. Crumble the raw turkey in small clumps over the vegetables, then stir roughly.","Roast 15-18 min more, stirring once at the halfway point, until the turkey has no pink, the potato is soft in the middle and crisp at the edges, and a thermometer in the turkey reads 165 °F / 74 °C.","Cool 15 min on the pans. Mix well, divide into 5 containers (about 1 heaping cup each)."],
+ slot="Oven, 35 min at 425 °F. Use the oven slot when the proteins and veg are not full; fits with P1 or V1 at the same temperature.",
+ fix=["Soft, not crisp? The pans were crowded. Use two pans and don't stack the vegetables.","Dry turkey? It stayed in too long. Break the clumps smaller next time so it cooks faster."],
+ swap="Cheaper: use regular ground pork or beef (reheat to 160 °F / 71 °C; macros change). More veg: add 2 cups chopped kale in the last 5 min.")
