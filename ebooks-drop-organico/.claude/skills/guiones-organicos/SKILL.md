@@ -27,7 +27,11 @@ POV con texto · lista "cosas que nadie te dice" · mini-lección · hojeo del e
 Promesas de resultado ("recupera", "garantizado", ingresos), diagnósticos o atributos personales de quien mira ("¿tienes ansiedad?"), urgencia o escasez falsas, reseñas/testimonios inventados, imitar a personas reales, copiar el texto de otros creadores (sí su estructura), borrar metadatos para evitar detección.
 
 ## Lote estándar
-Por idioma y ángulo: **10 guiones** = 4 formatos distintos + 3 ganchos alternativos por guion (para variantes). Música: indicar "audio en tendencia del país, elegir en la app" (no nombrar canciones con derechos para uso fuera de la app).
+Por idioma: **tabla ángulo × formato** primero (2-3 ángulos × 5 formatos de la crítica). Lote = **14 guiones** (2 ángulos × 5 formatos + 4 extra del formato que prometa más) + 3 ganchos alternativos por guion → con variantes cubre los 28 huecos de 14 días de `plan-publicacion`.
+- **Sin casi-duplicados**: dos guiones del mismo ángulo no pueden usar el mismo consejo/capítulo de fondo ni la misma escena de apertura.
+- **Fuente del contenido**: solo capítulos YA redactados del ebook (o la muestra). Si el guion necesita un capítulo que no existe, no inventarlo: marcar "PENDIENTE capítulo X" y no publicarlo hasta que exista.
+- **Muestra por ángulo**: cada guion con CTA a la muestra dice qué parte de la muestra responde a su ángulo; si la muestra no cubre ese ángulo, el CTA va a la página de producto.
+- **Ganchos del avatar**: revisar el registro del idioma (España vs Latinoamérica) y el formato POV antes de usarlos. Música: indicar "audio en tendencia del país, elegir en la app" (no nombrar canciones con derechos para uso fuera de la app).
 
 ## Prompts de escenas (`prompts-escenas.md`)
 Por guion: plano, descripción, prompt en inglés para el generador de vídeo/imagen IA, duración, y alternativa con B-roll libre. Estilo coherente con `marca.json`.

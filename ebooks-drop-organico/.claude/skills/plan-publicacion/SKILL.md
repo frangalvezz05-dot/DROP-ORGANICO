@@ -21,6 +21,7 @@ Claude **no crea cuentas ni publica**. Deja cada vídeo listo (guion, texto, des
 2 vídeos/día por cuenta, misma pieza en las 3 plataformas. Días 1-4: 1 guion de cada formato; días 5-14: variantes de lo que mejor vaya (gancho distinto, un solo cambio por variante [Dani s1hMMVWgf00]). No repetir el mismo vídeo idéntico (variar ≥30 % [OPINIÓN Marc SQFnF0cgRwk]).
 
 ## 3. Registro (`registro.csv`)
+Una fila por vídeo **y plataforma** (la misma pieza en 3 plataformas = 3 filas, mismo id_guion).
 fecha, plataforma, idioma, id_guion, ángulo, formato, gancho, visitas_24h, visitas_72h, % visto completo, seguidores ganados, clics al enlace, visitas tienda (UTM `utm_source=<plataforma>&utm_campaign=<angulo>`), ventas, nota "por qué" [Dani YFpMEAuSgXQ].
 
 ## 4. Reglas de decisión

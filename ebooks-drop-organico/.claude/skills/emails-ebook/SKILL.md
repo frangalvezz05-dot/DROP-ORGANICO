@@ -6,7 +6,9 @@ model: sonnet
 
 # Emails del ebook (genérica)
 
-Base: `conocimiento/07-legal/02-analisis.md` §1.7 (consentimiento, baja, 14 años), `nichos/<nicho>/legal/formulario-email.md`, Dani [8Er-sAVrULo] (1 campaña/semana al empezar; limpiar inactivos ~180 días) [OPINIÓN mentor]. Herramienta por defecto: **Shopify Email** (10.000 envíos/mes gratis [DATO, `09-numeros/datos-costes.md`]).
+Base: `conocimiento/07-legal/02-analisis.md` §1.7 (consentimiento, baja, 14 años), `nichos/<nicho>/legal/formulario-email.md`, Dani [8Er-sAVrULo] (1 campaña/semana al empezar; limpiar inactivos ~180 días) [OPINIÓN mentor]. Herramientas: **entrega de la muestra** = la muestra como **producto digital a 0 €** en la tienda (la app de descargas la entrega por email al "comprarla"; vale para quien NO acepta marketing) [ESTIMACIÓN: verificar en la tienda]. **Emails comerciales** = **Shopify Email** (10.000 envíos/mes gratis [DATO, `09-numeros/datos-costes.md`]; solo envía a quien aceptó marketing, que es justo lo que exige la LSSI).
+- Precio en los emails: variable `[PRECIO_CON_IVA]` que se rellena con el precio de la tienda (nunca escrito a mano en dos sitios).
+- El email 2 (valor sin venta) se trata como **comercial** por prudencia (forma parte de una secuencia que termina en oferta).
 Entradas: `avatar.md`, `estructura.md` (qué incluye, muestra), `pagina-producto.md`, precio. Salida: `nichos/<nicho>/emails/<idioma>/secuencia.md` (asunto, preheader, cuerpo, CTA, día de envío) + `montaje-emails.md`.
 
 ## Secuencia (tras pedir la muestra)
