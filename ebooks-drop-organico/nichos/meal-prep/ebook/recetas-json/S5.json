@@ -108,7 +108,7 @@
   "wheat",
   "sesame"
  ],
- "nevera_dias": 5,
+ "nevera_dias": 4,
  "congelador_meses": 2,
  "recalentar": "Serve cool or room temperature. Thin with 1 tsp warm water if it has set firm.",
  "tiempo_activo_min": 5,

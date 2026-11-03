@@ -129,7 +129,7 @@
  "alergenos": [
   "fish"
  ],
- "nevera_dias": 5,
+ "nevera_dias": 4,
  "congelador_meses": 3,
  "recalentar": "Warm in a pan or microwave 30 sec. Stir.",
  "tiempo_activo_min": 5,

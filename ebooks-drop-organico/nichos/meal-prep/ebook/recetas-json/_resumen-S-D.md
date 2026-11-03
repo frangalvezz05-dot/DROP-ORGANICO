@@ -7,12 +7,12 @@ Macros por racion (USDA SR Legacy via herramientas/macros.py). Sauces = 1 portio
 | S2 | Tomatillo Salsa Verde | 20 | 0 | none | 4 d |
 | S3 | Quick Red Enchilada Sauce | 30 | 1 | wheat | 4 d |
 | S4 | Lighter Teriyaki | 40 | 1 | soy, wheat, sesame | 4 d |
-| S5 | Peanut-Ginger Sauce | 100 | 3 | peanuts, soy, wheat, sesame | 5 d |
+| S5 | Peanut-Ginger Sauce | 100 | 3 | peanuts, soy, wheat, sesame | 4 d |
 | S6 | Gochujang-Honey Sauce | 30 | 1 | soy, wheat, sesame | 4 d |
 | S7 | Tzatziki | 40 | 3 | milk | 4 d |
 | S8 | Lemon-Tahini Sauce | 70 | 2 | sesame | 4 d |
 | S9 | Chimichurri | 140 | 0 | none | 4 d |
-| S10 | Smoky BBQ Sauce (Less Sugar) | 40 | 1 | fish | 5 d |
+| S10 | Smoky BBQ Sauce (Less Sugar) | 40 | 1 | fish | 4 d |
 | S11 | Honey-Mustard Yogurt | 40 | 3 | milk | 4 d |
 | S12 | Creamy Tomato-Garlic Sauce | 60 | 2 | milk | 4 d |
 | D1 | Spinach-Feta Egg Bites | 220 | 18 | egg, milk | 4 d |

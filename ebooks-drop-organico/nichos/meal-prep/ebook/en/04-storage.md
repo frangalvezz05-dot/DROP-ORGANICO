@@ -7,7 +7,7 @@
 
 Two things send prepped food to the trash. You're not sure it's still safe. Or it's safe but tastes tired. This chapter handles both.
 
-One of the most upvoted questions of the year in a large meal prep forum was a thread titled: "is it fine to store my food like this for four-five days?" Four is fine. Five is where the answer changes.
+Among the top threads of the year in a large meal prep forum was one titled: "is it fine to store my food like this for four-five days?" Four is fine. Five is where the answer changes.
 
 ## The day-5 rule
 
