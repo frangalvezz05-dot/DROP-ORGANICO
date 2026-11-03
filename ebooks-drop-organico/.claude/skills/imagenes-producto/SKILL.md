@@ -30,7 +30,7 @@ Fuente: Adrián Sáenz, invitado Alex, vídeo [VyGaE-cp1GI] **[OPINIÓN mentor]*
 ```
 powershell -NoProfile -ExecutionPolicy Bypass -File .claude\skills\imagenes-producto\generar-imagenes.ps1 -Nicho <nicho> -Idioma <es|en>
 ```
-`generar-imagenes.ps1` lee marca.json y contenido.json, localiza las páginas reales, rellena `plantilla.html` y hace una captura con Edge headless (sin instalar nada) de cada composición en los dos formatos.
+**En la nube (Linux)**: `node .claude/skills/imagenes-producto/generar-imagenes.js <nicho> <idioma>` (mismo resultado con Chromium; probado 03-nov con el nicho de prueba: 10 PNG correctos). En Windows: `generar-imagenes.ps1`, que lee marca.json y contenido.json, localiza las páginas reales, rellena `plantilla.html` y hace una captura con Edge headless (sin instalar nada) de cada composición en los dos formatos.
 
 ## Reglas
 - Sin fotos ni ilustraciones de terceros: solo páginas reales del ebook, el kit de marca y SVG propios.
