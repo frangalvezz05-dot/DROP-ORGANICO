@@ -46,15 +46,16 @@ This is the week for your first Sunday. Every decision is made. You shop from th
 | 0:50 | OVEN | Flip the sweet potatoes. | — | B4 |
 | 0:50 | COLD ⏱ | Stir the chipotle-lime yogurt. Whisk the lemon-tahini. Into the fridge. | Even pale orange · thick ribbon | S1, S8 |
 | 0:57-1:03 | OVEN | **Chicken out** when the thermometer says so. Rest 5 min on the pan. | **165 °F / 74 °C** in the thickest piece. Edges browned | P1 |
-| 1:00 | OVEN | **Rice in:** rice, oil, salt and boiling water in the dish, foil crimped tight. **Peppers & onions (pan 3) in.** Timers: rice 25 min, peppers stir at 15 min. | — | B1, V2 |
-| 1:05 | OVEN | **Sweet potatoes out** (12-15 min after the flip). | Browned edges, fork slides in | B4 |
+| 1:00 | OVEN | **Peppers & onions (pan 3) in.** Timer: stir at 15 min. | — | V2 |
+| 1:05 | OVEN | **Sweet potatoes out** (12-15 min after the flip). **Rice in:** rice, oil, salt and boiling water in the dish, foil crimped tight. Timer: 25 min. | Browned edges, fork slides in | B4, B1 |
 | 1:05 | PREP ⏱ | Slice the chicken. Wilt the spinach in the skillet 1-2 min, press out water, chop. Whisk eggs + cottage cheese + seasoning. Fill 15 muffin cups with spinach, feta, then egg to ¾. | Spinach bright green. Cups ¾ full | P1, D1 |
 | 1:15 | OVEN | Stir the peppers. | — | V2 |
-| 1:25-1:30 | OVEN | **Peppers out** (25-28 min). Lime juice on top. **Rice out** (check at 25 min), leave covered 10 min. | Onions golden · water gone, steam holes | V2, B1 |
-| 1:30 | OVEN | Oven to **350 °F / 175 °C**, door open 2-3 min. **Egg bites in.** Timer: 20 min. | — | D1 |
-| 1:40 | ASSEMBLY ⏱ | Fluff the rice and spread it thin on a pan. Into the fridge within 1 hour. Weigh each batch, divide by its box count (table below). Fill the boxes. | All boxes filled | all |
-| 1:50-1:55 | OVEN | **Egg bites out** (20-24 min). Cool 5 min in the tin, lift out. | Centers set, knife comes out clean. **160 °F / 71 °C** | D1 |
-| 2:00 | ASSEMBLY | Lids on. Labels on. Fridge for Mon-Thu, **freezer for Friday's 2 boxes** and 2 spare teriyaki cups. Egg bites: 3 per container once fully cool. | Fridge 40 °F / 4 °C or below | all |
+| 1:25-1:28 | OVEN | **Peppers out** (25-28 min). Lime juice on top. | Onions soft and golden at the edges | V2 |
+| 1:30-1:35 | OVEN | **Rice out** (check at 25 min). Leave covered 10 min. | Water gone, small steam holes | B1 |
+| 1:35 | OVEN | Oven to **350 °F / 175 °C**, door open 2-3 min. **Egg bites in.** Timer: 20 min. | — | D1 |
+| 1:45 | ASSEMBLY ⏱ | Fluff the rice and spread it thin on a pan. Into the fridge within 1 hour. Weigh each batch, divide by its box count (table below). Fill the boxes. | All boxes filled | all |
+| 1:57-2:01 | OVEN | **Egg bites out** (20-24 min). Cool 5 min in the tin, lift out. | Centers set, knife comes out clean. **160 °F / 71 °C** | D1 |
+| 2:05 | ASSEMBLY | Lids on. Labels on. Fridge for Mon-Thu, **freezer for Friday's 2 boxes** and 2 spare teriyaki cups. Egg bites: 3 per container once fully cool. | Fridge 40 °F / 4 °C or below | all |
 
 **Write your real time here:** start ______ finish ______ total ______ min.
 

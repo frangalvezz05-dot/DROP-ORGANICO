@@ -67,7 +67,7 @@ That's the whole trick. You cook a small number of parts and change the combinat
 
 Chapter 16 has 48 signature plates: combinations worked out in full, with calories, protein, allergens and cost for the assembled plate. Twelve per flavor family.
 
-It also has a Mix & Match chart. It lists 2,106 pairings that follow the flavor-family rules above. Those pairings were not each cooked one by one. They're a map of what should go together, built from the rules. You'll use it once you're ready to plan your own weeks (Week 4 walks you through it).
+It also has a Mix & Match chart. It shows which parts go together by flavor family; 1,815 combinations follow the rules above. Those combinations were not each cooked one by one. They're a map of what should go together, built from the rules. You'll use it once you're ready to plan your own weeks (Week 4 walks you through it).
 
 ## Your action: the 5-box test
 
