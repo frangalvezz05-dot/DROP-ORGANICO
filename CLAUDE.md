@@ -21,3 +21,10 @@ Todo lo de Shopify se crea en **borrador**.
 - `memoria/metodo.md`: método extraído de los referentes (fuente de verdad).
 - `memoria/lecciones.md`: qué funcionó y qué no en cada ciclo. Léelo antes de cada fase y actualízalo al acabarla.
 - `memoria/decisiones.md`: decisiones tomadas y por qué.
+
+## Relevo entre sesiones (local ↔ nube)
+Fran trabaja en dos sesiones: "DROP ORGANICO LOCAL" (su ordenador) y "DROP NUBE" (en la nube).
+Para que una pueda seguir donde se quedó la otra:
+- Después de cada paso importante, actualiza `memoria/estado.md` (fase actual, qué está hecho, qué falta, siguiente paso exacto, archivos tocados).
+- Luego guarda y sube los cambios a GitHub (commit + push). Lo que no se sube, la otra sesión no lo ve.
+- Al empezar una sesión: descarga lo último de GitHub (todas las ramas), lee `memoria/estado.md` y continúa desde "Siguiente paso".
