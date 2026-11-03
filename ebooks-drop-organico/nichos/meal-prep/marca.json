@@ -1,6 +1,13 @@
 {
   "aprobado": "pendiente; elegido por Claude en modo continuo 03-nov-2026 (Fran puede cambiarlo)",
-  "titulo": {"en": "The Sunday Sheet", "es": "La Hoja del Domingo", "subtitulo_en": "The 2-Hour High-Protein Meal Prep System: 60 recipes, 48 plates, 4 weeks planned", "subtitulo_es": "El sistema de batch cooking alto en proteína en 2 horas", "nota": "Comprobado 03-nov-2026 con herramientas/leer.js: Amazon.com \"The Sunday Sheet\" solo da 'Sunday Sheets' (ropa de cama) y partituras; Kindle '\"sunday sheet\" meal prep' sin coincidencia exacta (sí la serie 'Sunday High-Protein Meal Prep' de Cal Oakes, nombre distinto); Gumroad sin coincidencia; Amazon \"hoja del domingo\" sin coincidencia. Google y DuckDuckGo bloquearon (captcha/403); Bing ignora comillas. Pendiente: USPTO antes de lanzar."},
+  "titulo": {
+    "en": "The Sunday Sheet",
+    "es": "La Hoja del Domingo",
+    "subtitulo_en": "Meal prep in about 2 hours, with the protein counted: 60 recipes, 48 plates, 4 weeks planned",
+    "subtitulo_es": "Batch cooking en unas 2 horas, con la proteína contada",
+    "nota": "Comprobado 03-nov-2026 con herramientas/leer.js: Amazon.com \"The Sunday Sheet\" solo da 'Sunday Sheets' (ropa de cama) y partituras; Kindle '\"sunday sheet\" meal prep' sin coincidencia exacta (sí la serie 'Sunday High-Protein Meal Prep' de Cal Oakes, nombre distinto); Gumroad sin coincidencia; Amazon \"hoja del domingo\" sin coincidencia. Google y DuckDuckGo bloquearon (captcha/403); Bing ignora comillas. Pendiente: USPTO antes de lanzar.",
+    "nota_subtitulo": "03-nov: quitado '2-Hour' como garantía y 'High-Protein' como alegación (revisor-legal y crítico de la página)."
+  },
   "color_principal": "#1F3A2E",
   "color_acento": "#D9572B",
   "color_fondo_suave": "#FAF6EF",
@@ -8,7 +15,10 @@
   "fuente_texto": "Source Serif 4",
   "tono_visual": "cocina limpia y práctica: verde hoja oscuro + naranja pimentón sobre crema; tablas claras, iconos de alérgenos y de nevera/congelador; fotos reales de los platos o ninguna",
   "voz": "frases cortas, segunda persona, directa y práctica, cifras exactas (gramos, minutos, $), sin promesas de peso ni salud",
-  "tamano_pagina": {"es": "A4", "en": "Letter"},
+  "tamano_pagina": {
+    "es": "A4",
+    "en": "Letter"
+  },
   "publico_es": "España / UE, solo tras validar EN",
   "portada": "propuesta: hoja de domingo ilustrada (lista con checks y minutos) junto a 4 tuppers en vista cenital, motivo SVG; pendiente de elegir"
 }
