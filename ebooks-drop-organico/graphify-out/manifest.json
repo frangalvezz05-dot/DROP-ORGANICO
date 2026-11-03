@@ -64,5 +64,167 @@
     "seen": 1792069269.0508862,
     "ast_hash": "f9e93bc0c80f65a5dd38dea17d5191c4",
     "semantic_hash": "f9e93bc0c80f65a5dd38dea17d5191c4"
+  },
+  "graphify-in/01-nichos/02-critica-travis-vs-elevate.md": {
+    "mtime": 1793743723.886762,
+    "seen": 1793744059.7337997,
+    "ast_hash": "c58958188f9886ec65a0ee26ec288ee8",
+    "semantic_hash": "c58958188f9886ec65a0ee26ec288ee8"
+  },
+  "graphify-in/01-nichos/03-resultado-modulo-1.md": {
+    "mtime": 1793743723.884593,
+    "seen": 1793744059.7338078,
+    "ast_hash": "9fab88b0f51e29a54c0c3ba0cf428e25",
+    "semantic_hash": "9fab88b0f51e29a54c0c3ba0cf428e25"
+  },
+  "graphify-in/01-nichos/04-resultado-busqueda-amplia.md": {
+    "mtime": 1793743723.7135425,
+    "seen": 1793744059.7338119,
+    "ast_hash": "56d562db0cf7102740d757ff5a506eaf",
+    "semantic_hash": "56d562db0cf7102740d757ff5a506eaf"
+  },
+  "graphify-in/01-nichos/datos/idioma-es-vs-en.md": {
+    "mtime": 1793743723.899184,
+    "seen": 1793744059.7338145,
+    "ast_hash": "b8bfdeb442de232540272ba53a4189fa",
+    "semantic_hash": "b8bfdeb442de232540272ba53a4189fa"
+  },
+  "graphify-in/01-nichos/elevate-publishers/00-indice.md": {
+    "mtime": 1793743723.8975303,
+    "seen": 1793744059.7338169,
+    "ast_hash": "d1b8b7cd155b3dcdd6ef8904d1eab2d8",
+    "semantic_hash": "d1b8b7cd155b3dcdd6ef8904d1eab2d8"
+  },
+  "graphify-in/01-nichos/elevate-publishers/01-analisis.md": {
+    "mtime": 1793743723.8972223,
+    "seen": 1793744059.7338185,
+    "ast_hash": "ec21d135c066728ae67caa330aeb4764",
+    "semantic_hash": "ec21d135c066728ae67caa330aeb4764"
+  },
+  "graphify-in/01-nichos/travis-nicholson/00-indice.md": {
+    "mtime": 1793743723.8987343,
+    "seen": 1793744059.7338204,
+    "ast_hash": "0806148d50443f2853b5a3b5bac56bbd",
+    "semantic_hash": "0806148d50443f2853b5a3b5bac56bbd"
+  },
+  "graphify-in/01-nichos/travis-nicholson/01-analisis.md": {
+    "mtime": 1793743723.8983138,
+    "seen": 1793744059.7338223,
+    "ast_hash": "87b50dd4d31b33045e3472406c0c023c",
+    "semantic_hash": "87b50dd4d31b33045e3472406c0c023c"
+  },
+  "graphify-in/02-redaccion/02-critica.md": {
+    "mtime": 1793743723.8879337,
+    "seen": 1793744059.7338245,
+    "ast_hash": "d6f6c411e6141cf16103d838ba5cde4c",
+    "semantic_hash": "d6f6c411e6141cf16103d838ba5cde4c"
+  },
+  "graphify-in/02-redaccion/03-resultado-modulo-2.md": {
+    "mtime": 1793743723.8875153,
+    "seen": 1793744059.7338266,
+    "ast_hash": "cabfae4940e9edb87fd426d63996aabe",
+    "semantic_hash": "cabfae4940e9edb87fd426d63996aabe"
+  },
+  "graphify-in/02-redaccion/kate-hayes/00-indice.md": {
+    "mtime": 1793743723.896639,
+    "seen": 1793744059.7338283,
+    "ast_hash": "d5fa67398edc0c92d319d7f1d053f8e6",
+    "semantic_hash": "d5fa67398edc0c92d319d7f1d053f8e6"
+  },
+  "graphify-in/02-redaccion/kate-hayes/01-analisis.md": {
+    "mtime": 1793743723.896206,
+    "seen": 1793744059.733831,
+    "ast_hash": "f9e93bc0c80f65a5dd38dea17d5191c4",
+    "semantic_hash": "f9e93bc0c80f65a5dd38dea17d5191c4"
+  },
+  "graphify-in/03-tienda/00-indice.md": {
+    "mtime": 1793743723.892636,
+    "seen": 1793744059.7338326,
+    "ast_hash": "9facbb7d71c30b1b0e39a9b097c32154",
+    "semantic_hash": "9facbb7d71c30b1b0e39a9b097c32154"
+  },
+  "graphify-in/03-tienda/02-critica.md": {
+    "mtime": 1793743723.8932717,
+    "seen": 1793744059.733835,
+    "ast_hash": "adf5fd8070c3297dac7a46f2710a36d4",
+    "semantic_hash": "adf5fd8070c3297dac7a46f2710a36d4"
+  },
+  "graphify-in/03-tienda/adrian-saenz/01-analisis.md": {
+    "mtime": 1793743723.8942404,
+    "seen": 1793744059.7338371,
+    "ast_hash": "967698544717e82f16f9e0acdb216b6a",
+    "semantic_hash": "967698544717e82f16f9e0acdb216b6a"
+  },
+  "graphify-in/03-tienda/datos-shopify.md": {
+    "mtime": 1793743723.8920083,
+    "seen": 1793744059.733839,
+    "ast_hash": "78b1057c6f7f8a4a03deebca083f5cf2",
+    "semantic_hash": "78b1057c6f7f8a4a03deebca083f5cf2"
+  },
+  "graphify-in/03-tienda/marc-verdu/01-analisis.md": {
+    "mtime": 1793743723.89376,
+    "seen": 1793744059.733841,
+    "ast_hash": "a6b8f2048d216ed1e4b8184794b586ae",
+    "semantic_hash": "a6b8f2048d216ed1e4b8184794b586ae"
+  },
+  "graphify-in/05-contenido/00-indice.md": {
+    "mtime": 1793743723.8883183,
+    "seen": 1793744059.7338428,
+    "ast_hash": "fe94d3e7857c70b3ad19bcad9b555c3a",
+    "semantic_hash": "fe94d3e7857c70b3ad19bcad9b555c3a"
+  },
+  "graphify-in/05-contenido/02-critica.md": {
+    "mtime": 1793743723.8887048,
+    "seen": 1793744059.733845,
+    "ast_hash": "b2fa16eb89f788d6f8aae034bdbb6bbc",
+    "semantic_hash": "b2fa16eb89f788d6f8aae034bdbb6bbc"
+  },
+  "graphify-in/05-contenido/dani-loureiro/01-analisis.md": {
+    "mtime": 1793743723.8957217,
+    "seen": 1793744059.733847,
+    "ast_hash": "38385154a607b9dcea2fac85dc3ea10d",
+    "semantic_hash": "38385154a607b9dcea2fac85dc3ea10d"
+  },
+  "graphify-in/05-contenido/marc-verdu/01-analisis.md": {
+    "mtime": 1793743723.895348,
+    "seen": 1793744059.7338486,
+    "ast_hash": "d512ed16c76e5cc74649f4587208606f",
+    "semantic_hash": "d512ed16c76e5cc74649f4587208606f"
+  },
+  "graphify-in/07-legal/02-analisis.md": {
+    "mtime": 1793743723.8891168,
+    "seen": 1793744059.7338505,
+    "ast_hash": "137f11e186dd9cd69a16c6c857e48265",
+    "semantic_hash": "137f11e186dd9cd69a16c6c857e48265"
+  },
+  "graphify-in/07-legal/consulta-gestor.md": {
+    "mtime": 1793743723.8900113,
+    "seen": 1793744059.7338524,
+    "ast_hash": "e6efe9bb0081d9832b94b965acef6298",
+    "semantic_hash": "e6efe9bb0081d9832b94b965acef6298"
+  },
+  "graphify-in/07-legal/consumo-datos-publicidad.md": {
+    "mtime": 1793743723.8896399,
+    "seen": 1793744059.7338543,
+    "ast_hash": "62687d7aac469b953a1632ad9e9f551a",
+    "semantic_hash": "62687d7aac469b953a1632ad9e9f551a"
+  },
+  "graphify-in/07-legal/fiscal.md": {
+    "mtime": 1793743723.8905585,
+    "seen": 1793744059.7338562,
+    "ast_hash": "8634f395179565dc18ce4b0111c6d93f",
+    "semantic_hash": "8634f395179565dc18ce4b0111c6d93f"
+  },
+  "graphify-in/09-numeros/datos-costes.md": {
+    "mtime": 1793743723.8913012,
+    "seen": 1793744059.7338586,
+    "ast_hash": "6d4525a86d55f19154e403f42711ffdf",
+    "semantic_hash": "6d4525a86d55f19154e403f42711ffdf"
+  },
+  "graphify-in/09-numeros/modelo.md": {
+    "mtime": 1793743723.891656,
+    "seen": 1793744059.7338603,
+    "ast_hash": "c94d23eddab672c12a9276590a678cf4",
+    "semantic_hash": "c94d23eddab672c12a9276590a678cf4"
   }
 }

@@ -17,9 +17,16 @@
       "input_tokens": 163633,
       "output_tokens": 0,
       "files": 11,
-      "nota": "grafo v2: solo conocimiento destilado de módulos 1-2"
+      "nota": "grafo v2: solo conocimiento destilado de m\u00f3dulos 1-2"
+    },
+    {
+      "date": "2026-11-03",
+      "input_tokens": 363390,
+      "output_tokens": 0,
+      "files": 27,
+      "nota": "tokens de subagentes (Haiku), sin desglose entrada/salida"
     }
   ],
-  "total_input_tokens": 600104,
+  "total_input_tokens": 963494,
   "total_output_tokens": 0
 }

@@ -30,7 +30,7 @@ Construcción pieza a pieza de un sistema de agentes y skills con orquestador fi
 
 ## Tokens y grafo
 - `token-budget-advisor`: fijar profundidad una vez por sesión.
-- `graphify`: el conocimiento del proyecto vive en `graphify-out/` (raíz `conocimiento/`). Desde el 15-oct el grafo solo incluye conocimiento **destilado** (análisis de mentores, críticas, resultados de módulo y datos); las transcripciones en bruto quedan fuera y se leen solo si el grafo no basta. Consultar el grafo antes de leer archivos o buscar en internet; buscar fuera solo si no está, y añadir lo nuevo. Actualizarlo al añadir material a `conocimiento/` o al aprobar un módulo. Agentes y orquestador también consultan el grafo primero.
+- `graphify`: el conocimiento del proyecto vive en `graphify-out/` (desde el 03-nov la raíz es `graphify-in/`: copia SOLO de los archivos destilados de `conocimiento/` — 00-indice, 01-analisis, 02-critica/02-analisis, 03/04-resultado y datos —; al añadir uno nuevo, cópialo también a `graphify-in/` y actualiza). Desde el 15-oct el grafo solo incluye conocimiento **destilado** (análisis de mentores, críticas, resultados de módulo y datos); las transcripciones en bruto quedan fuera y se leen solo si el grafo no basta. Consultar el grafo antes de leer archivos o buscar en internet; buscar fuera solo si no está, y añadir lo nuevo. Actualizarlo al añadir material a `conocimiento/` o al aprobar un módulo. Agentes y orquestador también consultan el grafo primero.
 - No releer lo que ya está en contexto; leer solo la parte necesaria.
 
 ## Estructura
