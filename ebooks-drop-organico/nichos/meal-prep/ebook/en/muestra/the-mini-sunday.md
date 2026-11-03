@@ -327,9 +327,14 @@ Friday is teriyaki because chicken, rice and teriyaki all freeze. The chipotle-y
 
 ## 7 · What it costs
 
-[COST_TABLE]
+| Mini Sunday | 1 person (5 boxes) | 2 people (10 boxes) |
+|---|---|---|
+| Shopping cost of what you use | **$19.46** | **$38.91** |
+| Per box | **$3.35** | **$3.35** |
 
-<!-- [COST_TABLE] = marcador. Coste de la Mini Sunday (×1, ×2) y por caja, con fuente y fecha (datos/costes.md). No inventar cifras. -->
+You make three sauces and use one per box, so two thirds of the sauce is left for next week's boxes.
+
+*US average retail prices, USDA ERS (meat, eggs and dairy: latest month available; fruit and vegetables: 2023 annual averages) plus reference prices for pantry items. Your store will differ.*
 
 ---
 

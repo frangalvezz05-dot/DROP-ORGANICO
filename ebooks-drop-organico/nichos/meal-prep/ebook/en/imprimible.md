@@ -193,9 +193,7 @@ The sauce table and the three ✓ tables (proteins, bases, vegetables) from Chap
 
 How to count "cost used": package price × (amount used ÷ package size). Pantry items you already own count only for what you use (Chapter 5).
 
-[COST_TABLE]
-
-<!-- [COST_TABLE] = marcador opcional: si el script de costes da cifras, añadir aquí una fila de ejemplo rellena (semana 1) con fuente y fecha. No inventar cifras. -->
+Example (Week 1, 1 person): week total about **$43.72**, about **$3.67 per plate**. *US average retail prices, USDA ERS (meat, eggs and dairy: latest month available; fruit and vegetables: 2023 annual averages) plus reference prices for pantry items. Your store will differ.*
 
 ---
 
