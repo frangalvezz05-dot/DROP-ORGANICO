@@ -1,0 +1,130 @@
+{
+ "id": "FM10",
+ "nombre": "Creamy Chicken & Broccoli Pasta Bake",
+ "componente": "congelador",
+ "familias": [
+  "COM"
+ ],
+ "raciones": 6,
+ "rinde_g_cocinado": 2020,
+ "racion_g": 335,
+ "rinde_nota": "estimado; pesar al cocinar de prueba",
+ "ingredientes": [
+  {
+   "nombre_en": "boneless skinless chicken breasts, cut in 1 in cubes",
+   "cantidad_us": "1.5 lb",
+   "g": 700,
+   "fdc_id": "171077",
+   "pasillo": "meat",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "dry short pasta (penne or rotini)",
+   "cantidad_us": "10 oz",
+   "g": 285,
+   "fdc_id": "169736",
+   "pasillo": "pantry",
+   "estado": "dry"
+  },
+  {
+   "nombre_en": "broccoli florets, small",
+   "cantidad_us": "4 cups",
+   "g": 350,
+   "fdc_id": "169330",
+   "pasillo": "produce",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "butter",
+   "cantidad_us": "2 tbsp",
+   "g": 28,
+   "fdc_id": "173410",
+   "pasillo": "dairy",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "all-purpose flour",
+   "cantidad_us": "3 tbsp",
+   "g": 25,
+   "fdc_id": "168894",
+   "pasillo": "pantry",
+   "estado": "dry"
+  },
+  {
+   "nombre_en": "garlic, minced",
+   "cantidad_us": "3 cloves",
+   "g": 9,
+   "fdc_id": "169230",
+   "pasillo": "produce",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "1% milk",
+   "cantidad_us": "2.5 cups",
+   "g": 620,
+   "fdc_id": "170872",
+   "pasillo": "dairy",
+   "estado": "liquid"
+  },
+  {
+   "nombre_en": "light cream cheese",
+   "cantidad_us": "3 oz (6 tbsp)",
+   "g": 85,
+   "fdc_id": "169079",
+   "pasillo": "dairy",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "grated Parmesan",
+   "cantidad_us": "1/2 cup (2 oz)",
+   "g": 50,
+   "fdc_id": "171247",
+   "pasillo": "dairy",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "kosher salt",
+   "cantidad_us": "1 tsp",
+   "g": 5,
+   "fdc_id": "173468",
+   "pasillo": "spices",
+   "estado": "dry"
+  },
+  {
+   "nombre_en": "black pepper",
+   "cantidad_us": "1/2 tsp",
+   "g": 1,
+   "fdc_id": "170931",
+   "pasillo": "spices",
+   "estado": "dry"
+  },
+  {
+   "nombre_en": "shredded part-skim mozzarella",
+   "cantidad_us": "3/4 cup (3 oz)",
+   "g": 85,
+   "fdc_id": "170900",
+   "pasillo": "dairy",
+   "estado": "raw"
+  }
+ ],
+ "macros_por_racion": {
+  "kcal": 534.8,
+  "proteina_g": 45.1,
+  "grasa_g": 16.3,
+  "carbohidratos_g": 50.6,
+  "fibra_g": 3.0,
+  "sodio_mg": 761.8
+ },
+ "fuente_macros": "USDA FoodData Central SR Legacy (2018-04)",
+ "alergenos": [
+  "wheat",
+  "milk"
+ ],
+ "nevera_dias": 3,
+ "congelador_meses": 2,
+ "recalentar": "Thaw overnight in the fridge (never on the counter). Microwave covered 2-3 min with 1 tbsp milk drizzled on top, stirring once; or bake covered at 350 °F / 175 °C for 15-20 min, until 165 °F / 74 °C in the center.",
+ "tiempo_activo_min": 35,
+ "tiempo_total_min": 60,
+ "horno_c": 190,
+ "horno_f": 375
+}

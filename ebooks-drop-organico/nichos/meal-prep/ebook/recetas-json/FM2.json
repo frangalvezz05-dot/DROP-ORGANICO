@@ -1,0 +1,164 @@
+{
+ "id": "FM2",
+ "nombre": "Chicken Tikka-Style Curry",
+ "componente": "congelador",
+ "familias": [
+  "ASI",
+  "COM"
+ ],
+ "raciones": 6,
+ "rinde_g_cocinado": 3145,
+ "racion_g": 525,
+ "rinde_nota": "estimado; pesar al cocinar de prueba",
+ "ingredientes": [
+  {
+   "nombre_en": "boneless skinless chicken thighs, cut in 1.5 in chunks",
+   "cantidad_us": "2.2 lb",
+   "g": 1000,
+   "fdc_id": "173627",
+   "pasillo": "meat",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "plain nonfat Greek yogurt",
+   "cantidad_us": "1 cup",
+   "g": 245,
+   "fdc_id": "170894",
+   "pasillo": "dairy",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "curry powder",
+   "cantidad_us": "1 tbsp",
+   "g": 7,
+   "fdc_id": "170924",
+   "pasillo": "spices",
+   "estado": "dry"
+  },
+  {
+   "nombre_en": "kosher salt",
+   "cantidad_us": "1.5 tsp",
+   "g": 8,
+   "fdc_id": "173468",
+   "pasillo": "spices",
+   "estado": "dry"
+  },
+  {
+   "nombre_en": "olive oil",
+   "cantidad_us": "1 tbsp",
+   "g": 14,
+   "fdc_id": "171413",
+   "pasillo": "pantry",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "yellow onion, diced",
+   "cantidad_us": "1 large",
+   "g": 250,
+   "fdc_id": "170000",
+   "pasillo": "produce",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "garlic, minced",
+   "cantidad_us": "4 cloves",
+   "g": 12,
+   "fdc_id": "169230",
+   "pasillo": "produce",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "fresh ginger, grated",
+   "cantidad_us": "1 tbsp",
+   "g": 10,
+   "fdc_id": "169231",
+   "pasillo": "produce",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "smoked paprika",
+   "cantidad_us": "2 tsp",
+   "g": 5,
+   "fdc_id": "171329",
+   "pasillo": "spices",
+   "estado": "dry"
+  },
+  {
+   "nombre_en": "ground turmeric",
+   "cantidad_us": "1 tsp",
+   "g": 3,
+   "fdc_id": "172231",
+   "pasillo": "spices",
+   "estado": "dry"
+  },
+  {
+   "nombre_en": "tomato paste",
+   "cantidad_us": "3 tbsp",
+   "g": 48,
+   "fdc_id": "170459",
+   "pasillo": "canned",
+   "estado": "canned"
+  },
+  {
+   "nombre_en": "crushed tomatoes",
+   "cantidad_us": "1 can (14.5 oz)",
+   "g": 411,
+   "fdc_id": "170501",
+   "pasillo": "canned",
+   "estado": "canned"
+  },
+  {
+   "nombre_en": "canned coconut milk",
+   "cantidad_us": "1 cup (half a can)",
+   "g": 240,
+   "fdc_id": "170173",
+   "pasillo": "canned",
+   "estado": "canned"
+  },
+  {
+   "nombre_en": "chickpeas, canned, drained and rinsed",
+   "cantidad_us": "1 can (15 oz)",
+   "g": 240,
+   "fdc_id": "173801",
+   "pasillo": "canned",
+   "estado": "canned"
+  },
+  {
+   "nombre_en": "fresh baby spinach",
+   "cantidad_us": "5 oz",
+   "g": 140,
+   "fdc_id": "168462",
+   "pasillo": "produce",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "long-grain white rice, cooked (to pack with each portion)",
+   "cantidad_us": "about 1/2 cup / 85 g per portion",
+   "g": 510,
+   "fdc_id": "168878",
+   "pasillo": "pantry",
+   "estado": "cooked"
+  }
+ ],
+ "macros_por_racion": {
+  "kcal": 553.4,
+  "proteina_g": 45.9,
+  "grasa_g": 19.8,
+  "carbohidratos_g": 49.3,
+  "fibra_g": 6.8,
+  "sodio_mg": 934.8
+ },
+ "fuente_macros": "USDA FoodData Central SR Legacy (2018-04)",
+ "alergenos": [
+  "milk"
+ ],
+ "nevera_dias": 3,
+ "congelador_meses": 3,
+ "recalentar": "Thaw overnight in the fridge (never on the counter). Microwave covered 3-4 min, stirring halfway, adding 1 tbsp water to the rice; or reheat the curry in a pan over medium 6-8 min. It must reach 165 °F / 74 °C in the center.",
+ "tiempo_activo_min": 25,
+ "tiempo_total_min": 55,
+ "horno_c": null,
+ "horno_f": null,
+ "alergenos_nota": "also contains coconut (canned coconut milk)",
+ "nota_macros": "incluye 85 g de arroz cocido por racion"
+}

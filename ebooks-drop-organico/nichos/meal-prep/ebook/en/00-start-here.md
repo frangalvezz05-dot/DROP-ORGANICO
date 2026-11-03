@@ -44,7 +44,7 @@ The plan weeks are designed around a Sunday cooking session of about 2 hours for
 
 Your first Sunday will probably run longer. You're reading as you go. Your oven may run cooler than the dial says. Shopping isn't counted, and neither is the last round of dishes.
 
-Time your first Sunday and write the real number on your sheet. Your number is the one that matters, and it usually drops by the second or third week as the steps stop being new.
+Time your first Sunday and write the real number on your sheet. Your number is the one that matters. Write it down each week and see how it moves once the steps stop being new.
 
 ## Before you cook: three notes
 

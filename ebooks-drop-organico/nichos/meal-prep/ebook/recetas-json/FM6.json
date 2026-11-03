@@ -1,0 +1,170 @@
+{
+ "id": "FM6",
+ "nombre": "Chicken Tortilla Soup",
+ "componente": "congelador",
+ "familias": [
+  "MEX"
+ ],
+ "raciones": 6,
+ "rinde_g_cocinado": 3935,
+ "racion_g": 655,
+ "rinde_nota": "estimado; pesar al cocinar de prueba",
+ "ingredientes": [
+  {
+   "nombre_en": "boneless skinless chicken breasts",
+   "cantidad_us": "2.2 lb",
+   "g": 1000,
+   "fdc_id": "171077",
+   "pasillo": "meat",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "olive oil",
+   "cantidad_us": "1 tbsp",
+   "g": 14,
+   "fdc_id": "171413",
+   "pasillo": "pantry",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "yellow onion, diced",
+   "cantidad_us": "1 large",
+   "g": 200,
+   "fdc_id": "170000",
+   "pasillo": "produce",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "jalapeño, seeded and minced",
+   "cantidad_us": "1",
+   "g": 30,
+   "fdc_id": "168576",
+   "pasillo": "produce",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "garlic, minced",
+   "cantidad_us": "4 cloves",
+   "g": 12,
+   "fdc_id": "169230",
+   "pasillo": "produce",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "chili powder",
+   "cantidad_us": "1 tbsp",
+   "g": 8,
+   "fdc_id": "171319",
+   "pasillo": "spices",
+   "estado": "dry"
+  },
+  {
+   "nombre_en": "ground cumin",
+   "cantidad_us": "2 tsp",
+   "g": 5,
+   "fdc_id": "170923",
+   "pasillo": "spices",
+   "estado": "dry"
+  },
+  {
+   "nombre_en": "diced tomatoes with green chilies",
+   "cantidad_us": "1 can (14.5 oz)",
+   "g": 411,
+   "fdc_id": "170053",
+   "pasillo": "canned",
+   "estado": "canned"
+  },
+  {
+   "nombre_en": "low-sodium chicken broth",
+   "cantidad_us": "6 cups",
+   "g": 1440,
+   "fdc_id": "171609",
+   "pasillo": "canned",
+   "estado": "liquid"
+  },
+  {
+   "nombre_en": "black beans, canned, drained and rinsed",
+   "cantidad_us": "1 can (15 oz)",
+   "g": 240,
+   "fdc_id": "175188",
+   "pasillo": "canned",
+   "estado": "canned"
+  },
+  {
+   "nombre_en": "pinto beans, canned, drained and rinsed",
+   "cantidad_us": "1 can (15 oz)",
+   "g": 240,
+   "fdc_id": "174286",
+   "pasillo": "canned",
+   "estado": "canned"
+  },
+  {
+   "nombre_en": "frozen corn kernels",
+   "cantidad_us": "1 cup",
+   "g": 150,
+   "fdc_id": "168398",
+   "pasillo": "frozen",
+   "estado": "frozen"
+  },
+  {
+   "nombre_en": "lime juice",
+   "cantidad_us": "3 tbsp",
+   "g": 45,
+   "fdc_id": "168156",
+   "pasillo": "produce",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "fresh cilantro, chopped",
+   "cantidad_us": "1/2 cup",
+   "g": 15,
+   "fdc_id": "169997",
+   "pasillo": "produce",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "kosher salt",
+   "cantidad_us": "1 tsp",
+   "g": 5,
+   "fdc_id": "173468",
+   "pasillo": "spices",
+   "estado": "dry"
+  },
+  {
+   "nombre_en": "corn tortillas, cut in strips (topping, baked fresh on serving day)",
+   "cantidad_us": "6",
+   "g": 156,
+   "fdc_id": "175036",
+   "pasillo": "bakery",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "shredded Monterey Jack (1 oz per portion)",
+   "cantidad_us": "6 oz",
+   "g": 170,
+   "fdc_id": "170844",
+   "pasillo": "dairy",
+   "estado": "raw"
+  }
+ ],
+ "macros_por_racion": {
+  "kcal": 562.8,
+  "proteina_g": 58.1,
+  "grasa_g": 18.6,
+  "carbohidratos_g": 42.9,
+  "fibra_g": 8.5,
+  "sodio_mg": 1219.1
+ },
+ "fuente_macros": "USDA FoodData Central SR Legacy (2018-04)",
+ "alergenos": [
+  "milk"
+ ],
+ "nevera_dias": 3,
+ "congelador_meses": 3,
+ "recalentar": "Thaw overnight in the fridge (never on the counter). Reheat in a pot over medium 6-8 min or microwave covered 3-4 min, until 165 °F / 74 °C in the center. Add toppings after heating.",
+ "tiempo_activo_min": 20,
+ "tiempo_total_min": 50,
+ "horno_c": null,
+ "horno_f": null,
+ "nota_macros": "incluye tiras de tortilla y 28 g de queso del topping"
+}

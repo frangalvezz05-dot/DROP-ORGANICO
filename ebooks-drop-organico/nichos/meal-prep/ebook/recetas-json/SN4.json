@@ -1,0 +1,90 @@
+{
+ "id": "SN4",
+ "nombre": "Peanut Butter Oat Bites",
+ "componente": "snack",
+ "familias": [
+  "todas"
+ ],
+ "raciones": 5,
+ "rinde_g_cocinado": 365,
+ "racion_g": 75,
+ "rinde_nota": "estimado; pesar al cocinar de prueba",
+ "ingredientes": [
+  {
+   "nombre_en": "old-fashioned rolled oats",
+   "cantidad_us": "1 1/4 cups",
+   "g": 120,
+   "fdc_id": "169705",
+   "pasillo": "pantry",
+   "estado": "dry"
+  },
+  {
+   "nombre_en": "smooth peanut butter",
+   "cantidad_us": "1/2 cup",
+   "g": 128,
+   "fdc_id": "174266",
+   "pasillo": "pantry",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "honey",
+   "cantidad_us": "1/4 cup",
+   "g": 85,
+   "fdc_id": "169640",
+   "pasillo": "pantry",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "ground flaxseed",
+   "cantidad_us": "2 tbsp",
+   "g": 20,
+   "fdc_id": "169414",
+   "pasillo": "pantry",
+   "estado": "dry"
+  },
+  {
+   "nombre_en": "unsweetened cocoa powder",
+   "cantidad_us": "1 tbsp",
+   "g": 8,
+   "fdc_id": "169593",
+   "pasillo": "pantry",
+   "estado": "dry"
+  },
+  {
+   "nombre_en": "vanilla extract",
+   "cantidad_us": "1 tsp",
+   "g": 4,
+   "fdc_id": "173471",
+   "pasillo": "pantry",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "kosher salt",
+   "cantidad_us": "1/4 tsp",
+   "g": 1,
+   "fdc_id": "173468",
+   "pasillo": "spices",
+   "estado": "dry"
+  }
+ ],
+ "macros_por_racion": {
+  "kcal": 325.4,
+  "proteina_g": 10.8,
+  "grasa_g": 16.7,
+  "carbohidratos_g": 37.8,
+  "fibra_g": 5.5,
+  "sodio_mg": 189.3
+ },
+ "fuente_macros": "USDA FoodData Central SR Legacy (2018-04)",
+ "alergenos": [
+  "peanuts"
+ ],
+ "nevera_dias": 7,
+ "congelador_meses": 3,
+ "recalentar": "Eat cold or at room temperature. To freeze, set the bites on a tray for 1 hour, then bag them. Thaw 15 minutes on the counter or overnight in the fridge. (No raw egg or meat, so counter thawing is safe here.)",
+ "tiempo_activo_min": 15,
+ "tiempo_total_min": 45,
+ "horno_c": null,
+ "horno_f": null,
+ "nota_racion": "1 portion = 3 bites (about 70 g)"
+}

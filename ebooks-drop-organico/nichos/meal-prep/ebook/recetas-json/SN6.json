@@ -1,0 +1,66 @@
+{
+ "id": "SN6",
+ "nombre": "Turkey & Cheese Roll-Ups",
+ "componente": "snack",
+ "familias": [
+  "todas"
+ ],
+ "raciones": 5,
+ "rinde_g_cocinado": 645,
+ "racion_g": 130,
+ "rinde_nota": "estimado; pesar al cocinar de prueba",
+ "ingredientes": [
+  {
+   "nombre_en": "low-sodium deli turkey breast slices",
+   "cantidad_us": "10 oz (about 15 slices)",
+   "g": 300,
+   "fdc_id": "174572",
+   "pasillo": "deli",
+   "estado": "cooked"
+  },
+  {
+   "nombre_en": "Swiss cheese slices",
+   "cantidad_us": "5 oz (15 slices)",
+   "g": 150,
+   "fdc_id": "171251",
+   "pasillo": "dairy",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "light cream cheese",
+   "cantidad_us": "3 tbsp",
+   "g": 45,
+   "fdc_id": "169079",
+   "pasillo": "dairy",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "cucumber, cut in thin sticks",
+   "cantidad_us": "1 medium",
+   "g": 150,
+   "fdc_id": "168409",
+   "pasillo": "produce",
+   "estado": "raw"
+  }
+ ],
+ "macros_por_racion": {
+  "kcal": 206.5,
+  "proteina_g": 22.1,
+  "grasa_g": 11.3,
+  "carbohidratos_g": 4.2,
+  "fibra_g": 0.5,
+  "sodio_mg": 548.4
+ },
+ "fuente_macros": "USDA FoodData Central SR Legacy (2018-04)",
+ "alergenos": [
+  "milk"
+ ],
+ "nevera_dias": 3,
+ "congelador_meses": 0,
+ "recalentar": "Eat cold. Do not freeze (cheese and cucumber go grainy and watery).",
+ "tiempo_activo_min": 15,
+ "tiempo_total_min": 15,
+ "horno_c": null,
+ "horno_f": null,
+ "nota_racion": "1 portion = 3 roll-ups (about 135 g)"
+}

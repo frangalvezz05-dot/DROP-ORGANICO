@@ -1,0 +1,156 @@
+{
+ "id": "FM3",
+ "nombre": "Beef & Lentil Ragù",
+ "componente": "congelador",
+ "familias": [
+  "MED",
+  "COM"
+ ],
+ "raciones": 6,
+ "rinde_g_cocinado": 2955,
+ "racion_g": 490,
+ "rinde_nota": "estimado; pesar al cocinar de prueba",
+ "ingredientes": [
+  {
+   "nombre_en": "lean ground beef (90/10)",
+   "cantidad_us": "1.25 lb",
+   "g": 567,
+   "fdc_id": "174030",
+   "pasillo": "meat",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "olive oil",
+   "cantidad_us": "1 tbsp",
+   "g": 14,
+   "fdc_id": "171413",
+   "pasillo": "pantry",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "yellow onion, finely diced",
+   "cantidad_us": "1 large",
+   "g": 200,
+   "fdc_id": "170000",
+   "pasillo": "produce",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "carrots, finely diced",
+   "cantidad_us": "2 medium",
+   "g": 130,
+   "fdc_id": "170393",
+   "pasillo": "produce",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "celery, finely diced",
+   "cantidad_us": "2 stalks",
+   "g": 80,
+   "fdc_id": "169988",
+   "pasillo": "produce",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "garlic, minced",
+   "cantidad_us": "4 cloves",
+   "g": 12,
+   "fdc_id": "169230",
+   "pasillo": "produce",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "tomato paste",
+   "cantidad_us": "3 tbsp",
+   "g": 48,
+   "fdc_id": "170459",
+   "pasillo": "canned",
+   "estado": "canned"
+  },
+  {
+   "nombre_en": "dried oregano",
+   "cantidad_us": "2 tsp",
+   "g": 3,
+   "fdc_id": "171328",
+   "pasillo": "spices",
+   "estado": "dry"
+  },
+  {
+   "nombre_en": "brown or green lentils, dry, rinsed",
+   "cantidad_us": "3/4 cup",
+   "g": 150,
+   "fdc_id": "172420",
+   "pasillo": "pantry",
+   "estado": "dry"
+  },
+  {
+   "nombre_en": "crushed tomatoes",
+   "cantidad_us": "1 can (28 oz)",
+   "g": 794,
+   "fdc_id": "170501",
+   "pasillo": "canned",
+   "estado": "canned"
+  },
+  {
+   "nombre_en": "low-sodium beef broth",
+   "cantidad_us": "2 cups",
+   "g": 480,
+   "fdc_id": "171538",
+   "pasillo": "canned",
+   "estado": "liquid"
+  },
+  {
+   "nombre_en": "kosher salt",
+   "cantidad_us": "1 tsp",
+   "g": 5,
+   "fdc_id": "173468",
+   "pasillo": "spices",
+   "estado": "dry"
+  },
+  {
+   "nombre_en": "black pepper",
+   "cantidad_us": "1/2 tsp",
+   "g": 1,
+   "fdc_id": "170931",
+   "pasillo": "spices",
+   "estado": "dry"
+  },
+  {
+   "nombre_en": "dry spaghetti or penne (cooked fresh on serving day, about 1.75 oz / 50 g dry per portion)",
+   "cantidad_us": "about 10.5 oz total",
+   "g": 300,
+   "fdc_id": "169736",
+   "pasillo": "pantry",
+   "estado": "dry"
+  },
+  {
+   "nombre_en": "grated Parmesan (1 tbsp per portion)",
+   "cantidad_us": "6 tbsp",
+   "g": 30,
+   "fdc_id": "171247",
+   "pasillo": "dairy",
+   "estado": "raw"
+  }
+ ],
+ "macros_por_racion": {
+  "kcal": 564.8,
+  "proteina_g": 37.3,
+  "grasa_g": 14.9,
+  "carbohidratos_g": 71.8,
+  "fibra_g": 8.8,
+  "sodio_mg": 1056.0
+ },
+ "fuente_macros": "USDA FoodData Central SR Legacy (2018-04)",
+ "alergenos": [
+  "wheat",
+  "milk"
+ ],
+ "nevera_dias": 4,
+ "congelador_meses": 3,
+ "recalentar": "Thaw overnight in the fridge (never on the counter). Reheat in a pot over medium 6-8 min (or microwave covered 3-4 min), stirring, until 165 °F / 74 °C in the center. Meanwhile boil 1.75 oz / 50 g dry pasta per portion for the time on the package minus 1 minute, and toss it with the hot ragù. Nutrition below includes this pasta and the Parmesan.",
+ "tiempo_activo_min": 25,
+ "tiempo_total_min": 65,
+ "horno_c": null,
+ "horno_f": null,
+ "nota_macros": "incluye la pasta (50 g seca/racion) y 1 cda de parmesano, que se anaden el dia de servir"
+}

@@ -1,0 +1,83 @@
+{
+ "id": "SN2",
+ "nombre": "Hummus & Veg Boxes",
+ "componente": "snack",
+ "familias": [
+  "MED"
+ ],
+ "raciones": 5,
+ "rinde_g_cocinado": 1405,
+ "racion_g": 280,
+ "rinde_nota": "estimado; pesar al cocinar de prueba",
+ "ingredientes": [
+  {
+   "nombre_en": "hummus, store-bought",
+   "cantidad_us": "1 1/4 cups",
+   "g": 300,
+   "fdc_id": "174289",
+   "pasillo": "pantry",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "part-skim mozzarella, cut in cubes (or string cheese)",
+   "cantidad_us": "5 oz",
+   "g": 150,
+   "fdc_id": "170847",
+   "pasillo": "dairy",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "cucumber, cut in sticks",
+   "cantidad_us": "1 large",
+   "g": 400,
+   "fdc_id": "168409",
+   "pasillo": "produce",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "carrots, cut in sticks",
+   "cantidad_us": "4 medium",
+   "g": 250,
+   "fdc_id": "170393",
+   "pasillo": "produce",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "red bell pepper, cut in strips",
+   "cantidad_us": "2 medium",
+   "g": 300,
+   "fdc_id": "170108",
+   "pasillo": "produce",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "everything bagel seasoning or paprika (pinch per box)",
+   "cantidad_us": "1 tsp",
+   "g": 3,
+   "fdc_id": "171329",
+   "pasillo": "spices",
+   "estado": "dry"
+  }
+ ],
+ "macros_por_racion": {
+  "kcal": 268.2,
+  "proteina_g": 13.6,
+  "grasa_g": 15.9,
+  "carbohidratos_g": 21.5,
+  "fibra_g": 6.6,
+  "sodio_mg": 480.2
+ },
+ "fuente_macros": "USDA FoodData Central SR Legacy (2018-04)",
+ "alergenos": [
+  "sesame",
+  "milk"
+ ],
+ "nevera_dias": 4,
+ "congelador_meses": 0,
+ "recalentar": "Eat cold. Not freezer-friendly (the vegetables turn limp).",
+ "tiempo_activo_min": 15,
+ "tiempo_total_min": 15,
+ "horno_c": null,
+ "horno_f": null,
+ "nota_racion": "1 box = 60 g hummus + 30 g cheese + 190 g raw veg"
+}

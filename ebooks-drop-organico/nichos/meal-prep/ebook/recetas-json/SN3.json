@@ -1,0 +1,58 @@
+{
+ "id": "SN3",
+ "nombre": "Perfect Hard-Boiled Eggs",
+ "componente": "snack",
+ "familias": [
+  "todas"
+ ],
+ "raciones": 5,
+ "rinde_g_cocinado": 505,
+ "racion_g": 100,
+ "rinde_nota": "estimado; pesar al cocinar de prueba",
+ "ingredientes": [
+  {
+   "nombre_en": "large eggs, cold from the fridge",
+   "cantidad_us": "10",
+   "g": 500,
+   "fdc_id": "173424",
+   "pasillo": "dairy",
+   "estado": "cooked"
+  },
+  {
+   "nombre_en": "kosher salt (pinch per portion)",
+   "cantidad_us": "1/2 tsp",
+   "g": 3,
+   "fdc_id": "173468",
+   "pasillo": "spices",
+   "estado": "dry"
+  },
+  {
+   "nombre_en": "smoked paprika or everything seasoning (optional, pinch per portion)",
+   "cantidad_us": "1/2 tsp",
+   "g": 1,
+   "fdc_id": "171329",
+   "pasillo": "spices",
+   "estado": "dry"
+  }
+ ],
+ "macros_por_racion": {
+  "kcal": 155.6,
+  "proteina_g": 12.6,
+  "grasa_g": 10.6,
+  "carbohidratos_g": 1.2,
+  "fibra_g": 0.1,
+  "sodio_mg": 356.7
+ },
+ "fuente_macros": "USDA FoodData Central SR Legacy (2018-04)",
+ "alergenos": [
+  "egg"
+ ],
+ "nevera_dias": 7,
+ "congelador_meses": 0,
+ "recalentar": "Eat cold. Do not microwave in the shell (they can burst). Do not freeze: the whites turn rubbery.",
+ "tiempo_activo_min": 5,
+ "tiempo_total_min": 25,
+ "horno_c": null,
+ "horno_f": null,
+ "nota_racion": "1 portion = 2 large eggs (about 100 g peeled)"
+}

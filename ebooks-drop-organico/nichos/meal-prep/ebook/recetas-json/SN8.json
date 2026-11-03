@@ -1,0 +1,93 @@
+{
+ "id": "SN8",
+ "nombre": "Edamame Snack Boxes",
+ "componente": "snack",
+ "familias": [
+  "ASI"
+ ],
+ "raciones": 5,
+ "rinde_g_cocinado": 990,
+ "racion_g": 200,
+ "rinde_nota": "estimado; pesar al cocinar de prueba",
+ "ingredientes": [
+  {
+   "nombre_en": "frozen shelled edamame",
+   "cantidad_us": "1 bag (16 oz)",
+   "g": 454,
+   "fdc_id": "168411",
+   "pasillo": "frozen",
+   "estado": "cooked"
+  },
+  {
+   "nombre_en": "cherry tomatoes, halved",
+   "cantidad_us": "2 cups",
+   "g": 300,
+   "fdc_id": "170457",
+   "pasillo": "produce",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "red bell pepper, cut in strips",
+   "cantidad_us": "1 medium",
+   "g": 150,
+   "fdc_id": "170108",
+   "pasillo": "produce",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "dry-roasted almonds",
+   "cantidad_us": "1/4 cup",
+   "g": 70,
+   "fdc_id": "168596",
+   "pasillo": "pantry",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "toasted sesame oil",
+   "cantidad_us": "1 tsp",
+   "g": 5,
+   "fdc_id": "171016",
+   "pasillo": "pantry",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "low-sodium soy sauce",
+   "cantidad_us": "2 tsp",
+   "g": 12,
+   "fdc_id": "172473",
+   "pasillo": "pantry",
+   "estado": "liquid"
+  },
+  {
+   "nombre_en": "flaky sea salt (pinch per box)",
+   "cantidad_us": "1/4 tsp",
+   "g": 1,
+   "fdc_id": "173468",
+   "pasillo": "spices",
+   "estado": "dry"
+  }
+ ],
+ "macros_por_racion": {
+  "kcal": 222.4,
+  "proteina_g": 14.8,
+  "grasa_g": 13.3,
+  "carbohidratos_g": 15.3,
+  "fibra_g": 7.6,
+  "sodio_mg": 206.3
+ },
+ "fuente_macros": "USDA FoodData Central SR Legacy (2018-04)",
+ "alergenos": [
+  "soy",
+  "tree nuts",
+  "sesame",
+  "wheat"
+ ],
+ "nevera_dias": 4,
+ "congelador_meses": 0,
+ "recalentar": "Eat cold, or warm the edamame alone 30 seconds in the microwave. The assembled box is not freezer-friendly (vegetables go limp); plain cooked edamame freezes for 3 months.",
+ "tiempo_activo_min": 10,
+ "tiempo_total_min": 20,
+ "horno_c": null,
+ "horno_f": null,
+ "nota_racion": "1 box = about 90 g shelled edamame + 90 g veg + 14 g almonds"
+}

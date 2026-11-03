@@ -7,7 +7,7 @@
 
 <!-- Frase F24 (frases.md). Reseña de lector en Goodreads de "Cook Once, Eat All Week": https://www.goodreads.com/book/show/44765223-cook-once-eat-all-week . Apoyo: F3 "tired of eating the same stuff every week" (https://feastrecipes.gumroad.com/l/jbwsvt) -->
 
-Most people don't quit meal prep because of the cooking. They quit on Wednesday, standing at the fridge, looking at box three of the same chicken and rice.
+Meal prep often doesn't fail at the stove. It fails on Wednesday, with you standing at the fridge, looking at box three of the same chicken and rice.
 
 Here's what usually happens. You cook one protein with one seasoning. You make one carb. You steam one vegetable. You split it all into five boxes. Monday is fine. Tuesday is fine. By Wednesday your mouth knows exactly what's coming, and you order a burrito instead. Thursday's box goes in the trash on Saturday.
 

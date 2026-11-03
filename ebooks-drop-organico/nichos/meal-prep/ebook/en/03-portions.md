@@ -34,7 +34,7 @@ Example: the chicken comes out at 690 g and you need 5 boxes. 690 ÷ 5 = 138 g p
 
 Every box ends up with the same share of the batch. And the calories and protein per portion on the card stay right, because each box really is one fifth.
 
-Weighing 10 boxes takes about 5 minutes once the scale is out. It's the step most people skip and the one that stops the half-empty Thursday box.
+Weighing 10 boxes takes a few minutes once the scale is out. It's the step most people skip and the one that stops the half-empty Thursday box.
 
 ## The reference portion
 

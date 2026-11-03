@@ -1,0 +1,123 @@
+{
+ "id": "SN7",
+ "nombre": "Cottage Cheese Ranch Dip",
+ "componente": "snack",
+ "familias": [
+  "COM",
+  "MED"
+ ],
+ "raciones": 5,
+ "rinde_g_cocinado": 1355,
+ "racion_g": 270,
+ "rinde_nota": "estimado; pesar al cocinar de prueba",
+ "ingredientes": [
+  {
+   "nombre_en": "2% cottage cheese",
+   "cantidad_us": "2 cups",
+   "g": 450,
+   "fdc_id": "172182",
+   "pasillo": "dairy",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "plain nonfat Greek yogurt",
+   "cantidad_us": "1/2 cup",
+   "g": 125,
+   "fdc_id": "170894",
+   "pasillo": "dairy",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "lemon juice",
+   "cantidad_us": "1 tbsp",
+   "g": 15,
+   "fdc_id": "167747",
+   "pasillo": "produce",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "garlic powder",
+   "cantidad_us": "1/2 tsp",
+   "g": 2,
+   "fdc_id": "171325",
+   "pasillo": "spices",
+   "estado": "dry"
+  },
+  {
+   "nombre_en": "onion powder",
+   "cantidad_us": "1/2 tsp",
+   "g": 2,
+   "fdc_id": "171327",
+   "pasillo": "spices",
+   "estado": "dry"
+  },
+  {
+   "nombre_en": "dried dill",
+   "cantidad_us": "1 tsp",
+   "g": 1,
+   "fdc_id": "171322",
+   "pasillo": "spices",
+   "estado": "dry"
+  },
+  {
+   "nombre_en": "fresh parsley, finely chopped",
+   "cantidad_us": "2 tbsp",
+   "g": 8,
+   "fdc_id": "170416",
+   "pasillo": "produce",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "kosher salt",
+   "cantidad_us": "1/2 tsp",
+   "g": 3,
+   "fdc_id": "173468",
+   "pasillo": "spices",
+   "estado": "dry"
+  },
+  {
+   "nombre_en": "baby carrots",
+   "cantidad_us": "10 oz",
+   "g": 300,
+   "fdc_id": "168568",
+   "pasillo": "produce",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "celery sticks",
+   "cantidad_us": "5 stalks",
+   "g": 250,
+   "fdc_id": "169988",
+   "pasillo": "produce",
+   "estado": "raw"
+  },
+  {
+   "nombre_en": "cucumber, in rounds",
+   "cantidad_us": "1 large",
+   "g": 200,
+   "fdc_id": "168409",
+   "pasillo": "produce",
+   "estado": "raw"
+  }
+ ],
+ "macros_por_racion": {
+  "kcal": 126.1,
+  "proteina_g": 13.1,
+  "grasa_g": 2.4,
+  "carbohidratos_g": 14.1,
+  "fibra_g": 2.9,
+  "sodio_mg": 608.2
+ },
+ "fuente_macros": "USDA FoodData Central SR Legacy (2018-04)",
+ "alergenos": [
+  "milk"
+ ],
+ "nevera_dias": 5,
+ "congelador_meses": 0,
+ "recalentar": "Eat cold. Do not freeze: it splits and turns grainy.",
+ "tiempo_activo_min": 10,
+ "tiempo_total_min": 10,
+ "horno_c": null,
+ "horno_f": null,
+ "nota_racion": "1 portion = 1/2 cup dip (120 g) + about 150 g raw veg"
+}
