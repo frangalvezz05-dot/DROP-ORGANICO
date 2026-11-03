@@ -13,6 +13,7 @@ Métodos de los mentores (con IDs de vídeo): `conocimiento/01-nichos/travis-nic
 1. Lee `CLAUDE.md` y `ESTADO.md`. Prohibido usar agentes/skills antiguos (`investigador-*`, `ds-*`, `nicho-ebooks`).
 2. Carpeta de salida: `pruebas/<ejecucion>/`.
 3. **Cómo se consiguen los datos (obligatorio):**
+   - **En la nube (Linux)**: no hay navegador integrado; usar Chromium con Playwright desde Bash (`require('playwright')`, `page.innerText('body')`), siempre que la red de la sesión permita esos dominios. Si la red los bloquea → parar y pedir al usuario que abra la red; el buscador solo da notas [BUSCADOR] y cobertura insuficiente.
    - **Navegador integrado** (`mcp__Claude_Browser__*`) para Amazon (.es y .com), YouTube, Gumroad, Payhip, Etsy y TikTok si deja entrar. Un solo subagente `model: haiku` que trabaja de forma secuencial (el navegador no se comparte en paralelo). Leer con `get_page_text`, rechazar cookies, no iniciar sesión.
    - **WebSearch** solo para descubrir temas y URLs, nunca como fuente de cifras (los resúmenes del buscador valen como [BUSCADOR], un punto menos).
    - **Reddit**: prohibido en el navegador; no forzar. Solo estadísticas de comunidad vía gummysearch.com.
