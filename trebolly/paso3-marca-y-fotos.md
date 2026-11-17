@@ -183,3 +183,17 @@ Prompt para la foto 1 de esta tabla (añadir el bloque común): `A white shower 
 1 **M** principal (si el chorro es real; si no, **A** con fondo nuevo) · 2 **J** retocada · 3 **B** · 4 comparación rediseñada (con la J retocada) · 5 **"Tu champú no tiene la culpa"** (nueva) · 6 **H** retocada (mechas) · 7 **piel** (nueva, con toalla) · 8 **P** (o una nueva con melena de mujer) · 9 "Así funciona" rediseñada · 10 garantías en claro.
 Fotos de variante: **G** retocada (pack de 1) y **K** retocada (pack de 3).
 Descartadas: **E, I, L, O**.
+
+**Última tanda (también revisada):**
+| Img | Qué es | Veredicto |
+|---|---|---|
+| Pack de 2 con botón de "encendido" | El botón no pone STOP, las cerdas son pelitos finos y hay **8 filtros, no 10** | **Descartar** |
+| Pack de 3 con "ROTE" | El botón pone "ROTE", hay **10 filtros, no 15** y un cabezal queda tapado | **Descartar** |
+| Cabezal de pie echando agua | **El botón sale en blanco** y el cabezal se sostiene de pie sobre la rosca, cosa que no puede hacer: parece falso | **Descartar** (la M hace lo mismo y mejor) |
+
+### Gráficas rehechas (en `trebolly/graficas/`)
+`04-comparacion.html`, `08-tres-pasos.html` y `09-garantias.html` con `_base.css` (paleta, Fraunces y Bricolage Grotesque). Usan los mismos nombres de imagen que las de la otra IA. Vista previa en `graficas/vista-previa/`.
+Cambios principales:
+- **Comparación:** "Otro pack de 2" en singular (solo sabemos lo de Aquapure); precio en una sola fila; el **10 grande en agua**; check en trébol; columna de Trebolly en agua. Falta poner el logo real en lugar del texto "trebolly".
+- **Así funciona:** fondo niebla, tarjetas porcelana con borde y números en agua. La foto del paso 2 conviene cambiarla por un recorte de la M, para que se lea el STOP.
+- **Garantías:** fondo claro, cada garantía en una tarjeta, subtítulo "Si algo falla, lo arreglamos" y línea con los métodos de pago.
