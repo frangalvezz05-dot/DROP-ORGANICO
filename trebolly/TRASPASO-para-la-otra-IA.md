@@ -1,4 +1,4 @@
-# Trebolly · Cabezal de ducha con filtro · Traspaso de trabajo (17-nov-2026)
+# Trebolly · Cabezal de ducha con filtro · Traspaso de trabajo (17-nov-2026, v2 con correcciones de los fundadores)
 
 > Pega este documento entero en la otra IA. Es a la vez el contexto y el encargo.
 
@@ -9,6 +9,7 @@ Eres parte del equipo de Trebolly. Otra IA y los fundadores ya han trabajado los
 
 ## 1. La tienda y las reglas [DECISIÓN]
 - Tienda online española, Trebolly. Vende solo en **España peninsular y Baleares** y solo con **anuncios de pago en Meta**. Cuenta publicitaria **nueva**, sin historial; píxel instalado, optimizando a Compra.
+- **Promesas de beneficio fuertes [DECISIÓN de los fundadores]**: en ganchos, titulares y guiones, sin "solo", "también" ni "parte de". En la descripción técnica de la ficha y en las preguntas frecuentes sí se dice que el filtro retiene "parte" del cloro, la cal y las impurezas.
 - Reglas de los textos:
   - No mentimos, pero no hace falta contarlo todo: nada de frases que resten.
   - Prohibido: "aprobado por dermatólogos", "clínicamente probado", "cura", "elimina", y cualquier cifra que no podamos demostrar.
@@ -22,7 +23,7 @@ Eres parte del equipo de Trebolly. Otra IA y los fundadores ya han trabajado los
 - El cartucho retiene **parte** de las impurezas, del cloro y de la cal. Se oscurece con el uso y se cambia cada 1-2 meses según el agua.
 - En la caja: el cabezal y **5 filtros de recambio**.
 - Precio: **1 por 39,95 €**; **2 por 59,95 €** (opción destacada, "2 cabezales y 10 filtros de recambio incluidos"); **3 por 84,95 €**.
-- **CPA de equilibrio del pack de 2: unos 29 €.**
+- **Costes y CPA de equilibrio**: 1 unidad, coste con envío y aduanas 15,34 $ (~13,5 €), CPA de equilibrio ~18 €; pack de 2, 21,35 $ (~19 €), CPA ~29 €; pack de 3, coste sin mirar, CPA ~40 € [ESTIMACIÓN]. Los listones de compra se miran sobre el pack de 2.
 - Envío gratis desde China, con seguimiento y aduanas incluidas, en **6-12 días laborables**. Si no llega en 15 días laborables, se devuelve el dinero. Si llega dañado, se manda otro. 14 días de devolución.
 - Regalo: guía en PDF "Agua dura: pelo y piel". Pago: tarjeta, Apple Pay, Google Pay, PayPal, Klarna (sin contra reembolso).
 - **Todavía no tenemos el producto físico**: los vídeos se generan con IA. Cuando llegue el primer pedido se grabará uno real.
@@ -52,11 +53,11 @@ Eres parte del equipo de Trebolly. Otra IA y los fundadores ya han trabajado los
 ### Anuncio 1 · El tinte que se apaga
 - **Ganchos** (texto en pantalla · imagen):
   1. "90 € de mechas… y a las 3 semanas, así" · pantalla dividida, recién teñido frente a apagado ← **fase 1**
-  2. "Tus mechas no se apagan solo por el champú" · mechas rubias apagadas bajo el chorro
+  2. "Tus mechas no se apagan por el champú" · mechas rubias apagadas bajo el chorro
   3. "¿Alicante, Murcia, Palma o Barcelona? Mira lo que el agua le hace a tu tinte" · nombres de ciudades sobre el agua cayendo en el pelo teñido
-- **Guion 15 s**: 0-3 gancho · 3-5 mano coge el cabezal, zoom al mango, "El cloro del agua también apaga el color" · 5-7 el mango se abre y se ve el cartucho nuevo, "Filtro en el mango" · 7-10 se enrosca a la manguera, "1 minuto, sin herramientas" · 10-12 agua sobre el pelo teñido y el cepillo de silicona, "Menos cloro sobre tu color" · 12-15 pack de 2 con 10 filtros, "2 cabezales + 10 filtros · 59,95 € · envío gratis".
+- **Guion 15 s**: 0-3 gancho · 3-5 mano coge el cabezal, zoom al mango, "El cloro del agua se come tu color" · 5-7 el mango se abre y se ve el cartucho nuevo, "Filtro en el mango" · 7-10 se enrosca a la manguera, "1 minuto, sin herramientas" · 10-12 agua sobre el pelo teñido y el cepillo de silicona, "Menos cloro sobre tu color" · 12-15 pack de 2 con 10 filtros, "2 cabezales + 10 filtros · 59,95 € · envío gratis".
 - **Texto corto**: 90 € de mechas, mascarilla, champú violeta… y el color se apaga igual. Mira el agua de tu ducha. Filtro en el mango, 5 recambios por cabezal y envío gratis.
-- **Texto largo**: Tu color no se apaga solo por el champú. Cada día te cae encima agua con cloro, y el cloro también apaga el tinte. Este cabezal lleva un filtro en el mango que retiene parte del cloro, de la cal y de las impurezas antes de que lleguen a tu pelo. Con el uso, el filtro se oscurece y lo cambias en segundos: cada cabezal trae 5 recambios. Se enrosca a tu manguera en un minuto, sin herramientas, y tiene un cepillo de silicona para masajear el cuero cabelludo mientras te lavas. En el pack de 2, uno para cada baño, a menos de 30 € cada cabezal. Envío gratis con seguimiento y, si no llega en 15 días laborables, te devolvemos el dinero. De regalo, la guía «Agua dura: pelo y piel».
+- **Texto largo**: Tu color no se apaga por el champú. Cada día te cae encima agua con cloro, y el cloro se come el tinte. Este cabezal lleva un filtro en el mango que retiene parte del cloro, de la cal y de las impurezas antes de que lleguen a tu pelo. Con el uso, el filtro se oscurece y lo cambias en segundos: cada cabezal trae 5 recambios. Se enrosca a tu manguera en un minuto, sin herramientas, y tiene un cepillo de silicona para masajear el cuero cabelludo mientras te lavas. En el pack de 2, uno para cada baño, a menos de 30 € cada cabezal. Envío gratis con seguimiento y, si no llega en 15 días laborables, te devolvemos el dinero. De regalo, la guía «Agua dura: pelo y piel».
 - **Titular de la ficha**: El cabezal con filtro para que tu color dure más
 
 ### Anuncio 2 · Antes de comprar otro bote, mira el agua
@@ -73,13 +74,13 @@ Eres parte del equipo de Trebolly. Otra IA y los fundadores ya han trabajado los
 - **Ganchos**:
   1. "Sales de la ducha y la piel te tira. No es tu crema." · mujer con toalla pasándose la mano por el brazo ← **fase 1**
   2. "Llevas años cambiando de gel. Prueba a cambiar el agua." · fila de geles; una mano los aparta
-  3. "¿Te pica la piel después de ducharte? Mira el agua." · **fuera de la prueba**: riesgo de rechazo por la norma de atributos personales de Meta
-- **Guion 15 s**: 0-3 gancho · 3-5 agua del grifo, "El cloro del agua también reseca" · 5-7 el mango se abre, cartucho dentro, "Filtro en el mango" · 7-10 se enrosca, "1 minuto, sin herramientas" · 10-12 agua suave sobre la piel, "Menos cloro sobre tu piel en cada ducha" · 12-15 pack, garantías y precio, "Envío gratis · si no llega en 15 días, te devolvemos el dinero".
+  3. "La ducha que deja de resecarte la piel" · agua cayendo suave sobre el hombro
+- **Guion 15 s**: 0-3 gancho · 3-5 agua del grifo, "El cloro del agua te reseca la piel" · 5-7 el mango se abre, cartucho dentro, "Filtro en el mango" · 7-10 se enrosca, "1 minuto, sin herramientas" · 10-12 agua suave sobre la piel, "Menos cloro sobre tu piel en cada ducha" · 12-15 pack, garantías y precio, "Envío gratis · si no llega en 15 días, te devolvemos el dinero".
 - **Texto corto**: Si sales de la ducha con la piel tirante, no es tu crema: mira el agua. Filtro en el mango, 1 minuto para ponerlo y envío gratis.
-- **Texto largo**: Te echas crema, cambias de gel… y al salir de la ducha la piel te sigue tirando. Mira el agua: el cloro también reseca. Este cabezal lleva un filtro en el mango que retiene parte del cloro, de la cal y de las impurezas antes de que lleguen a tu piel. Se enrosca a tu manguera en un minuto y, cuando el filtro se oscurece, lo cambias: cada cabezal trae 5 recambios. En el pack de 2, uno para cada baño. Envío gratis con seguimiento; si no llega en 15 días laborables, te devolvemos el dinero, y tienes 14 días para devolverlo.
-- **Titular**: Menos cloro sobre tu piel en cada ducha
+- **Texto largo**: Te echas crema, cambias de gel… y al salir de la ducha la piel te sigue tirando. Mira el agua: el cloro te reseca la piel. Este cabezal lleva un filtro en el mango que retiene parte del cloro, de la cal y de las impurezas antes de que lleguen a tu piel. Se enrosca a tu manguera en un minuto y, cuando el filtro se oscurece, lo cambias: cada cabezal trae 5 recambios. En el pack de 2, uno para cada baño. Envío gratis con seguimiento; si no llega en 15 días laborables, te devolvemos el dinero, y tienes 14 días para devolverlo.
+- **Titular**: La ducha que deja de resecarte la piel
 
-**Orden estimado de fuerza de los 9 ganchos [ESTIMACIÓN]**: (1) 90 € de mechas · (2) Tus mechas no se apagan solo por el champú · (3) Sales de la ducha y la piel te tira · (4) Tu champú no tiene la culpa · (5) Llevas años cambiando de gel · (6) ciudades · (7) ¿Te pica…? · (8-9) los que dependían del filtro oscuro (descartados). El orden real lo darán los datos.
+**Orden estimado de fuerza de los 9 ganchos [ESTIMACIÓN]**: (1) 90 € de mechas · (2) Tus mechas no se apagan por el champú · (3) Sales de la ducha y la piel te tira · (4) Tu champú no tiene la culpa · (5) Llevas años cambiando de gel · (6) La ducha que deja de resecarte la piel · (7) ciudades · (8-9) los que dependían del filtro oscuro (descartados). El orden real lo darán los datos.
 
 ## 7. El plan de prueba recomendado
 **Estructura** (una "C ajustada" al tope de 100 €):
@@ -91,12 +92,13 @@ Eres parte del equipo de Trebolly. Otra IA y los fundadores ya han trabajado los
 | Optimización | Compra |
 | Público | Península y Baleares (sin Canarias, Ceuta ni Melilla), mujeres de 28-50, sin intereses |
 | Ubicaciones | Manuales: Feed, Stories y Reels de Facebook e Instagram; sin Audience Network ni Messenger |
-| Días 1-3 | 18, 19 y 20 de noviembre, con inicio a las **0:00** (zona horaria de la cuenta: Madrid) → 90 € |
-| Día 4 | 21 de noviembre, solo el ganador → 10 € (total 100 €) |
-| Fase 2 | Con los segundos 100 € (solo si se cumple el listón): ganador + sus ganchos 2 y 3, programada el **domingo 22 a las 0:00**, antes de la semana del Black Friday |
+| Días 1-3 | **Viernes 20, sábado 21 y domingo 22 de noviembre**, con inicio el viernes a las **0:00** (zona horaria de la cuenta: Madrid) → 90 €. Si no da tiempo, del sábado 21 al lunes 23 |
+| Día 4 | Lunes 23, solo el ganador (ya está en marcha, así que puede seguir en la semana del Black Friday) → 10 € (total 100 €) |
+| Fase 2 | Con los segundos 100 € (solo si se cumple el listón): el ganador sigue del 24 al 29 si está en verde; sus ganchos 2 y 3 se lanzan el **lunes 30 de noviembre a las 0:00** (en la semana del Black Friday no se estrena nada) |
 
+**[PENDIENTE del sí de los fundadores]** La decisión anterior era una sola campaña CBO con los 3 vídeos; esta ABO la sustituiría.
 Por qué: CBO con cuenta nueva concentra el gasto en un vídeo el primer día y no deja comparar dolores; con 20 € por vídeo (ABO ligera) salen 2-3 carritos, poco para el listón del curso (≥ 5 carritos); con 30 € por vídeo salen 3-5 [ESTIMACIÓN con CPM 7-10 € y CTR 1,5 %].
-Si la revisión de Meta retrasa el arranque al 19, no se estrena nada en la semana del Black Friday: se deja solo el ganador y los ganchos nuevos van el 30 de noviembre.
+Con cuenta nueva no se estrenan campañas ni anuncios nuevos en la semana del Black Friday (23-29 de noviembre); lo que ya funciona puede seguir.
 
 **Listones al tercer día** [ESTIMACIÓN, referencias habituales de e-commerce]:
 | Métrica | Verde | Ámbar | Rojo |
