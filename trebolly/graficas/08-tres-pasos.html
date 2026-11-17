@@ -1,11 +1,13 @@
 <!doctype html><html lang="es"><head><meta charset="utf-8"><title>Así funciona</title>
 <style>@import url('_base.css');
-body{background:var(--niebla);padding:140px 90px;justify-content:center}
+body{background:var(--niebla);padding:100px 90px;justify-content:center}
 h1{font-size:132px}
 p.sub{font-size:56px;color:var(--gris);margin-top:22px;font-weight:500}
-.pasos{display:flex;gap:40px;margin-top:100px}
+.pasos{display:flex;gap:40px;margin-top:90px}
 .paso{width:580px;background:var(--porcelana);border-radius:24px;padding:0 0 56px;text-align:center;border:2px solid var(--borde)}
-.paso img{width:100%;height:760px;object-fit:cover;border-radius:22px 22px 0 0;display:block}
+.marco{position:relative;height:960px;border-radius:22px 22px 0 0;overflow:hidden;background:#E3E9E8}
+.marco img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center}
+.hueco{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;padding:40px;font-size:40px;color:var(--gris);line-height:1.3}
 .num{width:128px;height:128px;border-radius:50%;background:var(--agua);color:#fff;font-size:68px;font-weight:800;display:flex;align-items:center;justify-content:center;margin:-64px auto 28px;position:relative;border:10px solid var(--porcelana)}
 .paso h2{font-size:68px;font-weight:800}
 .paso p{font-size:44px;color:var(--gris);margin-top:14px;line-height:1.25;padding:0 30px;font-weight:500}
@@ -13,8 +15,8 @@ p.sub{font-size:56px;color:var(--gris);margin-top:22px;font-weight:500}
 <h1>Así funciona</h1>
 <p class="sub">Sin herramientas y sin obras</p>
 <div class="pasos">
-<div class="paso"><img src="../08a-enrosca-v1.jpg" alt=""><div class="num">1</div><h2>Enrosca</h2><p>en tu manguera de siempre</p></div>
-<div class="paso"><img src="../08b-stop-v1.jpg" alt=""><div class="num">2</div><h2>Pausa el agua</h2><p>con el botón STOP, sin tocar el grifo</p></div>
-<div class="paso"><img src="../08c-cambia-filtro-v1.jpg" alt=""><div class="num">3</div><h2>Cambia el filtro</h2><p>en segundos, cuando se oscurezca</p></div>
+<div class="paso"><div class="marco"><div class="hueco">Q con luz neutra<br>08a-enrosca-v2.jpg</div><img src="../08a-enrosca-v2.jpg" alt="" onerror="this.remove()"></div><div class="num">1</div><h2>Enrosca</h2><p>en tu manguera de siempre</p></div>
+<div class="paso"><div class="marco"><div class="hueco">Recorte cerrado de M:<br>mango y botón STOP<br>08b-stop-v2.jpg</div><img src="../08b-stop-v2.jpg" alt="" onerror="this.remove()"></div><div class="num">2</div><h2>Pausa el agua</h2><p>con el botón STOP, sin tocar el grifo</p></div>
+<div class="paso"><div class="marco"><div class="hueco">«Cambia el filtro»<br>con luz neutra<br>08c-cambia-filtro-v2.jpg</div><img src="../08c-cambia-filtro-v2.jpg" alt="" onerror="this.remove()"></div><div class="num">3</div><h2>Cambia el filtro</h2><p>en segundos, abriendo el mango</p></div>
 </div>
 </body></html>

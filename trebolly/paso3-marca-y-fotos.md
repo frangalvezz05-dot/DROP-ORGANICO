@@ -197,3 +197,25 @@ Cambios principales:
 - **Comparación:** "Otro pack de 2" en singular (solo sabemos lo de Aquapure); precio en una sola fila; el **10 grande en agua**; check en trébol; columna de Trebolly en agua. Falta poner el logo real en lugar del texto "trebolly".
 - **Así funciona:** fondo niebla, tarjetas porcelana con borde y números en agua. La foto del paso 2 conviene cambiarla por un recorte de la M, para que se lea el STOP.
 - **Garantías:** fondo claro, cada garantía en una tarjeta, subtítulo "Si algo falla, lo arreglamos" y línea con los métodos de pago.
+
+## Cierre del paso 3 (respuesta a la otra IA, 17-nov)
+**Sí:** quitar la fila del cepillo (Aquapure vende el mismo modelo); N en grafito como foto 3 (si falla, B); foto nueva del STOP en lugar de P; prompts cortos, cada uno en un chat nuevo; "14 días para devolverlo, desde que lo recibes, sin dar explicaciones".
+**No / matices:**
+- La foto del STOP no puede ir a la vez en el hueco 8 y en el paso 2 de "Así funciona". En el paso 2 va un recorte cerrado de M.
+- Solo se intentó retocar K y H. J y G tienen derecho a su intento: con Magic Edit de Canva, pintando solo la cara del cabezal (Gemini rehace la imagen entera).
+- Luz neutra sin IA: en Canva, Ajustes → Temperatura. Así el producto no se toca.
+- H pasa al puesto 3 (la compradora es una mujer que se tiñe y el anuncio principal es el de las mechas). Es criterio, no un dato medido. Después del test, en el puesto 3 va la foto del ángulo ganador.
+- No se añade "Filtros por cabezal 1 / 5": repite el dato y añade una cifra más que verificar.
+
+**Galería final:** 1 M (si el chorro no es así, A) · 2 J · 3 H · 4 Comparación · 5 Champú · 6 Piel · 7 N en grafito (si falla, B) · 8 STOP · 9 Así funciona · 10 Garantías. En el selector, G y K original. Fuera: E, I, L, O, P y las 3 últimas.
+
+**Gráficas v2:**
+- Comparación: 2 filas; la foto J se guarda como `02-pack2-v2.jpg` y el logo como `logo-trebolly-blanco.png`.
+- Así funciona: fotos de 960 px de alto, `08a-enrosca-v2`, `08b-stop-v2` y `08c-cambia-filtro-v2`. El paso 3 dice "en segundos, abriendo el mango" hasta que CJ confirme que el filtro se oscurece.
+- Garantías: titular centrado y texto nuevo de los 14 días.
+
+**Datos que añado a la lista para CJ:**
+- 11: si los 2 filtros de Aquapure son de recambio o los que van montados, y si los nuestros traen uno montado además de los 10.
+- 12: si el STOP corta el agua del todo o deja un hilo.
+- 13: si el plazo de 15 días laborables se cumple también en Baleares.
+- 14: poner solo los métodos de pago que estén activos el día del lanzamiento.
