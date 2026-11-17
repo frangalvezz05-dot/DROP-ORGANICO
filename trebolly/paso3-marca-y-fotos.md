@@ -54,7 +54,7 @@ En cuanto las reenvíes (arrastrándolas al chat), las reviso una a una con esta
 
 | Qué miro | Detalle |
 |---|---|
-| Fidelidad del producto | Grafito mate, un solo aro cromado, **cerdas negras**, **botón STOP**, mango recto con el filtro dentro; las mismas proporciones en todas |
+| Fidelidad del producto | Grafito mate, **banda cromada en el mango** con el **botón STOP**, cara blanca con **disco central gris con agujeros**, **cerdas negras en cono**, rosca abajo; las mismas proporciones en todas |
 | Cuenta exacta | Pack de 1: 1 + 5 filtros · pack de 2: 2 + 10 · pack de 3: 3 + 15. Filtros blancos con tapa azul |
 | Paleta nueva | Qué fotos tienen beige o luz dorada que choque con porcelana, niebla y agua |
 | Riesgo en Meta | Espalda desnuda o desnudez insinuada: Meta lo limita en anuncios y catálogo. Piel con aspecto de "resultado". Cualquier cosa que parezca un antes y después |
@@ -106,7 +106,7 @@ En cuanto las reenvíes (arrastrándolas al chat), las reviso una a una con esta
 ## 5. Prompts para rehacer las fotos (Gemini, en inglés)
 
 **Bloque común** (al final de cada prompt):
-`Photorealistic high-end commercial photography, 1:1 square, 2048x2048, 100mm lens at f/4. Clean fresh mineral palette: off-white porcelain (#FAFAF7) and pale misty blue-grey (#EEF3F2) surfaces, white matte tiles or white microcement, a touch of light oak. Neutral daylight around 5400K from a side window, soft diffused shadows, gentle white backlight on water droplets. No golden or orange light, no beige-dominant tones. PRODUCT FIDELITY: reproduce the attached reference product exactly — a single matte graphite-grey handheld shower head, one polished chrome ring around a round face with black silicone bristles, a single button on the handle marked STOP exactly as in the reference, straight cylindrical handle containing a white filter cartridge with a blue cap; identical proportions, colours and finish. Avoid: extra buttons, extra rings, warped handle, missing or melted bristles, unreadable or changed text on the button, extra fingers, text, logos, brand names, watermarks, celebrities, nudity.`
+`Photorealistic high-end commercial photography, 1:1 square, 2048x2048, 100mm lens at f/4. Clean fresh mineral palette: off-white porcelain (#FAFAF7) and pale misty blue-grey (#EEF3F2) surfaces, white matte tiles or white microcement, a touch of light oak. Neutral daylight around 5400K from a side window, soft diffused shadows, gentle white backlight on water droplets. No golden or orange light, no beige-dominant tones. PRODUCT FIDELITY: reproduce the attached reference product exactly — a single matte graphite-grey handheld shower head with a cylindrical head and a small dimple on the neck; the face is a white translucent dish with a dark grey central nozzle disc full of small spray holes, surrounded by a grey ring of black cone-shaped silicone bristles; a polished chrome band on the handle with one round grey button marked STOP; threaded end at the bottom of the handle; inside the handle a white filter cartridge with blue caps; identical proportions, colours and finish. Avoid: extra buttons, extra rings, warped handle, missing or melted bristles, unreadable or changed text on the button, extra fingers, text, logos, brand names, watermarks, celebrities, nudity.`
 
 | Foto | Prompt (además del bloque común) | Adjuntar como referencia |
 |---|---|---|
@@ -134,3 +134,52 @@ En cuanto las reenvíes (arrastrándolas al chat), las reviso una a una con esta
 Prompt para la foto 1 de esta tabla (añadir el bloque común): `A white shower shelf crowded with many unbranded shampoo, conditioner and hair mask bottles in neutral colours (no labels, no logos); in front, on a clean porcelain-white surface, the shower head lies in sharp focus. Fresh daylight, misty blue-grey tones.` Referencia: foto del proveedor (cabezal).
 
 **Orden de la galería con las nuevas** (máximo 10-11, para no cansar): 1 principal · 2 pack de 2 · 3 filtro en el mango · 4 comparación · **5 "Tu champú no tiene la culpa"** · 6 mechas · 7 piel · 8 cepillo · 9 así funciona (con el STOP dentro, si se confirma) · 10 garantías. Fuera de la galería: pack de 1 y pack de 3 como fotos de variante.
+
+---
+
+## 3 bis. Revisión de las imágenes recibidas (17-nov-2026, noche)
+
+**Cómo es el producto según las fotos más fieles** (A, B, M, P, Q): cabezal cilíndrico grafito mate con un hueco en el cuello; cara blanca con un **disco central gris oscuro con un círculo de agujeros y una ranura**; alrededor, un aro gris con **cerdas negras en forma de cono**; **banda cromada en el mango con un botón gris redondo que pone STOP**; rosca abajo; filtro blanco con tapas azules.
+**Mejor referencia para la IA:** B (filtro saliendo, STOP legible) y M (cabezal grande, STOP legible). Para la cara de frente: A.
+
+| Img | Qué es | Bien | Mal | Veredicto |
+|---|---|---|---|---|
+| A | Mano, cabezal goteando | Producto fiel, mano creíble | Fondo naranja y madera; el pulgar tapa el STOP | **Plan B de principal**: cambiar el fondo |
+| B | Manos sacando el filtro del mango | Muy fiel; STOP legible | Fondo beige | **Usar** (foto 3); cambiar el fondo |
+| M | Mano con el chorro abierto, fondo claro | Producto grande y fiel, STOP legible, fondo claro: perfecta en miniatura | El chorro sale abierto en lluvia: **confirmar que el producto real echa el agua así** | **Principal (1)** si el chorro es real |
+| N | Bodegón: filtro saliendo, con gotas | Premium, fondo liso | **El botón sale en blanco, sin STOP** | Retocar el botón; alternativa a B |
+| Q | Manos enroscando a la manguera | Fiel, gesto creíble | Fondo beige; STOP cortado | **Usar** en "Así funciona" (paso 1) |
+| H | Rubia con espuma y el cepillo | Gran foto de dolor (pelo teñido + cepillo); STOP legible; sin desnudez | **Disco central liso, sin agujeros** (falso: de ahí sale el agua) | **Usar como foto de mechas**, retocando el disco |
+| P | Primer plano del cepillo en el cuero cabelludo | Muy fiel (disco con agujeros, conos negros) | Pelo oscuro y frente que puede leerse como hombre: la compradora es una mujer que se tiñe | Usar como foto del cepillo **o** rehacer con melena de mujer |
+| O | Espalda desnuda bajo la ducha | Ambiente bonito | **Desnudez insinuada**: Meta puede rechazarla en anuncios, en el catálogo y en la revisión de la página. **El cabezal sale de la pared sin soporte**: parece falso | **Descartar** (la H cubre ese ángulo) |
+| G | Pack de 1 (STOP correcto) | 5 filtros y caja correctos | **Cerdas como bolitas grises** y disco liso | Retocar la cara del cabezal |
+| E | Pack de 1 | 5 filtros | **El botón pone "ROTE"**, bolitas grises | **Descartar** |
+| I | Pack de 1 | 5 filtros | **Cerdas por toda la cara como un sol** y botón ilegible | **Descartar** |
+| J | Pack de 2 (2 + 10, STOP correcto) | Cantidades correctas | Bolitas grises y disco liso | Retocar la cara de los 2 cabezales |
+| L | Pack de 2 | — | **14 filtros (no 10)** y botón "SATE/STRP" | **Descartar** |
+| K | Pack de 3 (3 + 15, STOP correcto) | Cantidades correctas | Bolitas grises y disco con espiral inventada | Retocar la cara de los 3 cabezales |
+| F | Gráfica de comparación | Buena idea y jerarquía | Lleva la foto del pack con bolitas; título en azul claro sobre crema (poco contraste); "a 59,95 €" repetido en la cabecera y en la fila; "Trebolly" en letra normal, no con el logo; "Otros packs" en plural (solo sabemos lo de Aquapure) | Rediseñar (apartado 4) |
+| C | Gráfica "Así funciona" | Textos buenos y correctos | Fondo y fotos cálidos; letra que no es de la marca; en el paso 2 el pulgar tapa el STOP | Rediseñar; paso 2 con un recorte de M |
+| D | Gráfica de garantías | Textos claros | **Fondo oscuro** (va contra los mentores y el resto de la galería); el subtítulo "Así de fácil es confiar en nosotros" no dice nada; mucho espacio vacío; faltan los métodos de pago | Rediseñar en claro |
+
+**Incoherencias que hay que resolver en todas:**
+1. **Las cerdas y el disco central** cambian de una foto a otra. Hay que dejarlos como en A, B y P en todas.
+2. **El filtro** sale de tres formas distintas: con un ala plana azul (B, N), con tapas azules en los dos extremos (G, J, K) o con una corona de puntas (E, I, L). Hay que pedir al proveedor una foto real del cartucho y usar solo esa forma.
+3. **El chorro:** M lo enseña abierto, como lluvia. Si el real es concentrado o tiene 3 modos distintos, hay que enseñar el que corresponda.
+
+**Faltan:** la foto de la piel y la de "Tu champú no tiene la culpa" (anuncio principal).
+
+### Prompts de retoque (Gemini, editar imagen)
+- **Packs (G, J, K) y H:** adjuntar la foto que se retoca + la A como referencia.
+  `Edit the first image. Keep the background, layout, filters, box, handles, chrome band and the STOP button exactly as they are. Only change the face of every shower head to match the second image: a white face with a dark grey central disc that has a circle of small spray holes and a small slot, surrounded by a grey ring of black cone-shaped silicone bristles. Same lighting and perspective.`
+- **N (botón sin texto):** adjuntar N + B.
+  `Edit the first image: put the word STOP on the round grey button exactly as on the button in the second image. Change nothing else.`
+- **Fondo de las fotos de producto (B, G, J, K, N y A si se usa):**
+  `Replace only the background with a seamless off-white porcelain (#FAFAF7) surface fading into pale misty blue-grey (#EEF3F2), soft neutral daylight shadows. Keep the product, filters, hands and their lighting unchanged.`
+- **Escenas (H, P, Q):**
+  `Shift the white balance to neutral daylight (about 5400K), reduce the orange tint, keep skin and hair tones natural. Change nothing else.`
+
+### Galería final propuesta
+1 **M** principal (si el chorro es real; si no, **A** con fondo nuevo) · 2 **J** retocada · 3 **B** · 4 comparación rediseñada (con la J retocada) · 5 **"Tu champú no tiene la culpa"** (nueva) · 6 **H** retocada (mechas) · 7 **piel** (nueva, con toalla) · 8 **P** (o una nueva con melena de mujer) · 9 "Así funciona" rediseñada · 10 garantías en claro.
+Fotos de variante: **G** retocada (pack de 1) y **K** retocada (pack de 3).
+Descartadas: **E, I, L, O**.
