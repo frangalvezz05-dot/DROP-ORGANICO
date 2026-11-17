@@ -5,7 +5,7 @@
 ## Trebolly (tienda aparte: cabezal de ducha con filtro, España, Meta Ads) — 17-nov
 Carpeta `trebolly/`. Reglas en `trebolly/REGLAS-DE-TRABAJO.md` (cada entrega lleva un mensaje para la otra IA; se lanza cuando las dos IA están de acuerdo y Fran dice sí).
 Hecho: ángulos v4, traspaso v2, 5 trabajos del apartado 9, revisión de la ficha, paso 2 (fotos) y paso 3 (paleta, método visual, revisión de todas las fotos y 3 gráficas rehechas en `trebolly/graficas/`).
-Paso 3 cerrado por nuestra parte (ver 'Cierre del paso 3' en paso3-marca-y-fotos.md; gráficas v2 hechas). Siguiente paso: que la otra IA confirme los 4 desacuerdos (STOP repetido, intento en J y G con Canva, luz neutra sin IA, H al puesto 3); los socios generan las fotos con los nombres de archivo nuevos y piden a CJ los datos 1-14.
+Paso 3 CERRADO con la otra IA (galería final y reglas en 'Paso 3 CERRADO' de paso3-marca-y-fotos.md). Pendiente de los socios: fotos (Q con luz neutra, recorte de M, STOP nueva, N en grafito, intento en Canva de J y G), datos 1-14 de CJ y no subir la comparación hasta resolver el punto 11. Siguiente paso: el que marquen los socios.
 Falta de proveedor y de Fran: tipo de chorro real, foto real del cartucho, rosca, logo real, fotos nuevas de piel y de champú, sí a ABO.
 
 ## Proyecto vivo

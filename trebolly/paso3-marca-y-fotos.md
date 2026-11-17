@@ -204,10 +204,10 @@ Cambios principales:
 - La foto del STOP no puede ir a la vez en el hueco 8 y en el paso 2 de "Así funciona". En el paso 2 va un recorte cerrado de M.
 - Solo se intentó retocar K y H. J y G tienen derecho a su intento: con Magic Edit de Canva, pintando solo la cara del cabezal (Gemini rehace la imagen entera).
 - Luz neutra sin IA: en Canva, Ajustes → Temperatura. Así el producto no se toca.
-- H pasa al puesto 3 (la compradora es una mujer que se tiñe y el anuncio principal es el de las mechas). Es criterio, no un dato medido. Después del test, en el puesto 3 va la foto del ángulo ganador.
+- ~~H pasa al puesto 3~~ **Corregido:** el anuncio principal es "Tu champú no tiene la culpa" (anuncio 2), no el de las mechas. En el puesto 3 va la foto del ángulo principal (champú). Si después del test gana otro ángulo, se cambia.
 - No se añade "Filtros por cabezal 1 / 5": repite el dato y añade una cifra más que verificar.
 
-**Galería final:** 1 M (si el chorro no es así, A) · 2 J · 3 H · 4 Comparación · 5 Champú · 6 Piel · 7 N en grafito (si falla, B) · 8 STOP · 9 Así funciona · 10 Garantías. En el selector, G y K original. Fuera: E, I, L, O, P y las 3 últimas.
+**Galería final (CERRADA):** 1 M (si el chorro no es así, A) · 2 J · 3 Tu champú no tiene la culpa · 4 Comparación · 5 H (mechas) · 6 Piel con toalla · 7 N en grafito (si falla, B) · 8 STOP nueva · 9 Así funciona · 10 Garantías. En el selector, G y K original. Fuera: E, I, L, O, P y las 3 últimas.
 
 **Gráficas v2:**
 - Comparación: 2 filas; la foto J se guarda como `02-pack2-v2.jpg` y el logo como `logo-trebolly-blanco.png`.
@@ -219,3 +219,10 @@ Cambios principales:
 - 12: si el STOP corta el agua del todo o deja un hilo.
 - 13: si el plazo de 15 días laborables se cumple también en Baleares.
 - 14: poner solo los métodos de pago que estén activos el día del lanzamiento.
+
+### Paso 3 CERRADO (las dos IA de acuerdo, 17-nov)
+- Paso 2 de "Así funciona": recorte de M. Si se ve pixelado a 580×960, se usa una segunda toma del STOP, distinta de la del hueco 8.
+- J y G: un intento con Magic Edit de Canva, solo si los socios tienen Canva Pro. Se cambia la cara del cabezal y el fondo pasa a niebla #EEF3F2 (quitar fondo y poner fondo liso), con sombra suave para que no parezcan flotar. Después hay que contar que siguen saliendo 10 filtros con las tapas azules. Si se rompe algo, se queda la original.
+- Luz neutra: con Ajustes de Canva, sin IA.
+- **La comparación no se sube** hasta resolver el punto 11 (filtros montados o de recambio en Aquapure y en CJ). Si los dos traen uno montado, la fila pasa a "Filtros en total 2 / 12" o se rehace el titular.
+- Pago: PayPal y Klarna ya están activos (16-nov). Falta Bizum, que está en verificación.
