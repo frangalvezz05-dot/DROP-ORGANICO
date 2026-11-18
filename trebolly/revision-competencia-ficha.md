@@ -110,3 +110,34 @@ No se toca la tienda hasta que decidan los fundadores. De ARZ Urus no hay notas 
 - Opiniones reales debajo del botón y vídeos de clientes.
 - Probar 49,95 € si se cumple la regla de "anuncios sí, tienda no".
 - Regalo físico de CJ si se confirma que cuesta poco.
+
+## Cierre con la otra IA (18-nov)
+**Decisión de los fundadores:** no se pregunta nada a CJ. Lo que dependía de CJ, o no se dice, o se decide sin ese dato.
+
+**Acordado:**
+- 59,95 €, y el lunes se aplica la regla "anuncios sí, tienda no": si se cumple, se prueba 49,95 €.
+- Pack de 3 a 79,95 € (margen de unos 40 € con un coste de unos 24 €).
+- Nombres neutros en los packs y "sale a X € cada cabezal".
+- Nada de añadidos en el carrito antes de lanzar.
+- STOP: "no tienes que volver a buscar la temperatura en el grifo".
+- "Cambias el filtro en segundos abriendo el mango; vienen 5 en cada caja".
+- Fuera "retiene la cal". Pregunta honesta sobre la cal en las preguntas frecuentes. Guía: "El agua de tu ducha: pelo y piel".
+
+**Pendiente de los fundadores:**
+- P4: garantía de 30 días, devolviendo el dinero sin que el cliente envíe el producto (cambia D-049).
+- P9: lanzar sin opiniones (toca su regla de importar opiniones).
+
+**Matices añadidos al cierre:**
+1. **"Menos cloro"**
+   - El único apoyo es el título del proveedor, que también promete quitar la cal y el flúor, cosas que no damos por buenas. Es un apoyo débil.
+   - Se mantiene "menos cloro" porque los fundadores aprobaron promesas fuertes, pero nunca se sube de tono ("sin cloro", "elimina", cifras). Mejor "filtro pensado para reducir el cloro".
+   - El flúor no se menciona nunca.
+2. **Cal como contexto:** "en muchas zonas de España el agua es dura", no "el agua de España". En el norte (Galicia, Asturias…) hay zonas de agua blanda.
+3. **Devolución sin enviar el producto**
+   - El coste depende del pack: unos 15 €, 20 € y 25 € (lo pagado a CJ más la pasarela).
+   - En la política: cómo se pide (por email, dentro de los 30 días desde que lo recibes).
+   - Se revisa después de la prueba: si se escala, esta fórmula puede atraer abusos.
+4. **Funciones según la ficha de CJ**
+   - "Spray, Rainfall" respalda la foto M (chorro en lluvia) como foto principal.
+   - Si se quiere, "dos tipos de chorro: lluvia y spray", sin decir cómo se cambia. Es el mismo nivel de apoyo que "menos cloro".
+5. **Gráfica 10:** preparada la versión con 30 días (`graficas/09-garantias-30dias.html`). La garantía de 30 días va primero y la de plazo, segunda. Se usa solo si se aprueba P4.
