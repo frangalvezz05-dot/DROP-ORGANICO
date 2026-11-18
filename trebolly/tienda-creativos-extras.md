@@ -173,3 +173,27 @@
 | 13:00-14:00 | Publicar el tema, quitar la contraseña, pedido de prueba y evento Compra | Fundadores, con la guía de Claude |
 | 14:00-15:00 | Montar la campaña en el Administrador de anuncios y enviarla a revisión | Fundadores, con la guía del apartado 9 |
 | Tarde | Si Meta la aprueba, empieza el jueves 19 a las 00:00. Si algo se retrasa más allá de las 18:00, se envía el jueves antes de las 14:00 y empieza el viernes 20 a las 00:00 | — |
+
+## Cierre con la otra IA (18-nov)
+**Fuentes aclaradas:**
+- F1 = [egP7kkfO0rY].
+- F25 = Adrián, email marketing parte 1 [4zDTa-DCOHY]: upsell complementario unos 3 días después de recibir el pedido.
+- "Un anuncio por conjunto" = curso de 27 h de Adrián, F99 (4:53:30).
+- BE21 = resumen de un experto de la base, no de los tres mentores; pesa menos.
+
+**Acordado:**
+- Extras: ninguno en las 72 h. Después, por este orden:
+  1. Filtros (6 × 9,95 €) como oferta de un clic tras el pago (necesita una app y el sí de los fundadores) y en el email de poscompra (F25).
+  2. El turbante, solo si va en el mismo paquete y sin otra aduana.
+  3. El kit de manguera, no.
+- Packs:
+  - Pack de 2: frase principal "El segundo cabezal, por 20 €"; "Sale a 29,98 € cada uno" en pequeño.
+  - Pack de 3: "El tercero, también por 20 €" y "Mejor precio por cabezal".
+- Gancho de piel: "Piel tirante tras la ducha: a veces no es la crema. Mira el agua." Revisados los otros dos ganchos con la política de atributos personales: valen.
+- Devoluciones, opción (c):
+  - En la ficha se mantiene "Devolución gratis".
+  - En la política: "Escríbenos y te decimos cómo hacerlo; los gastos de devolución corren de nuestra cuenta". Fuera la "dirección en España" y la ampliación de Navidad.
+  - Durante la prueba se reembolsa sin pedir el producto, sin anunciarlo, y se apunta cada caso para detectar abusos.
+- Resto: C1-C12 con las mejoras, creativos, opiniones e inicio a las 00:00 (zona horaria de Madrid), tal como están arriba.
+
+**Plan cerrado.** La otra IA rellena las plantillas con las fotos de la galería.
