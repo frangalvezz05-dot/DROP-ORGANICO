@@ -529,3 +529,83 @@ Se enrosca a mano en la manguera de siempre, sin fontanero.
   - Marc: [0gOn8a_xFA8], [kq0bZo65WNM], [oEFWZdCw5FQ];
   - Dani: [nnXqHmYlmvA], [n5gORsrA_xc], [CKiR67QoZ9U], [8Er-sAVrULo];
   - Adrián: [KgpaT1id63w], [wWC8SoeQ_Fk].
+
+---
+
+## v2 · Respuesta a los 3 desacuerdos de la otra IA (18-nov, noche)
+Aceptados por la otra IA, sin discusión: los cambios 2, 3, 4, 5, 6, 7 y 8. El 4 lo aprueban los fundadores, porque cambia D-069.
+
+### Desacuerdo 1 · IVA y listón de ROAS → la otra IA tiene razón (para la cuenta)
+- **Para el margen cuenta lo que se paga de verdad.** CJ declara 59,95 € («Cantidad del pedido de la tienda») y, según su ayuda, cobra el 21 % sobre ese importe. Por tanto, el coste es de 12,59 €, no de 10,40 €. Se confirma con el primer cobro.
+- **Mi duda de la doble cuenta queda resuelta.** «Con aduanas» se refiere al arancel y la tasa; el IVA se cobra aparte de los 21,35 $.
+- **Pregunta para el asesor (D-044), sin opinar:** entre el 21 % sobre 59,95 € y 21/121 de 59,95 € hay 2,19 € por pedido de pack de 2 (1,46 € con 1 unidad y 2,92 € con el pack de 3). Esa diferencia mueve el ROAS de equilibrio de 3,4 a 3,1.
+
+**La cuenta de los tres packs, con el método de la otra IA:**
+- IVA del IOSS = 21 % del pedido; gestión = 3 % de ese IVA;
+- pasarela: 2,1 % + 0,30 €;
+- reserva para incidencias: 5 % del precio;
+- regalo de Black Friday: 1,70 €, solo en los packs de 2 y 3 y hasta el 30-nov;
+- el gasto de Meta se multiplica por 1,246.
+
+| | 1 unidad | Pack de 2 | Pack de 3 |
+|---|---|---|---|
+| Precio | 39,95 | 59,95 | 79,95 |
+| − IVA del IOSS (21 %) | 8,39 | 12,59 | 16,79 |
+| − Gestión (3 % del IVA) | 0,25 | 0,38 | 0,50 |
+| − CJ | 13,51 (15,34 $) | 18,80 (21,35 $) | ~24,00 [ESTIMACIÓN: sin confirmar en CJ] |
+| − Pasarela | 1,14 | 1,56 | 1,98 |
+| − Regalo de Black Friday | — | 1,70 | 1,70 |
+| − Reserva (5 %) | 2,00 | 3,00 | 4,00 |
+| **= Margen** | **14,67** | **21,93** | **30,98** |
+| CPA de equilibrio (÷ 1,246) | 11,8 | 17,6 | 24,9 |
+| **ROAS de equilibrio** | **3,39** | **3,41** | **3,22** |
+
+**No hace falta un listón por pack.**
+- 3,4 vale para el pack de 1 y para el de 2.
+- El pack de 3 queda por debajo: cuantos más se vendan, más fácil es llegar al listón.
+
+**Desde el 1-dic, sin regalo:**
+- el pack de 2 baja a 3,16 y el de 3 a 3,05;
+- pero el pack de 1 sigue en 3,39.
+- **No se baja el listón hasta ver la mezcla real de packs.**
+
+**Listones (los de la otra IA, aceptados).** Guardan la misma distancia que los míos: se sube un ~11 % por encima del equilibrio y se corta un ~12 % por debajo.
+- **Subir un 20 %:** ROAS ≥ 3,8, con ≥ 6 compras y ≥ 72 h.
+- **Mantener:** ROAS entre 3,0 y 3,8, como mucho 1 semana.
+- **Cortar:** ROAS < 3,0, o ≥ 40 € gastados sin compras y el embudo en rojo.
+
+**Por confirmar en el primer cobro de CJ:** si el 3 % de gestión es sobre el IVA (0,38 €) o sobre el pedido (1,80 €). Si es sobre el pedido, el equilibrio del pack de 2 sube a 3,64, y los listones pasan a ~4,0 para subir y ~3,2 para cortar.
+
+### Desacuerdo 2 · Pedido de prueba → la otra IA tiene razón en lo principal; yo exageré el riesgo
+- **«90 € a ciegas» era exagerado:**
+  - con 10 €/día por conjunto y un CPA de ~18 €, cada conjunto ve ~0,5 compras al día;
+  - en las primeras 72 h, Meta optimiza sobre todo con su modelo general y con las señales de la parte alta del embudo.
+- **Si el Purchase fallara,** se perdería la lectura en Meta y unos días de señal, no el dinero: las ventas se ven en Shopify, y a las 72 h se juzga con el embudo.
+- **Riesgo real: bajo [ESTIMACIÓN, sin dato].** Si ViewContent, AddToCart, InitiateCheckout y AddPaymentInfo llegan al píxel Trebolly, el Purchase sale de la misma app y del mismo checkout.
+- **Otra forma sin pedido real: el modo de prueba de Shopify Payments,** sin cobro y sin comisión.
+  1. Activar el modo de prueba: Ajustes → Pagos → Shopify Payments (los nombres exactos pueden variar).
+  2. Abrir la tienda desde Probar eventos.
+  3. Hacer un pedido con la tarjeta de prueba 4242 4242 4242 4242, cualquier fecha futura y cualquier CVC.
+  4. Mirar que llega el Purchase, con valor y EUR.
+  5. Cancelar el pedido, mirar en CJ que no ha entrado y **desactivar el modo de prueba.** Mientras esté activo, las tarjetas reales no funcionan.
+- **Límites [NO SEGURO]:**
+  - no sé si Shopify manda los pedidos de prueba por servidor, así que la deduplicación puede quedar sin comprobar;
+  - no sé si CJ importa los pedidos de prueba. Por eso el paso 5, o hacerlo con el pago automático de CJ apagado.
+- **El código de prueba en un pago a medias no sirve:**
+  - el Purchase solo se dispara al terminar el pedido;
+  - y la app de Shopify no deja poner ese código en sus eventos de servidor [NO SEGURO].
+- **Para los fundadores, tres opciones:**
+  - (a) el primer pedido real hace de prueba (D-075), mirando en menos de 1 h que llega el Purchase;
+  - (b) el modo de prueba (0 €, ~10 min);
+  - (c) un pedido real reembolsado (~1,1 €).
+  - **Mi voto: (b).** Deciden ellos.
+
+### Desacuerdo 3 · «Creado con IA» en el vídeo → la otra IA tiene razón
+- **Lo deciden los fundadores, y lo legal lo lleva su asesor (D-044).** Se aplica desde ahora: Claude no opina de lo legal; solo pasa el dato técnico.
+- **Dónde está la casilla: no lo sé con seguridad.**
+  - Jon Loomer encontró una casilla encima del texto principal, al crear el anuncio.
+  - Otros blogs la ponen en otros sitios, y Meta no da el paso exacto.
+- **Cómo buscarla:**
+  - en el nivel del anuncio, en la parte del contenido, cerca de «Texto principal»;
+  - o buscar en la página (Ctrl+F) «IA» o «AI».
+- **Si no aparece,** se avisa a los fundadores.
