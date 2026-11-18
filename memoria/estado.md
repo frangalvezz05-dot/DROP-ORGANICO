@@ -24,3 +24,6 @@ Módulo 3 parte 2 espera a Shopify. Búsqueda amplia de nicho (opción B) pendie
 
 ## Bloqueo actual
 Faltan en la nube los archivos del proyecto local (conocimiento, skills, agentes, nichos, pruebas). Fran debe subir la carpeta.
+
+## Creativos (19-nov)
+**Documento maestro de creativos consolidado:** `trebolly/creativos/PROMPT-MAESTRO-creativos-cabezal-v2.md` (reglas, biblia visual, voz, estructura vídeo+estático, estáticos, montaje, lecciones, pendientes y anexos A-E con todos los prompts finales). Manda sobre los documentos sueltos. Regla nueva: nunca 'aduana' ni el origen del envío.
