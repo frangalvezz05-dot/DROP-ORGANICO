@@ -168,3 +168,57 @@ Phone propped on the shelf, medium close-up of Marta: she brings the shower head
 - [ ] El agua es irregular y las gotas escurren.
 - [ ] Producto real: collar cromado, conos negros, sin aro en la cara.
 - [ ] El jersey gris en todas las tomas y nunca albornoz.
+
+
+---
+## v2.2 · Versión final para Firefly (una indicación por parte, con marcas de tiempo) · 19-nov
+Datos reales de vuestro Firefly, comprobados por la otra IA:
+- con "Varias tomas", cada toma tiene un máximo de 400 caracteres y las menciones ocupan mucho;
+- sin "Varias tomas", el máximo es de 2.500;
+- las duraciones van por segundos enteros;
+- sí hay imagen de inicio ("Primer");
+- **no hay voz de referencia**;
+- el jersey de la referencia es **crudo**, no gris.
+
+**Cambios sobre la propuesta de la otra IA:**
+1. **El tramo de 6 s se parte en dos planos:** el STOP [00:04-00:08] y el antebrazo [00:08-00:10]. Así no hay que enseñar cómo vuelve el agua. "Presses it again" daba por hecho que el STOP se activa y se desactiva con el mismo botón, y no lo sabemos. Además, una sola acción por plano.
+2. **"A propped phone never moves":** con el móvil apoyado, la IA tiende a mover la cámara sola, y eso delata.
+3. **En el fotograma 0, el gel que se mueve dentro del bote** en vez de "plastic knock": un bote que se acerca a la lente no golpea nada.
+4. **Pequeños detalles físicos:** la piel se hunde un poco bajo los dedos; un empujón y un clic al dejarlo en el soporte; la manguera que se balancea; las gotas que suenan en el plato y caen del codo.
+5. **"Shot 1…" junto a las marcas de tiempo,** para que Kling corte de verdad entre planos.
+6. **Recortes para no pasar de ~2.350 caracteres:** 9:16 y 1080p van en los ajustes, no en el texto.
+
+### Parte 1 · 15 s · sin imagen de inicio · 2345 caracteres (@Marta y @Cabezal con el selector)
+```
+Real iPhone UGC footage, natural skin texture, soft morning light from a frosted window on the left. The woman is @Marta, in the same off-white knit jumper as in her reference, sleeves pushed up to the elbows, in every shot; never a bathrobe or towel. Only one shower head exists in the whole clip: @Cabezal, copied exactly (graphite-grey, black silicone cones, polished chrome collar with one STOP button, no chrome ring on the face), same size in every shot. Three shots, clean hard cuts.
+BATHROOM: white tiles with grey grout, glass shower screen, chrome wall bracket with a silver hose, white shelf with plain gel bottles, teal towel. No mirror.
+VOICE: only Marta speaks, Spanish from Spain (Castilian accent), warm, lively, natural, never shouting. Voice-over lines are spoken off screen; no mouth visible then.
+REALISM: real time, no slow motion; a propped phone never moves. Autofocus shifts when something comes close to the lens; slight noise; tiny hand tremor. Fingers wrap firmly around the handle; the shower head has weight. Lips closed when she is not speaking.
+SHOT 1 [00:00-00:07] Phone propped on the shelf. From the very first frame a plain gel bottle in her hand is already moving toward the lens and fills the frame, gel sloshing inside; the autofocus snaps to it. She pulls it down out of frame, revealing her face in a medium close-up; her other hand holds the shower head at chest height the whole time. She says: "Llevas años cambiando de gel y de crema..." Then, straight into the lens: "¿Y si lo que tienes que mirar es el agua?" Small nod, no smile.
+SHOT 2 [00:07-00:11] Close-up of her bare forearm below the pushed-up sleeve; her fingertips slide along it and the skin dimples under them. No face. Voice-over: "El cloro del agua reseca la piel, ducha tras ducha."
+SHOT 3 [00:11-00:15] Close-up of the chrome wall bracket: one hand holds the hose end, the other screws the shower head on with three short wrist turns; the hose sways; a small push and a click seat it in the bracket. Voice-over: "Este cabezal se enrosca a mano." In the last second the hands leave; only the shower head in the bracket remains, hose hanging, no face.
+RULES: nothing floats; never more than two hands, five fingers each; no water in this clip; no subtitles, text, logos or music; ambient: a small tiled bathroom; nothing bends or melts.
+```
+
+### Parte 2 · 15 s · imagen de inicio ("Primer") = último fotograma de la parte 1 · 2342 caracteres
+```
+Real iPhone UGC footage, natural skin texture, soft morning light from a frosted window on the left. The woman is @Marta, in the same off-white knit jumper as in her reference, sleeves pushed up to the elbows, in every shot; never a bathrobe or towel. Only one shower head exists in the whole clip: @Cabezal, copied exactly (graphite-grey, black silicone cones, polished chrome collar with one STOP button, no chrome ring on the face), same size in every shot. Five shots, clean hard cuts.
+BATHROOM: as in the start image, with a shower tray. No mirror.
+VOICE: only Marta speaks, Spanish from Spain (Castilian accent), warm, lively, natural, never shouting. Voice-over lines are spoken off screen; no mouth visible then.
+REALISM: real time, no slow motion; a propped phone never moves. Autofocus shifts when something comes close to the lens; slight noise; tiny hand tremor. Fingers wrap firmly around the handle; the shower head has weight. Lips closed when she is not speaking.
+SHOT 1 [00:00-00:01] Same framing as the start image: her hand in the knit sleeve comes in, fingers wrap around the handle and lift it out of the bracket; the hose swings.
+SHOT 2 [00:01-00:04] Phone propped on the shelf, close shot of her: she holds the shower head at chest height and taps the handle twice with her other index finger: "El filtro del mango retiene parte del cloro."
+SHOT 3 [00:04-00:08] Close-up of her hands over the shower tray, no face: water flows only from the nozzle disc and splashes irregularly. Her thumb presses the STOP button on the chrome collar; within half a second the flow drops to a few drips pattering on the tray. Voice-over: "Y con este botón pausas el agua mientras te enjabonas."
+SHOT 4 [00:08-00:10] Close-up: the soft spray falls on her bare left forearm; water beads, runs down the skin and drips from her elbow. Voice-over: "Menos cloro sobre la piel."
+SHOT 5 [00:10-00:15] Phone propped on the shelf, medium close-up: she brings the shower head toward the lens; the autofocus shifts to it: "Dos cabezales y diez filtros, cincuenta y nueve noventa y cinco." Then a brief half-smile under one second.
+RULES: nothing floats; never more than two hands, five fingers each; water only in shots 3 and 4, only from the nozzle disc; no subtitles, text, logos or music; ambient: a small tiled bathroom; nothing bends or melts.
+```
+
+### Antes de gastar los 600 créditos de la parte 1
+- **Comprobad la vista previa de los elementos:** @Cabezal con el collar cromado en el mango y sin aro en la cara; @Marta con el jersey crudo.
+- **Ajustes:** 9:16, 1080p, 15 s, audio activado y sin "Varias tomas".
+- **Si una sola toma sale mal, no se rehace la parte entera.** Se rehace solo esa toma como clip suelto de 3-7 s, con imagen de inicio, y se monta. Sale más barato.
+- **Si Kling no corta y lo hace todo seguido:** las tomas se generan por separado, cada una con su imagen de inicio.
+- **La voz, después:** el cambiador de voz de ElevenLabs con la voz clonada de Marta. Si sale con acento latinoamericano, se repite el clip.
+- **Si sale a cámara lenta:** se acelera al 105-110 % en el montaje, como dice la otra IA. Pero si es muy evidente, se repite.
+- **El último fotograma de la parte 1 se saca con ffmpeg** en el momento en que solo queda el cabezal en el soporte. Si las manos no han salido del todo, se coge un fotograma antes.

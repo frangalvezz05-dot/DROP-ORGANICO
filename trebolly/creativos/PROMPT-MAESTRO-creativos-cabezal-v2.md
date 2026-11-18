@@ -39,7 +39,7 @@ Los prompts finales están en los anexos, copiados de los documentos que se revi
    - **un solo cabezal en cada plano** (y nunca el cabezal viejo en el mismo clip que el nuestro, si se puede evitar).
 2. **Nada flota.** Todo está en una mano, en el soporte o apoyado. Se cuentan las manos: en selfie, una sujeta el móvil y solo queda una libre.
 3. **Una acción por clip**, sin sobreactuar: ni gritos, ni risas, ni saltos, ni "excitedly". La media sonrisa, solo al final del anuncio y de menos de 1 s. En los demás bloques, al acabar la frase "glances down at the shower head".
-4. **Marta habla vestida** (jersey gris claro) en su baño.
+4. **Marta habla vestida** (jersey de punto crudo, como en su referencia) en su baño.
    - En las demostraciones de ducha: encuadre cerrado de cabeza, pelo y manos, o albornoz cerrado.
    - Nada de hombros ni espalda desnudos.
 5. **Sin antes y después:** el pelo y la piel salen igual en todo el anuncio.
@@ -67,7 +67,7 @@ Los prompts finales están en los anexos, copiados de los documentos que se revi
 - **Producto** (bloque largo, para demostraciones y fotos): "matte graphite-grey handheld shower head; deep cylindrical head with a round recessed face: silver-grey inner dish, dark central nozzle disc full of small holes, ring of black cone-shaped silicone bristles; straight graphite handle with a polished chrome collar and one round grey STOP button; thread at the bottom. No chrome ring on the face, no other buttons."
 - **Marta:**
   - española de unos 35, media melena con mechas rubio miel, pecas suaves, sin maquillaje;
-  - jersey gris claro de punto (en piel, con las mangas subidas hasta el codo);
+  - jersey de punto **crudo (casi blanco), como en su referencia** (en piel, con las mangas subidas hasta el codo);
   - **referencia: un fotograma de ella con el jersey, nunca el retrato en albornoz.**
 - **Baño:**
   - azulejo blanco con junta gris, mampara de cristal, plato de ducha, soporte cromado y manguera plateada;

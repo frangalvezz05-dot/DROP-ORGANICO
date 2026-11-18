@@ -49,12 +49,12 @@ Animate the start image. She brings a strand of her dry honey-blonde ends close 
 
 **S-T2 · Nano Banana · editar un fotograma de M3** (añadir la foto 3 de CJ como segunda referencia)
 ```
-Edit this image into a new close-up photo of the same bathroom, same white tiles and the same light from the left: the chrome wall bracket with the end of the silver hose hanging free. Two hands in light-grey knit sleeves hold the shower head from the second reference image by its handle, just below the hose end, ready to screw it on. No face in frame. Matte graphite-grey head, black cone-shaped bristles, chrome collar with a round STOP button; no chrome ring on the face. Photorealistic smartphone photo, no text.
+Edit this image into a new close-up photo of the same bathroom, same white tiles and the same light from the left: the chrome wall bracket with the end of the silver hose hanging free. Two hands in off-white knit sleeves hold the shower head from the second reference image by its handle, just below the hose end, ready to screw it on. No face in frame. Matte graphite-grey head, black cone-shaped bristles, chrome collar with a round STOP button; no chrome ring on the face. Photorealistic smartphone photo, no text.
 ```
 
 **D-T2 · Veo 3.1 Lite · desde S-T2**
 ```
-Animate the start image. [00:00-00:04] The two hands in light-grey knit sleeves screw the threaded end of the shower head onto the hose by turning it clockwise, by hand. [00:04-00:06] They seat it in the chrome wall bracket. [00:06-00:08] The hands let go and leave the frame. Sound: soft thread friction and a light click in a quiet tiled bathroom; no music, no voices. No water. The shower head keeps exactly its shape, colour and size. Five fingers per hand; nothing floats; no text.
+Animate the start image. [00:00-00:04] The two hands in off-white knit sleeves screw the threaded end of the shower head onto the hose by turning it clockwise, by hand. [00:04-00:06] They seat it in the chrome wall bracket. [00:06-00:08] The hands let go and leave the frame. Sound: soft thread friction and a light click in a quiet tiled bathroom; no music, no voices. No water. The shower head keeps exactly its shape, colour and size. Five fingers per hand; nothing floats; no text.
 ```
 
 **D-T3 · Veo 3.1 Lite · desde M3 en 1,2 s**
@@ -128,7 +128,7 @@ Animate the start image in real time, no slow motion. She quickly brings a stran
 
 **D-T2 · Veo 3.1 Lite · desde S-T2 (enroscar)** · 561 caracteres
 ```
-Animate the start image in real time, no slow motion. The hands in light-grey knit sleeves lift the shower head to the hose end and screw it on with three short wrist turns, regripping between turns; the hose sways slightly and the head feels heavy in the hand. They seat it in the chrome wall bracket with a small push. The hands let go and leave the frame. Sound: soft thread friction, a light click, quiet tiled bathroom; no music, no voices. No water. The shower head keeps exactly its shape, colour and size. Five fingers per hand; nothing floats; no text.
+Animate the start image in real time, no slow motion. The hands in off-white knit sleeves lift the shower head to the hose end and screw it on with three short wrist turns, regripping between turns; the hose sways slightly and the head feels heavy in the hand. They seat it in the chrome wall bracket with a small push. The hands let go and leave the frame. Sound: soft thread friction, a light click, quiet tiled bathroom; no music, no voices. No water. The shower head keeps exactly its shape, colour and size. Five fingers per hand; nothing floats; no text.
 ```
 
 **D-T3 · Veo 3.1 Lite · desde M3 en 1,2 s (filtro)** · 610 caracteres
@@ -138,7 +138,7 @@ Animate the start image in real time, no slow motion. She brings the shower head
 
 **S-T2 · Nano Banana · editar fotograma de M3 (+ foto 3 de CJ)** · 590 caracteres
 ```
-Edit this image into a new close-up photo of the same bathroom, same white tiles and the same light from the left: the chrome wall bracket with the end of the silver hose hanging free. Two hands in light-grey knit sleeves hold the shower head from the second reference image by its handle, just below the hose end, ready to screw it on. No face in frame. Matte graphite-grey head, black cone-shaped bristles, chrome collar with a round STOP button; no chrome ring on the face. Real smartphone photo with natural imperfections: slight noise, uneven light, a water mark on the tiles. No text.
+Edit this image into a new close-up photo of the same bathroom, same white tiles and the same light from the left: the chrome wall bracket with the end of the silver hose hanging free. Two hands in off-white knit sleeves hold the shower head from the second reference image by its handle, just below the hose end, ready to screw it on. No face in frame. Matte graphite-grey head, black cone-shaped bristles, chrome collar with a round STOP button; no chrome ring on the face. Real smartphone photo with natural imperfections: slight noise, uneven light, a water mark on the tiles. No text.
 ```
 
 **S-T4 · Nano Banana · editar fotograma de M4 sin persona (+ fotos 3 y 7 de CJ)** · 551 caracteres
