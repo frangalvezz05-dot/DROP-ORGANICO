@@ -141,3 +141,9 @@ No se toca la tienda hasta que decidan los fundadores. De ARZ Urus no hay notas 
    - "Spray, Rainfall" respalda la foto M (chorro en lluvia) como foto principal.
    - Si se quiere, "dos tipos de chorro: lluvia y spray", sin decir cómo se cambia. Es el mismo nivel de apoyo que "menos cloro".
 5. **Gráfica 10:** preparada la versión con 30 días (`graficas/09-garantias-30dias.html`). La garantía de 30 días va primero y la de plazo, segunda. Se usa solo si se aprueba P4.
+
+**Ajuste de Fran (18-nov) a la garantía de plazo:** poner "15 días laborables" como titular queda feo, porque lo primero que lee el cliente es un plazo largo. Cambio:
+- Titular con el plazo real: "Llega en 6-12 días laborables".
+- Debajo, la garantía como red de seguridad: "con seguimiento. Si no llega en 15, te devolvemos el dinero".
+- En la tarjeta de envío queda solo "con aduanas incluidas", porque el seguimiento ya aparece en la del plazo.
+- Hecho en las dos versiones de la gráfica 10.
