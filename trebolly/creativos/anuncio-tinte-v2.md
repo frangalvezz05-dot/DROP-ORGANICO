@@ -97,3 +97,70 @@ Si ese clip falla en fidelidad, se rehace con Veo desde una foto de inicio de su
 - **Bucle:** el roce del pelo del final enlaza con el mechón que tapa la lente en el fotograma 0.
 - **Ningún plano repetido** y ninguno fuera del baño.
 - **Versión 4:5:** recolocar los rótulos y los subtítulos, no solo recortar.
+
+
+---
+## v2.1 · Movimientos ultrarrealistas y más gancho (petición de Fran, 19-nov)
+**Estos prompts sustituyen a los del apartado 4.**
+
+### Qué hace que un movimiento parezca de verdad (va en todos los prompts)
+1. **"In real time, no slow motion".** Quitamos "slowly": la cámara lenta es lo que más delata la IA.
+2. **Peso y fuerza:**
+   - el cabezal pesa en la mano;
+   - se enrosca con **tres giros cortos de muñeca, soltando y volviendo a agarrar**;
+   - el mango se abre con **dos giros**;
+   - el cartucho sale **con un poco de roce**;
+   - la manguera se balancea.
+   Nada se mueve solo ni de un golpe.
+3. **Cómo graba un móvil de verdad:** cuando algo se acerca a la lente, **el enfoque salta del objeto a la cara** y la cara se desenfoca. Lo hace cualquier móvil, y una IA "perfecta" no.
+4. **Pequeñas imperfecciones:**
+   - un temblor mínimo de la mano;
+   - pelos sueltos que cogen la luz;
+   - uñas y piel reales;
+   - en las fotos, un poco de ruido, luz desigual y una marca de agua en el azulejo.
+5. **Una acción por plano.** Labios cerrados cuando no habla.
+
+### Prompts nuevos (300-800 caracteres, solo movimiento)
+**D-T1 · Kling 2.5 · desde M1 en 1,3 s (mechón)** · 556 caracteres
+```
+Animate the start image in real time, no slow motion. She quickly brings a strand of her dry honey-blonde ends right up to the lens and rubs it between her thumb and two fingers; individual hairs and a few flyaways catch the window light. The phone's autofocus shifts from her face to the strand with a brief natural refocus; her face blurs behind. Tiny hand tremor, real skin and nails. She does not speak; lips closed. Hair exactly as in the start image. Same jumper and light from the left. Two hands at most, five fingers each; nothing floats; no text.
+```
+
+**D-T2 · Veo 3.1 Lite · desde S-T2 (enroscar)** · 561 caracteres
+```
+Animate the start image in real time, no slow motion. The hands in light-grey knit sleeves lift the shower head to the hose end and screw it on with three short wrist turns, regripping between turns; the hose sways slightly and the head feels heavy in the hand. They seat it in the chrome wall bracket with a small push. The hands let go and leave the frame. Sound: soft thread friction, a light click, quiet tiled bathroom; no music, no voices. No water. The shower head keeps exactly its shape, colour and size. Five fingers per hand; nothing floats; no text.
+```
+
+**D-T3 · Veo 3.1 Lite · desde M3 en 1,2 s (filtro)** · 610 caracteres
+```
+Animate the start image in real time, no slow motion. She brings the shower head close to the lens; the autofocus refocuses on the handle. Holding the head in her left hand, she unscrews the lower part of the handle with two short twists of her right hand. The white filter cartridge with a blue end cap slides out with slight friction into her palm and she turns it once toward the camera, then slides it back in. Her face stays blurred behind. She does not speak; lips closed. Sound: plastic thread, a soft click, quiet bathroom; no music, no voices. No water. Five fingers per hand; nothing floats; no text.
+```
+
+**S-T2 · Nano Banana · editar fotograma de M3 (+ foto 3 de CJ)** · 590 caracteres
+```
+Edit this image into a new close-up photo of the same bathroom, same white tiles and the same light from the left: the chrome wall bracket with the end of the silver hose hanging free. Two hands in light-grey knit sleeves hold the shower head from the second reference image by its handle, just below the hose end, ready to screw it on. No face in frame. Matte graphite-grey head, black cone-shaped bristles, chrome collar with a round STOP button; no chrome ring on the face. Real smartphone photo with natural imperfections: slight noise, uneven light, a water mark on the tiles. No text.
+```
+
+**S-T4 · Nano Banana · editar fotograma de M4 sin persona (+ fotos 3 y 7 de CJ)** · 551 caracteres
+```
+Edit this image into a new photo of the same bathroom, same white tiles and the same morning light from the left, with no person: on the white shelf, two identical shower heads from the reference images lie side by side and, below them, exactly ten white filter cartridges with blue end caps in two neat rows of five. Matte graphite-grey heads, black cone-shaped bristles, chrome collar with a round STOP button; no chrome ring on the face. Real smartphone photo with natural imperfections: slight noise, soft uneven light, not a studio shot. No text.
+```
+
+### Cómo revisar el realismo (antes de dar por bueno un clip)
+- [ ] ¿Va a velocidad real, sin cámara lenta?
+- [ ] ¿Las manos agarran de verdad (los dedos rodean el mango, no lo atraviesan)? ¿Hay un pequeño reajuste entre giros?
+- [ ] ¿El cabezal pesa (la muñeca se adapta, no flota)?
+- [ ] ¿El enfoque salta al acercar el objeto a la lente?
+- [ ] ¿Los labios están quietos cuando no habla?
+- [ ] ¿Es el producto real (collar cromado, conos negros, sin aro en la cara)?
+- **En la ducha de espaldas:** el agua salpica y escurre de forma irregular, las gotas se quedan en el pelo y el pelo mojado pesa y se pega. Si el agua parece un chorro de cristal perfecto, se repite.
+
+### Más gancho en los 2 primeros segundos
+1. **Fotograma 0 con movimiento:** el mechón ya se está moviendo delante de la lente, no está quieto. Y lo aparta rápido, con el salto de enfoque a su cara.
+2. **"90 €" grande** en el rótulo desde el fotograma 0: una cifra concreta para el ojo.
+3. **Golpe de sonido en 0,0** (el roce del pelo pegado al micro y el primer golpe de la música a la vez).
+4. **Primer corte en 1,4 s** a la macro del mechón (D-T1): textura y salto de enfoque, que es lo que más para el dedo.
+5. **Gancho de reserva para la prueba de 72 h** (solo cambia el gancho): empezar al revés.
+   - 0,0-1,2: D-T1, la macro de sus puntas frotadas pegadas a la lente, con "Noventa euros de mechas…" en off.
+   - Después, el mechón se aparta y aparece su cara: "…y a las pocas semanas, ¡apagadas!".
+   - Sirve para saber si engancha más la textura que la cara.
