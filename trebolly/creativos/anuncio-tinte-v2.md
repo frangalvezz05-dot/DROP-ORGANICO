@@ -10,7 +10,7 @@
 
 ## 2) Sacar cada demostración del fotograma de Marta: sí, es lo mejor, con tres ajustes
 1. **Solo cuando está con el móvil apoyado** (M1 y M3). Del selfie (M2 y M4) no salen demostraciones con dos manos.
-2. **Para el enroscado, una foto de inicio nueva:** se edita un fotograma de M3 (el mismo baño y la misma luz) para que se vean el soporte y la manguera, con sus manos en mangas de jersey gris sujetando el cabezal. Desde esa foto, Veo enrosca. Se entiende que es ella por las mangas.
+2. **Para el enroscado, una foto de inicio nueva:** se edita un fotograma de M3 (el mismo baño y la misma luz) para que se vean el soporte y la manguera, con sus manos en mangas de jersey crudo sujetando el cabezal. Desde esa foto, Veo enrosca. Se entiende que es ella por las mangas.
 3. **El pack, como foto fija del mismo baño** (no de estudio), con los 10 filtros contados a ojo, y movimiento de zoom en el montaje. Un vídeo con IA de 2 cabezales y 10 filtros es lo que peor sale.
 
 ## 3) Guion de montaje nuevo (25,25 s)
@@ -21,7 +21,7 @@
 | **3,4-4,85** | **M1** 3,4-4,85 con zoom al 106 %: niega con la cabeza | "Y no, no es el champú." | — | — | Corte en acción: el mechón sale del plano y vuelve su cara |
 | **4,85-6,75** | **M2** (selfie junto a la mampara) 0,0-1,9 | "El cloro del agua se come tu color." | **El cloro del agua se come tu color** | — | Corte en J: su voz de M2 entra 0,2 s antes del corte |
 | **6,75-8,4** | **M2** 1,9-3,55: sube el cabezal junto a la cara y lo baja | "Este cabezal…" | — | — | Sin corte (sigue M2) |
-| **8,4-10,3** | **D-T2** (nuevo, sale de la foto S-T2) 0,0-1,9: sus manos, con mangas de jersey gris, lo enroscan en la manguera y lo dejan en el soporte | "…se enrosca a mano, en tu manguera." | **Se enrosca a mano** | Roce de la rosca y "clic" al dejarlo | Corte en acción: en M2 el cabezal baja, y en D-T2 entra subiendo hacia la manguera |
+| **8,4-10,3** | **D-T2** (nuevo, sale de la foto S-T2) 0,0-1,9: sus manos, con mangas de jersey crudo, lo enroscan en la manguera y lo dejan en el soporte | "…se enrosca a mano, en tu manguera." | **Se enrosca a mano** | Roce de la rosca y "clic" al dejarlo | Corte en acción: en M2 el cabezal baja, y en D-T2 entra subiendo hacia la manguera |
 | **10,3-11,5** | **M3** (apoyado) 0,0-1,2: señala el mango con el índice | "Su filtro…" | — | — | Corte seco en un golpe de música |
 | **11,5-13,0** | **D-T3** (nuevo, sale de M3 en 1,2 s) 0,0-1,5: acerca el cabezal a la lente, desenrosca el mango y saca el cartucho blanco con tapa azul | "…retiene parte del cloro:" | **Filtro en el mango** | Roce de la rosca; el **agua empieza a sonar en 12,6** (puente) | Sin salto: la acción sigue desde el fotograma de M3 |
 | **13,0-15,95** | **La ducha de espaldas** (el clip que ya existe): el chorro de nuestro cabezal sobre sus mechas mojadas | "menos cloro sobre tu color, en cada ducha." | **Menos cloro sobre tu color** | Agua | Puente de sonido y corte en acción: al final de D-T3 levanta el cabezal, que aparece arriba sobre el pelo |

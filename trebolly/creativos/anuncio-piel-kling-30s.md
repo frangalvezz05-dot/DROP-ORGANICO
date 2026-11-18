@@ -11,7 +11,7 @@
 - **Mirad en la pantalla de Firefly:** la duración máxima, los créditos, si deja subir voz de referencia y el límite de caracteres. Mis prompts ocupan 3.648 caracteres (A) y 3.120 (B), parecido a vuestro borrador.
 
 ## Antes de generar: dos cambios que resuelven la mitad de los problemas
-1. **Referencia 1: un fotograma de Marta con el jersey gris, sacado de los anuncios de champú o tinte, no el retrato en albornoz.** Así la regla 3 se cumple de raíz: si la foto de referencia lleva albornoz, la IA tira hacia el albornoz por mucho que el texto diga lo contrario.
+1. **Referencia 1: un fotograma de Marta con el jersey crudo, sacado de los anuncios de champú o tinte, no el retrato en albornoz.** Así la regla 3 se cumple de raíz: si la foto de referencia lleva albornoz, la IA tira hacia el albornoz por mucho que el texto diga lo contrario.
 2. **Referencia de voz (si Firefly la acepta):** 15-20 s limpios de la voz de Marta sacados de los bloques de champú, sin agua ni música. Así la voz es la misma en los 3 anuncios. Sin esto, el de piel tendrá otra voz.
 
 ## 1) Prompt final, versión A (con diálogo) · 3648 caracteres
@@ -20,7 +20,7 @@ Vertical 9:16 smartphone UGC ad, 30 seconds, one continuous story in 6 shots wit
 
 PRODUCT (reference image 2, copy it exactly in every shot): matte graphite-grey handheld shower head; deep cylindrical head with a round recessed face: silver-grey inner dish, dark central nozzle disc full of small holes, ring of black cone-shaped silicone bristles; straight graphite handle with a polished chrome collar and one round grey STOP button; thread at the bottom. No chrome ring on the face, no other buttons. Same shape, colour and size in every shot.
 
-MARTA (reference image 1, same face in every shot): Spanish woman around 35, shoulder-length honey-blonde balayage hair, light freckles, no makeup, short nude nails, plain light-grey knit jumper with the sleeves pushed up to the elbows in every shot. Never a bathrobe, never a towel.
+MARTA (reference image 1, same face in every shot): Spanish woman around 35, shoulder-length honey-blonde balayage hair, light freckles, no makeup, short nude nails, plain off-white knit jumper with the sleeves pushed up to the elbows in every shot. Never a bathrobe, never a towel.
 
 BATHROOM: normal Spanish bathroom, white wall tiles with grey grout, glass shower screen, shower tray, chrome wall bracket with a silver hose, small white shelf with a few plain unbranded gel and cream bottles, folded muted-teal towel. No mirror.
 
@@ -66,7 +66,7 @@ Vertical 9:16 smartphone UGC ad, 30 seconds, one continuous story in 6 shots wit
 
 PRODUCT (reference image 2, copy it exactly in every shot): matte graphite-grey handheld shower head; deep cylindrical head with a round recessed face: silver-grey inner dish, dark central nozzle disc full of small holes, ring of black cone-shaped silicone bristles; straight graphite handle with a polished chrome collar and one round grey STOP button; thread at the bottom. No chrome ring on the face, no other buttons. Same shape, colour and size in every shot.
 
-MARTA (reference image 1, same face in every shot): Spanish woman around 35, shoulder-length honey-blonde balayage hair, light freckles, no makeup, short nude nails, plain light-grey knit jumper with the sleeves pushed up to the elbows in every shot. Never a bathrobe, never a towel.
+MARTA (reference image 1, same face in every shot): Spanish woman around 35, shoulder-length honey-blonde balayage hair, light freckles, no makeup, short nude nails, plain off-white knit jumper with the sleeves pushed up to the elbows in every shot. Never a bathrobe, never a towel.
 
 BATHROOM: normal Spanish bathroom, white wall tiles with grey grout, glass shower screen, shower tray, chrome wall bracket with a silver hose, small white shelf with a few plain unbranded gel and cream bottles, folded muted-teal towel. No mirror.
 

@@ -31,7 +31,7 @@
 | 16,5-22 | V04: chorro en el pelo → cepillo | "Y con el cepillo te masajeas mientras te lavas." | Cepillo de silicona |
 | 22-25 | V05: STOP | "Con este botón pausas el agua." | Botón STOP |
 | 25-28 | V08: pack | "Dos cabezales y diez filtros," | 2 cabezales + 10 filtros · 59,95 € |
-| 28-30 | Marta a cámara, sonríe con el cabezal + tarjeta | "cincuenta y nueve noventa y cinco." | Envío gratis con aduanas · Garantía de entrega |
+| 28-30 | Marta a cámara, sonríe con el cabezal + tarjeta | "cincuenta y nueve noventa y cinco." | Envío gratis · Garantía de entrega |
 
 ### Tinte (gancho: el precio de las mechas)
 **Audio, 62 palabras:**
@@ -50,7 +50,7 @@
 | 14,5-18 | V06: filtro en el mango | "Su filtro retiene parte del cloro:" | Filtro en el mango |
 | 18-22 | V04: chorro en el pelo → cepillo | "menos cloro sobre tu color, en cada ducha." | Menos cloro sobre tu color |
 | 22-26 | V08: pack | "Dos cabezales y diez filtros por cincuenta y nueve noventa y cinco," | 2 cabezales + 10 filtros · 59,95 € |
-| 26-30 | Marta a cámara + tarjeta | "con envío gratis." | Envío gratis con aduanas · Garantía de entrega |
+| 26-30 | Marta a cámara + tarjeta | "con envío gratis." | Envío gratis · Garantía de entrega |
 
 ### Piel (gancho: "Llevas años cambiando de gel…")
 **Audio, 66 palabras:**
@@ -70,7 +70,7 @@
 | 18-22 | V05: STOP | "Y con este botón pausas el agua mientras te enjabonas." | Botón STOP |
 | 22-25 | **V12 (nuevo): chorro sobre el antebrazo** | "Menos cloro sobre la piel." | Menos cloro sobre la piel |
 | 25-28 | V08: pack | "Dos cabezales y diez filtros," | 2 cabezales + 10 filtros · 59,95 € |
-| 28-30 | Marta a cámara + tarjeta | "cincuenta y nueve noventa y cinco." | Envío gratis con aduanas · Garantía de entrega |
+| 28-30 | Marta a cámara + tarjeta | "cincuenta y nueve noventa y cinco." | Envío gratis · Garantía de entrega |
 
 **V12 hace falta y no está en la lista:** "menos cloro sobre la piel" necesita agua sobre la piel. El de Aquapure B lo enseña: el chorro sobre el antebrazo. El prompt es el de B10 en `prompts-flow-v2.md`: antebrazo y mano, sin hombro.
 

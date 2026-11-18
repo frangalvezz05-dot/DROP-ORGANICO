@@ -20,14 +20,14 @@
 
 ## 2) Prompt final para Kling 3.0 Omni
 ### Preparación (una vez)
-1. **Elemento "Marta":** 2-4 imágenes de ella **con el jersey gris**, sacadas de los anuncios de champú y tinte (de frente, de tres cuartos y plano medio). No el retrato en albornoz.
+1. **Elemento "Marta":** 2-4 imágenes de ella **con el jersey crudo**, sacadas de los anuncios de champú y tinte (de frente, de tres cuartos y plano medio). No el retrato en albornoz.
 2. **Elemento "Cabezal":** la foto 3 de CJ y 1-2 fotos aprobadas de la galería donde se vean bien el collar cromado y los conos negros.
 3. **Ajustes de los dos clips:** 9:16, 1080p, 15 s, con audio, "Varias tomas" activado. Se seleccionan los elementos Marta y Cabezal.
 
 ### Indicación general (la misma en las dos partes) · 1793 caracteres
 ```
 Vertical 9:16 smartphone UGC ad, 1080p, unpolished iPhone look, natural skin texture, soft morning light from a frosted window on the left. One woman, one bathroom and ONE shower head: only one shower head exists in the whole clip.
-MARTA (character element): Spanish woman around 35, shoulder-length honey-blonde balayage hair, light freckles, no makeup, short nude nails, plain light-grey knit jumper with the sleeves pushed up to the elbows in every shot. Never a bathrobe, never a towel.
+MARTA (character element): Spanish woman around 35, shoulder-length honey-blonde balayage hair, light freckles, no makeup, short nude nails, plain off-white knit jumper with the sleeves pushed up to the elbows in every shot. Never a bathrobe, never a towel.
 SHOWER HEAD (object element, copy it exactly): matte graphite-grey handheld shower head; deep cylindrical head with a round recessed face: silver-grey inner dish, dark central nozzle disc full of small holes, ring of black cone-shaped silicone bristles; straight graphite handle with a polished chrome collar and one round grey STOP button; thread at the bottom. No chrome ring on the face, no other buttons. Same shape, colour and size in every shot.
 BATHROOM: normal Spanish bathroom, white wall tiles with grey grout, glass shower screen, shower tray, chrome wall bracket with a silver hose, small white shelf with a few plain unbranded gel and cream bottles, folded muted-teal towel. No mirror.
 VOICE: only Marta speaks, Spanish from Spain (Castilian accent), warm and lively like telling a friend, natural, never shouting. Lines marked (voice-over) are spoken by Marta off screen; no mouth is visible in those shots.
@@ -115,12 +115,12 @@ Phone propped on the shelf, medium close-up of Marta: she brings the shower head
 2. **Gancho:** en el fotograma 0, el bote de gel ya se está moviendo hacia la lente y llena el plano; el enfoque salta a él y, al apartarlo, aparece su cara. Es la misma firma que en los otros dos anuncios (el chorro en champú, el mechón en tinte) con otro objeto.
 3. **Movimientos con peso:** tres giros cortos de muñeca para enroscar, la manguera que se balancea, el cabezal que se saca del soporte con su peso y dos toques en el mango.
 4. **El agua del STOP:** el chorro pasa a unas gotas en medio segundo (no desaparece de golpe) y vuelve sobre el antebrazo, con gotas que escurren por la piel.
-5. **Sus manos llevan las mangas del jersey gris** en los planos de manos, para que se entienda que es ella.
+5. **Sus manos llevan las mangas del jersey crudo** en los planos de manos, para que se entienda que es ella.
 
 ### Indicación general (las dos partes) · 2200 caracteres
 ```
 Vertical 9:16 smartphone UGC ad, 1080p, unpolished iPhone look, natural skin texture, soft morning light from a frosted window on the left. One woman, one bathroom and ONE shower head: only one shower head exists in the whole clip.
-MARTA (character element): Spanish woman around 35, shoulder-length honey-blonde balayage hair, light freckles, no makeup, short nude nails, plain light-grey knit jumper with the sleeves pushed up to the elbows in every shot. Never a bathrobe, never a towel.
+MARTA (character element): Spanish woman around 35, shoulder-length honey-blonde balayage hair, light freckles, no makeup, short nude nails, plain off-white knit jumper with the sleeves pushed up to the elbows in every shot. Never a bathrobe, never a towel.
 SHOWER HEAD (object element, copy it exactly): matte graphite-grey handheld shower head; deep cylindrical head with a round recessed face: silver-grey inner dish, dark central nozzle disc full of small holes, ring of black cone-shaped silicone bristles; straight graphite handle with a polished chrome collar and one round grey STOP button; thread at the bottom. No chrome ring on the face, no other buttons. Same shape, colour and size in every shot.
 BATHROOM: normal Spanish bathroom, white wall tiles with grey grout, glass shower screen, shower tray, chrome wall bracket with a silver hose, small white shelf with a few plain unbranded gel and cream bottles, folded muted-teal towel. No mirror.
 VOICE: only Marta speaks, Spanish from Spain (Castilian accent), warm and lively like telling a friend, natural, never shouting. Lines marked (voice-over) are spoken by Marta off screen; no mouth is visible in those shots.
@@ -167,7 +167,7 @@ Phone propped on the shelf, medium close-up of Marta: she brings the shower head
 - [ ] Labios quietos en las tomas de voz en off.
 - [ ] El agua es irregular y las gotas escurren.
 - [ ] Producto real: collar cromado, conos negros, sin aro en la cara.
-- [ ] El jersey gris en todas las tomas y nunca albornoz.
+- [ ] El jersey crudo en todas las tomas y nunca albornoz.
 
 
 ---

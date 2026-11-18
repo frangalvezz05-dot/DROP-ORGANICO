@@ -13,7 +13,7 @@
 - Se alternan el móvil apoyado y el selfie.
 - Se alternan el plano medio (desde la cintura o el pecho) y el plano cerca (desde los hombros).
 - Dos sitios del mismo baño: delante de la balda o junto a la mampara.
-- Un gesto distinto en cada bloque, y la misma ropa siempre (el jersey gris).
+- Un gesto distinto en cada bloque, y la misma ropa siempre (el jersey crudo).
 - **Manos, escrito en cada prompt:** en el selfie, "one arm extended holding the phone out of frame; the other hand holds the shower head by the handle the whole clip; nothing else in her hands". Nunca se pide una acción que necesite una tercera mano.
 - **Sin espejos en el plano:** la IA falla mucho con los reflejos.
 
@@ -56,7 +56,7 @@
 | 17,2-19,6 | V05, pulsa STOP y se enjabona | Desde el pulgar en el botón hasta que se enjabona | "Con este botón pausas el agua." (M4) | **Botón STOP** | Corte seco |
 | 19,6-21,9 | V08, pack de 2 | Plano fijo del pack | "Dos cabezales y diez filtros," | **2 cabezales + 10 filtros · 59,95 €** | Corte seco |
 | 21,9-24,2 | M4, selfie | El tramo de M4 con el precio + media sonrisa recortada a 0,6 s | "…cincuenta y nueve noventa y cinco." | (sigue el del precio) | Corte seco |
-| 24,2-27,2 | Tarjeta final | 3 s fijos | (solo ambiente y música) | 2 cabezales + 10 filtros · 59,95 € · Envío gratis con aduanas · Garantía de entrega · logo | Fin |
+| 24,2-27,2 | Tarjeta final | 3 s fijos | (solo ambiente y música) | 2 cabezales + 10 filtros · 59,95 € · Envío gratis · Garantía de entrega · logo | Fin |
 
 **El sonido es lo que más delata los cortes:**
 - **Ambiente continuo:** una sola pista de ambiente de baño a unos −30 dB bajo todo el anuncio, y el fondo de cada clip bajado. Si no, el ruido de fondo cambia en cada corte y se nota.
