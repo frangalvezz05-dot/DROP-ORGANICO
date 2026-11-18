@@ -1,0 +1,100 @@
+# Anuncio de PIEL · Kling 3.0 Omni en 2 × 15 s (19-nov)
+
+## 1) Recomendación: Kling 3.0 Omni, 2 × 15 s a 1080p
+| | Seedance 2.5 (30 s) | Kling 3.0 Omni (2 × 15 s) |
+|---|---|---|
+| Resolución | 720p: **rompe la regla de 1080p** | **1080p** |
+| Créditos por intento | 2.850 | **~1.050** |
+| Intentos con 10.000 créditos | 3 | **9** |
+| Constancia de cara y producto | Solo por texto y referencias | **"Elementos"**: Marta y el cabezal guardados y reutilizados en los dos clips |
+| Control plano a plano | Un prompt largo | **"Varias tomas"**: una indicación por toma |
+| Voz | Acepta audio de referencia (la voz de Marta) | Se arregla después (abajo) |
+| Continuidad | 30 s seguidos | Un empalme, sobre un plano sin cara |
+
+**Por qué Kling:**
+- Cumple el 1080p.
+- Cada intento cuesta casi tres veces menos. En un vídeo con IA lo normal es necesitar varios intentos: con Seedance tenéis 3 y con Kling, 9.
+- Los "Elementos" son justo lo que más falla: que el cabezal y Marta no cambien.
+
+**Seedance solo gana en la voz y en no tener empalme,** y las dos cosas tienen arreglo en Kling.
+
+## 2) Prompt final para Kling 3.0 Omni
+### Preparación (una vez)
+1. **Elemento "Marta":** 2-4 imágenes de ella **con el jersey gris**, sacadas de los anuncios de champú y tinte (de frente, de tres cuartos y plano medio). No el retrato en albornoz.
+2. **Elemento "Cabezal":** la foto 3 de CJ y 1-2 fotos aprobadas de la galería donde se vean bien el collar cromado y los conos negros.
+3. **Ajustes de los dos clips:** 9:16, 1080p, 15 s, con audio, "Varias tomas" activado. Se seleccionan los elementos Marta y Cabezal.
+
+### Indicación general (la misma en las dos partes) · 1793 caracteres
+```
+Vertical 9:16 smartphone UGC ad, 1080p, unpolished iPhone look, natural skin texture, soft morning light from a frosted window on the left. One woman, one bathroom and ONE shower head: only one shower head exists in the whole clip.
+MARTA (character element): Spanish woman around 35, shoulder-length honey-blonde balayage hair, light freckles, no makeup, short nude nails, plain light-grey knit jumper with the sleeves pushed up to the elbows in every shot. Never a bathrobe, never a towel.
+SHOWER HEAD (object element, copy it exactly): matte graphite-grey handheld shower head; deep cylindrical head with a round recessed face: silver-grey inner dish, dark central nozzle disc full of small holes, ring of black cone-shaped silicone bristles; straight graphite handle with a polished chrome collar and one round grey STOP button; thread at the bottom. No chrome ring on the face, no other buttons. Same shape, colour and size in every shot.
+BATHROOM: normal Spanish bathroom, white wall tiles with grey grout, glass shower screen, shower tray, chrome wall bracket with a silver hose, small white shelf with a few plain unbranded gel and cream bottles, folded muted-teal towel. No mirror.
+VOICE: only Marta speaks, Spanish from Spain (Castilian accent), warm and lively like telling a friend, natural, never shouting. Lines marked (voice-over) are spoken by Marta off screen; no mouth is visible in those shots.
+RULES: the shower head is always held in a hand or resting in the bracket; nothing floats. Never more than two hands in frame, five fingers each. Water comes only from the nozzle disc. Skin and hair look the same in every shot. No laughing, no faces after lines. No subtitles, no on-screen text, no logos, no music. Ambient sound of a small tiled bathroom. Nothing bends or melts.
+```
+
+### Parte 1 (0-15 s del anuncio)
+**Toma 1 · 7 s**
+```
+Phone propped on the shelf, medium close-up of Marta. From the very first frame she lifts a plain gel bottle toward the lens with raised eyebrows, then puts it back on the shelf; her other hand holds the shower head at chest height. She says: "Llevas años cambiando de gel y de crema..." Then she looks straight into the lens: "¿Y si lo que tienes que mirar es el agua?" Small nod, no smile.
+```
+**Toma 2 · 4 s**
+```
+Close-up of Marta's bare forearm; her other hand slowly runs along it. No face in frame. (voice-over) "El cloro del agua reseca la piel, ducha tras ducha."
+```
+**Toma 3 · 4 s**
+```
+Close-up of the chrome wall bracket on the white tiles: two hands screw the thread of the shower head onto the silver hose by hand and rest the shower head in the bracket. (voice-over) "Este cabezal se enrosca a mano." In the last second the hands leave the frame and the shot holds still: the shower head resting in the bracket, hose hanging, no hands, no face. No water.
+```
+
+**Fotograma final de la parte 1 (el empalme):** el cabezal quieto en el soporte cromado, la manguera colgando, sin manos ni cara y sin agua.
+- Es una imagen quieta y sencilla. Al no salir la cara, no puede cambiar justo en el empalme.
+- Se exporta ese último fotograma como imagen.
+
+### Parte 2 (15-30 s del anuncio)
+Imagen de inicio: el último fotograma de la parte 1 (el cabezal quieto en el soporte, sin manos).
+**Toma 1 · 1,5 s**
+```
+Same framing as the start image: the shower head resting in the chrome wall bracket. Her right hand comes in and lifts it out of the bracket by the handle. No speech. No water.
+```
+**Toma 2 · 3,5 s**
+```
+Phone propped on the shelf, close shot of Marta: she holds the shower head by the handle at chest height and points at the handle with the index finger of her other hand: "El filtro del mango retiene parte del cloro."
+```
+**Toma 3 · 6 s**
+```
+Phone propped on the shower screen ledge, close-up of her hands over the shower tray, no face in frame: her right hand holds the shower head and water flows only from the nozzle disc; her thumb presses the STOP button on the chrome collar, the flow pauses and a few drops fall. (voice-over) "Y con este botón pausas el agua mientras te enjabonas." Then the soft spray comes back over her bare left forearm and hand. (voice-over) "Menos cloro sobre la piel."
+```
+**Toma 4 · 4 s**
+```
+Phone propped on the shelf, medium close-up of Marta: she brings the shower head a little closer to the camera: "Dos cabezales y diez filtros, cincuenta y nueve noventa y cinco." Then a brief half-smile under one second. No water.
+```
+
+**Si Kling no deja usar "Varias tomas" con imagen de inicio a la vez:**
+- La toma 1 de la parte 2 se genera igual, sin imagen de inicio. Como el plano está descrito igual y es el mismo elemento, el empalme parecerá continuo.
+- En el montaje se corta justo cuando entra la mano, que tapa la pequeña diferencia.
+
+**Si Kling exige un mínimo de 2 s por toma:** la toma 1 de la parte 2 pasa a 2 s y la toma 4 a 3,5 s. Al final del anuncio, la tarjeta del pack tapa los últimos 3 s.
+
+**Tiempos de las frases** (a unas 2,7-3 palabras por segundo, sin cambiar ninguna palabra):
+- Todas caben en su toma.
+- Las más justas son la de la toma 3 de la parte 2 (15 palabras en 6 s) y la del precio (unos 4 s).
+
+### La voz en Kling (para que sea la de Marta en los 3 anuncios)
+1. Si Kling 3.0 Omni en vuestro Firefly acepta audio de referencia, subid el mismo clip de voz que se usaría en Seedance (ver el punto 3).
+2. Si no lo acepta:
+   - Se genera con diálogo, para que los labios cuadren.
+   - Luego se pasa el audio de las dos partes por el **cambiador de voz de ElevenLabs**, con una voz clonada de Marta. La voz clonada se hace con 1-2 minutos de su voz sacados de los bloques de Flow de champú y tinte.
+   - El cambiador mantiene el ritmo, así que los labios siguen cuadrando, y la voz queda igual en los 3 anuncios y en los dos clips.
+   - El acento no lo arregla: si Kling saca acento latinoamericano, se repite esa parte.
+3. **Plan B:** las tomas sin diálogo (la versión B del documento anterior, repartida igual) y la voz encima en el montaje.
+
+## 3) Si al final se usa Seedance: cómo usar el audio de referencia
+- **El clip de referencia:** 15-20 s de la voz de Marta sacados de los bloques de champú y tinte.
+  - Limpio: solo voz, sin agua, sin música y sin ambiente (se puede limpiar con el aislador de voz de ElevenLabs).
+  - Que tenga frases variadas: una pregunta y alguna exclamación.
+  - Exportado en WAV o MP3 de buena calidad.
+- **En el prompt,** al principio del bloque VOICE: "Marta's voice is the reference audio: same timbre, accent and pace."
+- **Ojo:** el audio de referencia copia la voz, no el texto. Las frases se siguen escribiendo en el prompt, como siempre.
+- **Recordad que sale a 720p.** Para cumplir la regla habría que reescalarlo a 1080p, y eso pierde detalle en el cabezal, que es lo que más hay que cuidar. Es otra razón para Kling.
