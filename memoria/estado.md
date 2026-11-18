@@ -5,7 +5,7 @@
 ## Trebolly (tienda aparte: cabezal de ducha con filtro, España, Meta Ads) — 17-nov
 Carpeta `trebolly/`. Reglas en `trebolly/REGLAS-DE-TRABAJO.md` (cada entrega lleva un mensaje para la otra IA; se lanza cuando las dos IA están de acuerdo y Fran dice sí).
 Hecho: ángulos v4, traspaso v2, 5 trabajos del apartado 9, revisión de la ficha, paso 2 (fotos) y paso 3 (paleta, método visual, revisión de todas las fotos y 3 gráficas rehechas en `trebolly/graficas/`).
-Paso 3 CERRADO con la otra IA (galería final y reglas en 'Paso 3 CERRADO' de paso3-marca-y-fotos.md). Pendiente de los socios: fotos (Q con luz neutra, recorte de M, STOP nueva, N en grafito, intento en Canva de J y G), datos 1-14 de CJ y no subir la comparación hasta resolver el punto 11. Plan hasta lanzar en `trebolly/plan-hasta-lanzar.md` (prueba vie 20 - dom 22, campaña a revisión jue 19 antes de 14:00). Siguiente paso: respuesta de la otra IA al plan y decisiones de los socios (oferta, gasto diario, ABO/CBO).
+Paso 3 CERRADO con la otra IA (galería final y reglas en 'Paso 3 CERRADO' de paso3-marca-y-fotos.md). Pendiente de los socios: fotos (Q con luz neutra, recorte de M, STOP nueva, N en grafito, intento en Canva de J y G), datos 1-14 de CJ y no subir la comparación hasta resolver el punto 11. Plan hasta lanzar CERRADO con la otra IA (`trebolly/plan-hasta-lanzar.md`, versión del 18-nov): prueba ABO de 3 × 10 € del vie 20 al dom 22, campaña a revisión el jue 19 antes de las 14:00 (plan B: sáb 21). Siguiente paso: los pasos 1-6 del plan, hoy mié 18.
 Falta de proveedor y de Fran: tipo de chorro real, foto real del cartucho, rosca, logo real, fotos nuevas de piel y de champú, sí a ABO.
 
 ## Proyecto vivo

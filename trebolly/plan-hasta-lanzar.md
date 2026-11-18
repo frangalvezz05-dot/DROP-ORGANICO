@@ -1,7 +1,39 @@
-# Trebolly · Plan hasta lanzar la prueba (17-nov)
+# Trebolly · Plan hasta lanzar la prueba — VERSIÓN CERRADA (18-nov)
 
-Hoy es martes 17. La prueba empieza el viernes 20 a las 0:00 y dura hasta el domingo 22. Se lee el lunes 23.
-**Fecha que manda:** Meta revisa el anuncio y también la web antes de publicar, y con una cuenta nueva la revisión puede tardar. Por eso la tienda tiene que estar abierta y la campaña enviada a revisión **el jueves 19 antes de las 14:00**.
+Cerrada con la otra IA. La versión del 17-nov queda debajo como histórico.
+
+## Plan final
+| # | Paso | Quién | Depende de | Cuándo |
+|---|---|---|---|---|
+| 1 | Confirmar: ABO de 3 conjuntos × 10 € durante 3 días (cambia D-015), precio de 59,95 €, guía sí o no, y lanzar sin opiniones | Fundadores | — | mié 18, mañana |
+| 2 | Mensaje a CJ con las preguntas, más stock de Suit 1, días de preparación y coste del pack de 3 | La otra IA lo redacta; los fundadores dan el sí **al texto exacto**; la IA lo envía desde el chat de CJ | — | mié 18, mañana |
+| 3 | Textos de la ficha que son verdad conteste lo que conteste CJ (lista abajo). Revisar también la comparativa de la ficha con la misma regla que tumbó la gráfica de Aquapure: nada sobre "otros" que no podamos demostrar | IA | — | mié 18 |
+| 4 | App de CJ: variantes = 1, 2 y 3 × Suit 1; envío CJPacket Fast Ordinary; pago de pedidos; seguimiento | Fundadores | — | mié 18 |
+| 5 | Shopify en borrador:<br>• Producto, variantes, precios (ahorro frente a comprar sueltas) y plantillas de tinte y piel.<br>• Tema "Prueba Claude" con la paleta (botón #1F7A8C), menú, colección, pie y una barra con algo verdadero; apagar las cuentas atrás.<br>• Revisar las políticas: plazo de 6-12 días, dirección de devolución y las mismas garantías que la gráfica 10. | IA prepara; los fundadores dan un solo sí con la vista previa | 1, 3 | mié 18 |
+| 6 | Quitar la nutria de todas partes:<br>• Archivar el producto y apagar sus descuentos.<br>• Email de gracias de Klaviyo (el PDF de "7 noches en calma" se cambia por la guía o se quita).<br>• Emails de pago abandonado y notificaciones de Shopify.<br>• Buscar "nutria" y "7 noches" en páginas, pie y descripciones. | IA prepara; los fundadores aprueban | — | mié 18 |
+| 7 | Guía PDF "Agua dura: pelo y piel" | La otra IA | 1 | Se hace el mié 18 y se aprueba el jue por la mañana; si no está aprobada, se lanza sin ella |
+| 8 | Creativos de los 3 ángulos, con el mismo formato en todos, y sus textos | Fundadores (Flow) y la IA | 1 | jue 19, 9:00 |
+| 9 | Meter en la ficha lo que conteste CJ | IA | 2 | Según lleguen las respuestas |
+| 10 | Publicar, **en este orden**: nutria archivada (paso 6), tema publicado y contraseña quitada (comprobar que el plan de pago de Shopify está activo) | Fundadores, con sí explícito | 4, 5, 6 | jue 19, mañana |
+| 11 | Pedido de prueba en nuestra tienda:<br>• Pago y evento Compra en "Eventos de prueba".<br>• Que llegue a CJ (cancelarlo allí sin pagarlo).<br>• Email de confirmación correcto.<br>• Ficha en el móvil. | Fundadores, con la guía de la IA | 10 | jue 19, mediodía |
+| 12 | Cuenta de Meta: límite de gasto de la cuenta a 200 €. Campaña ABO de 3 × 10 € con límite de campaña de 100 €, UTMs, inicio el vie 20 a las 0:00; enviarla a revisión | Fundadores | 8, 11 | jue 19, antes de las 14:00 |
+| 13 | Prueba en marcha. Una comprobación el viernes a las 12:00, responder mensajes y pagar los pedidos en CJ | Fundadores | 12 | vie 20 – dom 22 (72 h por creativo, D-014) |
+| 14 | Lectura del día 3 y decisión | IA analiza; los fundadores deciden | 13 | lun 23 |
+
+**Ya hecho (16-nov):** trebolly.com verificado en Meta y píxel "Trebolly" conectado con la app de Shopify. Falta solo ver que llega el evento Compra (paso 11).
+**Plan B:** empezar el sábado 21 a las 0:00 y leer el martes 24.
+**Sin muestra** (D-017 y D-040). Para cubrir ese hueco: cuando lleguen los primeros pedidos, pedir a esos clientes una foto y su opinión, y vigilar la puntuación de comentarios del cliente en Meta. Si el producto no coincide con la ficha, se corrige ese mismo día.
+
+**Textos de la ficha (paso 3):**
+- Fuera "3 modos de chorro con un botón": en los beneficios, las preguntas frecuentes, la comparativa y los iconos.
+- "rosca estándar de 1/2"" y "se enrosca en 1 minuto" pasan a "se enrosca a mano en la manguera".
+- Fuera "cuando el filtro se oscurezca", "cada 1-2 meses" y "lo ves con tus ojos". Queda "cámbialo por uno de los recambios de la caja".
+- Pack de 1: "5 filtros en la caja". Pack de 2: "10 filtros". Pack de 3: "15 filtros".
+- Gráfica 4: "5 en cada caja" en lugar de "5 por cabezal", porque si el filtro montado va aparte serían 6 por cabezal.
+- "Pausa el agua". El plazo de 6-12 días, igual en todas partes.
+
+---
+# Histórico: versión del 17-nov
 
 ## 1) Plan por pasos
 
