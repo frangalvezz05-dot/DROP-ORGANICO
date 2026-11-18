@@ -147,3 +147,11 @@ No se toca la tienda hasta que decidan los fundadores. De ARZ Urus no hay notas 
 - Debajo, la garantía como red de seguridad: "con seguimiento. Si no llega en 15, te devolvemos el dinero".
 - En la tarjeta de envío queda solo "con aduanas incluidas", porque el seguimiento ya aparece en la del plazo.
 - Hecho en las dos versiones de la gráfica 10.
+
+**Corrección tras revisar a Marc (18-nov): el plazo no va en primer plano.**
+- Marc [hkVPQYlIz_0]: los plazos de envío no se enseñan de entrada, sino en las políticas o en un desplegable; ponerlos "muy visibles" es un error. [OZQGBv-TaXw]: desplegables de envío, garantía, qué incluye y "cuánto tarda". [oEFWZdCw5FQ]: en desplegable, con plazo claro.
+- Ocultarlo del todo, no: el propio Marc lo compara con "engañar", y en la UE el plazo de entrega se tiene que informar antes de la compra.
+- Gráfica 10 (las dos versiones), sin número de días:
+  - "Garantía de entrega / si no llega en el plazo, te devolvemos el dinero".
+  - "Envío gratis / con seguimiento y aduanas incluidas".
+- Desplegable "Envío" bajo el botón: "Envío gratis con seguimiento. Llega en 6-12 días laborables. Si no llega en 15 días laborables, te devolvemos el dinero." Lo mismo en la política de envíos, en las preguntas frecuentes y en el email de confirmación.
