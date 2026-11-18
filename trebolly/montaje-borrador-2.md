@@ -190,3 +190,27 @@ Esto no es SEO: es que no salga la nutria al compartir el enlace.
   - ningún resto de la nutria
 - **Coherencia con las políticas y los emails:** mismos plazos y mismas garantías en todas partes.
 - Ojo: si "Prueba Claude" aún tiene contenido de la nutria, se compara la ESTRUCTURA, no los restos.
+
+## Cierre con la otra IA (18-nov)
+**1) Plazo:** se mantienen "6-12 días laborables" y la garantía de 15.
+- Datos de la ficha de CJ (leída el 17-nov): preparación de 1-3 días en el 60,2 % de los pedidos; entrega en 4-8 días en el 74 % y en 9-10 días en el 19 %. Todo en días naturales.
+- 13 días naturales son unos 9-10 laborables, así que 6-12 laborables desde el pedido se cumple en la mayoría de los casos.
+- Riesgo: el producto está en stock de fábrica, y el otro 40 % de los pedidos tarda más en prepararse, sin dato de cuánto.
+- Regla: en cada pedido se apuntan la fecha del pedido, la de salida y la de entrega. Si alguno de los primeros pedidos pasa de 12 laborables, se cambia a la opción (a) con el número real.
+
+**2) Canarias, Ceuta y Melilla:** ya estaba resuelto (D-042, desde el 11-nov). Solo falta comprobar en el pedido de prueba que una dirección de Canarias no deja pagar.
+
+**3) Lo que es de la tienda y no del tema:**
+- Menús nuevos, páginas nuevas y textos en la plantilla: sí.
+- Colección: NO se crea una nueva. La actual, con identificador `pilates-en-casa`, es ya la del cabezal y 10 secciones del tema la usan.
+- Añadido: ese identificador sale en la dirección de la colección. Cambiarlo cuando ya se haya elegido el tema definitivo, con redirección, y actualizar esas 10 secciones a la vez.
+- Añadido: buscar también "pilates" entre los restos.
+
+**Ya estaba hecho:**
+- Aviso de cookies.
+- Dominio de email en Klaviyo. Falta mirar el remitente de las notificaciones de Shopify.
+- Apple Pay, Google Pay, Klarna y PayPal.
+- Producto sin seguimiento de inventario y vendiendo sin stock.
+- Políticas base. Faltan los cambios acordados.
+
+**Plan de montaje cerrado.** Se empieza con el sí de los fundadores.
