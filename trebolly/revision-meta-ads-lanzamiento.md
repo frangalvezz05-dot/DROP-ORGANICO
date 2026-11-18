@@ -609,3 +609,52 @@ Aceptados por la otra IA, sin discusión: los cambios 2, 3, 4, 5, 6, 7 y 8. El 4
   - en el nivel del anuncio, en la parte del contenido, cerca de «Texto principal»;
   - o buscar en la página (Ctrl+F) «IA» o «AI».
 - **Si no aparece,** se avisa a los fundadores.
+
+---
+
+## v3 · Revisión de los textos con promesas fuertes (regla de los fundadores, 19-nov)
+**La regla:** promesas fuertes, sin «solo» ni «parte de», sin mentir y sin promesas de salud. Sin «resecar» (D-073).
+
+### Riesgo de rechazo en Meta: bajo en los tres
+| Texto | Riesgo en Meta | Frase con más riesgo y por qué |
+|---|---|---|
+| A1 Champú | **Bajo** | Ninguna. «Tu champú no tiene la culpa» habla del champú, no de una característica de quien lo ve. |
+| A2 Tinte | **Bajo** | Ver nota 1. |
+| A3 Piel | **Bajo** | Ver nota 2. |
+
+**Nota 1 · A2 Tinte.**
+- «el color de tu tinte» da por hecho que quien lo ve se tiñe. Teñirse no está en la lista de atributos personales de Meta (salud, edad, situación económica, etc.).
+- «para que el color dure más» es una promesa de resultado. Meta rara vez rechaza este tipo de frase en productos de pelo [EXPERIENCIA].
+
+**Nota 2 · A3 Piel.**
+- «La crema no lo arregla todo» no lleva «tú» ni nombra ningún problema de piel.
+- «una ducha más suave para tu piel» habla de una sensación, no de una condición de salud.
+
+### Frente a vuestra regla «sin mentir» (es un dato, no una opinión legal)
+Hay dos frases que dicen más de lo que sabemos:
+1. **A2 · «para que el color dure más».**
+   - No tenemos ninguna prueba de que el color dure más.
+   - Cambio igual de fuerte: **«para cuidar el color que tanto te ha costado».** Es una intención, no un resultado medible, y mete el dinero y el esfuerzo.
+2. **A3 · «una ducha más suave».**
+   - Con agua, «suave» se entiende como agua blanda, sin cal. Ya acordamos que el filtro no ablanda el agua: por eso cambiamos «agua dura» en la guía.
+   - Cambio: **«en cada ducha, agua filtrada sobre tu piel».**
+
+**«filtra el cloro… antes de que llegue a tu pelo» (A1 y A2) se queda.**
+- Es un filtro para el cloro, y es la frase que habéis elegido.
+- Si queréis una versión que no se pueda discutir: «el agua pasa por un filtro de cloro antes de tocar tu pelo».
+
+### Ganchos (lo que se ve sin desplegar, ~125 caracteres)
+- **A1, se queda.** Caben el gancho y cómo funciona (121 caracteres), y repite el gancho del vídeo.
+- **A2, cambiarlo para que repita el vídeo:**
+  - **«90 € de mechas y a las pocas semanas, apagadas. No es el champú: el cloro del agua se come tu color.»** (99 caracteres)
+  - Es la frase del vídeo de tinte palabra por palabra, y empieza por el dolor y el dinero, no por la causa.
+- **A3, cambiarlo para que repita el vídeo:**
+  - **«Llevas años cambiando de gel y de crema. ¿Y si lo que tienes que mirar es el agua de tu ducha?»** (95 caracteres)
+  - La pregunta es sobre lo que hace, no sobre cómo tiene la piel: riesgo bajo en Meta.
+  - Es más concreta que «La crema no lo arregla todo».
+
+### Lo que choca en los vídeos
+- **Piel, parte 1, toma 2:** decía «El cloro del agua reseca la piel». Choca con D-073.
+  - Cambiado a **«Ducha tras ducha, el cloro del agua cae sobre tu piel.»** (ver la v2.3 de `creativos/anuncio-piel-kling3-2x15.md`).
+  - Si ya estaba generada, se cambia solo la voz: es voz en off.
+- **«retiene parte del cloro»** sale en la voz de piel (parte 2) y de tinte (D-T3). Si la regla vale también para los vídeos, lo deciden los fundadores.

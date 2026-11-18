@@ -188,14 +188,14 @@ Datos reales de vuestro Firefly, comprobados por la otra IA:
 5. **"Shot 1…" junto a las marcas de tiempo,** para que Kling corte de verdad entre planos.
 6. **Recortes para no pasar de ~2.350 caracteres:** 9:16 y 1080p van en los ajustes, no en el texto.
 
-### Parte 1 · 15 s · sin imagen de inicio · 2345 caracteres (@Marta y @Cabezal con el selector)
+### Parte 1 · 15 s · sin imagen de inicio · 2348 caracteres (v2.3: sin «reseca», D-073) (@Marta y @Cabezal con el selector)
 ```
 Real iPhone UGC footage, natural skin texture, soft morning light from a frosted window on the left. The woman is @Marta, in the same off-white knit jumper as in her reference, sleeves pushed up to the elbows, in every shot; never a bathrobe or towel. Only one shower head exists in the whole clip: @Cabezal, copied exactly (graphite-grey, black silicone cones, polished chrome collar with one STOP button, no chrome ring on the face), same size in every shot. Three shots, clean hard cuts.
 BATHROOM: white tiles with grey grout, glass shower screen, chrome wall bracket with a silver hose, white shelf with plain gel bottles, teal towel. No mirror.
 VOICE: only Marta speaks, Spanish from Spain (Castilian accent), warm, lively, natural, never shouting. Voice-over lines are spoken off screen; no mouth visible then.
 REALISM: real time, no slow motion; a propped phone never moves. Autofocus shifts when something comes close to the lens; slight noise; tiny hand tremor. Fingers wrap firmly around the handle; the shower head has weight. Lips closed when she is not speaking.
 SHOT 1 [00:00-00:07] Phone propped on the shelf. From the very first frame a plain gel bottle in her hand is already moving toward the lens and fills the frame, gel sloshing inside; the autofocus snaps to it. She pulls it down out of frame, revealing her face in a medium close-up; her other hand holds the shower head at chest height the whole time. She says: "Llevas años cambiando de gel y de crema..." Then, straight into the lens: "¿Y si lo que tienes que mirar es el agua?" Small nod, no smile.
-SHOT 2 [00:07-00:11] Close-up of her bare forearm below the pushed-up sleeve; her fingertips slide along it and the skin dimples under them. No face. Voice-over: "El cloro del agua reseca la piel, ducha tras ducha."
+SHOT 2 [00:07-00:11] Close-up of her bare forearm below the pushed-up sleeve; her fingertips slide along it and the skin dimples under them. No face. Voice-over: "Ducha tras ducha, el cloro del agua cae sobre tu piel."
 SHOT 3 [00:11-00:15] Close-up of the chrome wall bracket: one hand holds the hose end, the other screws the shower head on with three short wrist turns; the hose sways; a small push and a click seat it in the bracket. Voice-over: "Este cabezal se enrosca a mano." In the last second the hands leave; only the shower head in the bracket remains, hose hanging, no face.
 RULES: nothing floats; never more than two hands, five fingers each; no water in this clip; no subtitles, text, logos or music; ambient: a small tiled bathroom; nothing bends or melts.
 ```
@@ -222,3 +222,9 @@ RULES: nothing floats; never more than two hands, five fingers each; water only 
 - **La voz, después:** el cambiador de voz de ElevenLabs con la voz clonada de Marta. Si sale con acento latinoamericano, se repite el clip.
 - **Si sale a cámara lenta:** se acelera al 105-110 % en el montaje, como dice la otra IA. Pero si es muy evidente, se repite.
 - **El último fotograma de la parte 1 se saca con ffmpeg** en el momento en que solo queda el cabezal en el soporte. Si las manos no han salido del todo, se coge un fotograma antes.
+
+---
+## v2.3 · Sin «resecar» (D-073 de los fundadores) · 19-nov
+- **Parte 1, toma 2** (voz en off, sin boca en el plano): «El cloro del agua reseca la piel, ducha tras ducha.» → **«Ducha tras ducha, el cloro del agua cae sobre tu piel.»** Ya está cambiado en el prompt de la parte 1 de arriba (2.348 caracteres).
+- **Si la parte 1 ya estaba generada,** no se repite: es voz en off y no se ven labios. Se genera la frase nueva con la voz clonada de Marta en ElevenLabs y se pone encima en el montaje.
+- **Parte 2, toma 2** («El filtro del mango retiene parte del cloro.»): si la regla nueva de los textos (sin «parte de») vale también para los vídeos, se cambia por **«El mango lleva un filtro para el cloro.»** Lo deciden los fundadores. La frase aparece con la boca en el plano, así que hay que cambiarla antes de generar la parte 2.
