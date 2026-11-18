@@ -7,7 +7,7 @@ Los prompts finales están en los anexos, copiados de los documentos que se revi
 | Anuncio | Ángulo | Método | Estado |
 |---|---|---|---|
 | Champú | "Tu champú no tiene la culpa" | Marta en Flow (bloques de 8 s) + demostraciones (Firefly/Kling) + Remotion | Primer montaje hecho. **v2 en marcha**: gancho nuevo, más energía y cortes enlazados (anexo A) |
-| Tinte | "El cloro del agua se come tu color" | El mismo método | Hecho (lo montó la otra IA). Guion de referencia en el anexo C |
+| Tinte | "El cloro del agua se come tu color" | El mismo método | Primer montaje hecho. **v2 en marcha** (vídeo seguido): `anuncio-tinte-v2.md` |
 | Piel | "Llevas años cambiando de gel…" | **Kling 3.0 Omni, 2 × 15 s, 1080p, "Varias tomas" + "Elementos"** | Prompts listos (anexo B) |
 | Estáticos | Los 3 ángulos | Foto real + una frase (HTML) | Por revisar: pasarlos terminados |
 
