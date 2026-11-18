@@ -32,6 +32,41 @@ Cerrada con la otra IA. La versión del 17-nov queda debajo como histórico.
 - Gráfica 4: "5 en cada caja" en lugar de "5 por cabezal", porque si el filtro montado va aparte serían 6 por cabezal.
 - "Pausa el agua". El plazo de 6-12 días, igual en todas partes.
 
+
+## Presupuesto de la prueba y cuándo meter más (propuesta del 18-nov, la deciden los fundadores)
+Corrección: según D-030, los 10-20 €/día son presupuesto **de campaña**. Por eso ABO de 3 × 10 € (30 €/día) rompe D-030 además de D-015.
+
+**Recomendación:**
+- ABO con 2 conjuntos × 10 € = 20 €/día (champú y tinte) durante 72 h = 60 €.
+- El lunes 23, el ganador o los dos siguen a 10 €/día hasta completar ~100 € (martes 24). Entonces se aplica D-034.
+- Piel puede entrar en la fase 2 (lunes 30 nov).
+- Esta opción cumple D-030, D-014 (72 h por creativo), el corte a los 30-50 € y D-012, y permite comparar ángulos.
+
+**Alternativas:**
+- ABO 3 × 10 € durante 72 h (90 €): rompe D-030.
+- CBO de D-015 a 20 €/día: cumple todo lo decidido, pero no compara ángulos.
+
+**Cuándo apagar:**
+- No se toca nada en 72 h, salvo por fallos técnicos (0 impresiones, anuncio rechazado, píxel o pago que fallan).
+- Excepciones a las 48 h:
+  - 0 carritos con 20 € gastados (con un coste por carrito por debajo de 4 € habría unos 5).
+  - CTR ≤ 0,4 % con 3.000 impresiones o más.
+- El resto del juicio por CTR se hace a las 72 h.
+
+**Subidas de presupuesto:**
+- Nada a las 48 h con 2 compras: con 20 € gastados, el CPA real puede estar entre unos 3 € y unos 80 € (intervalo de Poisson al 95 %).
+- Se sube +20 % cuando el conjunto lleva al menos 72 h, 6 compras acumuladas o más (en Shopify, por UTM) y un CPA acumulado por debajo de 29 €.
+- Después, una subida cada 48-72 h mientras el CPA de los últimos 3 días siga por debajo de 29 €.
+- La regla anterior, "≥6 compras en 3 días", exigía a 10 €/día un CPA de 5 € o menos.
+
+**Medir y pagar:**
+- Contar solo pedidos pagados en Shopify, sin cancelados ni devueltos.
+- UTM por conjunto: utm_content = champu / tinte / piel.
+- Tener caja para CJ: cada pedido se paga antes de cobrar (unos 19 € el pack de 2).
+- Subir el límite de la cuenta antes de la segunda ronda.
+
+**Falta en las reglas:** qué hacer si CTR > 1,2 % y carrito < 4 € pero hay menos de 3 compras. Propuesta: no matar el producto, buscar dónde se cae la compra y hacer una ronda de unos 50 € con el arreglo.
+
 ---
 # Histórico: versión del 17-nov
 
