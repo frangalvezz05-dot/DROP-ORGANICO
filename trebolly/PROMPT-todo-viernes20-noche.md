@@ -146,3 +146,28 @@ NO HACEMOS
 - Suscripción.
 - Ventas extra en paquetes aparte.
 ```
+
+## Corrección: vídeo de piel v2 (sustituye al punto 3 de «ANUNCIOS»)
+**El problema:** si solo se cambian las 3 frases del cloro, el vídeo queda cojo. El gancho apunta al agua («¿Y si lo que tienes que mirar es el agua?») y luego no se dice qué le pasa al agua. Además, sigue dando a entender que el agua es el problema y que este filtro lo arregla.
+
+**La solución:** cambiar el eje del agua a la ducha, frase a frase, con las mismas imágenes:
+
+| Plano (el que ya hay) | Voz ahora | Voz nueva | Cómo |
+|---|---|---|---|
+| Marta con el bote de gel (gancho) | «¡Llevas años cambiando de gel y de crema!» | Se queda | — |
+| Si hay una 2.ª frase a cámara («¿Y si lo que tienes que mirar es el agua?») | — | Se corta | Corte justo después de «crema» |
+| Antebrazo | «El cloro reseca la piel» | «¿Y si lo que cambias es la ducha?» | Voz en off clonada |
+| Enroscado | «Se enrosca a mano» | Se queda | — |
+| Filtro | (frase con cloro) | «El filtro del mango retiene la arenilla de las tuberías.» | Voz en off clonada |
+| STOP | «Pausas el agua mientras te enjabonas» | Se queda | — |
+| Agua sobre el antebrazo | «Menos cloro sobre la piel» | «Y el agua pasa por el filtro antes de tocarte.» | Voz en off clonada |
+| Final + tarjeta | «Lo enroscas y listo, así de fácil» | Se queda | — |
+
+- **Si alguna frase de cloro se dice con la boca a la vista:** se tapa con el plano del STOP o del enroscado y se pone la voz nueva encima.
+- **El hilo queda así:**
+  1. cambias de gel y de crema;
+  2. ¿y si cambias la ducha?;
+  3. qué tiene esta ducha (enroscado, filtro de arenilla, STOP);
+  4. precio.
+- **Es coherente y no promete nada en la piel, pero es algo menos fuerte que con el cloro** [EXPERIENCIA]. El gancho, que es lo que da el CTR, no cambia.
+- **Sigue habiendo incoherencia con la ficha,** que mantiene «filtra el cloro» (decisión de los fundadores).
