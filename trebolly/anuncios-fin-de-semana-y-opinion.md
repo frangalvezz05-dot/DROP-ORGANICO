@@ -124,3 +124,20 @@ Si no te llega en 15 días laborables, te devolvemos el dinero.
 - **Formatos nuevos con IA durante el BF.**
 - **Conjuntos nuevos.**
 - **Más de 3 anuncios por conjunto.**
+
+## Añadido: no quedarse sin el anuncio que funciona (petición de Fran)
+**La idea:** con creativos nuevos, el anuncio que funciona se queda activo unos días más, para ver si vende. Si no vende, se para. Hacen falta ventas.
+
+**Plan:**
+1. **El vídeo de piel actual sigue activo** mientras se hacen y se aprueban los nuevos. Nunca nos quedamos sin entrega.
+2. **Se añade el estático del pack**, ya mismo (está hecho).
+3. **Cuando Meta apruebe el vídeo de piel v2** (las mismas imágenes y el mismo gancho; solo cambian las 3 frases del cloro):
+   - es el mismo anuncio que funciona, sin el cloro: el CTR viene del gancho y de las imágenes, no de esas frases [EXPERIENCIA];
+   - mi voto es apagar el viejo en ese momento;
+   - si los fundadores prefieren tener los dos hasta el lunes, que sea con un máximo de 3 anuncios en el conjunto.
+     · Con ~430 impresiones al día no se sabrá cuál de los dos es mejor [CÁLCULO].
+4. **Lunes 23 por la noche:** se decide por el conjunto entero, con la regla acordada.
+   - ≥ 1 venta, o ≥ 2 pagos iniciados nuevos con email → pausa del 24 al 30 y vuelta el 1-2 de diciembre.
+   - Si no → se para.
+
+**Aviso:** mientras siga activo el vídeo viejo, el anuncio promete el cloro y choca con vuestra regla nueva («no prometemos el cloro en los anuncios»). Que sea por horas, no por días. Deciden los fundadores.
